@@ -1,0 +1,21 @@
+{
+    "id": "danield1909.danTrains",
+    "name": "Dan Trains",
+    "description": "This is a train pack mod by DanielD1909 which adds a bunch of real trains via addTrains.",
+    "version": "0.0.1",
+    "author": {
+		"name": "DanielD1909",
+		"url": "https://github.com/DanielD1909"
+	},
+    "main": "index.js",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/DanielD1909/danTrains"
+	},
+	"keywords": [
+		"subway-builder",
+		"mod"
+	],
+	"subwayBuilderVersion": ">=0.12.0"
+}
