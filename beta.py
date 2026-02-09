@@ -10,7 +10,7 @@ class trackClass:
         self.type = aa
         self.cat = ab 
         self.name = ac
-        self.canCrossRoads = ad == "FALSE"
+        self.canCrossRoads = ad
         self.maxSpeedLocalStation = ae
         self.baseTrackCost = af
         self.baseStationCost = ag
@@ -61,6 +61,7 @@ class config_maker:
         j.write("\t\t\t\"id\": \""+str(train.id)+"\",\n")
         j.write("\t\t\t\"name\": \""+str(train.id)+"\",\n")
         j.write("\t\t\t\"description\": \""+str(train.desc)+"\",\n")
+        print(str(train.id)+": "+str(train.track.canCrossRoads))
         j.write("\t\t\t\"allowAtGradeRoadCrossing\": "+str(train.track.canCrossRoads).lower()+",\n")
         j.write("\t\t\t\"stats\": {\n")
         j.write("\t\t\t\t\"maxAcceleration\": "+str(train.maxAcceleration)+",\n")

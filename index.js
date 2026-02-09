@@ -6,7 +6,7 @@
 			"id": "R211 (NYC)",
 			"name": "R211 (NYC)",
 			"description": "The New York City Subway B Division are the lines of the subway which originated from the BMT and IND. The main difference is the significantly wider loading gauge. The R211 is a subway EMU built by Kawasaki for the NYC Subway's B Division that entered service in 2023.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.1,
 				"maxDeceleration": 1.3,
@@ -48,7 +48,7 @@
 			"id": "R188 (NYC)",
 			"name": "R188 (NYC)",
 			"description": "The New York City Subway A Division are the lines of the subway which originated from the IRT. The main difference is the significantly narrower loading gauge. The R188 is a subway EMU built by Kawasaki for the NYC Subway's A Division that entered service in 2013.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.1,
 				"maxDeceleration": 1.3,
@@ -90,7 +90,7 @@
 			"id": "M9 (LIRR)",
 			"name": "M9 (LIRR)",
 			"description": "The Long Island Railroad is a commuter rail network operated by the MTA which primarily serves Nassau and Suffolk Counties. This is the electrified portion of the tracks, which consistitutes most of the parts of the network that matter. The M9 is a commuter rail EMU built by Kawasaki for the Long Island Railroad that entered service in 2009.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.9,
 				"maxDeceleration": 1.33,
@@ -132,7 +132,7 @@
 			"id": "DM30-C3 (LIRR)",
 			"name": "DM30-C3 (LIRR)",
 			"description": "The Long Island Railroad is a commuter rail network operated by the MTA which primarily serves Nassau and Suffolk Counties. This is the diesel only portion which is mainly found in the lines farthest away from NYC. The DM30AC-C3 is a commuter rail Diesel train that entered service in 1993, with coach cars manufacured by Kawasaki powered by an EMD manufactured Diesel locomotive.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.82,
 				"maxDeceleration": 1.3,
@@ -174,7 +174,7 @@
 			"id": "R179 (NYC)",
 			"name": "R179 (NYC)",
 			"description": "The New York City Subway B Division are the lines of the subway which originated from the BMT and IND. The main difference is the significantly wider loading gauge. The R179 is a subway EMU built by Bombardier (now Alstom) for the NYC Subway's B Division that entered service in 2019.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.1,
 				"maxDeceleration": 1.3,
@@ -216,7 +216,7 @@
 			"id": "NJT LRV-3",
 			"name": "NJT LRV-3",
 			"description": "This is a standard LRT system (2.65m wide) which uses 750V DC. This is an unnamed articulated low-floor light-rail vehicle built by Kinki-Sharyo for New Jersey Transit, specifically Hudson-Bergen Light Rail and Newark Light Rail. It has been in service since 2000. This is the original, 3 section version.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.34,
 				"maxDeceleration": 1.34,
@@ -258,7 +258,7 @@
 			"id": "NJT LRV-5",
 			"name": "NJT LRV-5",
 			"description": "This is a standard LRT system (2.65m wide) which uses 750V DC. This is an unnamed articulated low-floor light-rail vehicle built by Kinki-Sharyo for New Jersey Transit, specifically Hudson-Bergen Light Rail and Newark Light Rail. It has been in service since 2000. This is the 5 section version.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.34,
 				"maxDeceleration": 1.34,
@@ -300,7 +300,7 @@
 			"id": "R142A/PA5",
 			"name": "R142A/PA5",
 			"description": "The Port Authority Trans-Hudson is a heavy rail system that operates between New Jersey and NYC, operated independently. It is officially a commuter railroad but operates like a subway. This same standard is used by the London Overground Third Rail. The R142A is a subway EMU built by Bombardier (now Alstom) for the NYC Subway's A Division that entered service in 2000. The PA5 is a variant built for the PATH Rapid Transit system. ",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.12,
 				"maxDeceleration": 1.34,
@@ -342,7 +342,7 @@
 			"id": "ADtranz M4",
 			"name": "ADtranz M4",
 			"description": "The L, also known as the Market-Frankford line, is part of Philadelphia's SEPTA Metro. It uses PA trolley gauge and is narrower than the B line. The AdTranz M4 is an EMU used on the L line of the Philadelphia Subway. Many of these stats are estimates due to lack of data.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.21,
 				"maxDeceleration": 1.34,
@@ -384,7 +384,7 @@
 			"id": "S70 Streetcar",
 			"name": "S70 Streetcar",
 			"description": "This is a standard LRT system (2.65m wide) which uses 600V DC. The S700 Streetcar is an articulated low-floor streetcar built by Siemens that have been in service across North America since 2004. This specific model is based on the streetcar model ordered by OC Streetcar. Capacity is artificially higher due to game processing requirements.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.34,
 				"maxDeceleration": 1.34,
@@ -426,7 +426,7 @@
 			"id": "S700",
 			"name": "S700",
 			"description": "This is a standard LRT system (2.65m wide) which uses 600V DC. The S700 series are articulated low-floor light-rail vehicles built by Siemens that have been in service across North America since 2004. This specific model is based on those recieved in 2020 by Metro Transit in Minnesota.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.34,
 				"maxDeceleration": 1.34,
@@ -468,7 +468,7 @@
 			"id": "S700-US",
 			"name": "S700-US",
 			"description": "This is a standard LRT system (2.65m wide) which uses 600V DC. The S700 series are articulated low-floor light-rail vehicles built by Siemens that have been in service across North America since 2004. This specific model is based on the ultra-short model used in San Diego.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.34,
 				"maxDeceleration": 1.34,
@@ -510,7 +510,7 @@
 			"id": "SEPTA BIV",
 			"name": "SEPTA BIV",
 			"description": "The B, also known as the Broad Street Line, is part of Philadelphia's SEPTA Metro. It uses standard gauge and is wider than the L line. The Kawasaki BIV Subway Car is an EMU used on the B line of the Philadelphia Subway. Many of these stats are estimates due to lack of data.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.34,
 				"maxDeceleration": 1.34,
@@ -552,7 +552,7 @@
 			"id": "GTW 2/6 (NJT)",
 			"name": "GTW 2/6 (NJT)",
 			"description": "This is the rather cursed creation known as diesel light rail, primarily found in southern New Jersey with the River Line. If you are building this outside of recreating said River Line you are a lunatic. This is a variant of the Stadler GTW 2/6 which is one of the rare and bizarre light rail DMUs and is exclusively in service on NJT's River Line. Details are scarce so the acceleration and braking are guesstimates.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.8,
 				"maxDeceleration": 1.3,
@@ -594,7 +594,7 @@
 			"id": "7000 Series (WSH)",
 			"name": "7000 Series (WSH)",
 			"description": "The Washington DC metro is a heavy rail system in the U.S. Capital operated by WMATA. It uses the rather cursed gauge of 1429 mm aka 6 mm narrower than standard. The 7000-series is a subway EMU built by Kawasaki for Washington DC's Subway that entered service in 2015.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.25,
 				"maxDeceleration": 0.98,
@@ -636,7 +636,7 @@
 			"id": "US-100 (WSH)",
 			"name": "US-100 (WSH)",
 			"description": "Paris has trams and they are quite narrow but not as much as Berlin. The United Streetcar 100 is a articulated low-floor streetcar built via licensing the Škoda 10T. It has been in service with the Paris Tram Narrow since 2016. Capacity is artificially higher due to game processing requirements.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.34,
 				"maxDeceleration": 1.34,
@@ -678,7 +678,7 @@
 			"id": "HHP8-BMLC",
 			"name": "HHP8-BMLC",
 			"description": "The Northeast Corridor is the major high speed corridor in the United States that goes from Boston to Washington. It has 3 electrification standards, and this is the 12 kV 25 Hz system found approximately from DC to NYC. The Bombardier/Alstom HHP-8 is an electric locomotive that first entered service in 2002. This specific trainset carries passengers with Bombardier MultiLevel Coach (aka Adessia Coach) cars, as used by MARC.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.79,
 				"maxDeceleration": 1.3,
@@ -720,7 +720,7 @@
 			"id": "SC-BMLC",
 			"name": "SC-BMLC",
 			"description": "This is diesel rail which follows the U.S. standard loading gauge width of 3.05 meters. The Siemens Charger is a family of diesel locomotives that first entered service in 2017. This specific trainset carries passengers with Bombardier MultiLevel Coach (aka Adessia Coach) cars, as used by MARC.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.69,
 				"maxDeceleration": 1.3,
@@ -762,7 +762,7 @@
 			"id": "CTA 5000 Series",
 			"name": "CTA 5000 Series",
 			"description": "The Chicago L is the famous elevated heavy rail network found in Chicago. The 5000 series is a subway EMU built by Bombardier for the Chicago L that entered service in 2011.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.25,
 				"maxDeceleration": 1.25,
@@ -804,7 +804,7 @@
 			"id": "CTA 3200 Series",
 			"name": "CTA 3200 Series",
 			"description": "The Chicago L is the famous elevated heavy rail network found in Chicago. The 3200 series is a subway EMU built by Morrison-Knudsen and Mafersa for the Chicago L that entered service in 2011.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.43,
 				"maxDeceleration": 1.43,
@@ -846,7 +846,7 @@
 			"id": "Highliner 2",
 			"name": "Highliner 2",
 			"description": "Metra is a commuter rail network found in the Chicago Metropolitan Area. The Highliner II is a bi-level commuter rail EMU built by Nippon Sharyo for Chicago's Metra that entered service in 2005.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.61,
 				"maxDeceleration": 0.67,
@@ -888,7 +888,7 @@
 			"id": "MPX-6000 Series",
 			"name": "MPX-6000 Series",
 			"description": "Metra is a commuter rail network found in the Chicago Metropolitan Area. The MPI MPXpress is a line of diesel locomotives that first entered service in 2003. This specific trainset carries passengers with Metra's 6000 series cars, which are bilevel coaches built by Nippon Sharyo.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.61,
 				"maxDeceleration": 1.0,
@@ -930,7 +930,7 @@
 			"id": "FLIRT Akku",
 			"name": "FLIRT Akku",
 			"description": "Metra is a commuter rail network found in the Chicago Metropolitan Area. The FLIRT Akku is a commuter rail battery-capable EMU family built by Stadler for railways across the world in operation since 2023. It operates on battery power for up to 150 km when electric is unavailable. It is generally in 2 car sets, but it can use trailer cars to hit any number of cars desired.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.9,
 				"maxDeceleration": 1.0,
@@ -972,7 +972,7 @@
 			"id": "2024 Stock (LDN)",
 			"name": "2024 Stock (LDN)",
 			"description": "The London Underground (aka The Tube) is the world's first subway system, and this is the 'Deep Tube' standard, which is narrower than the 'Subsurface Tube'. Also, the Tube all uses 4-rail power. 2024 Stock is a subway EMU built by Siemens as part of their Inspiro family. It will enter service around mid-2026 on the Picadilly Line, and potentially later the Central, Waterloo & City, and Bakerloo lines.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.4,
 				"maxDeceleration": 1.4,
@@ -1014,7 +1014,7 @@
 			"id": "1972 Stock (LDN)",
 			"name": "1972 Stock (LDN)",
 			"description": "The London Underground (aka The Tube) is the world's first subway system, and this is the 'Deep Tube' standard, which is narrower than the 'Subsurface Tube'. Also, the Tube all uses 4-rail power. 1972 Stock is a subway EMU built by Metro-Cammell for London's Deep Tube that entered service on the Bakerloo Line. They were refurbrished twice: in 1991 by Tickford, and in 2016 by Acton Works.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.3,
 				"maxDeceleration": 1.15,
@@ -1056,7 +1056,7 @@
 			"id": "1973 Stock (LDN)",
 			"name": "1973 Stock (LDN)",
 			"description": "The London Underground (aka The Tube) is the world's first subway system, and this is the 'Deep Tube' standard, which is narrower than the 'Subsurface Tube'. Also, the Tube all uses 4-rail power. 1973 Stock is a subway EMU built by Metro-Cammell for London's Deep Tube that entered service on the Piccadilly Line. They were refurbrished in 1996 by Bombardier Prorail.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.3,
 				"maxDeceleration": 1.15,
@@ -1098,7 +1098,7 @@
 			"id": "1992 Stock (LDN)",
 			"name": "1992 Stock (LDN)",
 			"description": "The London Underground (aka The Tube) is the world's first subway system, and this is the 'Deep Tube' standard, which is narrower than the 'Subsurface Tube'. Also, the Tube all uses 4-rail power. 1992 Stock is a subway EMU built by BREL and ABB for London's Deep Tube that entered service on the Central Line, and is now also used on the Waterloo & City Line. Waterloo & City Line sets were refurbrished in 2006, while Central were in 2019.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.3,
 				"maxDeceleration": 1.15,
@@ -1140,7 +1140,7 @@
 			"id": "1996 Stock (LDN)",
 			"name": "1996 Stock (LDN)",
 			"description": "The London Underground (aka The Tube) is the world's first subway system, and this is the 'Deep Tube' standard, which is narrower than the 'Subsurface Tube'. Also, the Tube all uses 4-rail power. 1996 Stock is a subway EMU built by Alstom for London's Deep Tube that entered service on the Jubilee Line.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.3,
 				"maxDeceleration": 1.15,
@@ -1182,7 +1182,7 @@
 			"id": "2009 Stock (LDN)",
 			"name": "2009 Stock (LDN)",
 			"description": "The London Underground (aka The Tube) is the world's first subway system, and this is the 'Deep Tube' standard, which is narrower than the 'Subsurface Tube'. Also, the Tube all uses 4-rail power. 2009 Stock is a subway EMU built by Bombardier for London's Deep Tube that entered service on the Victoria Line.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.3,
 				"maxDeceleration": 1.15,
@@ -1224,7 +1224,7 @@
 			"id": "S Stock (LDN)",
 			"name": "S Stock (LDN)",
 			"description": "The London Underground (aka The Tube) is the world's first subway system, and this is the 'Subsurface Tube' standard, which is wider than the 'Deep Tube'. Also, the Tube all uses 4-rail power. S Stock is a subway EMU built by Bombardier for London's Subsurface Tube, that comes in either 7 or 8 car sets. S8s operate on the Metropolitan line, while S7s are on the Circle, District, and Hammersmith & City Lines.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.3,
 				"maxDeceleration": 1.15,
@@ -1266,7 +1266,7 @@
 			"id": "BR Class 378",
 			"name": "BR Class 378",
 			"description": "The London Overground is the commuter rail network of the city and has two electrifcation standards, with this being the catenary standard used on UK main lines. The Capitalstar (BR 378) is a commuter rail EMU built by Bombardier for the London Overground that entered service in 2009. It either is third rail only or dual mode with overhead catenary. It is part of the Electrostar Family.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.65,
 				"maxDeceleration": 1.0,
@@ -1308,7 +1308,7 @@
 			"id": "BR Class 710",
 			"name": "BR Class 710",
 			"description": "The London Overground is the commuter rail network of the city and has two electrifcation standards, with this being the third rail standard used on UK main lines. The Alstom Aventra is a family of EMUs in service in the UK since 2015. This model is the EMU labeled Class 710 as used on the London Overground",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.9,
 				"maxDeceleration": 1.0,
@@ -1350,7 +1350,7 @@
 			"id": "FE-10 (MXC)",
 			"name": "FE-10 (MXC)",
 			"description": "The Mexico City Metro has two different standards of trains, one with steel wheels (this one), and another with rubber wheels. The FE-10 is a steel-wheeled model of EMU built by CAF used on the Mexico City Metro, first used in 2012.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.2,
 				"maxDeceleration": 1.2,
@@ -1392,7 +1392,7 @@
 			"id": "NM-16 (MXC)",
 			"name": "NM-16 (MXC)",
 			"description": "The Mexico City Metro has two different standards of trains, one with steel wheels, and another with rubber wheels (this one). The NM-16 is a rubber-tyred model of EMU built by CAF used on the Mexico City Metro",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.43,
 				"maxDeceleration": 1.43,
@@ -1434,7 +1434,7 @@
 			"id": "Cuautitlán-Buenavista",
 			"name": "Cuautitlán-Buenavista",
 			"description": "The Northeast Corridor is the major high speed corridor in the United States that goes from Boston to Washington. It has 3 electrification standards, and this is the 25kV AC 60 Hz system which matches international standards. The Cuautitlán-Buenavista is a commuter rail EMU built by CAF used on Mexico City's Tren Suburbano that entered service in 2008. ",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.0,
@@ -1476,7 +1476,7 @@
 			"id": "TE-90",
 			"name": "TE-90",
 			"description": "This is a standard LRT system (2.65m wide) which uses 750V DC. The TE-90 is an articulated high-floor light-rail vehicle built by Bombardier that has been in service in Mexico City since 1990. It is also knwon as the TE-96, 08, and 12",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.0,
@@ -1518,7 +1518,7 @@
 			"id": "Toronto Rocket",
 			"name": "Toronto Rocket",
 			"description": "The Toronto Subway is a heavy rail network which has a unique gauge while simultaneously using UIC standard loading gauges. The Toronto Rocket is an EMU built by Bombardier for the Toronto Subway that entered service in 2021.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 0.9,
 				"maxDeceleration": 1.35,
@@ -1560,7 +1560,7 @@
 			"id": "T-1 (TOR)",
 			"name": "T-1 (TOR)",
 			"description": "The Toronto Subway is a heavy rail network which has a unique gauge while simultaneously using UIC standard loading gauges. The T-1 is an EMU built by Bombardier for the Toronto Subway that entered service in 1995.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 0.9,
 				"maxDeceleration": 1.3,
@@ -1602,7 +1602,7 @@
 			"id": "Flexity Outlook (TOR)",
 			"name": "Flexity Outlook (TOR)",
 			"description": "The Toronto Streetcar is a series of light rail / tram lines which run at grade in mixed traffic (the latter of which leads to mixed results). The Flexity Outlook is an articulated low-floor light-rail vehicle built by Bombardier for the Toronto Streetcar that has been in service since 2014. Toronto got a custom model due to their unique gauge.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.26,
@@ -1644,7 +1644,7 @@
 			"id": "Flexity Freedom-3",
 			"name": "Flexity Freedom-3",
 			"description": "This is a standard LRT system (2.65m wide) which uses 750V DC. The Flexity Freedom is a family of articulated low-floor light-rail vehicles built by Bombardier/Alstom that have been in service in Canada since 2019. This is the 3 segment version.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.34,
 				"maxDeceleration": 1.1,
@@ -1686,7 +1686,7 @@
 			"id": "Flexity Freedom-5",
 			"name": "Flexity Freedom-5",
 			"description": "This is a standard LRT system (2.65m wide) which uses 750V DC. The Flexity Freedom is a family of articulated low-floor light-rail vehicles built by Bombardier/Alstom that have been in service in Canada since 2019. This is the 5 segment version.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.34,
 				"maxDeceleration": 1.1,
@@ -1728,7 +1728,7 @@
 			"id": "Citadis Spirit-4",
 			"name": "Citadis Spirit-4",
 			"description": "This is a standard LRT system (2.65m wide) which uses 750V DC. The Citadis Spirit is a family of articulated low-floor light-rail vehicles built by Alstom that have been in service in Canada since 2019. This is the 4-segment version.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.2,
@@ -1770,7 +1770,7 @@
 			"id": "Citadis Spirit-3",
 			"name": "Citadis Spirit-3",
 			"description": "This is a standard LRT system (2.65m wide) which uses 750V DC. The Citadis Spirit is a family of articulated low-floor light-rail vehicles built by Alstom that have been in service in Canada since 2019. This is the long 3-segment version.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.2,
@@ -1812,7 +1812,7 @@
 			"id": "Citadis Spirit-4L",
 			"name": "Citadis Spirit-4L",
 			"description": "This is a standard LRT system (2.65m wide) which uses 750V DC. The Citadis Spirit is a family of articulated low-floor light-rail vehicles built by Alstom that have been in service in Canada since 2019. This is the longest, 4-segment version.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.2,
@@ -1854,7 +1854,7 @@
 			"id": "Azur (MTL)",
 			"name": "Azur (MTL)",
 			"description": "The Montreal Metro is a rubber wheeled metro system with narrow trains found in the city with the best hockey team. The MPM-10 (Azur) is a rubber-tire vehicle built by Bombardier and Alstom for the Montreal Metro that entered service in 2016.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.21,
 				"maxDeceleration": 1.23,
@@ -1896,7 +1896,7 @@
 			"id": "Saint-Laurent (MTL)",
 			"name": "Saint-Laurent (MTL)",
 			"description": "The Réseau Express Métropolitain (REM) is a light metro network that serves the Greater Montreal region of Canada. It is fully automated.  The Alstom Metropolis is a series of metro EMUs in service across the world since 1993. The Saint-Laurent is an autonomous light metro variant built for the Réseau express métropolitain in Montreal that entered service in 2023.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.1,
 				"maxDeceleration": 1.3,
@@ -1938,7 +1938,7 @@
 			"id": "Desiro Classic (SD)",
 			"name": "Desiro Classic (SD)",
 			"description": "The London Overground is the commuter rail network of the city. A few parts remain unelectrified, and are served by diesel or dual mode trains. The Siemens Desiro Classic is a family of metro DMUs and EMUs in service across the world since 1999. This model is the DMU used by San Diego's London Overground Diesel service.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.1,
 				"maxDeceleration": 1.1,
@@ -1980,7 +1980,7 @@
 			"id": "CQ400 (ATL)",
 			"name": "CQ400 (ATL)",
 			"description": "The Long Island Railroad is a commuter rail network operated by the MTA which primarily serves Nassau and Suffolk Counties. This is the electrified portion of the tracks, which consistitutes most of the parts of the network that matter. The CQ 400 is a subway EMU built by Stadler for the Atlanta metro which will enter service in 2026.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.12,
 				"maxDeceleration": 1.12,
@@ -2022,7 +2022,7 @@
 			"id": "CQ312 (ATL)",
 			"name": "CQ312 (ATL)",
 			"description": "The Long Island Railroad is a commuter rail network operated by the MTA which primarily serves Nassau and Suffolk Counties. This is the electrified portion of the tracks, which consistitutes most of the parts of the network that matter. The CQ 312 is a subway EMU built by Stadler for the Atlanta metro which entered service in 2001.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.34,
 				"maxDeceleration": 1.34,
@@ -2064,7 +2064,7 @@
 			"id": "BR Class 777",
 			"name": "BR Class 777",
 			"description": "The London Overground is the commuter rail network of the city and has two electrifcation standards, with this being the third rail standard used on UK main lines. The METRO (BR 777) is a commuter rail EMU built by Stadler as part of their METRO family for MerseyRail that entered service in 2023.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.1,
 				"maxDeceleration": 1.1,
@@ -2106,7 +2106,7 @@
 			"id": "Innovia Metro (VAN)",
 			"name": "Innovia Metro (VAN)",
 			"description": "The Skytrain is an automated light metro serving Vancouver, Canada. This represents the Expo and Millenium lines that use 650V linear induction electrification. The Innovia Metro is an automated rapid transit system family built by Alstom that have been in service across North America since 1985. This specific model is based on the Mark V used in Vancouver since 2025. Acceleration and decceleration are guesstimates.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.0,
@@ -2148,7 +2148,7 @@
 			"id": "Rotem EMU (VAN)",
 			"name": "Rotem EMU (VAN)",
 			"description": "The Skytrain is an automated light metro serving Vancouver, Canada. This represents the Canada Line that uses wider trains and standard top contact 750V third rail. The Rotem is an automated EMU built by Hyundai for the Vancouver SkyTrain's Canada Line that entered service in 2009.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.0,
@@ -2190,7 +2190,7 @@
 			"id": "CRRC HR4000 (LA)",
 			"name": "CRRC HR4000 (LA)",
 			"description": "The Skytrain is an automated light metro serving Vancouver, Canada. This represents the Canada Line that uses wider trains and standard top contact 750V third rail. The HR4000 is a subway EMU built by CRRC for the LA Metro's heavy rail lines that entered service in 2024. Acceleration is guessimated.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.34,
 				"maxDeceleration": 1.0,
@@ -2232,7 +2232,7 @@
 			"id": "P3010 LRV (LA)",
 			"name": "P3010 LRV (LA)",
 			"description": "This is a standard LRT system (2.65m wide) which uses 750V DC. The P3010 is an articulated low-floor light-rail vehicle built by Kinki Sharyo that has been in service in LA since 2016.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.34,
 				"maxDeceleration": 1.56,
@@ -2274,7 +2274,7 @@
 			"id": "MR-73 (MTL)",
 			"name": "MR-73 (MTL)",
 			"description": "The Montreal Metro is a rubber wheeled metro system with narrow trains found in the city with the best hockey team. The MPM-73 is a rubber-tire vehicle built by Bombardier for the Montreal Metro that entered service in 1976.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.43,
 				"maxDeceleration": 1.43,
@@ -2316,7 +2316,7 @@
 			"id": "MultiLevel Coach III EMU",
 			"name": "MultiLevel Coach III EMU",
 			"description": "The Northeast Corridor is the major high speed corridor in the United States that goes from Boston to Washington. It has 3 electrification standards, and this is the 12 kV 25 Hz system found approximately from DC to NYC. The MultiLevel Coach III is a commuter rail EMU built by Bombardier/Alstom that entered service in 2006. They are used on multiple networks across Eastern North America.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.8,
 				"maxDeceleration": 1.05,
@@ -2358,7 +2358,7 @@
 			"id": "ALP45-BMLC",
 			"name": "ALP45-BMLC",
 			"description": "This is diesel rail which follows the U.S. standard loading gauge width of 3.05 meters. The Bombardier ALP-45 is a dual-mode locomotive that first entered service in 2010. This specific trainset carries passengers with Bombardier MultiLevel Coaches in their trailer configuration.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.72,
 				"maxDeceleration": 1.05,
@@ -2400,7 +2400,7 @@
 			"id": "ALP46-BMLC",
 			"name": "ALP46-BMLC",
 			"description": "The Northeast Corridor is the major high speed corridor in the United States that goes from Boston to Washington. It has 3 electrification standards, and this is the 12 kV 25 Hz system found approximately from DC to NYC. The Bombardier ALP-45 is an electric locomotive that first entered service in 2001. This specific trainset carries passengers with Bombardier MultiLevel Coaches in their trailer configuration.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.72,
 				"maxDeceleration": 1.05,
@@ -2442,7 +2442,7 @@
 			"id": "M8 (NYC)",
 			"name": "M8 (NYC)",
 			"description": "Metro-North is a commuter rail network operated by the MTA which primarily serves Westchester and western Connecticut. It has multiple electrification standards, and this is the section which is used by the connection to Grand Central Terminal. The M8 is a commuter rail EMU built by Kawasaki for the Metro-North Railroad that entered service in 2011.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.89,
 				"maxDeceleration": 1.34,
@@ -2484,7 +2484,7 @@
 			"id": "M7 (NYC)",
 			"name": "M7 (NYC)",
 			"description": "The Long Island Railroad is a commuter rail network operated by the MTA which primarily serves Nassau and Suffolk Counties. This is the electrified portion of the tracks, which consistitutes most of the parts of the network that matter. The M7 is a commuter rail EMU built by Bombardier for the MTA's LIRR and MNCR that entered service in 2011.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.89,
 				"maxDeceleration": 1.34,
@@ -2526,7 +2526,7 @@
 			"id": "SC-SL4",
 			"name": "SC-SL4",
 			"description": "This is diesel rail which follows the U.S. standard loading gauge width of 3.05 meters. The Siemens Charger is a family of diesel locomotives that first entered service in 2017. This specific trainset carries passengers with Bombardier Shoreliner IVs, as used by MNCR.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.69,
 				"maxDeceleration": 1.3,
@@ -2568,7 +2568,7 @@
 			"id": "MPX-VRE",
 			"name": "MPX-VRE",
 			"description": "This is diesel rail which follows the U.S. standard loading gauge width of 3.05 meters. The MPI MPXpress is a line of diesel locomotives that first entered service in 2003. This specific trainset carries passengers with the Virginia Rail Express's nameless cars from Sumitomo/Nippon Sharyo.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.61,
 				"maxDeceleration": 1.0,
@@ -2610,7 +2610,7 @@
 			"id": "BR Class 357",
 			"name": "BR Class 357",
 			"description": "The London Overground is the commuter rail network of the city and has two electrifcation standards, with this being the catenary standard used on UK main lines. The Electrostar (BR 357) is a commuter rail EMU built by Adtranz/Bombardier for c2c that entered service in 2000. It is the first of the Electrostar family.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.65,
 				"maxDeceleration": 1.0,
@@ -2652,7 +2652,7 @@
 			"id": "BR Class 720",
 			"name": "BR Class 720",
 			"description": "The London Overground is the commuter rail network of the city and has two electrifcation standards, with this being the catenary standard used on UK main lines. The Alstom Aventra is a family of EMUs in service in the UK since 2015. This model is the EMU labeled Class 720 as used on the London, Tilbury and Southend line.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.9,
 				"maxDeceleration": 1.0,
@@ -2694,7 +2694,7 @@
 			"id": "BR Class 165",
 			"name": "BR Class 165",
 			"description": "The London Overground is the commuter rail network of the city. A few parts remain unelectrified, and are served by diesel or dual mode trains. The Networker Turbo (BR 165) is a commuter rail DMU built by BREL for British Railways that entered service in 1991. It is now operated by GWE and Chiltern Railways.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.8,
 				"maxDeceleration": 1.0,
@@ -2736,7 +2736,7 @@
 			"id": "BR Class 360",
 			"name": "BR Class 360",
 			"description": "The London Overground is the commuter rail network of the city and has two electrifcation standards, with this being the catenary standard used on UK main lines. The Siemens Desiro UK is a family of DMUs and EMUs in service in the UK and Thailand since 2003. This model is the EMU labeled Class 360 as used by EMR for their Luton Airport Express line.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.98,
 				"maxDeceleration": 1.1,
@@ -2778,7 +2778,7 @@
 			"id": "BR Class 360-2",
 			"name": "BR Class 360-2",
 			"description": "The London Overground is the commuter rail network of the city and has two electrifcation standards, with this being the catenary standard used on UK main lines. The Siemens Desiro UK is a family of DMUs and EMUs in service in the UK and Thailand since 2003. This model is the EMU labeled Class 360-2.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.98,
 				"maxDeceleration": 1.1,
@@ -2820,7 +2820,7 @@
 			"id": "BR Class 345",
 			"name": "BR Class 345",
 			"description": "The London Overground is the commuter rail network of the city and has two electrifcation standards, with this being the catenary standard used on UK main lines. The Alstom Aventra is a family of EMUs in service in the UK since 2015. This model is the EMU labeled Class 345 as used on the Elizabeth Line.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.1,
@@ -2862,7 +2862,7 @@
 			"id": "BR Class 171/172",
 			"name": "BR Class 171/172",
 			"description": "The London Overground is the commuter rail network of the city. A few parts remain unelectrified, and are served by diesel or dual mode trains. The Turbostar (BR 171/172) is a commuter rail DMU built by Bombardier for GTR that entered service in 2003.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.5,
 				"maxDeceleration": 0.6,
@@ -2904,7 +2904,7 @@
 			"id": "BR Class 377",
 			"name": "BR Class 377",
 			"description": "The London Overground is the commuter rail network of the city and has two electrifcation standards, with this being the catenary standard used on UK main lines. The Electrostar (BR 377) is a commuter rail EMU built by Bombardier for Southern and Southeastern that entered service in 2003. It is part of the Electrostar family.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.65,
 				"maxDeceleration": 1.0,
@@ -2946,7 +2946,7 @@
 			"id": "BR Class 387",
 			"name": "BR Class 387",
 			"description": "The London Overground is the commuter rail network of the city and has two electrifcation standards, with this being the catenary standard used on UK main lines. The Electrostar (BR 387) is a commuter rail EMU built by Bombardier that entered service in 2014. It is part of the Electrostar family.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.65,
 				"maxDeceleration": 1.0,
@@ -2988,7 +2988,7 @@
 			"id": "BR Class 379",
 			"name": "BR Class 379",
 			"description": "The London Overground is the commuter rail network of the city and has two electrifcation standards, with this being the catenary standard used on UK main lines. The Electrostar (BR 387) is a commuter rail EMU built by Bombardier that entered service in 2014. It is part of the Electrostar family.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.65,
 				"maxDeceleration": 1.0,
@@ -3030,7 +3030,7 @@
 			"id": "BR Class 700",
 			"name": "BR Class 700",
 			"description": "The London Overground is the commuter rail network of the city and has two electrifcation standards, with this being the catenary standard used on UK main lines. The Siemens Desiro City is a family of EMUs in service in the UK since 2016. This model is the EMU labeled Class 700 as used on Thameslink",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.85,
 				"maxDeceleration": 1.1,
@@ -3072,7 +3072,7 @@
 			"id": "BR Class 745",
 			"name": "BR Class 745",
 			"description": "The London Overground is the commuter rail network of the city and has two electrifcation standards, with this being the catenary standard used on UK main lines. The Stadler FLIRT is a family of MUs in service around the world since 2004. This is the EMU classed as BR 745 that is operated by Greater Anglia.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.9,
 				"maxDeceleration": 0.9,
@@ -3114,7 +3114,7 @@
 			"id": "BR Class 755",
 			"name": "BR Class 755",
 			"description": "The London Overground is the commuter rail network of the city. A few parts remain unelectrified, and are served by diesel or dual mode trains. The Stadler FLIRT is a family of MUs in service around the world since 2004. This is the Bi-Mode MU classed as BR 755 'Basil' that is operated by Greater Anglia.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.9,
 				"maxDeceleration": 0.7,
@@ -3156,7 +3156,7 @@
 			"id": "BR Class 150",
 			"name": "BR Class 150",
 			"description": "The London Overground is the commuter rail network of the city. A few parts remain unelectrified, and are served by diesel or dual mode trains. The London Overground Diesel (BR 150) is a commuter rail DMU built by BREL that entered service in 1984. Capacity is artificially higher due to game processing requirements.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.5,
 				"maxDeceleration": 0.6,
@@ -3198,7 +3198,7 @@
 			"id": "BR Class 350",
 			"name": "BR Class 350",
 			"description": "The London Overground is the commuter rail network of the city and has two electrifcation standards, with this being the catenary standard used on UK main lines. The Siemens Desiro UK is a family of DMUs and EMUs in service in the UK and Thailand since 2003. This model is the EMU labeled Class 350 as used by London Northwestern.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.96,
 				"maxDeceleration": 0.96,
@@ -3240,7 +3240,7 @@
 			"id": "BR Class 730",
 			"name": "BR Class 730",
 			"description": "The London Overground is the commuter rail network of the city and has two electrifcation standards, with this being the catenary standard used on UK main lines. The Alstom Aventra is a family of EMUs in service in the UK since 2015. This model is the EMU labeled Class 730 as used by London Northwestern Railway.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.9,
 				"maxDeceleration": 1.0,
@@ -3282,7 +3282,7 @@
 			"id": "BR Class 158/159",
 			"name": "BR Class 158/159",
 			"description": "The London Overground is the commuter rail network of the city. A few parts remain unelectrified, and are served by diesel or dual mode trains. The London Overground Diesel Express (BR 158/159) is a commuter rail DMU built by BREL that entered service in 1984. Capacity is artificially higher due to game processing requirements.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.5,
 				"maxDeceleration": 0.6,
@@ -3324,7 +3324,7 @@
 			"id": "BR Class 444",
 			"name": "BR Class 444",
 			"description": "The London Overground is the commuter rail network of the city and has two electrifcation standards, with this being the third rail standard used on UK main lines. The Siemens Desiro UK is a family of DMUs and EMUs in service in the UK and Thailand since 2003. This model is the EMU labeled Class 444 as used by South Western.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.8,
 				"maxDeceleration": 0.8,
@@ -3366,7 +3366,7 @@
 			"id": "BR Class 450",
 			"name": "BR Class 450",
 			"description": "The London Overground is the commuter rail network of the city and has two electrifcation standards, with this being the third rail standard used on UK main lines. The Siemens Desiro UK is a family of DMUs and EMUs in service in the UK and Thailand since 2003. This model is the EMU labeled Class 444 as used by South Western.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.98,
 				"maxDeceleration": 0.98,
@@ -3408,7 +3408,7 @@
 			"id": "BR Class 455",
 			"name": "BR Class 455",
 			"description": "The London Overground is the commuter rail network of the city and has two electrifcation standards, with this being the third rail standard used on UK main lines. The Mark 3-based BR 455 is a commuter rail EMU built by BREL that entered service in 1983. Capacity is artificially higher due to game processing requirements.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.58,
 				"maxDeceleration": 0.58,
@@ -3450,7 +3450,7 @@
 			"id": "BR Class 458",
 			"name": "BR Class 458",
 			"description": "The London Overground is the commuter rail network of the city and has two electrifcation standards, with this being the third rail standard used on UK main lines. The Alstom Coradia Juniper is a family of EMUs in service in the UK since 2000. This model is the EMU labeled Class 458 as used by South Western.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.98,
 				"maxDeceleration": 0.98,
@@ -3492,7 +3492,7 @@
 			"id": "BR Class 701",
 			"name": "BR Class 701",
 			"description": "The London Overground is the commuter rail network of the city and has two electrifcation standards, with this being the catenary standard used on UK main lines. The Alstom Aventra is a family of EMUs in service in the UK since 2015. This model is the EMU labeled Class 701 as used by South Western.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.96,
 				"maxDeceleration": 0.9,
@@ -3534,7 +3534,7 @@
 			"id": "BR Class 375",
 			"name": "BR Class 375",
 			"description": "The London Overground is the commuter rail network of the city and has two electrifcation standards, with this being the third rail standard used on UK main lines. The Electrostar (BR 375) is a commuter rail EMU built by Bombardier for Southeastern that entered service in 2003. It is part of the Electrostar family.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.62,
 				"maxDeceleration": 1.0,
@@ -3576,7 +3576,7 @@
 			"id": "BR Class 376",
 			"name": "BR Class 376",
 			"description": "The London Overground is the commuter rail network of the city and has two electrifcation standards, with this being the third rail standard used on UK main lines. The Electrostar (BR 376) is a commuter rail EMU built by Bombardier for Southeastern that entered service in 2003. It is part of the Electrostar family.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.66,
 				"maxDeceleration": 1.0,
@@ -3618,7 +3618,7 @@
 			"id": "BR Class 465",
 			"name": "BR Class 465",
 			"description": "The London Overground is the commuter rail network of the city and has two electrifcation standards, with this being the third rail standard used on UK main lines. The Networker (BR 465) is a commuter rail EMU built by BREL for Southeastern that entered service in 1992. It is part of the Networker family.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.98,
 				"maxDeceleration": 0.98,
@@ -3660,7 +3660,7 @@
 			"id": "BR Class 466",
 			"name": "BR Class 466",
 			"description": "The London Overground is the commuter rail network of the city and has two electrifcation standards, with this being the third rail standard used on UK main lines. The Networker (BR 465) is a commuter rail EMU built by BREL for Southeastern that entered service in 1992. It is part of the Networker family.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.98,
 				"maxDeceleration": 0.98,
@@ -3702,7 +3702,7 @@
 			"id": "BR Class 707",
 			"name": "BR Class 707",
 			"description": "The London Overground is the commuter rail network of the city and has two electrifcation standards, with this being the third rail standard used on UK main lines. The Siemens Desiro City is a family of EMUs in service in the UK since 2016. This model is the EMU labeled Class 707 as used by Southeastern.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.85,
 				"maxDeceleration": 1.1,
@@ -3744,7 +3744,7 @@
 			"id": "DLR B07",
 			"name": "DLR B07",
 			"description": "This is a standard LRT system (2.65m wide) which uses 750V DC third rails for some bizzare reason. The B07 is automated rolling stock for London's Docklands Light Railway, built by Bombardier.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.4,
 				"maxDeceleration": 0.8,
@@ -3786,7 +3786,7 @@
 			"id": "Flexity Swift LF",
 			"name": "Flexity Swift LF",
 			"description": "This is a standard LRT system (2.65m wide) which uses 750V DC. The Flexity Swift is a series of articulated tram/LRT/light metro vehicles produced by Bombardier/Alstom that have been in service for decades around the world. This is a genericized version of the low-floor models.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.2,
 				"maxDeceleration": 1.3,
@@ -3828,7 +3828,7 @@
 			"id": "Silverliner V",
 			"name": "Silverliner V",
 			"description": "The Northeast Corridor is the major high speed corridor in the United States that goes from Boston to Washington. It has 3 electrification standards, and this is the 25kV AC 60 Hz system which matches international standards. The Silverliner V is an EMU built by Hyundai Rotem for SEPTA Regional Rail that entered service in 2010.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.34,
 				"maxDeceleration": 1.12,
@@ -3870,7 +3870,7 @@
 			"id": "MPX-BBLC",
 			"name": "MPX-BBLC",
 			"description": "This is diesel rail which follows the U.S. standard loading gauge width of 3.05 meters. The MPI MPXpress is a line of diesel locomotives that first entered service in 2003. This specific trainset carries passengers with Bombardier BiLevel Coaches.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.61,
 				"maxDeceleration": 1.0,
@@ -3912,7 +3912,7 @@
 			"id": "RL Series 4 (BOS)",
 			"name": "RL Series 4 (BOS)",
 			"description": "The B, also known as the Broad Street Line, is part of Philadelphia's SEPTA Metro. It uses standard gauge and is wider than the L line. The 4th Series of rolling stock for the MBTA Red Line is an EMU built by CRRC. Acceleration is guessimated.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.23,
 				"maxDeceleration": 1.23,
@@ -3954,7 +3954,7 @@
 			"id": "OL Series 14 (BOS)",
 			"name": "OL Series 14 (BOS)",
 			"description": "The MBTA runs four different rapid transit lines in the Boston metropolitan area. This is the Orange line, which is a heavy subway. The 14th Series of rolling stock for the MBTA Orange Line is an EMU built by CRRC. Acceleration is guessimated.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.23,
 				"maxDeceleration": 1.23,
@@ -3996,7 +3996,7 @@
 			"id": "BL Series 5 (BOS)",
 			"name": "BL Series 5 (BOS)",
 			"description": "The MBTA runs four different rapid transit lines in the Boston metropolitan area. This is the Blue line, which is a heavy subway that uses both catenary and third rail in different parts and thus all trains must have both. The 5th Series of rolling stock for the MBTA Blue Line is an EMU built by Siemens. Acceleration is guessimated.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.12,
 				"maxDeceleration": 1.23,
@@ -4038,7 +4038,7 @@
 			"id": "Type 8 LRV (BOS)",
 			"name": "Type 8 LRV (BOS)",
 			"description": "This is a standard LRT system (2.65m wide) which uses 600V DC. The Type 8 is an articulated LRV built by AnsaldoBreda for the MBTA Green Line that entered service in 1999.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.25,
 				"maxDeceleration": 1.56,
@@ -4080,7 +4080,7 @@
 			"id": "Type 9 LRV (BOS)",
 			"name": "Type 9 LRV (BOS)",
 			"description": "This is a standard LRT system (2.65m wide) which uses 600V DC. The Type 9 is an articulated LRV built by CAF for the MBTA Green Line that entered service in 2018. Acceleration is guessimated.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.25,
 				"maxDeceleration": 1.56,
@@ -4122,7 +4122,7 @@
 			"id": "Type 10 LRV (BOS)",
 			"name": "Type 10 LRV (BOS)",
 			"description": "This is a standard LRT system (2.65m wide) which uses 600V DC. The Type 10 is an articulated LRV being built by CAF for the MBTA Green Line that will enter service in 2027. Acceleration is guessimated.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.25,
 				"maxDeceleration": 1.56,
@@ -4164,7 +4164,7 @@
 			"id": "BART D/E",
 			"name": "BART D/E",
 			"description": "Bay Area Rapid Transit (BART) is primarily a heavy metro system that serves the San Francisco Bay Area. There are some gadgetbahns but nobody cares about those. The Fleet of the Future, classified as D and E series, is an electric EMU built by Bombardier/Alstom as a custom order for BART. They entered service in 2018. I genuinely could not find capacity numbers so I guesstimated.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.34,
 				"maxDeceleration": 1.34,
@@ -4206,7 +4206,7 @@
 			"id": "GTW 2/6 (SF)",
 			"name": "GTW 2/6 (SF)",
 			"description": "This is the rather cursed creation known as diesel light rail, primarily found in southern New Jersey with the River Line. If you are building this outside of recreating said River Line you are a lunatic. This is a variant of the Stadler GTW 2/6 which is one of the rare and bizarre light rail DMUs and is in service in Austin and San Francisco.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.0,
@@ -4248,7 +4248,7 @@
 			"id": "SC-BBLC",
 			"name": "SC-BBLC",
 			"description": "This is diesel rail which follows the U.S. standard loading gauge width of 3.05 meters. The Siemens Charger is a family of diesel locomotives that first entered service in 2017. This specific trainset carries passengers with Bombardier BiLevel Coach (aka Adessia Coach) cars, as used by SF's ACE.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.69,
 				"maxDeceleration": 1.3,
@@ -4290,7 +4290,7 @@
 			"id": "KISS",
 			"name": "KISS",
 			"description": "The Northeast Corridor is the major high speed corridor in the United States that goes from Boston to Washington. It has 3 electrification standards, and this is the 25kV AC 60 Hz system which matches international standards. The Stadler KISS is a family of bilevel EMU commuter rail vehicles in service since 2011 across the world. Stats vary so this is an average.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.95,
 				"maxDeceleration": 1.1,
@@ -4332,7 +4332,7 @@
 			"id": "Nippon Sharyo DMU",
 			"name": "Nippon Sharyo DMU",
 			"description": "This is diesel rail which follows the U.S. standard loading gauge width of 3.05 meters. The Nippon Sharyo DMU is an acutely named vehicle which has been in service since 2015 in California and Toronto.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.35,
 				"maxDeceleration": 0.94,
@@ -4374,7 +4374,7 @@
 			"id": "S200-HF (SF)",
 			"name": "S200-HF (SF)",
 			"description": "This is a standard LRT system (2.65m wide) which uses 600V DC. The S200 series are articulated high-floor light-rail vehicles built by Siemens that have been in service across North America since 2016. This specific model is based on the model used in San Francisco since 2017. Capacity is artificially higher due to game processing requirements.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.34,
 				"maxDeceleration": 1.34,
@@ -4416,7 +4416,7 @@
 			"id": "MBTA Commuter Rail",
 			"name": "MBTA Commuter Rail",
 			"description": "This is diesel rail which follows the U.S. standard loading gauge width of 3.05 meters. Honestly I cannot come up with a good summary of these things so just know its whatever Boston uses for their rail. Acceleration is guesstimated.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.5,
 				"maxDeceleration": 0.5,
@@ -4458,7 +4458,7 @@
 			"id": "F59-BBLC",
 			"name": "F59-BBLC",
 			"description": "This is diesel rail which follows the U.S. standard loading gauge width of 3.05 meters. The EMD F59PH is a line of diesel locomotives that first entered service in the 1990s. This specific trainset carries passengers with Bombardier BiLevel Coaches.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.5,
 				"maxDeceleration": 0.5,
@@ -4500,7 +4500,7 @@
 			"id": "DBAG 483 (BER)",
 			"name": "DBAG 483 (BER)",
 			"description": "The Berlin S-Bahn is a suburban rail system in Germany. The DB Class 483 is an EMU built by Stadler and Siemens for the Berlin S-Bahn that entered service in 2021.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.3,
@@ -4542,7 +4542,7 @@
 			"id": "DBAG 481 (BER)",
 			"name": "DBAG 481 (BER)",
 			"description": "The Berlin S-Bahn is a suburban rail system in Germany. The DB Class 481 is an EMU built by AEG, ADtranz, and DWA for the Berlin S-Bahn that entered service in 1996.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.3,
@@ -4584,7 +4584,7 @@
 			"id": "HK Series (BER)",
 			"name": "HK Series (BER)",
 			"description": "The Berlin U-Bahn is a heavy subway with two different types of loading gauge, this one is the extremely narrow 2.3m one. The Series HK is a small-profile type of EMU used by the Berlin U-Bahn manufacturered by ADtranz/Bombardier from 2005-2006.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.2,
@@ -4626,7 +4626,7 @@
 			"id": "IK Series (BER)",
 			"name": "IK Series (BER)",
 			"description": "The Berlin U-Bahn is a heavy subway with two different types of loading gauge, this one is the extremely narrow 2.3m one. The Series IK is a small-profile type of EMU used by the Berlin U-Bahn manufacturered by Stadler based off their Tango family. Using bridges, some variants can operate on large profile routes. They entered service in 2015.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.2,
@@ -4668,7 +4668,7 @@
 			"id": "JK Series (BER)",
 			"name": "JK Series (BER)",
 			"description": "The Berlin U-Bahn is a heavy subway with two different types of loading gauge, this one is the extremely narrow 2.3m one. The Series JK is a small-profile type of EMU used by the Berlin U-Bahn manufacturered by Stadler. They entered service in 2025.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.2,
@@ -4710,7 +4710,7 @@
 			"id": "F Series (BER)",
 			"name": "F Series (BER)",
 			"description": "This is a standard subway system for Germany (and Copenhagen). The Series F is a large-profile series of EMU used by the Berlin U-Bahn manufacturered by a variety of German corporations from 1973 to 1994. This is based on the later F84-92 models. Their acceleration is very high.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.5,
 				"maxDeceleration": 1.2,
@@ -4752,7 +4752,7 @@
 			"id": "H Series (BER)",
 			"name": "H Series (BER)",
 			"description": "This is a standard subway system for Germany (and Copenhagen). The Series H is a large-profile type of EMU used by the Berlin U-Bahn manufacturered by ADtranz/Bombardier and ABB Henschel. They entered service in 1995.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.2,
@@ -4794,7 +4794,7 @@
 			"id": "J Series (BER)",
 			"name": "J Series (BER)",
 			"description": "This is a standard subway system for Germany (and Copenhagen). The Series J is a large-profile type of EMU used by the Berlin U-Bahn manufacturered by Stadler. They entered service in 2025.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.2,
@@ -4836,7 +4836,7 @@
 			"id": "GTxN/M/S",
 			"name": "GTxN/M/S",
 			"description": "Berlin Trams are very narrow at just 2.3 m and 750V. The GTxN/M/S is a series of ADTranz/Bombardier low-floor trams that was first built in 1989 and is in use across germany. The N/M/S refers to the gauge. Capacity is artificially higher due to game processing requirements.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.0,
@@ -4878,7 +4878,7 @@
 			"id": "Flexity Berlin S",
 			"name": "Flexity Berlin S",
 			"description": "Berlin Trams are very narrow at just 2.3 m and 750V. The Flexity Berlin is an articulated low-floor LRV produced by Bombardier/Alstom as a derivative of their Flexity family. It entered service in 2009. This is the shorter 5 segment version. Capacity is artificially higher due to game processing requirements.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.73,
 				"maxDeceleration": 0.73,
@@ -4920,7 +4920,7 @@
 			"id": "Flexity Berlin L",
 			"name": "Flexity Berlin L",
 			"description": "Berlin Trams are very narrow at just 2.3 m and 750V. The Flexity Berlin is an articulated low-floor LRV produced by Bombardier/Alstom as a derivative of their Flexity family. It entered service in 2009. This is the longer 7 segment version.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.65,
 				"maxDeceleration": 0.65,
@@ -4962,7 +4962,7 @@
 			"id": "Urbanliner Berlin",
 			"name": "Urbanliner Berlin",
 			"description": "Berlin Trams are very narrow at just 2.3 m and 750V. The Urbanliner Berlin is an articulated low-floor LRV produced by Alstom as a longer (9-car) sequel to the Flexity Berlin. It entered service in 2025.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.65,
 				"maxDeceleration": 0.65,
@@ -5004,7 +5004,7 @@
 			"id": "AnsaldoBreda-S",
 			"name": "AnsaldoBreda-S",
 			"description": "The Honolulu Skyline is an automated light metro system in Hawaii. The Hitachi Rail Italy Driverless Metro (formerly AnsaldoBreda) is a fully autonomous EMU family used across the globe. This specific model is based on those used by Copenhagen, Brescia, and Milan since 2013.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.3,
 				"maxDeceleration": 1.3,
@@ -5046,7 +5046,7 @@
 			"id": "AnsaldoBreda-M",
 			"name": "AnsaldoBreda-M",
 			"description": "The Honolulu Skyline is an automated light metro system in Hawaii. The Hitachi Rail Italy Driverless Metro (formerly AnsaldoBreda) is a fully autonomous EMU family used across the globe. This specific model is based on those used by the New Taipei metro since 2020.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.2,
 				"maxDeceleration": 1.0,
@@ -5088,7 +5088,7 @@
 			"id": "AnsaldoBreda-L4",
 			"name": "AnsaldoBreda-L4",
 			"description": "The Honolulu Skyline is an automated light metro system in Hawaii. The Hitachi Rail Italy Driverless Metro (formerly AnsaldoBreda) is a fully autonomous EMU family used across the globe. This specific model is based on those used by the Honolulu Skyline since 2023.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.3,
 				"maxDeceleration": 1.3,
@@ -5130,7 +5130,7 @@
 			"id": "AnsaldoBreda-L6",
 			"name": "AnsaldoBreda-L6",
 			"description": "Rome has a heavy rail metro network with Line C automated and lines A and B not. This is for Line C. The Hitachi Rail Italy Driverless Metro (formerly AnsaldoBreda) is a fully autonomous EMU family used across the globe. This specific model is based on those used by Rome's Metro since 2014.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.3,
 				"maxDeceleration": 1.3,
@@ -5172,7 +5172,7 @@
 			"id": "Litra SA/SE (CPH)",
 			"name": "Litra SA/SE (CPH)",
 			"description": "The Copenhagen S-Tog is a suburban rail system in Denmark. The trains are very wide. The Litra SA/SE is an EMU produced by Alstom and Siemens for the Copenhagen S-Tog system which entered service in 1996.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.3,
 				"maxDeceleration": 1.2,
@@ -5214,7 +5214,7 @@
 			"id": "MF 19 (PAR)",
 			"name": "MF 19 (PAR)",
 			"description": "The Paris Metro's existing lines come in 4 different forms. This is the steel wheel, only partially automated version. The MF 19 is a steel-wheeled subway EMU produced by Alstom for the Paris Metro based on the Metropolis family. This is the standard version which comes in either 4 or 5 car sets. It entered service in 2025. Acceleration is a guesstimate.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 0.95,
 				"maxDeceleration": 1.1,
@@ -5256,7 +5256,7 @@
 			"id": "MF 19 L (PAR)",
 			"name": "MF 19 L (PAR)",
 			"description": "The Paris Metro's existing lines come in 4 different forms. This is the steel wheel, only partially automated version. The MF 19 is a steel-wheeled subway EMU produced by Alstom for the Paris Metro based on the Metropolis family. This is the slightly longer version which comes in 5 car sets. It will enter service in 2027. Acceleration is a guesstimate.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 0.95,
 				"maxDeceleration": 1.1,
@@ -5298,7 +5298,7 @@
 			"id": "MF 19 L CA (PAR)",
 			"name": "MF 19 L CA (PAR)",
 			"description": "The Paris Metro's existing lines come in 4 different forms. This is the steel wheel, fully automated version. The MF 19 is a steel-wheeled subway EMU produced by Alstom for the Paris Metro based on the Metropolis family. This is the automated version which will be deployed in the 2030s once Line 13 is automated. Acceleration is a guesstimate.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 0.95,
 				"maxDeceleration": 1.1,
@@ -5340,7 +5340,7 @@
 			"id": "MF 01 (PAR)",
 			"name": "MF 01 (PAR)",
 			"description": "The Paris Metro's existing lines come in 4 different forms. This is the steel wheel, only partially automated version. The MF 01 is a steel-wheeled subway EMU produced by Alstom for the Paris Metro based on the Metropolis family.  It entered service in 2008. ",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 0.95,
 				"maxDeceleration": 1.1,
@@ -5382,7 +5382,7 @@
 			"id": "MP 14 CC (PAR)",
 			"name": "MP 14 CC (PAR)",
 			"description": "The Paris Metro's existing lines come in 4 different forms. This is the rubber wheel, only partially automated version. The MP 14 CC is a rubber-wheeled subway EMU produced by Alstom for the Paris Metro based on the Metropolis family. It entered service in 2023. ",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.35,
 				"maxDeceleration": 1.35,
@@ -5424,7 +5424,7 @@
 			"id": "MP 14 CA (PAR)",
 			"name": "MP 14 CA (PAR)",
 			"description": "The Paris Metro's existing lines come in 4 different forms. This is the rubber wheel, fully automated version. The MP 14 CA is an automated rubber-wheeled subway EMU produced by Alstom for the Paris Metro based on the Metropolis family. It entered service in 2020. ",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.35,
 				"maxDeceleration": 1.35,
@@ -5466,7 +5466,7 @@
 			"id": "MP 05 (PAR)",
 			"name": "MP 05 (PAR)",
 			"description": "The Paris Metro's existing lines come in 4 different forms. This is the rubber wheel, fully automated version. The MP 05 is an automated rubber-wheeled subway EMU produced by Alstom for the Paris Metro based on the Metropolis family. It entered service in 2011. ",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.35,
 				"maxDeceleration": 1.35,
@@ -5508,7 +5508,7 @@
 			"id": "MP 89 CC (PAR)",
 			"name": "MP 89 CC (PAR)",
 			"description": "The Paris Metro's existing lines come in 4 different forms. This is the rubber wheel, only partially automated version. The MP 89 CC is a rubber-wheeled subway EMU produced by Alstom for the Paris Metro based on the Metropolis family. It entered service in 1997. ",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.34,
 				"maxDeceleration": 1.34,
@@ -5550,7 +5550,7 @@
 			"id": "MP 89 CA (PAR)",
 			"name": "MP 89 CA (PAR)",
 			"description": "The Paris Metro's existing lines come in 4 different forms. This is the rubber wheel, fully automated version. The MP 89 CA is an automated rubber-wheeled subway EMU produced by Alstom for the Paris Metro based on the Metropolis family. It entered service in 1998. ",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.34,
 				"maxDeceleration": 1.34,
@@ -5592,7 +5592,7 @@
 			"id": "MRV (PAR)",
 			"name": "MRV (PAR)",
 			"description": "The Paris Metro is currently planning to build Line 18 to an entirely different standard from every other line, i.e. underruning third rail instead of overruninning, wider trains, and 1500V DC instead of 750. It will be automated at least. The MRV is an automated steel-wheeled subway EMU being developed by Alstom for the Paris Metro's future Line 18 based on the Metropolis family. It has unique electrification. Some numbers are guesstimated since this set is not out yet.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.1,
 				"maxDeceleration": 1.2,
@@ -5634,7 +5634,7 @@
 			"id": "MR3V/MR6V (PAR)",
 			"name": "MR3V/MR6V (PAR)",
 			"description": "Rome has a heavy rail metro network with Line C automated and lines A and B not. This is for Line C. The MR3V/MR6V is an automated steel-wheeled subway EMU being developed by Alstom for the Paris Metro's future Lines 15-17 based on the Metropolis family. These three lines will built to more modern standards. Some numbers are guesstimated since this set is not out yet.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.1,
 				"maxDeceleration": 1.2,
@@ -5676,7 +5676,7 @@
 			"id": "Altéo (PAR)",
 			"name": "Altéo (PAR)",
 			"description": "Transilien is the commuter rail network that serves Paris, and also includes the Réseau Express Régional which is a hybrid between commuter and rapid. It has four standards, this is the narrow, 1500V DC version. The MI 2N Altéo is a double-decker EMU built by Alstom as part of their X'Trapolis family that has been in service on the French RER's line A since 1997. They were refurbrished from 2019-2021.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.15,
 				"maxDeceleration": 1.15,
@@ -5718,7 +5718,7 @@
 			"id": "MI 09 (PAR)",
 			"name": "MI 09 (PAR)",
 			"description": "Transilien is the commuter rail network that serves Paris, and also includes the Réseau Express Régional which is a hybrid between commuter and rapid. It has four standards, this is the narrow, 1500V DC version. The MI 09 is a double-decker EMU built by Alstom/Bombardier as part of their X'Trapolis family that has been in service on the French RER's Line A since 2011. ",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.15,
@@ -5760,7 +5760,7 @@
 			"id": "MI 79/84 (PAR)",
 			"name": "MI 79/84 (PAR)",
 			"description": "Transilien is the commuter rail network that serves Paris, and also includes the Réseau Express Régional which is a hybrid between commuter and rapid. It has four standards, this is the narrow, 1500V DC version. The MI 79/84 is an EMU built by Alstom and SFB that has been in service on the French RER's Line B since 1981. ",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.1,
@@ -5802,7 +5802,7 @@
 			"id": "MI 20 (PAR)",
 			"name": "MI 20 (PAR)",
 			"description": "Transilien is the commuter rail network that serves Paris, and also includes the Réseau Express Régional which is a hybrid between commuter and rapid. It has four standards, this is the narrow, 1500V DC version. The MI 20 is a mixed single-double decker EMU built by Alstom/Bombardier and CAF that will enter service on the French RER's line B in 2029. Width and acceleration taken from previous models due to lack of info.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.1,
@@ -5844,7 +5844,7 @@
 			"id": "Z 5600",
 			"name": "Z 5600",
 			"description": "Transilien is the commuter rail network that serves Paris, and also includes the Réseau Express Régional which is a hybrid between commuter and rapid. It has four standards, this is the narrow, 1500V DC version. The Z 5600 is a commuter rail double-decker EMU built by CIMT, TCF, and TCO that operates on Transilien's C and V lines. It entered service in 1982, and was renevated from 2009-2017. Acceleration is a guesstimate.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 0.85,
@@ -5886,7 +5886,7 @@
 			"id": "Z 8800",
 			"name": "Z 8800",
 			"description": "Transilien is the commuter rail network that serves Paris, and also includes the Réseau Express Régional which is a hybrid between commuter and rapid. It has four standards, this is the narrow, 1500V DC version. The Z 8800 is a commuter rail double-decker EMU built by CIMT, ANF, and TCO that operates on Transilien's C, U, and V lines. It entered service in 1985, and was renevated from 2010-2017. Acceleration is a guesstimate.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 0.85,
@@ -5928,7 +5928,7 @@
 			"id": "Z 20500",
 			"name": "Z 20500",
 			"description": "Transilien is the commuter rail network that serves Paris, and also includes the Réseau Express Régional which is a hybrid between commuter and rapid. It has four standards, this is the narrow, 1500V DC version. The Z 20500 is a commuter rail double-decker EMU built by CIMT, ANF, and Alstom that operates on Transilien's C, P, and V lines. It entered service in 1988, and has been refurbrished at various points since 2007. Capacity is an estimate.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 0.85,
@@ -5970,7 +5970,7 @@
 			"id": "Z 20900",
 			"name": "Z 20900",
 			"description": "Transilien is the commuter rail network that serves Paris, and also includes the Réseau Express Régional which is a hybrid between commuter and rapid. It has four standards, this is the narrow, 1500V DC version. The Z 20900 is a commuter rail double-decker EMU built by Alstom/Bombardier that operates on Transilien's C and V lines. It entered service in 2001, and was renovated from 2019-2023. Capacity is an estimate.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 0.95,
@@ -6012,7 +6012,7 @@
 			"id": "Regio 2N Paris",
 			"name": "Regio 2N Paris",
 			"description": "Metra is a commuter rail network found in the Chicago Metropolitan Area. The Regio 2N is a family of double-decker EMUs built by Alstom/Bombardier that have been in service since 2013. This variant is the Transilien's Z 57000, which serves lines D, N, and R.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.78,
 				"maxDeceleration": 1.0,
@@ -6054,7 +6054,7 @@
 			"id": "Z 58000",
 			"name": "Z 58000",
 			"description": "Metra is a commuter rail network found in the Chicago Metropolitan Area. The RER Next Generation is a commuter rail double-decker EMU built by Alstom based off their Adessia Max family that entered service in 2023. This is the 6-car variant used on line E.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.18,
 				"maxDeceleration": 1.15,
@@ -6096,7 +6096,7 @@
 			"id": "Z 58500",
 			"name": "Z 58500",
 			"description": "Metra is a commuter rail network found in the Chicago Metropolitan Area. The RER Next Generation is a commuter rail double-decker EMU built by Alstom based off their Adessia Max family that entered service in 2023. This is the 7-car variant used on line D.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.04,
 				"maxDeceleration": 1.15,
@@ -6138,7 +6138,7 @@
 			"id": "Éole (PAR)",
 			"name": "Éole (PAR)",
 			"description": "Metra is a commuter rail network found in the Chicago Metropolitan Area. The Z 22500 Éole is a commuter rail double-decker EMU built by ANF and Alstom that operates on the RER E Line. It entered service in 1996.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.15,
@@ -6180,7 +6180,7 @@
 			"id": "Francilien-7 (PAR)",
 			"name": "Francilien-7 (PAR)",
 			"description": "Metra is a commuter rail network found in the Chicago Metropolitan Area. The Z 22500 Francilien is a commuter rail double-decker EMU built by Bombardier that entered service in 2009. This is the 7 car variant seen on Transilien's J and L lines.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.05,
@@ -6222,7 +6222,7 @@
 			"id": "Francilien-8 (PAR)",
 			"name": "Francilien-8 (PAR)",
 			"description": "Metra is a commuter rail network found in the Chicago Metropolitan Area. The Z 22500 Francilien is a commuter rail double-decker EMU built by Bombardier that entered service in 2009. This is the 8 car variant seen on Transilien's E, H, K, and P lines.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.05,
@@ -6264,7 +6264,7 @@
 			"id": "Prima-VB2N",
 			"name": "Prima-VB2N",
 			"description": "Metra is a commuter rail network found in the Chicago Metropolitan Area. The BB 27300 is an electric passenger locomotive built by Alstom as a derivative of 27000 Prima Family that entered service in 2006. This trainset carries passengers with VB 2N double-decker cars. It is currently being used on Transilien's Line J. Acceleration is an estimate.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.5,
 				"maxDeceleration": 0.67,
@@ -6306,7 +6306,7 @@
 			"id": "B 82500 BIBI",
 			"name": "B 82500 BIBI",
 			"description": "This is diesel rail which follows the U.S. standard loading gauge width of 3.05 meters. The B 82500 'BIBI' is a commuter rail double-decker dual-mode MU built by Bombardier that entered service in 2007. It operates on the Transilien's P line.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.5,
 				"maxDeceleration": 0.67,
@@ -6348,7 +6348,7 @@
 			"id": "TFS-2 (France)",
 			"name": "TFS-2 (France)",
 			"description": "Paris has trams and they are quite narrow but not as much as Berlin. The Standard French Tram (TFS) is an articulated LRV built by Alstom that has been in service since the 1980s. This is the 2nd generation. Capacity is artifically higher due to game limitations.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.92,
 				"maxDeceleration": 1.5,
@@ -6390,7 +6390,7 @@
 			"id": "Citadis 302 N",
 			"name": "Citadis 302 N",
 			"description": "Paris has trams and they are quite narrow but not as much as Berlin. The Citadis is a family of articulated low-floor LRVs built by Alstom that have been in service since 2000. This is the 2nd generation, narrow, five section version.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.3,
 				"maxDeceleration": 1.2,
@@ -6432,7 +6432,7 @@
 			"id": "Citadis 402",
 			"name": "Citadis 402",
 			"description": "This is a standard LRT system (2.65m wide) which uses 750V DC. The Citadis is a family of articulated low-floor LRVs built by Alstom that have been in service since 2000. This is the 2nd generation, seven section version.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.3,
 				"maxDeceleration": 1.2,
@@ -6474,7 +6474,7 @@
 			"id": "Citadis 305 N",
 			"name": "Citadis 305 N",
 			"description": "Paris has trams and they are quite narrow but not as much as Berlin. The Citadis is a family of articulated low-floor LRVs built by Alstom that have been in service since 2000. This is the 5th generation, narrow, five section version.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.3,
 				"maxDeceleration": 1.2,
@@ -6516,7 +6516,7 @@
 			"id": "Citadis 405",
 			"name": "Citadis 405",
 			"description": "This is a standard LRT system (2.65m wide) which uses 750V DC. The Citadis is a family of articulated low-floor LRVs built by Alstom that have been in service since 2000. This is the 5th generation, seven section version.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.3,
 				"maxDeceleration": 1.2,
@@ -6558,7 +6558,7 @@
 			"id": "Citadis Dualis",
 			"name": "Citadis Dualis",
 			"description": "This is a standard LRT system (2.65m wide) which uses 750V DC. The Citadis Dualis is a tram-train produced by Alstom that has been in service in France since 2010.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.09,
 				"maxDeceleration": 1.2,
@@ -6600,7 +6600,7 @@
 			"id": "NTL Translohr",
 			"name": "NTL Translohr",
 			"description": "Paris has rubber wheeled trams which are Berlin level narrow and quite frankly just build a trolleybus at this point bc like cmon. The Translohr is a rubber-wheeled articulated tram built by NTL/Lohr that has been in service since 2006. This is the 6 segment version Acceleration is guesstimated",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.3,
 				"maxDeceleration": 1.3,
@@ -6642,7 +6642,7 @@
 			"id": "Avenio (CPH)",
 			"name": "Avenio (CPH)",
 			"description": "This is a standard LRT system (2.65m wide) which uses 750V DC. The Siemens Avenio is a low-floor LRV family that has been in service since 2009. This is the version used in Copenhagen.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.2,
 				"maxDeceleration": 1.2,
@@ -6684,7 +6684,7 @@
 			"id": "Variobahn 32m",
 			"name": "Variobahn 32m",
 			"description": "This is a standard LRT system (2.65m wide) which uses 750V DC. The Stadler Variobahn is a low-floow LRV that has been in service across the world since 1993. This is the 32m, standard gauge and width model. Acceleration is a guesstimate.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.2,
 				"maxDeceleration": 1.2,
@@ -6726,7 +6726,7 @@
 			"id": "Variobahn Odense",
 			"name": "Variobahn Odense",
 			"description": "This is a standard LRT system (2.65m wide) which uses 750V DC. The Stadler Variobahn is a low-floow LRV that has been in service across the world since 1993. This is the 30m, standard gauge and width model, used by Odense. Acceleration is a guesstimate.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.2,
 				"maxDeceleration": 1.2,
@@ -6768,7 +6768,7 @@
 			"id": "ET (DSB)",
 			"name": "ET (DSB)",
 			"description": "This is the 60 Hz, 25kV standard main-line rail used in most places. The ET (also known as the X31K) is a regional rail EMU built by ADTranz/Alstom for service between Copenhagen and Malmo. It has been in service since 1999.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.87,
 				"maxDeceleration": 0.87,
@@ -6810,7 +6810,7 @@
 			"id": "ES/IC5 (DSB)",
 			"name": "ES/IC5 (DSB)",
 			"description": "This is the 60 Hz, 25kV standard main-line rail used in most places. The ES (also known as the IC5) is a regional / intercity EMU built by Alstom based off their Coradia Stream for Danish State Railways. It will enter service in 2027.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.2,
 				"maxDeceleration": 1.2,
@@ -6852,7 +6852,7 @@
 			"id": "ER/IR4 (DSB)",
 			"name": "ER/IR4 (DSB)",
 			"description": "This is the 60 Hz, 25kV standard main-line rail used in most places. The ER (also known as IR4) is a regional rail EMU built by ABB Scandia for Danish State Railways that entered service in the 1990s. ",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.78,
 				"maxDeceleration": 0.78,
@@ -6894,7 +6894,7 @@
 			"id": "IC4 (DSB)",
 			"name": "IC4 (DSB)",
 			"description": "This is standard diesel mainline for most of the world. The IC4 is a regional / intercity DMU built by AnsaldoBreda for DSB and also one for Muammar Gaddafi that entered full service in 2012. ",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.9,
 				"maxDeceleration": 0.9,
@@ -6936,7 +6936,7 @@
 			"id": "Series 500 (BCN)",
 			"name": "Series 500 (BCN)",
 			"description": "The Barcelona Metro is a heavy metro system with multiple operating standards. This is the automated variant of the Standard Gauge, 1500V DC version. The Series 500 is an automated derivative of the Series 2100 heavy metro EMU built by CAF, Meinfesa, and Alstom for the Barcelona metro. It entered service in 2003. Acceleration is a guesstimate.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 0.9,
 				"maxDeceleration": 1.08,
@@ -6978,7 +6978,7 @@
 			"id": "Series 2100 (BCN)",
 			"name": "Series 2100 (BCN)",
 			"description": "The Barcelona Metro is a heavy metro system with multiple operating standards. This is the Standard Gauge, 1200V DC version. The Series 2100 is a heavy metro EMU built by CAF, Meinfesa, and Alstom for the Barcelona metro that entered service in 1995. They were renovated in 2019. Acceleration is a guesstimate.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.2,
@@ -7020,7 +7020,7 @@
 			"id": "Series 5000 (BCN)",
 			"name": "Series 5000 (BCN)",
 			"description": "The Barcelona Metro is a heavy metro system with multiple operating standards. This is the Standard Gauge, 1200V DC version. The Series 5000 is a heavy metro EMU built by CAF and Mitsubishi for the Barcelona metro that entered service in 2005. Acceleration is a guesstimate.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.2,
@@ -7062,7 +7062,7 @@
 			"id": "Series 6000 (BCN)",
 			"name": "Series 6000 (BCN)",
 			"description": "The Barcelona Metro is a heavy metro system with multiple operating standards. This is the Iberian Gauge, 1500V DC version. The Series 6000 is an Iberian Gauge heavy metro EMU built by CAF for the Barcelona metro that entered service in 2007. Acceleration is a guesstimate.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.2,
@@ -7104,7 +7104,7 @@
 			"id": "Series 7000 (BCN)",
 			"name": "Series 7000 (BCN)",
 			"description": "The Barcelona Metro is a heavy metro system with multiple operating standards. This is the Standard Gauge, 1200V DC version. The Alstom Metropolis is a series of metro EMUs in service across the world since 1993. The Series 8000 is a heavy metro variant built for the Barceolona Metro line that entered service in 2023. Acceleration is a guesstimate.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.2,
@@ -7146,7 +7146,7 @@
 			"id": "Series 8000 (BCN)",
 			"name": "Series 8000 (BCN)",
 			"description": "The Barcelona Metro is a heavy metro system with multiple operating standards. This is the Iberian Gauge, 1500V DC version. The Alstom Metropolis is a series of metro EMUs in service across the world since 1993. The Series 8000 is a heavy metro variant built for the Barceolona Metro's wide gauge line that entered service in 2023. Acceleration is a guesstimate.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.2,
@@ -7188,7 +7188,7 @@
 			"id": "Series 9000 (BCN)",
 			"name": "Series 9000 (BCN)",
 			"description": "The Barcelona Metro is a heavy metro system with multiple operating standards. This is the Standard Gauge, 1200V DC version. The Alstom Metropolis is a series of metro EMUs in service across the world since 1993. The Series 9000 is a semi-autonomous heavy metro variant built for the Barceolona Metro that entered service in 2006.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.2,
@@ -7230,7 +7230,7 @@
 			"id": "Series 9000 A (BCN)",
 			"name": "Series 9000 A (BCN)",
 			"description": "The Barcelona Metro is a heavy metro system with multiple operating standards. This is the automated variant of the Standard Gauge, 1500V DC version. The Alstom Metropolis is a series of metro EMUs in service across the world since 1993. The Series 9000 A is an autonomous heavy metro variant built for the Barceolona Metro that entered service in 2006.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.08,
@@ -7272,7 +7272,7 @@
 			"id": "Series 112 (BCN)",
 			"name": "Series 112 (BCN)",
 			"description": "The Barcelona Metro is a heavy metro system with multiple operating standards. This is the Standard Gauge, 1500V DC version. The Series 112 is a metro EMU built by Alstom, CAF, and ABB which enterered service on the Barcelona Metro in 1995. Acceleration is guesstimated.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.1,
 				"maxDeceleration": 1.1,
@@ -7314,7 +7314,7 @@
 			"id": "Series 113 (BCN)",
 			"name": "Series 113 (BCN)",
 			"description": "The Barcelona Metro is a heavy metro system with multiple operating standards. This is the Standard Gauge, 1500V DC version. The Series 113 is a metro EMU built by Alstom and CAF which enterered service on the Barcelona Metro in 2014.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.1,
 				"maxDeceleration": 1.1,
@@ -7356,7 +7356,7 @@
 			"id": "Series 114 (BCN)",
 			"name": "Series 114 (BCN)",
 			"description": "The Barcelona Metro is a heavy metro system with multiple operating standards. This is the Standard Gauge, 1500V DC version. The Series 114 is a metro EMU built by Alstom and CAF which enterered service on the Barcelona Metro in 2014.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.1,
@@ -7398,7 +7398,7 @@
 			"id": "Series 115 (BCN)",
 			"name": "Series 115 (BCN)",
 			"description": "The Barcelona Metro is a heavy metro system with multiple operating standards. This is the Standard Gauge, 1500V DC version. The Series 115 is a metro EMU built by Stadler which enterered service on the Barcelona Metro in 2022. Acceleration is guesstimated.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.1,
 				"maxDeceleration": 1.1,
@@ -7440,7 +7440,7 @@
 			"id": "Series 213 (BCN)",
 			"name": "Series 213 (BCN)",
 			"description": "The Barcelona Metro is a heavy metro system with multiple operating standards. This is the Standard Gauge, 1500V DC version. The Series 112 is a metro EMU built by Alstom, CAF, and Bombardier which enterered service on the Barcelona Metro in 1999.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.05,
 				"maxDeceleration": 0.7,
@@ -7482,7 +7482,7 @@
 			"id": "Citadis 302",
 			"name": "Citadis 302",
 			"description": "This is a standard LRT system (2.65m wide) which uses 750V DC. The Citadis is a family of articulated low-floor LRVs built by Alstom that have been in service since 2000. This is the 2nd generation, five section version.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.3,
 				"maxDeceleration": 1.2,
@@ -7524,7 +7524,7 @@
 			"id": "Citadis 305",
 			"name": "Citadis 305",
 			"description": "This is a standard LRT system (2.65m wide) which uses 750V DC. The Citadis is a family of articulated low-floor LRVs built by Alstom that have been in service since 2000. This is the 5th generation, five section version.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.3,
 				"maxDeceleration": 1.2,
@@ -7566,7 +7566,7 @@
 			"id": "M4 (AMS)",
 			"name": "M4 (AMS)",
 			"description": "Amsterdam Metro is a heavy rail network with relatively wide trains for a subway. The M4 is a tram and metro EMU built by CAF for the Amsterdam Metro in 2019. The original designation was S3 and they were built in 1996, but after being renovated they were renamed to M4 due to the significant changes, inclduing permanently extended steps for the wider loading gauge.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.3,
 				"maxDeceleration": 1.5,
@@ -7608,7 +7608,7 @@
 			"id": "M5 (AMS)",
 			"name": "M5 (AMS)",
 			"description": "Amsterdam Metro is a heavy rail network with relatively wide trains for a subway. The Alstom Metropolis is a series of metro EMUs in service across the world since 1993. The M5 is a variant produced for the Amsterdam Metro.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.2,
 				"maxDeceleration": 1.2,
@@ -7650,7 +7650,7 @@
 			"id": "M7 (AMS)",
 			"name": "M7 (AMS)",
 			"description": "Amsterdam Metro is a heavy rail network with relatively wide trains for a subway. The M4 is a metro EMU built by CAF for the Amsterdam Metro that entered service in 2023.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.2,
 				"maxDeceleration": 1.3,
@@ -7692,7 +7692,7 @@
 			"id": "Urbos 100 (AMS)",
 			"name": "Urbos 100 (AMS)",
 			"description": "Amstertram is a portmanteau of Amsterdam and Trams. They are similar width to Paris. The Urbos family are articulated low-floor light-rail vehicles built by CAF that have been in service across the world since the 90s. This specific model is based on the Amsterdam Metro's G15. Capacity is artifically increased due to game processing limitations. Acceleration is guesstimated.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.2,
 				"maxDeceleration": 1.2,
@@ -7734,7 +7734,7 @@
 			"id": "Combino (AMS)",
 			"name": "Combino (AMS)",
 			"description": "Amstertram is a portmanteau of Amsterdam and Trams. They are similar width to Paris. The Combino family are articulated low-floor light-rail vehicles built by Siemens that have been in service across the world since the 90s. This specific model is based on the Amsterdam Metro's G14. Capacity is artifically increased due to game processing limitations. Acceleration is guesstimated.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.2,
 				"maxDeceleration": 1.2,
@@ -7776,7 +7776,7 @@
 			"id": "S/300 (ROM)",
 			"name": "S/300 (ROM)",
 			"description": "Rome has a heavy rail metro network with Line C automated and lines A and B not. This is for Lines A and B. The S/300 is a metro EMU built by CAF for the Rome Metro's Lines A and B that has been in service since 2005.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.1,
 				"maxDeceleration": 1.1,
@@ -7818,7 +7818,7 @@
 			"id": "Hitachi Rome",
 			"name": "Hitachi Rome",
 			"description": "Rome has a heavy rail metro network with Line C automated and lines A and B not. This is for Lines A and B. This is an unnamed series of trains built by Hitachi for the Rome Metro Line B that will enter service in 2026. Acceleration is guesstimated.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.3,
 				"maxDeceleration": 1.3,
@@ -7860,7 +7860,7 @@
 			"id": "81-717/81-714",
 			"name": "81-717/81-714",
 			"description": "This is the standard metro built by the USSR, with 2.65m wide trains, 825V third rail voltage, and Russian gauge. The Metrovagonmash 81-717/81-714 is a Soviet era metro EMU that entered service in 1977. It remains in use across the former USSR.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.2,
 				"maxDeceleration": 1.1,
@@ -7902,7 +7902,7 @@
 			"id": "Twist Foxtrot",
 			"name": "Twist Foxtrot",
 			"description": "Kyiv, Ukraine has trams that use Russian gauge. They are wider than those in Paris. The Twist is a low-floor articulated LRV built by a Polish company named PESA that entered service in 2012. The 71-414 Foxtrot is a variant made for Kyiv and Moscow. Acceleration is a guesstimate. Capacity is increased artificially due to game processing requirements.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.3,
 				"maxDeceleration": 1.3,
@@ -7944,7 +7944,7 @@
 			"id": "K-1T",
 			"name": "K-1T",
 			"description": "Kyiv, Ukraine has trams that use Russian gauge. They are wider than those in Paris. The K-1T is a low-floor articulated LRV built by Tatra-Yug that entered service in 2020. Acceleration is a guesstimate. Capacity is increased artificially due to game processing requirements.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.3,
 				"maxDeceleration": 1.3,
@@ -7986,7 +7986,7 @@
 			"id": "Innovia APM",
 			"name": "Innovia APM",
 			"description": "APMs are gadgetbahns found at airports mostly The Innovia APM is an automated people mover built by Bombardier that is mainly used in airports. IRL it can run in sets of 1 but game processing requirements mean its 2 minimum.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.0,
@@ -8028,7 +8028,7 @@
 			"id": "Hitachi Miami",
 			"name": "Hitachi Miami",
 			"description": "The Washington DC metro is a heavy rail system in the U.S. Capital operated by WMATA. It uses the rather cursed gauge of 1429 mm aka 6 mm narrower than standard. This is an unnamed series of trains built by Hitachi for the Miami Metrorail that entered service in 2017. Acceleration is guesstimated.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.3,
 				"maxDeceleration": 1.3,
@@ -8070,7 +8070,7 @@
 			"id": "Seattle Series 1",
 			"name": "Seattle Series 1",
 			"description": "This is a standard LRT system (2.65m wide) which uses 1500V DC. The Series 1 is an articulated low-floor light-rail vehicle built by Kinki Sharyo that has been in service in Seattle since 2009.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.34,
 				"maxDeceleration": 1.34,
@@ -8112,7 +8112,7 @@
 			"id": "Aero",
 			"name": "Aero",
 			"description": "This is diesel rail which follows the U.S. standard loading gauge width of 3.05 meters. The Colorado Railcar DMU also known as the Aero is a vehicle produced by the now defunct Colorado Railcar that entered service in 2002.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.67,
 				"maxDeceleration": 0.67,
@@ -8154,7 +8154,7 @@
 			"id": "SD-100/160",
 			"name": "SD-100/160",
 			"description": "This is a standard LRT system (2.65m wide) which uses 600V DC. The SD-100/160 series are articulated high-floor light-rail vehicles built by Siemens that have been in service across North America since 1994. Capacity slightly increased due to game processing requirements.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.07,
 				"maxDeceleration": 1.31,
@@ -8196,7 +8196,7 @@
 			"id": "Urbos 3 (WMM)",
 			"name": "Urbos 3 (WMM)",
 			"description": "This is a standard LRT system (2.65m wide) which uses 750V DC. The Urbos family are articulated low-floor light-rail vehicles built by CAF that have been in service across the world since the 90s. This specific model is based on the West Midland Metro's version. Acceleration is guesstimated.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.2,
 				"maxDeceleration": 1.2,
@@ -8238,7 +8238,7 @@
 			"id": "S200-HF (CGY)",
 			"name": "S200-HF (CGY)",
 			"description": "This is a standard LRT system (2.65m wide) which uses 600V DC. The S200 series are articulated high-floor light-rail vehicles built by Siemens that have been in service across North America since 2016. This specific model is based on the model used in Calgary since 2019. Capacity is artificially higher due to game processing requirements.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.95,
 				"maxDeceleration": 1.32,
@@ -8280,7 +8280,7 @@
 			"id": "Tyne and Wear Metrocar",
 			"name": "Tyne and Wear Metrocar",
 			"description": "Tyne and Wear, also known by its largest city which is Newcastle, has a heavy metro system. The Tyne and Wear Metrocar is an EMU originally built by Metro-Cammel in the 1970s, entered serivce in 1980, and was later renovated by Wabtec in the 2010s. Acceleration is guesstimated.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.2,
 				"maxDeceleration": 1.2,
@@ -8322,7 +8322,7 @@
 			"id": "BR Class 555",
 			"name": "BR Class 555",
 			"description": "Tyne and Wear, also known by its largest city which is Newcastle, has a heavy metro system. The Metro (BR 555) is an EMU built by Stadler for the Tyne and Wear Metro that entered service in 2024.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.35,
 				"maxDeceleration": 1.35,
@@ -8364,7 +8364,7 @@
 			"id": "Generation 1 (ATH)",
 			"name": "Generation 1 (ATH)",
 			"description": " The 1st Generation of Athens lines 2 and 3 rolling stock is a metro EMU built by Siemens, Daimler-Benz, and Alstom that entered service in 2000. It also operates on Line 1.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.08,
@@ -8406,7 +8406,7 @@
 			"id": "Generation 2 (ATH)",
 			"name": "Generation 2 (ATH)",
 			"description": " The 2nd Generation of Athens lines 2 and 3 rolling stock is a metro dual-mode EMU built by Hyundai, Mitsubishi, and Knorr-Bremse that entered service in 2003.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.1,
@@ -8448,7 +8448,7 @@
 			"id": "Generation 3 (ATH)",
 			"name": "Generation 3 (ATH)",
 			"description": " The 3rd Generation of Athens lines 2 and 3 rolling stock is a metro EMU built by Siemens and Hyundai that entered service in 2000. It also operates on Line 1.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.1,
 				"maxDeceleration": 1.1,
@@ -8490,7 +8490,7 @@
 			"id": "Desiro Classic (ATH)",
 			"name": "Desiro Classic (ATH)",
 			"description": "The London Overground is the commuter rail network of the city and has two electrifcation standards, with this being the catenary standard used on UK main lines. The Siemens Desiro Classic is a family of metro DMUs and EMUs in service across the world since 1999. This model is the EMU used by Athens commuter rail.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.1,
 				"maxDeceleration": 1.1,
@@ -8532,7 +8532,7 @@
 			"id": "Sirio (ATH)",
 			"name": "Sirio (ATH)",
 			"description": "Paris has trams and they are quite narrow but not as much as Berlin. The Sirio is a artiuculated low-floor LRV family built by AnsaldoBreda/Hitachi that has been in service since 2002. This is the variant used by the Athens tram network. Acceleration is guesstimated.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.34,
 				"maxDeceleration": 1.34,
@@ -8574,7 +8574,7 @@
 			"id": "IÉ 22000",
 			"name": "IÉ 22000",
 			"description": " The IÉ Class 22000 is an Irish DMU used for both commuter rail and intercity services. It was built by Hyundai Rotem and entered service in 2007. Acceleration is guesstimated.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.7,
 				"maxDeceleration": 0.7,
@@ -8616,7 +8616,7 @@
 			"id": "IÉ 29000",
 			"name": "IÉ 29000",
 			"description": " The IÉ Class 29000 is an Irish commuter rail DMU built by CAF that entered service in 2003. Acceleration is guesstimated.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.9,
 				"maxDeceleration": 0.9,
@@ -8658,7 +8658,7 @@
 			"id": "Citadis 401",
 			"name": "Citadis 401",
 			"description": "Paris has trams and they are quite narrow but not as much as Berlin. The Citadis is a family of articulated low-floor LRVs built by Alstom that have been in service since 2000. This is the 1st generation, seven section version. Acceleration is a guesstimate.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.3,
 				"maxDeceleration": 1.2,
@@ -8700,7 +8700,7 @@
 			"id": "Citadis 502",
 			"name": "Citadis 502",
 			"description": "Paris has trams and they are quite narrow but not as much as Berlin. The Citadis is a family of articulated low-floor LRVs built by Alstom that have been in service since 2000. This is the 2nd generation, nine section version. Acceleration is a guesstimate.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.3,
 				"maxDeceleration": 1.2,
@@ -8742,7 +8742,7 @@
 			"id": "IST M1",
 			"name": "IST M1",
 			"description": " The Istanbul Metro has a variety of nameless rolling stock. This is the light metro stock that entered service in 1988 on the M1, as made by ABB. Acceleration is a guesstimate.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.0,
@@ -8784,7 +8784,7 @@
 			"id": "IST M2 2008",
 			"name": "IST M2 2008",
 			"description": "Amsterdam Metro is a heavy rail network with relatively wide trains for a subway. The Istanbul Metro has a variety of nameless rolling stock. This is the heavy metro stock that entered service in 2008 on the M2, as made by Hyundai. Acceleration is a guesstimate.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.1,
 				"maxDeceleration": 1.1,
@@ -8826,7 +8826,7 @@
 			"id": "IST M2 2017",
 			"name": "IST M2 2017",
 			"description": "Amsterdam Metro is a heavy rail network with relatively wide trains for a subway. The Istanbul Metro has a variety of nameless rolling stock. This is the heavy metro stock that entered service in 2017 on the M2, as made by Hyundai. Acceleration is a guesstimate.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.1,
 				"maxDeceleration": 1.1,
@@ -8868,7 +8868,7 @@
 			"id": "IST M3",
 			"name": "IST M3",
 			"description": "Rome has a heavy rail metro network with Line C automated and lines A and B not. This is for Lines A and B. The Istanbul Metro has a variety of nameless rolling stock. This is the heavy metro stock that entered service in 2009 on the M3, as made by Alstom. Acceleration is a guesstimate.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.34,
 				"maxDeceleration": 1.34,
@@ -8910,7 +8910,7 @@
 			"id": "IST M4",
 			"name": "IST M4",
 			"description": "Metra is a commuter rail network found in the Chicago Metropolitan Area. The Istanbul Metro has a variety of nameless rolling stock. This is the heavy metro stock that entered service in 2010 on the M4, as made by CAF. Acceleration is a guesstimate.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.1,
@@ -8952,7 +8952,7 @@
 			"id": "IST M5",
 			"name": "IST M5",
 			"description": " The Istanbul Metro has a variety of nameless rolling stock. This is the automated heavy metro stock that entered service in 2017 on the M5, as made by CAF and Mitsubishi. Acceleration is a guesstimate.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.1,
@@ -8994,7 +8994,7 @@
 			"id": "IST M6",
 			"name": "IST M6",
 			"description": "Amsterdam Metro is a heavy rail network with relatively wide trains for a subway. The Istanbul Metro has a variety of nameless rolling stock. This is the heavy metro stock that entered service in 1999 on the M2 that now mainly serves the M6, as made by Alstom. Acceleration is a guesstimate.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.34,
 				"maxDeceleration": 1.34,
@@ -9036,7 +9036,7 @@
 			"id": "IST M7/M8",
 			"name": "IST M7/M8",
 			"description": " The Istanbul Metro has a variety of nameless rolling stock. This is the automated heavy metro stock that entered service in 2020 on the M7 and M8, as made by Hyundai. Acceleration is a guesstimate.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.1,
 				"maxDeceleration": 1.1,
@@ -9078,7 +9078,7 @@
 			"id": "IST M9",
 			"name": "IST M9",
 			"description": "Metra is a commuter rail network found in the Chicago Metropolitan Area. The Istanbul Metro has a variety of nameless rolling stock. This is the heavy metro stock that entered service in 2009 on the M9, as made by Alstom. Acceleration is a guesstimate.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.34,
 				"maxDeceleration": 1.34,
@@ -9120,7 +9120,7 @@
 			"id": "IST M11",
 			"name": "IST M11",
 			"description": "Tyne and Wear, also known by its largest city which is Newcastle, has a heavy metro system. The Istanbul Metro has a variety of nameless rolling stock. This is the high speed heavy metro stock that entered service in 2023 on the M11, as made by CRRC. Acceleration and vehicle length are a guesstimate.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.23,
 				"maxDeceleration": 1.34,
@@ -9162,7 +9162,7 @@
 			"id": "TCDD E32000",
 			"name": "TCDD E32000",
 			"description": "This is the 60 Hz, 25kV standard main-line rail used in most places. The TCDD E32000 is a commuter rail EMU built by Hyundai for Istanbul's Maramay commuter network that entered service in 2012. Acceleration is a guesstimate.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.0,
 				"maxDeceleration": 1.0,
@@ -9204,7 +9204,7 @@
 			"id": "Urbos 100 (T-A)",
 			"name": "Urbos 100 (T-A)",
 			"description": "This is a standard LRT system (2.65m wide) which uses 1500V DC. The Urbos family are articulated low-floor light-rail vehicles built by CAF that have been in service across the world since the 90s. This specific model is based on the Tel-Aviv Light Rail's version.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.2,
 				"maxDeceleration": 1.2,
@@ -9246,7 +9246,7 @@
 			"id": "Citadis 304",
 			"name": "Citadis 304",
 			"description": "This is a standard LRT system (2.65m wide) which uses 750V DC. The Citadis is a family of articulated low-floor LRVs built by Alstom that have been in service since 2000. This is the 4th generation, five section version.",
-			"allowAtGradeRoadCrossing": false,
+			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.3,
 				"maxDeceleration": 1.2,
@@ -9288,7 +9288,7 @@
 			"id": "AM5-M2",
 			"name": "AM5-M2",
 			"description": " The Alstom Metropolis is a series of metro EMUs in service across the world since 1993. The AM5-M2 is a heavy metro variant built for the Budapest Metro's M2 that entered service in 2012.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.13,
 				"maxDeceleration": 1.13,
@@ -9330,7 +9330,7 @@
 			"id": "AM4-M4",
 			"name": "AM4-M4",
 			"description": " The Alstom Metropolis is a series of metro EMUs in service across the world since 1993. The AM4-M4 is an automated heavy metro variant built for the Budapest Metro's M4 that entered service in 2014.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.13,
 				"maxDeceleration": 1.13,
@@ -9372,7 +9372,7 @@
 			"id": "BHEV MX",
 			"name": "BHEV MX",
 			"description": " The BHEV MX (and MXA) are commuter rail EMUs in service since the 70s in Budapest. They were made by East German manufacturer LEW Hennigsdorf.",
-			"allowAtGradeRoadCrossing": true,
+			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 0.62,
 				"maxDeceleration": 1.3,
