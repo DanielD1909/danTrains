@@ -299,7 +299,7 @@
 		"R142A/PA5": {
 			"id": "R142A/PA5",
 			"name": "R142A/PA5",
-			"description": "The Port Authority Trans-Hudson is a heavy rail system that operates between New Jersey and NYC, operated independently. It is officially a commuter railroad but operates like a subway. This same standard is used by the London Overground Third Rail. The R142A is a subway EMU built by Bombardier (now Alstom) for the NYC Subway's A Division that entered service in 2000. The PA5 is a variant built for the PATH Rapid Transit system. ",
+			"description": "The Port Authority Trans-Hudson is a heavy rail system that operates between New Jersey and NYC, operated independently. This same standard is used by the London Overground Third Rail. The R142A is a subway EMU built by Bombardier (now Alstom) for the NYC Subway's A Division that entered service in 2000. The PA5 is a variant built for the PATH Rapid Transit system. ",
 			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.12,
@@ -719,7 +719,7 @@
 		"SC-BMLC": {
 			"id": "SC-BMLC",
 			"name": "SC-BMLC",
-			"description": "This is diesel rail which follows the U.S. standard loading gauge width of 3.05 meters. The Siemens Charger is a family of diesel locomotives that first entered service in 2017. This specific trainset carries passengers with Bombardier MultiLevel Coach (aka Adessia Coach) cars, as used by MARC.",
+			"description": "This is diesel commuter rail which follows the U.S. standard loading gauge width of 3.05 meters. The Siemens Charger is a family of diesel locomotives that first entered service in 2017. This specific trainset carries passengers with Bombardier MultiLevel Coach (aka Adessia Coach) cars, as used by MARC.",
 			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.69,
@@ -2273,7 +2273,7 @@
 		"MR-73 (MTL)": {
 			"id": "MR-73 (MTL)",
 			"name": "MR-73 (MTL)",
-			"description": "The Montreal Metro is a rubber wheeled metro system with narrow trains found in the city with the best hockey team. The MPM-73 is a rubber-tire vehicle built by Bombardier for the Montreal Metro that entered service in 1976.",
+			"description": "The Montreal Metro is a rubber wheeled metro system with narrow trains found in the city with the best hockey team. The MR-73 is a rubber-tire heavy metro EMU built by Bombardier for the Montreal Metro that entered service in 1976.",
 			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.43,
@@ -2357,7 +2357,7 @@
 		"ALP45-BMLC": {
 			"id": "ALP45-BMLC",
 			"name": "ALP45-BMLC",
-			"description": "This is diesel rail which follows the U.S. standard loading gauge width of 3.05 meters. The Bombardier ALP-45 is a dual-mode locomotive that first entered service in 2010. This specific trainset carries passengers with Bombardier MultiLevel Coaches in their trailer configuration.",
+			"description": "This is diesel commuter rail which follows the U.S. standard loading gauge width of 3.05 meters. The Bombardier ALP-45 is a dual-mode locomotive that first entered service in 2010. This specific trainset carries passengers with Bombardier MultiLevel Coaches in their trailer configuration.",
 			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.72,
@@ -2525,7 +2525,7 @@
 		"SC-SL4": {
 			"id": "SC-SL4",
 			"name": "SC-SL4",
-			"description": "This is diesel rail which follows the U.S. standard loading gauge width of 3.05 meters. The Siemens Charger is a family of diesel locomotives that first entered service in 2017. This specific trainset carries passengers with Bombardier Shoreliner IVs, as used by MNCR.",
+			"description": "This is diesel commuter rail which follows the U.S. standard loading gauge width of 3.05 meters. The Siemens Charger is a family of diesel locomotives that first entered service in 2017. This specific trainset carries passengers with Bombardier Shoreliner IVs, as used by MNCR.",
 			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.69,
@@ -2567,7 +2567,7 @@
 		"MPX-VRE": {
 			"id": "MPX-VRE",
 			"name": "MPX-VRE",
-			"description": "This is diesel rail which follows the U.S. standard loading gauge width of 3.05 meters. The MPI MPXpress is a line of diesel locomotives that first entered service in 2003. This specific trainset carries passengers with the Virginia Rail Express's nameless cars from Sumitomo/Nippon Sharyo.",
+			"description": "This is diesel commuter rail which follows the U.S. standard loading gauge width of 3.05 meters. The MPI MPXpress is a line of diesel locomotives that first entered service in 2003. This specific trainset carries passengers with the Virginia Rail Express's nameless cars from Sumitomo/Nippon Sharyo.",
 			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.61,
@@ -3743,7 +3743,7 @@
 		"DLR B07": {
 			"id": "DLR B07",
 			"name": "DLR B07",
-			"description": "This is a standard LRT system (2.65m wide) which uses 750V DC third rails for some bizzare reason. The B07 is automated rolling stock for London's Docklands Light Railway, built by Bombardier.",
+			"description": "This is a standard LRT system (2.65m wide) which uses 750V DC third rails for some bizzare reason. The B07 is automated light metro rolling stock for London's Docklands Light Railway, built by Bombardier.",
 			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.4,
@@ -3869,7 +3869,7 @@
 		"MPX-BBLC": {
 			"id": "MPX-BBLC",
 			"name": "MPX-BBLC",
-			"description": "This is diesel rail which follows the U.S. standard loading gauge width of 3.05 meters. The MPI MPXpress is a line of diesel locomotives that first entered service in 2003. This specific trainset carries passengers with Bombardier BiLevel Coaches.",
+			"description": "This is diesel commuter rail which follows the U.S. standard loading gauge width of 3.05 meters. The MPI MPXpress is a line of diesel locomotives that first entered service in 2003. This specific trainset carries passengers with Bombardier BiLevel Coaches.",
 			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.61,
@@ -3911,7 +3911,7 @@
 		"RL Series 4 (BOS)": {
 			"id": "RL Series 4 (BOS)",
 			"name": "RL Series 4 (BOS)",
-			"description": "The B, also known as the Broad Street Line, is part of Philadelphia's SEPTA Metro. It uses standard gauge and is wider than the L line. The 4th Series of rolling stock for the MBTA Red Line is an EMU built by CRRC. Acceleration is guessimated.",
+			"description": "The B, also known as the Broad Street Line, is part of Philadelphia's SEPTA Metro. It uses standard gauge and is wider than the L line. The 4th Series of rolling stock for the MBTA Red Line is a subway EMU built by CRRC. Acceleration is guessimated.",
 			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.23,
@@ -4247,7 +4247,7 @@
 		"SC-BBLC": {
 			"id": "SC-BBLC",
 			"name": "SC-BBLC",
-			"description": "This is diesel rail which follows the U.S. standard loading gauge width of 3.05 meters. The Siemens Charger is a family of diesel locomotives that first entered service in 2017. This specific trainset carries passengers with Bombardier BiLevel Coach (aka Adessia Coach) cars, as used by SF's ACE.",
+			"description": "This is diesel commuter rail which follows the U.S. standard loading gauge width of 3.05 meters. The Siemens Charger is a family of diesel locomotives that first entered service in 2017. This specific trainset carries passengers with Bombardier BiLevel Coach (aka Adessia Coach) cars, as used by SF's ACE.",
 			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.69,
@@ -4331,7 +4331,7 @@
 		"Nippon Sharyo DMU": {
 			"id": "Nippon Sharyo DMU",
 			"name": "Nippon Sharyo DMU",
-			"description": "This is diesel rail which follows the U.S. standard loading gauge width of 3.05 meters. The Nippon Sharyo DMU is an acutely named vehicle which has been in service since 2015 in California and Toronto.",
+			"description": "This is diesel commuter rail which follows the U.S. standard loading gauge width of 3.05 meters. The Nippon Sharyo DMU is an acutely named vehicle which has been in service since 2015 in California and Toronto.",
 			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.35,
@@ -4415,7 +4415,7 @@
 		"MBTA Commuter Rail": {
 			"id": "MBTA Commuter Rail",
 			"name": "MBTA Commuter Rail",
-			"description": "This is diesel rail which follows the U.S. standard loading gauge width of 3.05 meters. Honestly I cannot come up with a good summary of these things so just know its whatever Boston uses for their rail. Acceleration is guesstimated.",
+			"description": "This is diesel commuter rail which follows the U.S. standard loading gauge width of 3.05 meters. Honestly I cannot come up with a good summary of these things so just know its whatever Boston uses for their rail. Acceleration is guesstimated.",
 			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.5,
@@ -4457,7 +4457,7 @@
 		"F59-BBLC": {
 			"id": "F59-BBLC",
 			"name": "F59-BBLC",
-			"description": "This is diesel rail which follows the U.S. standard loading gauge width of 3.05 meters. The EMD F59PH is a line of diesel locomotives that first entered service in the 1990s. This specific trainset carries passengers with Bombardier BiLevel Coaches.",
+			"description": "This is diesel commuter rail which follows the U.S. standard loading gauge width of 3.05 meters. The EMD F59PH is a line of diesel locomotives that first entered service in the 1990s. This specific trainset carries passengers with Bombardier BiLevel Coaches.",
 			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.5,
@@ -6305,7 +6305,7 @@
 		"B 82500 BIBI": {
 			"id": "B 82500 BIBI",
 			"name": "B 82500 BIBI",
-			"description": "This is diesel rail which follows the U.S. standard loading gauge width of 3.05 meters. The B 82500 'BIBI' is a commuter rail double-decker dual-mode MU built by Bombardier that entered service in 2007. It operates on the Transilien's P line.",
+			"description": "This is diesel commuter rail which follows the U.S. standard loading gauge width of 3.05 meters. The B 82500 'BIBI' is a commuter rail double-decker dual-mode MU built by Bombardier that entered service in 2007. It operates on the Transilien's P line.",
 			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.5,
@@ -6893,7 +6893,7 @@
 		"IC4 (DSB)": {
 			"id": "IC4 (DSB)",
 			"name": "IC4 (DSB)",
-			"description": "This is standard diesel mainline for most of the world. The IC4 is a regional / intercity DMU built by AnsaldoBreda for DSB and also one for Muammar Gaddafi that entered full service in 2012. ",
+			"description": "This is standard diesel mainline/regional for most of the world. The IC4 is a regional / intercity DMU built by AnsaldoBreda for DSB and also one for Muammar Gaddafi that entered full service in 2012. ",
 			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.9,
@@ -7859,7 +7859,7 @@
 		"81-717/81-714": {
 			"id": "81-717/81-714",
 			"name": "81-717/81-714",
-			"description": "This is the standard metro built by the USSR, with 2.65m wide trains, 825V third rail voltage, and Russian gauge. The Metrovagonmash 81-717/81-714 is a Soviet era metro EMU that entered service in 1977. It remains in use across the former USSR.",
+			"description": "This is the standard metro built by the USSR, with 2.65m wide trains, 825V third rail voltage, and Russian gauge. The Metrovagonmash 81-717/81-714 is a Soviet era heavy metro EMU that entered service in 1977. It remains in use across the former USSR.",
 			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.2,
@@ -8027,7 +8027,7 @@
 		"Hitachi Miami": {
 			"id": "Hitachi Miami",
 			"name": "Hitachi Miami",
-			"description": "The Washington DC metro is a heavy rail system in the U.S. Capital operated by WMATA. It uses the rather cursed gauge of 1429 mm aka 6 mm narrower than standard. This is an unnamed series of trains built by Hitachi for the Miami Metrorail that entered service in 2017. Acceleration is guesstimated.",
+			"description": "The Washington DC metro is a heavy rail system in the U.S. Capital operated by WMATA. It uses the rather cursed gauge of 1429 mm aka 6 mm narrower than standard. This is an unnamed series of heavy metro trains built by Hitachi for the Miami Metrorail that entered service in 2017. Acceleration is guesstimated.",
 			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.3,
@@ -8111,7 +8111,7 @@
 		"Aero": {
 			"id": "Aero",
 			"name": "Aero",
-			"description": "This is diesel rail which follows the U.S. standard loading gauge width of 3.05 meters. The Colorado Railcar DMU also known as the Aero is a vehicle produced by the now defunct Colorado Railcar that entered service in 2002.",
+			"description": "This is diesel commuter rail which follows the U.S. standard loading gauge width of 3.05 meters. The Colorado Railcar DMU also known as the Aero is a vehicle produced by the now defunct Colorado Railcar that entered service in 2002.",
 			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.67,
@@ -8279,7 +8279,7 @@
 		"Tyne and Wear Metrocar": {
 			"id": "Tyne and Wear Metrocar",
 			"name": "Tyne and Wear Metrocar",
-			"description": "Tyne and Wear, also known by its largest city which is Newcastle, has a heavy metro system. The Tyne and Wear Metrocar is an EMU originally built by Metro-Cammel in the 1970s, entered serivce in 1980, and was later renovated by Wabtec in the 2010s. Acceleration is guesstimated.",
+			"description": "Tyne and Wear, also known by its largest city which is Newcastle, has a heavy metro system. The Tyne and Wear Metrocar is a light rail EMU originally built by Metro-Cammel in the 1970s, entered serivce in 1980, and was later renovated by Wabtec in the 2010s. Acceleration is guesstimated.",
 			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.2,
@@ -8321,7 +8321,7 @@
 		"BR Class 555": {
 			"id": "BR Class 555",
 			"name": "BR Class 555",
-			"description": "Tyne and Wear, also known by its largest city which is Newcastle, has a heavy metro system. The Metro (BR 555) is an EMU built by Stadler for the Tyne and Wear Metro that entered service in 2024.",
+			"description": "Tyne and Wear, also known by its largest city which is Newcastle, has a heavy metro system. The Metro (BR 555) is a light rail EMU built by Stadler for the Tyne and Wear Metro that entered service in 2024.",
 			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.35,
@@ -8363,7 +8363,7 @@
 		"Generation 1 (ATH)": {
 			"id": "Generation 1 (ATH)",
 			"name": "Generation 1 (ATH)",
-			"description": " The 1st Generation of Athens lines 2 and 3 rolling stock is a metro EMU built by Siemens, Daimler-Benz, and Alstom that entered service in 2000. It also operates on Line 1.",
+			"description": " The 1st Generation of Athens lines 2 and 3 rolling stock is a heavy metro EMU built by Siemens, Daimler-Benz, and Alstom that entered service in 2000. It also operates on Line 1.",
 			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.0,
@@ -8405,7 +8405,7 @@
 		"Generation 2 (ATH)": {
 			"id": "Generation 2 (ATH)",
 			"name": "Generation 2 (ATH)",
-			"description": " The 2nd Generation of Athens lines 2 and 3 rolling stock is a metro dual-mode EMU built by Hyundai, Mitsubishi, and Knorr-Bremse that entered service in 2003.",
+			"description": " The 2nd Generation of Athens lines 2 and 3 rolling stock is a heavy metro dual-mode EMU built by Hyundai, Mitsubishi, and Knorr-Bremse that entered service in 2003.",
 			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.0,
@@ -8447,7 +8447,7 @@
 		"Generation 3 (ATH)": {
 			"id": "Generation 3 (ATH)",
 			"name": "Generation 3 (ATH)",
-			"description": " The 3rd Generation of Athens lines 2 and 3 rolling stock is a metro EMU built by Siemens and Hyundai that entered service in 2000. It also operates on Line 1.",
+			"description": " The 3rd Generation of Athens lines 2 and 3 rolling stock is a heavy metro EMU built by Siemens and Hyundai that entered service in 2000. It also operates on Line 1.",
 			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.1,
@@ -8573,7 +8573,7 @@
 		"IÉ 22000": {
 			"id": "IÉ 22000",
 			"name": "IÉ 22000",
-			"description": " The IÉ Class 22000 is an Irish DMU used for both commuter rail and intercity services. It was built by Hyundai Rotem and entered service in 2007. Acceleration is guesstimated.",
+			"description": "Commuter Rail. The IÉ Class 22000 is an Irish DMU used for both commuter rail and intercity services. It was built by Hyundai Rotem and entered service in 2007. Acceleration is guesstimated.",
 			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.7,
@@ -8615,7 +8615,7 @@
 		"IÉ 29000": {
 			"id": "IÉ 29000",
 			"name": "IÉ 29000",
-			"description": " The IÉ Class 29000 is an Irish commuter rail DMU built by CAF that entered service in 2003. Acceleration is guesstimated.",
+			"description": "Commuter Rail. The IÉ Class 29000 is an Irish commuter rail DMU built by CAF that entered service in 2003. Acceleration is guesstimated.",
 			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 0.9,
@@ -9371,7 +9371,7 @@
 		"BHEV MX": {
 			"id": "BHEV MX",
 			"name": "BHEV MX",
-			"description": " The BHEV MX (and MXA) are commuter rail EMUs in service since the 70s in Budapest. They were made by East German manufacturer LEW Hennigsdorf.",
+			"description": "Commuter Rail. The BHEV MX (and MXA) are commuter rail EMUs in service since the 70s in Budapest. They were made by East German manufacturer LEW Hennigsdorf.",
 			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 0.62,
