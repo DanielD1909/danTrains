@@ -635,7 +635,7 @@
 		"US-100 (WSH)": {
 			"id": "US-100 (WSH)",
 			"name": "US-100 (WSH)",
-			"description": "Paris has trams and they are quite narrow but not as much as Berlin. The United Streetcar 100 is a articulated low-floor streetcar built via licensing the ï¿½koda 10T. It has been in service with the Paris Tram Narrow since 2016. Capacity is artificially higher due to game processing requirements.",
+			"description": "Paris has trams and they are quite narrow but not as much as Berlin. The United Streetcar 100 is a articulated low-floor streetcar built via licensing the Škoda 10T. It has been in service with the Paris Tram Narrow since 2016. Capacity is artificially higher due to game processing requirements.",
 			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.34,
@@ -672,7 +672,7 @@
 				"country": ["US","US"],
 				"city": ["DC","POR"],
 			},
-			"manufacturer": ["ï¿½koda"],
+			"manufacturer": ["Škoda"],
 		},
 		"HHP8-BMLC": {
 			"id": "HHP8-BMLC",
@@ -1430,10 +1430,10 @@
 			},
 			"manufacturer": ["CAF"],
 		},
-		"Cuautitlï¿½n-Buenavista": {
-			"id": "Cuautitlï¿½n-Buenavista",
-			"name": "Cuautitlï¿½n-Buenavista",
-			"description": "The Northeast Corridor is the major high speed corridor in the United States that goes from Boston to Washington. It has 3 electrification standards, and this is the 25kV AC 60 Hz system which matches international standards. The Cuautitlï¿½n-Buenavista is a commuter rail EMU built by CAF used on Mexico City's Tren Suburbano that entered service in 2008. ",
+		"Cuautitlán-Buenavista": {
+			"id": "Cuautitlán-Buenavista",
+			"name": "Cuautitlán-Buenavista",
+			"description": "The Northeast Corridor is the major high speed corridor in the United States that goes from Boston to Washington. It has 3 electrification standards, and this is the 25kV AC 60 Hz system which matches international standards. The Cuautitlán-Buenavista is a commuter rail EMU built by CAF used on Mexico City's Tren Suburbano that entered service in 2008. ",
 			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.0,
@@ -1462,7 +1462,7 @@
 				"AT_GRADE": 0.8,
 				"ELEVATED": 1.2
 			},
-			"compatibleTrackTypes": ["Cuautitlï¿½n-Buenavista"],
+			"compatibleTrackTypes": ["Cuautitlán-Buenavista"],
 			"appearance": { "color": "#BE1C00"},
 			"isFixed": false,
 			"location": {
@@ -1895,7 +1895,7 @@
 		"Saint-Laurent (MTL)": {
 			"id": "Saint-Laurent (MTL)",
 			"name": "Saint-Laurent (MTL)",
-			"description": "The Rï¿½seau Express Mï¿½tropolitain (REM) is a light metro network that serves the Greater Montreal region of Canada. It is fully automated.  The Alstom Metropolis is a series of metro EMUs in service across the world since 1993. The Saint-Laurent is an autonomous light metro variant built for the Rï¿½seau express mï¿½tropolitain in Montreal that entered service in 2023.",
+			"description": "The Réseau Express Métropolitain (REM) is a light metro network that serves the Greater Montreal region of Canada. It is fully automated.  The Alstom Metropolis is a series of metro EMUs in service across the world since 1993. The Saint-Laurent is an autonomous light metro variant built for the Réseau express métropolitain in Montreal that entered service in 2023.",
 			"allowAtGradeRoadCrossing": true,
 			"stats": {
 				"maxAcceleration": 1.1,
@@ -5672,10 +5672,10 @@
 			},
 			"manufacturer": ["Alstom"],
 		},
-		"Altï¿½o (PAR)": {
-			"id": "Altï¿½o (PAR)",
-			"name": "Altï¿½o (PAR)",
-			"description": "Transilien is the commuter rail network that serves Paris, and also includes the Rï¿½seau Express Rï¿½gional which is a hybrid between commuter and rapid. It has four standards, this is the narrow, 1500V DC version. The MI 2N Altï¿½o is a double-decker EMU built by Alstom as part of their X'Trapolis family that has been in service on the French RER's line A since 1997. They were refurbrished from 2019-2021.",
+		"Altéo (PAR)": {
+			"id": "Altéo (PAR)",
+			"name": "Altéo (PAR)",
+			"description": "Transilien is the commuter rail network that serves Paris, and also includes the Réseau Express Régional which is a hybrid between commuter and rapid. It has four standards, this is the narrow, 1500V DC version. The MI 2N Altéo is a double-decker EMU built by Alstom as part of their X'Trapolis family that has been in service on the French RER's line A since 1997. They were refurbrished from 2019-2021.",
 			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.15,
@@ -5704,7 +5704,7 @@
 				"AT_GRADE": 0.8,
 				"ELEVATED": 1.2
 			},
-			"compatibleTrackTypes": ["Altï¿½o (PAR)"],
+			"compatibleTrackTypes": ["Altéo (PAR)"],
 			"appearance": { "color": "#E3051C"},
 			"isFixed": false,
 			"location": {
@@ -5717,7 +5717,7 @@
 		"MI 09 (PAR)": {
 			"id": "MI 09 (PAR)",
 			"name": "MI 09 (PAR)",
-			"description": "Transilien is the commuter rail network that serves Paris, and also includes the Rï¿½seau Express Rï¿½gional which is a hybrid between commuter and rapid. It has four standards, this is the narrow, 1500V DC version. The MI 09 is a double-decker EMU built by Alstom/Bombardier as part of their X'Trapolis family that has been in service on the French RER's Line A since 2011. ",
+			"description": "Transilien is the commuter rail network that serves Paris, and also includes the Réseau Express Régional which is a hybrid between commuter and rapid. It has four standards, this is the narrow, 1500V DC version. The MI 09 is a double-decker EMU built by Alstom/Bombardier as part of their X'Trapolis family that has been in service on the French RER's Line A since 2011. ",
 			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.0,
@@ -5759,7 +5759,7 @@
 		"MI 79/84 (PAR)": {
 			"id": "MI 79/84 (PAR)",
 			"name": "MI 79/84 (PAR)",
-			"description": "Transilien is the commuter rail network that serves Paris, and also includes the Rï¿½seau Express Rï¿½gional which is a hybrid between commuter and rapid. It has four standards, this is the narrow, 1500V DC version. The MI 79/84 is an EMU built by Alstom and SFB that has been in service on the French RER's Line B since 1981. ",
+			"description": "Transilien is the commuter rail network that serves Paris, and also includes the Réseau Express Régional which is a hybrid between commuter and rapid. It has four standards, this is the narrow, 1500V DC version. The MI 79/84 is an EMU built by Alstom and SFB that has been in service on the French RER's Line B since 1981. ",
 			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.0,
@@ -5801,7 +5801,7 @@
 		"MI 20 (PAR)": {
 			"id": "MI 20 (PAR)",
 			"name": "MI 20 (PAR)",
-			"description": "Transilien is the commuter rail network that serves Paris, and also includes the Rï¿½seau Express Rï¿½gional which is a hybrid between commuter and rapid. It has four standards, this is the narrow, 1500V DC version. The MI 20 is a mixed single-double decker EMU built by Alstom/Bombardier and CAF that will enter service on the French RER's line B in 2029. Width and acceleration taken from previous models due to lack of info.",
+			"description": "Transilien is the commuter rail network that serves Paris, and also includes the Réseau Express Régional which is a hybrid between commuter and rapid. It has four standards, this is the narrow, 1500V DC version. The MI 20 is a mixed single-double decker EMU built by Alstom/Bombardier and CAF that will enter service on the French RER's line B in 2029. Width and acceleration taken from previous models due to lack of info.",
 			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.0,
@@ -5843,7 +5843,7 @@
 		"Z 5600": {
 			"id": "Z 5600",
 			"name": "Z 5600",
-			"description": "Transilien is the commuter rail network that serves Paris, and also includes the Rï¿½seau Express Rï¿½gional which is a hybrid between commuter and rapid. It has four standards, this is the narrow, 1500V DC version. The Z 5600 is a commuter rail double-decker EMU built by CIMT, TCF, and TCO that operates on Transilien's C and V lines. It entered service in 1982, and was renevated from 2009-2017. Acceleration is a guesstimate.",
+			"description": "Transilien is the commuter rail network that serves Paris, and also includes the Réseau Express Régional which is a hybrid between commuter and rapid. It has four standards, this is the narrow, 1500V DC version. The Z 5600 is a commuter rail double-decker EMU built by CIMT, TCF, and TCO that operates on Transilien's C and V lines. It entered service in 1982, and was renevated from 2009-2017. Acceleration is a guesstimate.",
 			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.0,
@@ -5885,7 +5885,7 @@
 		"Z 8800": {
 			"id": "Z 8800",
 			"name": "Z 8800",
-			"description": "Transilien is the commuter rail network that serves Paris, and also includes the Rï¿½seau Express Rï¿½gional which is a hybrid between commuter and rapid. It has four standards, this is the narrow, 1500V DC version. The Z 8800 is a commuter rail double-decker EMU built by CIMT, ANF, and TCO that operates on Transilien's C, U, and V lines. It entered service in 1985, and was renevated from 2010-2017. Acceleration is a guesstimate.",
+			"description": "Transilien is the commuter rail network that serves Paris, and also includes the Réseau Express Régional which is a hybrid between commuter and rapid. It has four standards, this is the narrow, 1500V DC version. The Z 8800 is a commuter rail double-decker EMU built by CIMT, ANF, and TCO that operates on Transilien's C, U, and V lines. It entered service in 1985, and was renevated from 2010-2017. Acceleration is a guesstimate.",
 			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.0,
@@ -5927,7 +5927,7 @@
 		"Z 20500": {
 			"id": "Z 20500",
 			"name": "Z 20500",
-			"description": "Transilien is the commuter rail network that serves Paris, and also includes the Rï¿½seau Express Rï¿½gional which is a hybrid between commuter and rapid. It has four standards, this is the narrow, 1500V DC version. The Z 20500 is a commuter rail double-decker EMU built by CIMT, ANF, and Alstom that operates on Transilien's C, P, and V lines. It entered service in 1988, and has been refurbrished at various points since 2007. Capacity is an estimate.",
+			"description": "Transilien is the commuter rail network that serves Paris, and also includes the Réseau Express Régional which is a hybrid between commuter and rapid. It has four standards, this is the narrow, 1500V DC version. The Z 20500 is a commuter rail double-decker EMU built by CIMT, ANF, and Alstom that operates on Transilien's C, P, and V lines. It entered service in 1988, and has been refurbrished at various points since 2007. Capacity is an estimate.",
 			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.0,
@@ -5969,7 +5969,7 @@
 		"Z 20900": {
 			"id": "Z 20900",
 			"name": "Z 20900",
-			"description": "Transilien is the commuter rail network that serves Paris, and also includes the Rï¿½seau Express Rï¿½gional which is a hybrid between commuter and rapid. It has four standards, this is the narrow, 1500V DC version. The Z 20900 is a commuter rail double-decker EMU built by Alstom/Bombardier that operates on Transilien's C and V lines. It entered service in 2001, and was renovated from 2019-2023. Capacity is an estimate.",
+			"description": "Transilien is the commuter rail network that serves Paris, and also includes the Réseau Express Régional which is a hybrid between commuter and rapid. It has four standards, this is the narrow, 1500V DC version. The Z 20900 is a commuter rail double-decker EMU built by Alstom/Bombardier that operates on Transilien's C and V lines. It entered service in 2001, and was renovated from 2019-2023. Capacity is an estimate.",
 			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.0,
@@ -6134,10 +6134,10 @@
 			},
 			"manufacturer": ["Bombardier "],
 		},
-		"ï¿½ole (PAR)": {
-			"id": "ï¿½ole (PAR)",
-			"name": "ï¿½ole (PAR)",
-			"description": "Metra is a commuter rail network found in the Chicago Metropolitan Area. The Z 22500 ï¿½ole is a commuter rail double-decker EMU built by ANF and Alstom that operates on the RER E Line. It entered service in 1996.",
+		"Éole (PAR)": {
+			"id": "Éole (PAR)",
+			"name": "Éole (PAR)",
+			"description": "Metra is a commuter rail network found in the Chicago Metropolitan Area. The Z 22500 Éole is a commuter rail double-decker EMU built by ANF and Alstom that operates on the RER E Line. It entered service in 1996.",
 			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 1.0,
@@ -6166,7 +6166,7 @@
 				"AT_GRADE": 0.8,
 				"ELEVATED": 1.2
 			},
-			"compatibleTrackTypes": ["ï¿½ole (PAR)"],
+			"compatibleTrackTypes": ["Éole (PAR)"],
 			"appearance": { "color": "#8E306C"},
 			"isFixed": false,
 			"location": {
@@ -8570,10 +8570,10 @@
 			},
 			"manufacturer": ["AnsaldoBreda"],
 		},
-		"Iï¿½ 22000": {
-			"id": "Iï¿½ 22000",
-			"name": "Iï¿½ 22000",
-			"description": " The Iï¿½ Class 22000 is an Irish DMU used for both commuter rail and intercity services. It was built by Hyundai Rotem and entered service in 2007. Acceleration is guesstimated.",
+		"IÉ 22000": {
+			"id": "IÉ 22000",
+			"name": "IÉ 22000",
+			"description": " The IÉ Class 22000 is an Irish DMU used for both commuter rail and intercity services. It was built by Hyundai Rotem and entered service in 2007. Acceleration is guesstimated.",
 			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 0.7,
@@ -8602,7 +8602,7 @@
 				"AT_GRADE": 0.8,
 				"ELEVATED": 1.2
 			},
-			"compatibleTrackTypes": ["Iï¿½ 22000"],
+			"compatibleTrackTypes": ["IÉ 22000"],
 			"appearance": { "color": "#169B62"},
 			"isFixed": false,
 			"location": {
@@ -8612,10 +8612,10 @@
 			},
 			"manufacturer": ["Hyundai"],
 		},
-		"Iï¿½ 29000": {
-			"id": "Iï¿½ 29000",
-			"name": "Iï¿½ 29000",
-			"description": " The Iï¿½ Class 29000 is an Irish commuter rail DMU built by CAF that entered service in 2003. Acceleration is guesstimated.",
+		"IÉ 29000": {
+			"id": "IÉ 29000",
+			"name": "IÉ 29000",
+			"description": " The IÉ Class 29000 is an Irish commuter rail DMU built by CAF that entered service in 2003. Acceleration is guesstimated.",
 			"allowAtGradeRoadCrossing": false,
 			"stats": {
 				"maxAcceleration": 0.9,
@@ -8644,7 +8644,7 @@
 				"AT_GRADE": 0.8,
 				"ELEVATED": 1.2
 			},
-			"compatibleTrackTypes": ["Iï¿½ 29000"],
+			"compatibleTrackTypes": ["IÉ 29000"],
 			"appearance": { "color": "#FF883E"},
 			"isFixed": false,
 			"location": {
