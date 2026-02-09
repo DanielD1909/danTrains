@@ -90,7 +90,7 @@ class config_maker:
         j.write("\t\t\t\t\"ELEVATED\": "+str(train.elev[4])+"\n")
         j.write("\t\t\t},\n")
         j.write("\t\t\t\"compatibleTrackTypes\": [\""+str(train.id)+"\"],\n")
-        j.write("\t\t\t\"appearance\": { color: \""+str(train.color)+"\"},\n")
+        j.write("\t\t\t\"appearance\": { \"color\": \""+str(train.color)+"\"},\n")
         j.write("\t\t\t\"isFixed\": false,\n")
         j.write("\t\t\t\"location\": {\n")
         j.write("\t\t\t\t\"continent\": [")
@@ -124,7 +124,7 @@ class config_maker:
                 j.write("\"")
         j.write("],\n")
         j.write("\t\t\t},\n")
-        j.write("\t\t\t\t\"manufacturer\": [")
+        j.write("\t\t\t\"manufacturer\": [")
         i = 0
         for m in train.manufacturer:
             i += 1
@@ -137,7 +137,7 @@ class config_maker:
         
 
     def run(self,tl):
-        with open("config_trains.js", "w") as j:
+        with open("index.js", "w") as j:
             j.write("(function() {\n\t'use strict';")
             j.write("\n\n\tconst TRAIN_DATA = {\n")
             c = 1

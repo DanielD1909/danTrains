@@ -35,14 +35,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["R211 (NYC)"],
-			"appearance": { color: "#007EC6"},
+			"appearance": { "color": "#007EC6"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["NYC"],
 			},
-				"manufacturer": ["Kawasaki"],
+			"manufacturer": ["Kawasaki"],
 		},
 		"R188 (NYC)": {
 			"id": "R188 (NYC)",
@@ -77,14 +77,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["R188 (NYC)"],
-			"appearance": { color: "#AF378B"},
+			"appearance": { "color": "#AF378B"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["NYC"],
 			},
-				"manufacturer": ["Kawasaki"],
+			"manufacturer": ["Kawasaki"],
 		},
 		"M9 (LIRR)": {
 			"id": "M9 (LIRR)",
@@ -119,14 +119,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["M9 (LIRR)"],
-			"appearance": { color: "#0039A6"},
+			"appearance": { "color": "#0039A6"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["NYC"],
 			},
-				"manufacturer": ["Kawasaki"],
+			"manufacturer": ["Kawasaki"],
 		},
 		"DM30-C3 (LIRR)": {
 			"id": "DM30-C3 (LIRR)",
@@ -161,14 +161,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["DM30-C3 (LIRR)"],
-			"appearance": { color: "#03B8A9"},
+			"appearance": { "color": "#03B8A9"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["NYC"],
 			},
-				"manufacturer": ["EMD","Kawasaki"],
+			"manufacturer": ["EMD","Kawasaki"],
 		},
 		"R179 (NYC)": {
 			"id": "R179 (NYC)",
@@ -203,14 +203,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["R179 (NYC)"],
-			"appearance": { color: "#A7752A"},
+			"appearance": { "color": "#A7752A"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["NYC"],
 			},
-				"manufacturer": ["Bombardier"],
+			"manufacturer": ["Bombardier"],
 		},
 		"NJT LRV-3": {
 			"id": "NJT LRV-3",
@@ -245,14 +245,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["NJT LRV-3"],
-			"appearance": { color: "#E06C9E"},
+			"appearance": { "color": "#E06C9E"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["NYC"],
 			},
-				"manufacturer": ["Kinki Sharyo"],
+			"manufacturer": ["Kinki Sharyo"],
 		},
 		"NJT LRV-5": {
 			"id": "NJT LRV-5",
@@ -287,14 +287,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["NJT LRV-5"],
-			"appearance": { color: "#FF7CB5"},
+			"appearance": { "color": "#FF7CB5"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["NYC"],
 			},
-				"manufacturer": ["Kinki Sharyo"],
+			"manufacturer": ["Kinki Sharyo"],
 		},
 		"R142A/PA5": {
 			"id": "R142A/PA5",
@@ -329,14 +329,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["R142A/PA5"],
-			"appearance": { color: "#0095D3"},
+			"appearance": { "color": "#0095D3"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["NYC"],
 			},
-				"manufacturer": ["Bombardier"],
+			"manufacturer": ["Bombardier"],
 		},
 		"ADtranz M4": {
 			"id": "ADtranz M4",
@@ -371,14 +371,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["ADtranz M4"],
-			"appearance": { color: "#1C9AD6"},
+			"appearance": { "color": "#1C9AD6"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["PHI"],
 			},
-				"manufacturer": ["ADtranz"],
+			"manufacturer": ["ADtranz"],
 		},
 		"S70 Streetcar": {
 			"id": "S70 Streetcar",
@@ -413,14 +413,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["S70 Streetcar"],
-			"appearance": { color: "#01235E"},
+			"appearance": { "color": "#01235E"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America","North America","North America","North America"],
 				"country": ["US","US","US","US"],
 				"city": ["ATL","LA","SLC","CLT"],
 			},
-				"manufacturer": ["Siemens"],
+			"manufacturer": ["Siemens"],
 		},
 		"S700": {
 			"id": "S700",
@@ -455,14 +455,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["S700"],
-			"appearance": { color: "#008244"},
+			"appearance": { "color": "#008244"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America","North America","North America","North America","North America","North America"],
 				"country": ["US","US","US","US","US","US"],
 				"city": ["SEA","POR","SLC","HOU","MSP","PHX"],
 			},
-				"manufacturer": ["Siemens"],
+			"manufacturer": ["Siemens"],
 		},
 		"S700-US": {
 			"id": "S700-US",
@@ -497,14 +497,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["S700-US"],
-			"appearance": { color: "#EE2621"},
+			"appearance": { "color": "#EE2621"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["SD"],
 			},
-				"manufacturer": ["Siemens"],
+			"manufacturer": ["Siemens"],
 		},
 		"SEPTA BIV": {
 			"id": "SEPTA BIV",
@@ -539,14 +539,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["SEPTA BIV"],
-			"appearance": { color: "#F26100"},
+			"appearance": { "color": "#F26100"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["PHI"],
 			},
-				"manufacturer": ["Kawasaki"],
+			"manufacturer": ["Kawasaki"],
 		},
 		"GTW 2/6 (NJT)": {
 			"id": "GTW 2/6 (NJT)",
@@ -581,14 +581,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["GTW 2/6 (NJT)"],
-			"appearance": { color: "#1E2171"},
+			"appearance": { "color": "#1E2171"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["NYC"],
 			},
-				"manufacturer": ["Stadler"],
+			"manufacturer": ["Stadler"],
 		},
 		"7000 Series (WSH)": {
 			"id": "7000 Series (WSH)",
@@ -623,14 +623,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["7000 Series (WSH)"],
-			"appearance": { color: "#231F20"},
+			"appearance": { "color": "#231F20"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["DC"],
 			},
-				"manufacturer": ["Kawasaki"],
+			"manufacturer": ["Kawasaki"],
 		},
 		"US-100 (WSH)": {
 			"id": "US-100 (WSH)",
@@ -665,14 +665,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["US-100 (WSH)"],
-			"appearance": { color: "#EF2E31"},
+			"appearance": { "color": "#EF2E31"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America","North America"],
 				"country": ["US","US"],
 				"city": ["DC","POR"],
 			},
-				"manufacturer": ["�koda"],
+			"manufacturer": ["�koda"],
 		},
 		"HHP8-BMLC": {
 			"id": "HHP8-BMLC",
@@ -707,14 +707,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["HHP8-BMLC"],
-			"appearance": { color: "#004F98"},
+			"appearance": { "color": "#004F98"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America","North America"],
 				"country": ["US","US"],
 				"city": ["DC","BWI"],
 			},
-				"manufacturer": ["Bombardier"],
+			"manufacturer": ["Bombardier"],
 		},
 		"SC-BMLC": {
 			"id": "SC-BMLC",
@@ -749,14 +749,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["SC-BMLC"],
-			"appearance": { color: "#F26F21"},
+			"appearance": { "color": "#F26F21"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America","North America","North America","North America","North America"],
 				"country": ["US","US","CA","US","US"],
 				"city": ["NYC","DC","MTL","SD","BWI"],
 			},
-				"manufacturer": ["Siemens"],
+			"manufacturer": ["Siemens"],
 		},
 		"CTA 5000 Series": {
 			"id": "CTA 5000 Series",
@@ -791,14 +791,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["CTA 5000 Series"],
-			"appearance": { color: "#009DDC"},
+			"appearance": { "color": "#009DDC"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["CHI"],
 			},
-				"manufacturer": ["Bombardier"],
+			"manufacturer": ["Bombardier"],
 		},
 		"CTA 3200 Series": {
 			"id": "CTA 3200 Series",
@@ -833,14 +833,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["CTA 3200 Series"],
-			"appearance": { color: "#F06EA9"},
+			"appearance": { "color": "#F06EA9"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["CHI"],
 			},
-				"manufacturer": ["Morrison-Knudsen"," Mafersa"],
+			"manufacturer": ["Morrison-Knudsen"," Mafersa"],
 		},
 		"Highliner 2": {
 			"id": "Highliner 2",
@@ -875,14 +875,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["Highliner 2"],
-			"appearance": { color: "#0054A4"},
+			"appearance": { "color": "#0054A4"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["CHI"],
 			},
-				"manufacturer": ["Nippon Sharyo"],
+			"manufacturer": ["Nippon Sharyo"],
 		},
 		"MPX-6000 Series": {
 			"id": "MPX-6000 Series",
@@ -917,14 +917,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["MPX-6000 Series"],
-			"appearance": { color: "#ED1C24"},
+			"appearance": { "color": "#ED1C24"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["CHI"],
 			},
-				"manufacturer": ["MPI","Nippon Sharyo"],
+			"manufacturer": ["MPI","Nippon Sharyo"],
 		},
 		"FLIRT Akku": {
 			"id": "FLIRT Akku",
@@ -959,14 +959,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["FLIRT Akku"],
-			"appearance": { color: "#0B3F75"},
+			"appearance": { "color": "#0B3F75"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["CHI"],
 			},
-				"manufacturer": ["Stadler"],
+			"manufacturer": ["Stadler"],
 		},
 		"2024 Stock (LDN)": {
 			"id": "2024 Stock (LDN)",
@@ -1001,14 +1001,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["2024 Stock (LDN)"],
-			"appearance": { color: "#1B3F94"},
+			"appearance": { "color": "#1B3F94"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["LDN"],
 			},
-				"manufacturer": ["Siemens"],
+			"manufacturer": ["Siemens"],
 		},
 		"1972 Stock (LDN)": {
 			"id": "1972 Stock (LDN)",
@@ -1043,14 +1043,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["1972 Stock (LDN)"],
-			"appearance": { color: "#B05F0F"},
+			"appearance": { "color": "#B05F0F"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["LDN"],
 			},
-				"manufacturer": ["Metro-Cammell"],
+			"manufacturer": ["Metro-Cammell"],
 		},
 		"1973 Stock (LDN)": {
 			"id": "1973 Stock (LDN)",
@@ -1085,14 +1085,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["1973 Stock (LDN)"],
-			"appearance": { color: "#122B63"},
+			"appearance": { "color": "#122B63"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["LDN"],
 			},
-				"manufacturer": ["Metro-Cammell"],
+			"manufacturer": ["Metro-Cammell"],
 		},
 		"1992 Stock (LDN)": {
 			"id": "1992 Stock (LDN)",
@@ -1127,14 +1127,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["1992 Stock (LDN)"],
-			"appearance": { color: "#E02525"},
+			"appearance": { "color": "#E02525"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["LDN"],
 			},
-				"manufacturer": ["BREL"," ABB"],
+			"manufacturer": ["BREL"," ABB"],
 		},
 		"1996 Stock (LDN)": {
 			"id": "1996 Stock (LDN)",
@@ -1169,14 +1169,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["1996 Stock (LDN)"],
-			"appearance": { color: "#7B848B"},
+			"appearance": { "color": "#7B848B"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["LDN"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"2009 Stock (LDN)": {
 			"id": "2009 Stock (LDN)",
@@ -1211,14 +1211,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["2009 Stock (LDN)"],
-			"appearance": { color: "#0C9FDC"},
+			"appearance": { "color": "#0C9FDC"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["LDN"],
 			},
-				"manufacturer": ["Bombardier"],
+			"manufacturer": ["Bombardier"],
 		},
 		"S Stock (LDN)": {
 			"id": "S Stock (LDN)",
@@ -1253,14 +1253,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["S Stock (LDN)"],
-			"appearance": { color: "#FECE08"},
+			"appearance": { "color": "#FECE08"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["LDN"],
 			},
-				"manufacturer": ["Bombardier"],
+			"manufacturer": ["Bombardier"],
 		},
 		"BR Class 378": {
 			"id": "BR Class 378",
@@ -1295,14 +1295,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["BR Class 378"],
-			"appearance": { color: "#F9A51B"},
+			"appearance": { "color": "#F9A51B"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["LDN"],
 			},
-				"manufacturer": ["Bombardier"],
+			"manufacturer": ["Bombardier"],
 		},
 		"BR Class 710": {
 			"id": "BR Class 710",
@@ -1337,14 +1337,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["BR Class 710"],
-			"appearance": { color: "#566366"},
+			"appearance": { "color": "#566366"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["LDN"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"FE-10 (MXC)": {
 			"id": "FE-10 (MXC)",
@@ -1379,14 +1379,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["FE-10 (MXC)"],
-			"appearance": { color: "#B0A32A"},
+			"appearance": { "color": "#B0A32A"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Central America"],
 				"country": ["MX"],
 				"city": ["MXC"],
 			},
-				"manufacturer": ["CAF"],
+			"manufacturer": ["CAF"],
 		},
 		"NM-16 (MXC)": {
 			"id": "NM-16 (MXC)",
@@ -1421,14 +1421,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["NM-16 (MXC)"],
-			"appearance": { color: "#F04E98"},
+			"appearance": { "color": "#F04E98"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Central America"],
 				"country": ["MX"],
 				"city": ["MXC"],
 			},
-				"manufacturer": ["CAF"],
+			"manufacturer": ["CAF"],
 		},
 		"Cuautitl�n-Buenavista": {
 			"id": "Cuautitl�n-Buenavista",
@@ -1463,14 +1463,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["Cuautitl�n-Buenavista"],
-			"appearance": { color: "#BE1C00"},
+			"appearance": { "color": "#BE1C00"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Central America"],
 				"country": ["MX"],
 				"city": ["MXC"],
 			},
-				"manufacturer": ["CAF"],
+			"manufacturer": ["CAF"],
 		},
 		"TE-90": {
 			"id": "TE-90",
@@ -1505,14 +1505,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["TE-90"],
-			"appearance": { color: "#0055B8"},
+			"appearance": { "color": "#0055B8"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Central America"],
 				"country": ["MX"],
 				"city": ["MXC"],
 			},
-				"manufacturer": ["Bombardier"],
+			"manufacturer": ["Bombardier"],
 		},
 		"Toronto Rocket": {
 			"id": "Toronto Rocket",
@@ -1547,14 +1547,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["Toronto Rocket"],
-			"appearance": { color: "#DA251D"},
+			"appearance": { "color": "#DA251D"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["CA"],
 				"city": ["TOR"],
 			},
-				"manufacturer": ["Bombardier"],
+			"manufacturer": ["Bombardier"],
 		},
 		"T-1 (TOR)": {
 			"id": "T-1 (TOR)",
@@ -1589,14 +1589,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["T-1 (TOR)"],
-			"appearance": { color: "#16A753"},
+			"appearance": { "color": "#16A753"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["CA"],
 				"city": ["TOR"],
 			},
-				"manufacturer": ["Bombardier"],
+			"manufacturer": ["Bombardier"],
 		},
 		"Flexity Outlook (TOR)": {
 			"id": "Flexity Outlook (TOR)",
@@ -1631,14 +1631,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["Flexity Outlook (TOR)"],
-			"appearance": { color: "#FFFFFF"},
+			"appearance": { "color": "#FFFFFF"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["CA"],
 				"city": ["TOR"],
 			},
-				"manufacturer": ["Bombardier"],
+			"manufacturer": ["Bombardier"],
 		},
 		"Flexity Freedom-3": {
 			"id": "Flexity Freedom-3",
@@ -1673,14 +1673,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["Flexity Freedom-3"],
-			"appearance": { color: "#F87005"},
+			"appearance": { "color": "#F87005"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Generic"],
 				"country": ["Generic"],
 				"city": ["Generic"],
 			},
-				"manufacturer": ["Bombardier"],
+			"manufacturer": ["Bombardier"],
 		},
 		"Flexity Freedom-5": {
 			"id": "Flexity Freedom-5",
@@ -1715,14 +1715,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["Flexity Freedom-5"],
-			"appearance": { color: "#8A999A"},
+			"appearance": { "color": "#8A999A"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["CA"],
 				"city": ["TOR"],
 			},
-				"manufacturer": ["Bombardier"],
+			"manufacturer": ["Bombardier"],
 		},
 		"Citadis Spirit-4": {
 			"id": "Citadis Spirit-4",
@@ -1757,14 +1757,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["Citadis Spirit-4"],
-			"appearance": { color: "#ED1B2D"},
+			"appearance": { "color": "#ED1B2D"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America","North America"],
 				"country": ["CA","CA"],
 				"city": ["TOR","OTT"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"Citadis Spirit-3": {
 			"id": "Citadis Spirit-3",
@@ -1799,14 +1799,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["Citadis Spirit-3"],
-			"appearance": { color: "#FF1E35"},
+			"appearance": { "color": "#FF1E35"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Generic"],
 				"country": ["Generic"],
 				"city": ["Generic"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"Citadis Spirit-4L": {
 			"id": "Citadis Spirit-4L",
@@ -1841,14 +1841,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["Citadis Spirit-4L"],
-			"appearance": { color: "#8E111F"},
+			"appearance": { "color": "#8E111F"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Generic"],
 				"country": ["Generic"],
 				"city": ["Generic"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"Azur (MTL)": {
 			"id": "Azur (MTL)",
@@ -1883,14 +1883,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["Azur (MTL)"],
-			"appearance": { color: "#0085CA"},
+			"appearance": { "color": "#0085CA"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["CA"],
 				"city": ["MTL"],
 			},
-				"manufacturer": ["Bombardier"],
+			"manufacturer": ["Bombardier"],
 		},
 		"Saint-Laurent (MTL)": {
 			"id": "Saint-Laurent (MTL)",
@@ -1925,14 +1925,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["Saint-Laurent (MTL)"],
-			"appearance": { color: "#82C341"},
+			"appearance": { "color": "#82C341"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["CA"],
 				"city": ["MTL"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"Desiro Classic (SD)": {
 			"id": "Desiro Classic (SD)",
@@ -1967,14 +1967,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["Desiro Classic (SD)"],
-			"appearance": { color: "#0055A4"},
+			"appearance": { "color": "#0055A4"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["SD"],
 			},
-				"manufacturer": ["Siemens"],
+			"manufacturer": ["Siemens"],
 		},
 		"CQ400 (ATL)": {
 			"id": "CQ400 (ATL)",
@@ -2009,14 +2009,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["CQ400 (ATL)"],
-			"appearance": { color: "#2CC1E1"},
+			"appearance": { "color": "#2CC1E1"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["ATL"],
 			},
-				"manufacturer": ["Stadler"],
+			"manufacturer": ["Stadler"],
 		},
 		"CQ312 (ATL)": {
 			"id": "CQ312 (ATL)",
@@ -2051,14 +2051,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["CQ312 (ATL)"],
-			"appearance": { color: "#00362A"},
+			"appearance": { "color": "#00362A"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["ATL"],
 			},
-				"manufacturer": ["Stadler"],
+			"manufacturer": ["Stadler"],
 		},
 		"BR Class 777": {
 			"id": "BR Class 777",
@@ -2093,14 +2093,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["BR Class 777"],
-			"appearance": { color: "#FFF200"},
+			"appearance": { "color": "#FFF200"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["LIV"],
 			},
-				"manufacturer": ["Stadler"],
+			"manufacturer": ["Stadler"],
 		},
 		"Innovia Metro (VAN)": {
 			"id": "Innovia Metro (VAN)",
@@ -2135,14 +2135,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["Innovia Metro (VAN)"],
-			"appearance": { color: "#305AA7"},
+			"appearance": { "color": "#305AA7"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["CA"],
 				"city": ["VAN"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"Rotem EMU (VAN)": {
 			"id": "Rotem EMU (VAN)",
@@ -2177,14 +2177,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["Rotem EMU (VAN)"],
-			"appearance": { color: "#F8D92B"},
+			"appearance": { "color": "#F8D92B"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["CA"],
 				"city": ["VAN"],
 			},
-				"manufacturer": ["Hyundai"],
+			"manufacturer": ["Hyundai"],
 		},
 		"CRRC HR4000 (LA)": {
 			"id": "CRRC HR4000 (LA)",
@@ -2219,14 +2219,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["CRRC HR4000 (LA)"],
-			"appearance": { color: "#E3131B"},
+			"appearance": { "color": "#E3131B"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["LA"],
 			},
-				"manufacturer": ["CRRC"],
+			"manufacturer": ["CRRC"],
 		},
 		"P3010 LRV (LA)": {
 			"id": "P3010 LRV (LA)",
@@ -2261,14 +2261,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["P3010 LRV (LA)"],
-			"appearance": { color: "#111111"},
+			"appearance": { "color": "#111111"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["LA"],
 			},
-				"manufacturer": ["Kinki Sharyo"],
+			"manufacturer": ["Kinki Sharyo"],
 		},
 		"MR-73 (MTL)": {
 			"id": "MR-73 (MTL)",
@@ -2303,14 +2303,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["MR-73 (MTL)"],
-			"appearance": { color: "#FFCD00"},
+			"appearance": { "color": "#FFCD00"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["CA"],
 				"city": ["MTL"],
 			},
-				"manufacturer": ["Bombardier"],
+			"manufacturer": ["Bombardier"],
 		},
 		"MultiLevel Coach III EMU": {
 			"id": "MultiLevel Coach III EMU",
@@ -2345,14 +2345,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["MultiLevel Coach III EMU"],
-			"appearance": { color: "#00A3E3"},
+			"appearance": { "color": "#00A3E3"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["NYC"],
 			},
-				"manufacturer": ["Bombardier"],
+			"manufacturer": ["Bombardier"],
 		},
 		"ALP45-BMLC": {
 			"id": "ALP45-BMLC",
@@ -2387,14 +2387,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["ALP45-BMLC"],
-			"appearance": { color: "#F9A533"},
+			"appearance": { "color": "#F9A533"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America","North America"],
 				"country": ["US","CA"],
 				"city": ["NYC","MTL"],
 			},
-				"manufacturer": ["Bombardier"],
+			"manufacturer": ["Bombardier"],
 		},
 		"ALP46-BMLC": {
 			"id": "ALP46-BMLC",
@@ -2429,14 +2429,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["ALP46-BMLC"],
-			"appearance": { color: "#EE3E42"},
+			"appearance": { "color": "#EE3E42"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["NYC"],
 			},
-				"manufacturer": ["Bombardier"],
+			"manufacturer": ["Bombardier"],
 		},
 		"M8 (NYC)": {
 			"id": "M8 (NYC)",
@@ -2471,14 +2471,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["M8 (NYC)"],
-			"appearance": { color: "#0059FF"},
+			"appearance": { "color": "#0059FF"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["NYC"],
 			},
-				"manufacturer": ["Kawasaki"],
+			"manufacturer": ["Kawasaki"],
 		},
 		"M7 (NYC)": {
 			"id": "M7 (NYC)",
@@ -2513,14 +2513,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["M7 (NYC)"],
-			"appearance": { color: "#0044C4"},
+			"appearance": { "color": "#0044C4"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["NYC"],
 			},
-				"manufacturer": ["Bombardier"],
+			"manufacturer": ["Bombardier"],
 		},
 		"SC-SL4": {
 			"id": "SC-SL4",
@@ -2555,14 +2555,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["SC-SL4"],
-			"appearance": { color: "#002160"},
+			"appearance": { "color": "#002160"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["NYC"],
 			},
-				"manufacturer": ["Siemens"],
+			"manufacturer": ["Siemens"],
 		},
 		"MPX-VRE": {
 			"id": "MPX-VRE",
@@ -2597,14 +2597,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["MPX-VRE"],
-			"appearance": { color: "#EE3E42"},
+			"appearance": { "color": "#EE3E42"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["DC"],
 			},
-				"manufacturer": ["MPI","Nippon Sharyo","Sumitomo"],
+			"manufacturer": ["MPI","Nippon Sharyo","Sumitomo"],
 		},
 		"BR Class 357": {
 			"id": "BR Class 357",
@@ -2639,14 +2639,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["BR Class 357"],
-			"appearance": { color: "#B71C8C"},
+			"appearance": { "color": "#B71C8C"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["LDN"],
 			},
-				"manufacturer": ["ADtranz"],
+			"manufacturer": ["ADtranz"],
 		},
 		"BR Class 720": {
 			"id": "BR Class 720",
@@ -2681,14 +2681,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["BR Class 720"],
-			"appearance": { color: "#ED028C"},
+			"appearance": { "color": "#ED028C"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["LDN"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"BR Class 165": {
 			"id": "BR Class 165",
@@ -2723,14 +2723,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["BR Class 165"],
-			"appearance": { color: "#1C2D47"},
+			"appearance": { "color": "#1C2D47"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["LDN"],
 			},
-				"manufacturer": ["BREL"],
+			"manufacturer": ["BREL"],
 		},
 		"BR Class 360": {
 			"id": "BR Class 360",
@@ -2765,14 +2765,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["BR Class 360"],
-			"appearance": { color: "#CFAB2A"},
+			"appearance": { "color": "#CFAB2A"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["LDN"],
 			},
-				"manufacturer": ["Siemens"],
+			"manufacturer": ["Siemens"],
 		},
 		"BR Class 360-2": {
 			"id": "BR Class 360-2",
@@ -2807,14 +2807,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["BR Class 360-2"],
-			"appearance": { color: "#CFAB2A"},
+			"appearance": { "color": "#CFAB2A"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Generic"],
 				"country": ["Generic"],
 				"city": ["Generic"],
 			},
-				"manufacturer": ["Siemens"],
+			"manufacturer": ["Siemens"],
 		},
 		"BR Class 345": {
 			"id": "BR Class 345",
@@ -2849,14 +2849,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["BR Class 345"],
-			"appearance": { color: "#11A6C8"},
+			"appearance": { "color": "#11A6C8"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["LDN"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"BR Class 171/172": {
 			"id": "BR Class 171/172",
@@ -2891,14 +2891,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["BR Class 171/172"],
-			"appearance": { color: "#00A54F"},
+			"appearance": { "color": "#00A54F"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe","Europe"],
 				"country": ["UK","UK"],
 				"city": ["LDN","BHM"],
 			},
-				"manufacturer": ["Bombardier"],
+			"manufacturer": ["Bombardier"],
 		},
 		"BR Class 377": {
 			"id": "BR Class 377",
@@ -2933,14 +2933,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["BR Class 377"],
-			"appearance": { color: "#00FF77"},
+			"appearance": { "color": "#00FF77"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["LDN"],
 			},
-				"manufacturer": ["Bombardier"],
+			"manufacturer": ["Bombardier"],
 		},
 		"BR Class 387": {
 			"id": "BR Class 387",
@@ -2975,14 +2975,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["BR Class 387"],
-			"appearance": { color: "#231F20"},
+			"appearance": { "color": "#231F20"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["LDN"],
 			},
-				"manufacturer": ["Bombardier"],
+			"manufacturer": ["Bombardier"],
 		},
 		"BR Class 379": {
 			"id": "BR Class 379",
@@ -3017,14 +3017,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["BR Class 379"],
-			"appearance": { color: "#CE9C61"},
+			"appearance": { "color": "#CE9C61"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["LDN"],
 			},
-				"manufacturer": ["Bombardier"],
+			"manufacturer": ["Bombardier"],
 		},
 		"BR Class 700": {
 			"id": "BR Class 700",
@@ -3059,14 +3059,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["BR Class 700"],
-			"appearance": { color: "#B0016A"},
+			"appearance": { "color": "#B0016A"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["LDN"],
 			},
-				"manufacturer": ["Siemens"],
+			"manufacturer": ["Siemens"],
 		},
 		"BR Class 745": {
 			"id": "BR Class 745",
@@ -3101,14 +3101,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["BR Class 745"],
-			"appearance": { color: "#8A8FA4"},
+			"appearance": { "color": "#8A8FA4"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["LDN"],
 			},
-				"manufacturer": ["Stadler"],
+			"manufacturer": ["Stadler"],
 		},
 		"BR Class 755": {
 			"id": "BR Class 755",
@@ -3143,14 +3143,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["BR Class 755"],
-			"appearance": { color: "#D8E0FF"},
+			"appearance": { "color": "#D8E0FF"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["LDN"],
 			},
-				"manufacturer": ["Stadler"],
+			"manufacturer": ["Stadler"],
 		},
 		"BR Class 150": {
 			"id": "BR Class 150",
@@ -3185,14 +3185,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["BR Class 150"],
-			"appearance": { color: "#68912F"},
+			"appearance": { "color": "#68912F"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["LDN"],
 			},
-				"manufacturer": ["BREL"],
+			"manufacturer": ["BREL"],
 		},
 		"BR Class 350": {
 			"id": "BR Class 350",
@@ -3227,14 +3227,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["BR Class 350"],
-			"appearance": { color: "#8BC63E"},
+			"appearance": { "color": "#8BC63E"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["LDN"],
 			},
-				"manufacturer": ["Siemens"],
+			"manufacturer": ["Siemens"],
 		},
 		"BR Class 730": {
 			"id": "BR Class 730",
@@ -3269,14 +3269,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["BR Class 730"],
-			"appearance": { color: "#B3FF51"},
+			"appearance": { "color": "#B3FF51"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe","Europe"],
 				"country": ["UK","UK"],
 				"city": ["LDN","BHM"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"BR Class 158/159": {
 			"id": "BR Class 158/159",
@@ -3311,14 +3311,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["BR Class 158/159"],
-			"appearance": { color: "#EE1D23"},
+			"appearance": { "color": "#EE1D23"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["LDN"],
 			},
-				"manufacturer": ["BREL"],
+			"manufacturer": ["BREL"],
 		},
 		"BR Class 444": {
 			"id": "BR Class 444",
@@ -3353,14 +3353,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["BR Class 444"],
-			"appearance": { color: "#A5151A"},
+			"appearance": { "color": "#A5151A"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["LDN"],
 			},
-				"manufacturer": ["Siemens"],
+			"manufacturer": ["Siemens"],
 		},
 		"BR Class 450": {
 			"id": "BR Class 450",
@@ -3395,14 +3395,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["BR Class 450"],
-			"appearance": { color: "#700E13"},
+			"appearance": { "color": "#700E13"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["LDN"],
 			},
-				"manufacturer": ["Siemens"],
+			"manufacturer": ["Siemens"],
 		},
 		"BR Class 455": {
 			"id": "BR Class 455",
@@ -3437,14 +3437,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["BR Class 455"],
-			"appearance": { color: "#49090D"},
+			"appearance": { "color": "#49090D"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["LDN"],
 			},
-				"manufacturer": ["BREL"],
+			"manufacturer": ["BREL"],
 		},
 		"BR Class 458": {
 			"id": "BR Class 458",
@@ -3479,14 +3479,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["BR Class 458"],
-			"appearance": { color: "#7F1017"},
+			"appearance": { "color": "#7F1017"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["LDN"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"BR Class 701": {
 			"id": "BR Class 701",
@@ -3521,14 +3521,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["BR Class 701"],
-			"appearance": { color: "#FF2128"},
+			"appearance": { "color": "#FF2128"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["LDN"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"BR Class 375": {
 			"id": "BR Class 375",
@@ -3563,14 +3563,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["BR Class 375"],
-			"appearance": { color: "#0072BC"},
+			"appearance": { "color": "#0072BC"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["LDN"],
 			},
-				"manufacturer": ["Bombardier"],
+			"manufacturer": ["Bombardier"],
 		},
 		"BR Class 376": {
 			"id": "BR Class 376",
@@ -3605,14 +3605,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["BR Class 376"],
-			"appearance": { color: "#009DFF"},
+			"appearance": { "color": "#009DFF"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["LDN"],
 			},
-				"manufacturer": ["Bombardier"],
+			"manufacturer": ["Bombardier"],
 		},
 		"BR Class 465": {
 			"id": "BR Class 465",
@@ -3647,14 +3647,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["BR Class 465"],
-			"appearance": { color: "#005E99"},
+			"appearance": { "color": "#005E99"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["LDN"],
 			},
-				"manufacturer": ["Bombardier"],
+			"manufacturer": ["Bombardier"],
 		},
 		"BR Class 466": {
 			"id": "BR Class 466",
@@ -3689,14 +3689,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["BR Class 466"],
-			"appearance": { color: "#004570"},
+			"appearance": { "color": "#004570"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["LDN"],
 			},
-				"manufacturer": ["Bombardier"],
+			"manufacturer": ["Bombardier"],
 		},
 		"BR Class 707": {
 			"id": "BR Class 707",
@@ -3731,14 +3731,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["BR Class 707"],
-			"appearance": { color: "#003251"},
+			"appearance": { "color": "#003251"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["LDN"],
 			},
-				"manufacturer": ["Siemens"],
+			"manufacturer": ["Siemens"],
 		},
 		"DLR B07": {
 			"id": "DLR B07",
@@ -3773,14 +3773,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["DLR B07"],
-			"appearance": { color: "#00AFAA"},
+			"appearance": { "color": "#00AFAA"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["LDN"],
 			},
-				"manufacturer": ["Bombardier"],
+			"manufacturer": ["Bombardier"],
 		},
 		"Flexity Swift LF": {
 			"id": "Flexity Swift LF",
@@ -3815,14 +3815,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["Flexity Swift LF"],
-			"appearance": { color: "#76BC21"},
+			"appearance": { "color": "#76BC21"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe","West Asia"],
 				"country": ["UK","TR"],
 				"city": ["LDN","IST"],
 			},
-				"manufacturer": ["Bombardier"],
+			"manufacturer": ["Bombardier"],
 		},
 		"Silverliner V": {
 			"id": "Silverliner V",
@@ -3857,14 +3857,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["Silverliner V"],
-			"appearance": { color: "#4C748C"},
+			"appearance": { "color": "#4C748C"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America","North America"],
 				"country": ["US","US"],
 				"city": ["PHI","DEN"],
 			},
-				"manufacturer": ["Hyundai"],
+			"manufacturer": ["Hyundai"],
 		},
 		"MPX-BBLC": {
 			"id": "MPX-BBLC",
@@ -3899,14 +3899,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["MPX-BBLC"],
-			"appearance": { color: "#4A7729"},
+			"appearance": { "color": "#4A7729"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America","North America","North America","North America","North America"],
 				"country": ["CA","US","US","US","US"],
 				"city": ["TOR","SF","LA","SEA","SLC"],
 			},
-				"manufacturer": ["MPI"],
+			"manufacturer": ["MPI"],
 		},
 		"RL Series 4 (BOS)": {
 			"id": "RL Series 4 (BOS)",
@@ -3941,14 +3941,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["RL Series 4 (BOS)"],
-			"appearance": { color: "#DA291C"},
+			"appearance": { "color": "#DA291C"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["BOS"],
 			},
-				"manufacturer": ["CRRC"],
+			"manufacturer": ["CRRC"],
 		},
 		"OL Series 14 (BOS)": {
 			"id": "OL Series 14 (BOS)",
@@ -3983,14 +3983,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["OL Series 14 (BOS)"],
-			"appearance": { color: "#ED8B00"},
+			"appearance": { "color": "#ED8B00"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["BOS"],
 			},
-				"manufacturer": ["CRRC"],
+			"manufacturer": ["CRRC"],
 		},
 		"BL Series 5 (BOS)": {
 			"id": "BL Series 5 (BOS)",
@@ -4025,14 +4025,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["BL Series 5 (BOS)"],
-			"appearance": { color: "#003DA5"},
+			"appearance": { "color": "#003DA5"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["BOS"],
 			},
-				"manufacturer": ["Siemens"],
+			"manufacturer": ["Siemens"],
 		},
 		"Type 8 LRV (BOS)": {
 			"id": "Type 8 LRV (BOS)",
@@ -4067,14 +4067,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["Type 8 LRV (BOS)"],
-			"appearance": { color: "#00843D"},
+			"appearance": { "color": "#00843D"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["BOS"],
 			},
-				"manufacturer": ["AnsaldoBreda"],
+			"manufacturer": ["AnsaldoBreda"],
 		},
 		"Type 9 LRV (BOS)": {
 			"id": "Type 9 LRV (BOS)",
@@ -4109,14 +4109,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["Type 9 LRV (BOS)"],
-			"appearance": { color: "#00BC54"},
+			"appearance": { "color": "#00BC54"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["BOS"],
 			},
-				"manufacturer": ["CAF"],
+			"manufacturer": ["CAF"],
 		},
 		"Type 10 LRV (BOS)": {
 			"id": "Type 10 LRV (BOS)",
@@ -4151,14 +4151,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["Type 10 LRV (BOS)"],
-			"appearance": { color: "#00FF6E"},
+			"appearance": { "color": "#00FF6E"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["BOS"],
 			},
-				"manufacturer": ["CAF"],
+			"manufacturer": ["CAF"],
 		},
 		"BART D/E": {
 			"id": "BART D/E",
@@ -4193,14 +4193,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["BART D/E"],
-			"appearance": { color: "#0099D8"},
+			"appearance": { "color": "#0099D8"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["SF"],
 			},
-				"manufacturer": ["Bombardier"],
+			"manufacturer": ["Bombardier"],
 		},
 		"GTW 2/6 (SF)": {
 			"id": "GTW 2/6 (SF)",
@@ -4235,14 +4235,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["GTW 2/6 (SF)"],
-			"appearance": { color: "#FFE800"},
+			"appearance": { "color": "#FFE800"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["SF"],
 			},
-				"manufacturer": ["Stadler"],
+			"manufacturer": ["Stadler"],
 		},
 		"SC-BBLC": {
 			"id": "SC-BBLC",
@@ -4277,14 +4277,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["SC-BBLC"],
-			"appearance": { color: "#A89A8F"},
+			"appearance": { "color": "#A89A8F"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["SF"],
 			},
-				"manufacturer": ["Siemens"],
+			"manufacturer": ["Siemens"],
 		},
 		"KISS": {
 			"id": "KISS",
@@ -4319,14 +4319,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["KISS"],
-			"appearance": { color: "#E31837"},
+			"appearance": { "color": "#E31837"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["SF"],
 			},
-				"manufacturer": ["Stadler"],
+			"manufacturer": ["Stadler"],
 		},
 		"Nippon Sharyo DMU": {
 			"id": "Nippon Sharyo DMU",
@@ -4361,14 +4361,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["Nippon Sharyo DMU"],
-			"appearance": { color: "#EB7300"},
+			"appearance": { "color": "#EB7300"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America","North America"],
 				"country": ["CA","US"],
 				"city": ["TOR","SF"],
 			},
-				"manufacturer": ["Nippon Sharyo"],
+			"manufacturer": ["Nippon Sharyo"],
 		},
 		"S200-HF (SF)": {
 			"id": "S200-HF (SF)",
@@ -4403,14 +4403,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["S200-HF (SF)"],
-			"appearance": { color: "#CC3847"},
+			"appearance": { "color": "#CC3847"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["SF"],
 			},
-				"manufacturer": ["Siemens"],
+			"manufacturer": ["Siemens"],
 		},
 		"MBTA Commuter Rail": {
 			"id": "MBTA Commuter Rail",
@@ -4445,14 +4445,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["MBTA Commuter Rail"],
-			"appearance": { color: "#81286B"},
+			"appearance": { "color": "#81286B"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["BOS"],
 			},
-				"manufacturer": ["MPI","Hyundai"],
+			"manufacturer": ["MPI","Hyundai"],
 		},
 		"F59-BBLC": {
 			"id": "F59-BBLC",
@@ -4487,14 +4487,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["F59-BBLC"],
-			"appearance": { color: "#801B92"},
+			"appearance": { "color": "#801B92"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America","North America"],
 				"country": ["CA","US"],
 				"city": ["VAN","SEA"],
 			},
-				"manufacturer": ["EMD","Bombardier"],
+			"manufacturer": ["EMD","Bombardier"],
 		},
 		"DBAG 483 (BER)": {
 			"id": "DBAG 483 (BER)",
@@ -4529,14 +4529,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["DBAG 483 (BER)"],
-			"appearance": { color: "#008D4F"},
+			"appearance": { "color": "#008D4F"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Central Europe"],
 				"country": ["DE"],
 				"city": ["BER"],
 			},
-				"manufacturer": ["Stadler","Siemens"],
+			"manufacturer": ["Stadler","Siemens"],
 		},
 		"DBAG 481 (BER)": {
 			"id": "DBAG 481 (BER)",
@@ -4571,14 +4571,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["DBAG 481 (BER)"],
-			"appearance": { color: "#00B563"},
+			"appearance": { "color": "#00B563"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Central Europe"],
 				"country": ["DE"],
 				"city": ["BER"],
 			},
-				"manufacturer": ["ADtranz"],
+			"manufacturer": ["ADtranz"],
 		},
 		"HK Series (BER)": {
 			"id": "HK Series (BER)",
@@ -4613,14 +4613,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["HK Series (BER)"],
-			"appearance": { color: "#DA421E"},
+			"appearance": { "color": "#DA421E"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Central Europe"],
 				"country": ["DE"],
 				"city": ["BER"],
 			},
-				"manufacturer": ["ADtranz"],
+			"manufacturer": ["ADtranz"],
 		},
 		"IK Series (BER)": {
 			"id": "IK Series (BER)",
@@ -4655,14 +4655,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["IK Series (BER)"],
-			"appearance": { color: "#7E5330"},
+			"appearance": { "color": "#7E5330"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Central Europe"],
 				"country": ["DE"],
 				"city": ["BER"],
 			},
-				"manufacturer": ["Stadler"],
+			"manufacturer": ["Stadler"],
 		},
 		"JK Series (BER)": {
 			"id": "JK Series (BER)",
@@ -4697,14 +4697,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["JK Series (BER)"],
-			"appearance": { color: "#7DAD4C"},
+			"appearance": { "color": "#7DAD4C"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Central Europe"],
 				"country": ["DE"],
 				"city": ["BER"],
 			},
-				"manufacturer": ["Stadler"],
+			"manufacturer": ["Stadler"],
 		},
 		"F Series (BER)": {
 			"id": "F Series (BER)",
@@ -4739,14 +4739,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["F Series (BER)"],
-			"appearance": { color: "#224F86"},
+			"appearance": { "color": "#224F86"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Central Europe"],
 				"country": ["DE"],
 				"city": ["BER"],
 			},
-				"manufacturer": ["ABB","ADtranz","AEG","Orenstein & Koppel","Siemens","Waggon Union"],
+			"manufacturer": ["ABB","ADtranz","AEG","Orenstein & Koppel","Siemens","Waggon Union"],
 		},
 		"H Series (BER)": {
 			"id": "H Series (BER)",
@@ -4781,14 +4781,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["H Series (BER)"],
-			"appearance": { color: "#8C6DAB"},
+			"appearance": { "color": "#8C6DAB"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Central Europe"],
 				"country": ["DE"],
 				"city": ["BER"],
 			},
-				"manufacturer": ["ADtranz","ABB"],
+			"manufacturer": ["ADtranz","ABB"],
 		},
 		"J Series (BER)": {
 			"id": "J Series (BER)",
@@ -4823,14 +4823,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["J Series (BER)"],
-			"appearance": { color: "#009BD5"},
+			"appearance": { "color": "#009BD5"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Central Europe"],
 				"country": ["DE"],
 				"city": ["BER"],
 			},
-				"manufacturer": ["Stadler"],
+			"manufacturer": ["Stadler"],
 		},
 		"GTxN/M/S": {
 			"id": "GTxN/M/S",
@@ -4865,14 +4865,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["GTxN/M/S"],
-			"appearance": { color: "#C98836"},
+			"appearance": { "color": "#C98836"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Central Europe"],
 				"country": ["DE"],
 				"city": ["BER"],
 			},
-				"manufacturer": ["ADtranz"],
+			"manufacturer": ["ADtranz"],
 		},
 		"Flexity Berlin S": {
 			"id": "Flexity Berlin S",
@@ -4907,14 +4907,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["Flexity Berlin S"],
-			"appearance": { color: "#085696"},
+			"appearance": { "color": "#085696"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Central Europe"],
 				"country": ["DE"],
 				"city": ["BER"],
 			},
-				"manufacturer": ["Bombardier"],
+			"manufacturer": ["Bombardier"],
 		},
 		"Flexity Berlin L": {
 			"id": "Flexity Berlin L",
@@ -4949,14 +4949,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["Flexity Berlin L"],
-			"appearance": { color: "#107C42"},
+			"appearance": { "color": "#107C42"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Central Europe"],
 				"country": ["DE"],
 				"city": ["BER"],
 			},
-				"manufacturer": ["Bombardier"],
+			"manufacturer": ["Bombardier"],
 		},
 		"Urbanliner Berlin": {
 			"id": "Urbanliner Berlin",
@@ -4991,14 +4991,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["Urbanliner Berlin"],
-			"appearance": { color: "#14988A"},
+			"appearance": { "color": "#14988A"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Central Europe"],
 				"country": ["DE"],
 				"city": ["BER"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"AnsaldoBreda-S": {
 			"id": "AnsaldoBreda-S",
@@ -5033,14 +5033,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["AnsaldoBreda-S"],
-			"appearance": { color: "#9E0817"},
+			"appearance": { "color": "#9E0817"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Northern Europe"],
 				"country": ["DK"],
 				"city": ["CPH"],
 			},
-				"manufacturer": ["AnsaldoBreda"],
+			"manufacturer": ["AnsaldoBreda"],
 		},
 		"AnsaldoBreda-M": {
 			"id": "AnsaldoBreda-M",
@@ -5075,14 +5075,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["AnsaldoBreda-M"],
-			"appearance": { color: "#0081A0"},
+			"appearance": { "color": "#0081A0"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Generic"],
 				"country": ["Generic"],
 				"city": ["Generic"],
 			},
-				"manufacturer": ["AnsaldoBreda"],
+			"manufacturer": ["AnsaldoBreda"],
 		},
 		"AnsaldoBreda-L4": {
 			"id": "AnsaldoBreda-L4",
@@ -5117,14 +5117,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["AnsaldoBreda-L4"],
-			"appearance": { color: "#124573"},
+			"appearance": { "color": "#124573"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["HNL"],
 			},
-				"manufacturer": ["AnsaldoBreda"],
+			"manufacturer": ["AnsaldoBreda"],
 		},
 		"AnsaldoBreda-L6": {
 			"id": "AnsaldoBreda-L6",
@@ -5159,14 +5159,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["AnsaldoBreda-L6"],
-			"appearance": { color: "#008751"},
+			"appearance": { "color": "#008751"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Southern Europe"],
 				"country": ["IT"],
 				"city": ["ROM"],
 			},
-				"manufacturer": ["AnsaldoBreda"],
+			"manufacturer": ["AnsaldoBreda"],
 		},
 		"Litra SA/SE (CPH)": {
 			"id": "Litra SA/SE (CPH)",
@@ -5201,14 +5201,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["Litra SA/SE (CPH)"],
-			"appearance": { color: "#BD2D3D"},
+			"appearance": { "color": "#BD2D3D"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Northern Europe"],
 				"country": ["DK"],
 				"city": ["CPH"],
 			},
-				"manufacturer": ["Alstom"," Siemens"],
+			"manufacturer": ["Alstom"," Siemens"],
 		},
 		"MF 19 (PAR)": {
 			"id": "MF 19 (PAR)",
@@ -5243,14 +5243,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["MF 19 (PAR)"],
-			"appearance": { color: "#E3B32A"},
+			"appearance": { "color": "#E3B32A"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["FR"],
 				"city": ["PAR"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"MF 19 L (PAR)": {
 			"id": "MF 19 L (PAR)",
@@ -5285,14 +5285,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["MF 19 L (PAR)"],
-			"appearance": { color: "#F3A4BA"},
+			"appearance": { "color": "#F3A4BA"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["FR"],
 				"city": ["PAR"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"MF 19 L CA (PAR)": {
 			"id": "MF 19 L CA (PAR)",
@@ -5327,14 +5327,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["MF 19 L CA (PAR)"],
-			"appearance": { color: "#98D4E2"},
+			"appearance": { "color": "#98D4E2"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["FR"],
 				"city": ["PAR"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"MF 01 (PAR)": {
 			"id": "MF 01 (PAR)",
@@ -5369,14 +5369,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["MF 01 (PAR)"],
-			"appearance": { color: "#0064B0"},
+			"appearance": { "color": "#0064B0"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["FR"],
 				"city": ["PAR"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"MP 14 CC (PAR)": {
 			"id": "MP 14 CC (PAR)",
@@ -5411,14 +5411,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["MP 14 CC (PAR)"],
-			"appearance": { color: "#6E491E"},
+			"appearance": { "color": "#6E491E"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["FR"],
 				"city": ["PAR"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"MP 14 CA (PAR)": {
 			"id": "MP 14 CA (PAR)",
@@ -5453,14 +5453,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["MP 14 CA (PAR)"],
-			"appearance": { color: "#662483"},
+			"appearance": { "color": "#662483"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["FR"],
 				"city": ["PAR"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"MP 05 (PAR)": {
 			"id": "MP 05 (PAR)",
@@ -5495,14 +5495,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["MP 05 (PAR)"],
-			"appearance": { color: "#FFCE00"},
+			"appearance": { "color": "#FFCE00"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["FR"],
 				"city": ["PAR"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"MP 89 CC (PAR)": {
 			"id": "MP 89 CC (PAR)",
@@ -5537,14 +5537,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["MP 89 CC (PAR)"],
-			"appearance": { color: "#83C491"},
+			"appearance": { "color": "#83C491"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["FR"],
 				"city": ["PAR"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"MP 89 CA (PAR)": {
 			"id": "MP 89 CA (PAR)",
@@ -5579,14 +5579,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["MP 89 CA (PAR)"],
-			"appearance": { color: "#C04191"},
+			"appearance": { "color": "#C04191"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["FR"],
 				"city": ["PAR"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"MRV (PAR)": {
 			"id": "MRV (PAR)",
@@ -5621,14 +5621,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["MRV (PAR)"],
-			"appearance": { color: "#00A88F"},
+			"appearance": { "color": "#00A88F"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["FR"],
 				"city": ["PAR"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"MR3V/MR6V (PAR)": {
 			"id": "MR3V/MR6V (PAR)",
@@ -5663,14 +5663,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["MR3V/MR6V (PAR)"],
-			"appearance": { color: "#B90845"},
+			"appearance": { "color": "#B90845"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["FR"],
 				"city": ["PAR"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"Alt�o (PAR)": {
 			"id": "Alt�o (PAR)",
@@ -5705,14 +5705,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["Alt�o (PAR)"],
-			"appearance": { color: "#E3051C"},
+			"appearance": { "color": "#E3051C"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["FR"],
 				"city": ["PAR"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"MI 09 (PAR)": {
 			"id": "MI 09 (PAR)",
@@ -5747,14 +5747,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["MI 09 (PAR)"],
-			"appearance": { color: "#A80518"},
+			"appearance": { "color": "#A80518"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["FR"],
 				"city": ["PAR"],
 			},
-				"manufacturer": ["Bombardier"],
+			"manufacturer": ["Bombardier"],
 		},
 		"MI 79/84 (PAR)": {
 			"id": "MI 79/84 (PAR)",
@@ -5789,14 +5789,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["MI 79/84 (PAR)"],
-			"appearance": { color: "#5291CE"},
+			"appearance": { "color": "#5291CE"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["FR"],
 				"city": ["PAR"],
 			},
-				"manufacturer": ["Alstom"," SFB"],
+			"manufacturer": ["Alstom"," SFB"],
 		},
 		"MI 20 (PAR)": {
 			"id": "MI 20 (PAR)",
@@ -5831,14 +5831,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["MI 20 (PAR)"],
-			"appearance": { color: "#4072A0"},
+			"appearance": { "color": "#4072A0"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["FR"],
 				"city": ["PAR"],
 			},
-				"manufacturer": ["Bombardier","CAF"],
+			"manufacturer": ["Bombardier","CAF"],
 		},
 		"Z 5600": {
 			"id": "Z 5600",
@@ -5873,14 +5873,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["Z 5600"],
-			"appearance": { color: "#F3A4BA"},
+			"appearance": { "color": "#F3A4BA"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["FR"],
 				"city": ["PAR"],
 			},
-				"manufacturer": ["CIMT","TCO","TCF"],
+			"manufacturer": ["CIMT","TCO","TCF"],
 		},
 		"Z 8800": {
 			"id": "Z 8800",
@@ -5915,14 +5915,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["Z 8800"],
-			"appearance": { color: "#B90845"},
+			"appearance": { "color": "#B90845"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["FR"],
 				"city": ["PAR"],
 			},
-				"manufacturer": ["CIMT","TCO","ANF"],
+			"manufacturer": ["CIMT","TCO","ANF"],
 		},
 		"Z 20500": {
 			"id": "Z 20500",
@@ -5957,14 +5957,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["Z 20500"],
-			"appearance": { color: "#C49D00"},
+			"appearance": { "color": "#C49D00"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["FR"],
 				"city": ["PAR"],
 			},
-				"manufacturer": ["CIMT","ANF","Alstom"],
+			"manufacturer": ["CIMT","ANF","Alstom"],
 		},
 		"Z 20900": {
 			"id": "Z 20900",
@@ -5999,14 +5999,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["Z 20900"],
-			"appearance": { color: "#9F9825"},
+			"appearance": { "color": "#9F9825"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["FR"],
 				"city": ["PAR"],
 			},
-				"manufacturer": ["Bombardier"],
+			"manufacturer": ["Bombardier"],
 		},
 		"Regio 2N Paris": {
 			"id": "Regio 2N Paris",
@@ -6041,14 +6041,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["Regio 2N Paris"],
-			"appearance": { color: "#00A88F"},
+			"appearance": { "color": "#00A88F"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["FR"],
 				"city": ["PAR"],
 			},
-				"manufacturer": ["Bombardier "],
+			"manufacturer": ["Bombardier "],
 		},
 		"Z 58000": {
 			"id": "Z 58000",
@@ -6083,14 +6083,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["Z 58000"],
-			"appearance": { color: "#C04191"},
+			"appearance": { "color": "#C04191"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["FR"],
 				"city": ["PAR"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"Z 58500": {
 			"id": "Z 58500",
@@ -6125,14 +6125,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["Z 58500"],
-			"appearance": { color: "#00814F"},
+			"appearance": { "color": "#00814F"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["FR"],
 				"city": ["PAR"],
 			},
-				"manufacturer": ["Bombardier "],
+			"manufacturer": ["Bombardier "],
 		},
 		"�ole (PAR)": {
 			"id": "�ole (PAR)",
@@ -6167,14 +6167,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["�ole (PAR)"],
-			"appearance": { color: "#8E306C"},
+			"appearance": { "color": "#8E306C"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["FR"],
 				"city": ["PAR"],
 			},
-				"manufacturer": ["ANF","Alstom"],
+			"manufacturer": ["ANF","Alstom"],
 		},
 		"Francilien-7 (PAR)": {
 			"id": "Francilien-7 (PAR)",
@@ -6209,14 +6209,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["Francilien-7 (PAR)"],
-			"appearance": { color: "#CEADD2"},
+			"appearance": { "color": "#CEADD2"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["FR"],
 				"city": ["PAR"],
 			},
-				"manufacturer": ["Bombardier "],
+			"manufacturer": ["Bombardier "],
 		},
 		"Francilien-8 (PAR)": {
 			"id": "Francilien-8 (PAR)",
@@ -6251,14 +6251,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["Francilien-8 (PAR)"],
-			"appearance": { color: "#8D5E2A"},
+			"appearance": { "color": "#8D5E2A"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["FR"],
 				"city": ["PAR"],
 			},
-				"manufacturer": ["Bombardier "],
+			"manufacturer": ["Bombardier "],
 		},
 		"Prima-VB2N": {
 			"id": "Prima-VB2N",
@@ -6293,14 +6293,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["Prima-VB2N"],
-			"appearance": { color: "#D5C900"},
+			"appearance": { "color": "#D5C900"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["FR"],
 				"city": ["PAR"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"B 82500 BIBI": {
 			"id": "B 82500 BIBI",
@@ -6335,14 +6335,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["B 82500 BIBI"],
-			"appearance": { color: "#F57F3A"},
+			"appearance": { "color": "#F57F3A"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["FR"],
 				"city": ["PAR"],
 			},
-				"manufacturer": ["Bombardier "],
+			"manufacturer": ["Bombardier "],
 		},
 		"TFS-2 (France)": {
 			"id": "TFS-2 (France)",
@@ -6377,14 +6377,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["TFS-2 (France)"],
-			"appearance": { color: "#0064B0"},
+			"appearance": { "color": "#0064B0"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["FR"],
 				"city": ["PAR"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"Citadis 302 N": {
 			"id": "Citadis 302 N",
@@ -6419,14 +6419,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["Citadis 302 N"],
-			"appearance": { color: "#C04191"},
+			"appearance": { "color": "#C04191"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["FR"],
 				"city": ["PAR"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"Citadis 402": {
 			"id": "Citadis 402",
@@ -6461,14 +6461,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["Citadis 402"],
-			"appearance": { color: "#F28E42"},
+			"appearance": { "color": "#F28E42"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["FR"],
 				"city": ["PAR"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"Citadis 305 N": {
 			"id": "Citadis 305 N",
@@ -6503,14 +6503,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["Citadis 305 N"],
-			"appearance": { color: "#0094FF"},
+			"appearance": { "color": "#0094FF"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe","Southern Europe"],
 				"country": ["FR","GR"],
 				"city": ["PAR","ATH"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"Citadis 405": {
 			"id": "Citadis 405",
@@ -6545,14 +6545,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["Citadis 405"],
-			"appearance": { color: "#5291CE"},
+			"appearance": { "color": "#5291CE"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["FR"],
 				"city": ["PAR"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"Citadis Dualis": {
 			"id": "Citadis Dualis",
@@ -6587,14 +6587,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["Citadis Dualis"],
-			"appearance": { color: "#E3B32A"},
+			"appearance": { "color": "#E3B32A"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["FR"],
 				"city": ["PAR"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"NTL Translohr": {
 			"id": "NTL Translohr",
@@ -6629,14 +6629,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["NTL Translohr"],
-			"appearance": { color: "#E3051C"},
+			"appearance": { "color": "#E3051C"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["FR"],
 				"city": ["PAR"],
 			},
-				"manufacturer": ["NTL","Lohr"],
+			"manufacturer": ["NTL","Lohr"],
 		},
 		"Avenio (CPH)": {
 			"id": "Avenio (CPH)",
@@ -6671,14 +6671,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["Avenio (CPH)"],
-			"appearance": { color: "#56C271"},
+			"appearance": { "color": "#56C271"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Northern Europe"],
 				"country": ["DK"],
 				"city": ["CPH"],
 			},
-				"manufacturer": ["Siemens"],
+			"manufacturer": ["Siemens"],
 		},
 		"Variobahn 32m": {
 			"id": "Variobahn 32m",
@@ -6713,14 +6713,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["Variobahn 32m"],
-			"appearance": { color: "#C4003E"},
+			"appearance": { "color": "#C4003E"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe","Northern Europe"],
 				"country": ["UK","DK"],
 				"city": ["LDN","CPH"],
 			},
-				"manufacturer": ["Stadler"],
+			"manufacturer": ["Stadler"],
 		},
 		"Variobahn Odense": {
 			"id": "Variobahn Odense",
@@ -6755,14 +6755,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["Variobahn Odense"],
-			"appearance": { color: "#EF3B24"},
+			"appearance": { "color": "#EF3B24"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Northern Europe"],
 				"country": ["DK"],
 				"city": ["CPH"],
 			},
-				"manufacturer": ["Stadler"],
+			"manufacturer": ["Stadler"],
 		},
 		"ET (DSB)": {
 			"id": "ET (DSB)",
@@ -6797,14 +6797,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["ET (DSB)"],
-			"appearance": { color: "#005B99"},
+			"appearance": { "color": "#005B99"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Northern Europe"],
 				"country": ["DK"],
 				"city": ["CPH"],
 			},
-				"manufacturer": ["ADtranz"],
+			"manufacturer": ["ADtranz"],
 		},
 		"ES/IC5 (DSB)": {
 			"id": "ES/IC5 (DSB)",
@@ -6839,14 +6839,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["ES/IC5 (DSB)"],
-			"appearance": { color: "#D00C33"},
+			"appearance": { "color": "#D00C33"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Northern Europe"],
 				"country": ["DK"],
 				"city": ["CPH"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"ER/IR4 (DSB)": {
 			"id": "ER/IR4 (DSB)",
@@ -6881,14 +6881,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["ER/IR4 (DSB)"],
-			"appearance": { color: "#910824"},
+			"appearance": { "color": "#910824"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Northern Europe"],
 				"country": ["DK"],
 				"city": ["CPH"],
 			},
-				"manufacturer": ["ABB"],
+			"manufacturer": ["ABB"],
 		},
 		"IC4 (DSB)": {
 			"id": "IC4 (DSB)",
@@ -6923,14 +6923,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["IC4 (DSB)"],
-			"appearance": { color: "#CE2B37"},
+			"appearance": { "color": "#CE2B37"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Northern Europe","North Africa"],
 				"country": ["DK","LY"],
 				"city": ["CPH","LIB"],
 			},
-				"manufacturer": ["AnsaldoBreda"],
+			"manufacturer": ["AnsaldoBreda"],
 		},
 		"Series 500 (BCN)": {
 			"id": "Series 500 (BCN)",
@@ -6965,14 +6965,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["Series 500 (BCN)"],
-			"appearance": { color: "#B4CD56"},
+			"appearance": { "color": "#B4CD56"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Southern Europe"],
 				"country": ["ES"],
 				"city": ["BCN"],
 			},
-				"manufacturer": ["CAF","Meinfesa","Alstom"],
+			"manufacturer": ["CAF","Meinfesa","Alstom"],
 		},
 		"Series 2100 (BCN)": {
 			"id": "Series 2100 (BCN)",
@@ -7007,14 +7007,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["Series 2100 (BCN)"],
-			"appearance": { color: "#FCBE00"},
+			"appearance": { "color": "#FCBE00"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Southern Europe"],
 				"country": ["ES"],
 				"city": ["BCN"],
 			},
-				"manufacturer": ["CAF","Meinfesa","Alstom"],
+			"manufacturer": ["CAF","Meinfesa","Alstom"],
 		},
 		"Series 5000 (BCN)": {
 			"id": "Series 5000 (BCN)",
@@ -7049,14 +7049,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["Series 5000 (BCN)"],
-			"appearance": { color: "#0177BC"},
+			"appearance": { "color": "#0177BC"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Southern Europe"],
 				"country": ["ES"],
 				"city": ["BCN"],
 			},
-				"manufacturer": ["CAF","Meinfesa","Mitsubishi"],
+			"manufacturer": ["CAF","Meinfesa","Mitsubishi"],
 		},
 		"Series 6000 (BCN)": {
 			"id": "Series 6000 (BCN)",
@@ -7091,14 +7091,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["Series 6000 (BCN)"],
-			"appearance": { color: "#DF2937"},
+			"appearance": { "color": "#DF2937"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Southern Europe"],
 				"country": ["ES"],
 				"city": ["BCN"],
 			},
-				"manufacturer": ["CAF"],
+			"manufacturer": ["CAF"],
 		},
 		"Series 7000 (BCN)": {
 			"id": "Series 7000 (BCN)",
@@ -7133,14 +7133,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["Series 7000 (BCN)"],
-			"appearance": { color: "#3AA83E"},
+			"appearance": { "color": "#3AA83E"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Southern Europe"],
 				"country": ["ES"],
 				"city": ["BCN"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"Series 8000 (BCN)": {
 			"id": "Series 8000 (BCN)",
@@ -7175,14 +7175,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["Series 8000 (BCN)"],
-			"appearance": { color: "#FF3041"},
+			"appearance": { "color": "#FF3041"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Southern Europe"],
 				"country": ["ES"],
 				"city": ["BCN"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"Series 9000 (BCN)": {
 			"id": "Series 9000 (BCN)",
@@ -7217,14 +7217,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["Series 9000 (BCN)"],
-			"appearance": { color: "#993C8C"},
+			"appearance": { "color": "#993C8C"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Southern Europe"],
 				"country": ["ES"],
 				"city": ["BCN"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"Series 9000 A (BCN)": {
 			"id": "Series 9000 A (BCN)",
@@ -7259,14 +7259,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["Series 9000 A (BCN)"],
-			"appearance": { color: "#08A0E5"},
+			"appearance": { "color": "#08A0E5"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Southern Europe"],
 				"country": ["ES"],
 				"city": ["BCN"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"Series 112 (BCN)": {
 			"id": "Series 112 (BCN)",
@@ -7301,14 +7301,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["Series 112 (BCN)"],
-			"appearance": { color: "#7386BC"},
+			"appearance": { "color": "#7386BC"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Southern Europe"],
 				"country": ["ES"],
 				"city": ["BCN"],
 			},
-				"manufacturer": ["Alstom","CAF","ABB"],
+			"manufacturer": ["Alstom","CAF","ABB"],
 		},
 		"Series 113 (BCN)": {
 			"id": "Series 113 (BCN)",
@@ -7343,14 +7343,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["Series 113 (BCN)"],
-			"appearance": { color: "#BBB3D7"},
+			"appearance": { "color": "#BBB3D7"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Southern Europe"],
 				"country": ["ES"],
 				"city": ["BCN"],
 			},
-				"manufacturer": ["Alstom","CAF"],
+			"manufacturer": ["Alstom","CAF"],
 		},
 		"Series 114 (BCN)": {
 			"id": "Series 114 (BCN)",
@@ -7385,14 +7385,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["Series 114 (BCN)"],
-			"appearance": { color: "#B16612"},
+			"appearance": { "color": "#B16612"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Southern Europe"],
 				"country": ["ES"],
 				"city": ["BCN"],
 			},
-				"manufacturer": ["Alstom","CAF"],
+			"manufacturer": ["Alstom","CAF"],
 		},
 		"Series 115 (BCN)": {
 			"id": "Series 115 (BCN)",
@@ -7427,14 +7427,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["Series 115 (BCN)"],
-			"appearance": { color: "#9EB7FF"},
+			"appearance": { "color": "#9EB7FF"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Southern Europe"],
 				"country": ["ES"],
 				"city": ["BCN"],
 			},
-				"manufacturer": ["Stadler"],
+			"manufacturer": ["Stadler"],
 		},
 		"Series 213 (BCN)": {
 			"id": "Series 213 (BCN)",
@@ -7469,14 +7469,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["Series 213 (BCN)"],
-			"appearance": { color: "#E579AE"},
+			"appearance": { "color": "#E579AE"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Southern Europe"],
 				"country": ["ES"],
 				"city": ["BCN"],
 			},
-				"manufacturer": ["Alstom","CAF","Bombardier"],
+			"manufacturer": ["Alstom","CAF","Bombardier"],
 		},
 		"Citadis 302": {
 			"id": "Citadis 302",
@@ -7511,14 +7511,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["Citadis 302"],
-			"appearance": { color: "#C04191"},
+			"appearance": { "color": "#C04191"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Southern Europe"],
 				"country": ["ES"],
 				"city": ["BCN"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"Citadis 305": {
 			"id": "Citadis 305",
@@ -7553,14 +7553,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["Citadis 305"],
-			"appearance": { color: "#0094FF"},
+			"appearance": { "color": "#0094FF"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Southern Europe","West Asia"],
 				"country": ["ES","IL"],
 				"city": ["BCN","T-A"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"M4 (AMS)": {
 			"id": "M4 (AMS)",
@@ -7595,14 +7595,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["M4 (AMS)"],
-			"appearance": { color: "#008D49"},
+			"appearance": { "color": "#008D49"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["NL"],
 				"city": ["AMS"],
 			},
-				"manufacturer": ["CAF"],
+			"manufacturer": ["CAF"],
 		},
 		"M5 (AMS)": {
 			"id": "M5 (AMS)",
@@ -7637,14 +7637,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["M5 (AMS)"],
-			"appearance": { color: "#0092D4"},
+			"appearance": { "color": "#0092D4"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["NL"],
 				"city": ["AMS"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"M7 (AMS)": {
 			"id": "M7 (AMS)",
@@ -7679,14 +7679,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["M7 (AMS)"],
-			"appearance": { color: "#FFD500"},
+			"appearance": { "color": "#FFD500"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["NL"],
 				"city": ["AMS"],
 			},
-				"manufacturer": ["CAF"],
+			"manufacturer": ["CAF"],
 		},
 		"Urbos 100 (AMS)": {
 			"id": "Urbos 100 (AMS)",
@@ -7721,14 +7721,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["Urbos 100 (AMS)"],
-			"appearance": { color: "#0000BB"},
+			"appearance": { "color": "#0000BB"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["NL"],
 				"city": ["AMS"],
 			},
-				"manufacturer": ["CAF"],
+			"manufacturer": ["CAF"],
 		},
 		"Combino (AMS)": {
 			"id": "Combino (AMS)",
@@ -7763,14 +7763,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["Combino (AMS)"],
-			"appearance": { color: "#000099"},
+			"appearance": { "color": "#000099"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["NL"],
 				"city": ["AMS"],
 			},
-				"manufacturer": ["Siemens"],
+			"manufacturer": ["Siemens"],
 		},
 		"S/300 (ROM)": {
 			"id": "S/300 (ROM)",
@@ -7805,14 +7805,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["S/300 (ROM)"],
-			"appearance": { color: "#F36C21"},
+			"appearance": { "color": "#F36C21"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Southern Europe"],
 				"country": ["IT"],
 				"city": ["ROM"],
 			},
-				"manufacturer": ["CAF"],
+			"manufacturer": ["CAF"],
 		},
 		"Hitachi Rome": {
 			"id": "Hitachi Rome",
@@ -7847,14 +7847,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["Hitachi Rome"],
-			"appearance": { color: "#0071BB"},
+			"appearance": { "color": "#0071BB"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Southern Europe"],
 				"country": ["IT"],
 				"city": ["ROM"],
 			},
-				"manufacturer": ["CAF"],
+			"manufacturer": ["CAF"],
 		},
 		"81-717/81-714": {
 			"id": "81-717/81-714",
@@ -7889,14 +7889,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["81-717/81-714"],
-			"appearance": { color: "#32AB53"},
+			"appearance": { "color": "#32AB53"},
 			"isFixed": false,
 			"location": {
 				"continent": ["USSR","Eastern Europe","Eastern Europe"],
 				"country": ["USSR","UA","HU"],
 				"city": ["USSR","IEV","BUD"],
 			},
-				"manufacturer": ["Metrovagonmash "],
+			"manufacturer": ["Metrovagonmash "],
 		},
 		"Twist Foxtrot": {
 			"id": "Twist Foxtrot",
@@ -7931,14 +7931,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["Twist Foxtrot"],
-			"appearance": { color: "#001C4A"},
+			"appearance": { "color": "#001C4A"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Eastern Europe"],
 				"country": ["UA"],
 				"city": ["IEV"],
 			},
-				"manufacturer": ["PESA"],
+			"manufacturer": ["PESA"],
 		},
 		"K-1T": {
 			"id": "K-1T",
@@ -7973,14 +7973,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["K-1T"],
-			"appearance": { color: "#35BCED"},
+			"appearance": { "color": "#35BCED"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Eastern Europe"],
 				"country": ["UA"],
 				"city": ["IEV"],
 			},
-				"manufacturer": ["Tatra-Yug"],
+			"manufacturer": ["Tatra-Yug"],
 		},
 		"Innovia APM": {
 			"id": "Innovia APM",
@@ -8015,14 +8015,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["Innovia APM"],
-			"appearance": { color: "#000000"},
+			"appearance": { "color": "#000000"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["MIA"],
 			},
-				"manufacturer": ["Bombardier"],
+			"manufacturer": ["Bombardier"],
 		},
 		"Hitachi Miami": {
 			"id": "Hitachi Miami",
@@ -8057,14 +8057,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["Hitachi Miami"],
-			"appearance": { color: "#0079C2"},
+			"appearance": { "color": "#0079C2"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["MIA"],
 			},
-				"manufacturer": ["Hitachi"],
+			"manufacturer": ["Hitachi"],
 		},
 		"Seattle Series 1": {
 			"id": "Seattle Series 1",
@@ -8099,14 +8099,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["Seattle Series 1"],
-			"appearance": { color: "#3DAE2B"},
+			"appearance": { "color": "#3DAE2B"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["SEA"],
 			},
-				"manufacturer": ["Kinki Sharyo"],
+			"manufacturer": ["Kinki Sharyo"],
 		},
 		"Aero": {
 			"id": "Aero",
@@ -8141,14 +8141,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["Aero"],
-			"appearance": { color: "#D34727"},
+			"appearance": { "color": "#D34727"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["US"],
 				"city": ["POR"],
 			},
-				"manufacturer": ["Colorado Railcar"],
+			"manufacturer": ["Colorado Railcar"],
 		},
 		"SD-100/160": {
 			"id": "SD-100/160",
@@ -8183,14 +8183,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["SD-100/160"],
-			"appearance": { color: "#FFFFFF"},
+			"appearance": { "color": "#FFFFFF"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America","North America"],
 				"country": ["US","CA"],
 				"city": ["DEN","CGY"],
 			},
-				"manufacturer": ["Siemens"],
+			"manufacturer": ["Siemens"],
 		},
 		"Urbos 3 (WMM)": {
 			"id": "Urbos 3 (WMM)",
@@ -8225,14 +8225,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["Urbos 3 (WMM)"],
-			"appearance": { color: "#0000BB"},
+			"appearance": { "color": "#0000BB"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Europe"],
 				"country": ["UK"],
 				"city": ["BHM"],
 			},
-				"manufacturer": ["CAF"],
+			"manufacturer": ["CAF"],
 		},
 		"S200-HF (CGY)": {
 			"id": "S200-HF (CGY)",
@@ -8267,14 +8267,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["S200-HF (CGY)"],
-			"appearance": { color: "#C8102E"},
+			"appearance": { "color": "#C8102E"},
 			"isFixed": false,
 			"location": {
 				"continent": ["North America"],
 				"country": ["CA"],
 				"city": ["CGY"],
 			},
-				"manufacturer": ["Siemens"],
+			"manufacturer": ["Siemens"],
 		},
 		"Tyne and Wear Metrocar": {
 			"id": "Tyne and Wear Metrocar",
@@ -8309,14 +8309,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["Tyne and Wear Metrocar"],
-			"appearance": { color: "#FDB826"},
+			"appearance": { "color": "#FDB826"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Generic"],
 				"country": ["Generic"],
 				"city": ["Generic"],
 			},
-				"manufacturer": ["Metro-Cammel"],
+			"manufacturer": ["Metro-Cammel"],
 		},
 		"BR Class 555": {
 			"id": "BR Class 555",
@@ -8351,14 +8351,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["BR Class 555"],
-			"appearance": { color: "#B7841D"},
+			"appearance": { "color": "#B7841D"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Generic"],
 				"country": ["Generic"],
 				"city": ["Generic"],
 			},
-				"manufacturer": ["Stadler"],
+			"manufacturer": ["Stadler"],
 		},
 		"Generation 1 (ATH)": {
 			"id": "Generation 1 (ATH)",
@@ -8393,14 +8393,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["Generation 1 (ATH)"],
-			"appearance": { color: "#007A33"},
+			"appearance": { "color": "#007A33"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Southern Europe"],
 				"country": ["GR"],
 				"city": ["ATH"],
 			},
-				"manufacturer": ["Siemens","Daimler-Benz","Alstom"],
+			"manufacturer": ["Siemens","Daimler-Benz","Alstom"],
 		},
 		"Generation 2 (ATH)": {
 			"id": "Generation 2 (ATH)",
@@ -8435,14 +8435,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["Generation 2 (ATH)"],
-			"appearance": { color: "#DA291C"},
+			"appearance": { "color": "#DA291C"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Southern Europe"],
 				"country": ["GR"],
 				"city": ["ATH"],
 			},
-				"manufacturer": ["Hyundai","Mitsubishi","Knorr-Bremse"],
+			"manufacturer": ["Hyundai","Mitsubishi","Knorr-Bremse"],
 		},
 		"Generation 3 (ATH)": {
 			"id": "Generation 3 (ATH)",
@@ -8477,14 +8477,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["Generation 3 (ATH)"],
-			"appearance": { color: "#10069F"},
+			"appearance": { "color": "#10069F"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Southern Europe"],
 				"country": ["GR"],
 				"city": ["ATH"],
 			},
-				"manufacturer": ["Hyundai","Siemens"],
+			"manufacturer": ["Hyundai","Siemens"],
 		},
 		"Desiro Classic (ATH)": {
 			"id": "Desiro Classic (ATH)",
@@ -8519,14 +8519,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["Desiro Classic (ATH)"],
-			"appearance": { color: "#004587"},
+			"appearance": { "color": "#004587"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Southern Europe"],
 				"country": ["GR"],
 				"city": ["ATH"],
 			},
-				"manufacturer": ["Siemens"],
+			"manufacturer": ["Siemens"],
 		},
 		"Sirio (ATH)": {
 			"id": "Sirio (ATH)",
@@ -8561,14 +8561,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["Sirio (ATH)"],
-			"appearance": { color: "#83B81A"},
+			"appearance": { "color": "#83B81A"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Southern Europe"],
 				"country": ["GR"],
 				"city": ["ATH"],
 			},
-				"manufacturer": ["AnsaldoBreda"],
+			"manufacturer": ["AnsaldoBreda"],
 		},
 		"I� 22000": {
 			"id": "I� 22000",
@@ -8603,14 +8603,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["I� 22000"],
-			"appearance": { color: "#169B62"},
+			"appearance": { "color": "#169B62"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["IE"],
 				"city": ["DUB"],
 			},
-				"manufacturer": ["Hyundai"],
+			"manufacturer": ["Hyundai"],
 		},
 		"I� 29000": {
 			"id": "I� 29000",
@@ -8645,14 +8645,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["I� 29000"],
-			"appearance": { color: "#FF883E"},
+			"appearance": { "color": "#FF883E"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["IE"],
 				"city": ["DUB"],
 			},
-				"manufacturer": ["CAF"],
+			"manufacturer": ["CAF"],
 		},
 		"Citadis 401": {
 			"id": "Citadis 401",
@@ -8687,14 +8687,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["Citadis 401"],
-			"appearance": { color: "#4F3189"},
+			"appearance": { "color": "#4F3189"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["IE"],
 				"city": ["DUB"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"Citadis 502": {
 			"id": "Citadis 502",
@@ -8729,14 +8729,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["Citadis 502"],
-			"appearance": { color: "#764ACE"},
+			"appearance": { "color": "#764ACE"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Western Europe"],
 				"country": ["IE"],
 				"city": ["DUB"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"IST M1": {
 			"id": "IST M1",
@@ -8771,14 +8771,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["IST M1"],
-			"appearance": { color: "#E22014"},
+			"appearance": { "color": "#E22014"},
 			"isFixed": false,
 			"location": {
 				"continent": ["West Asia"],
 				"country": ["TR"],
 				"city": ["IST"],
 			},
-				"manufacturer": ["ABB"],
+			"manufacturer": ["ABB"],
 		},
 		"IST M2 2008": {
 			"id": "IST M2 2008",
@@ -8813,14 +8813,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["IST M2 2008"],
-			"appearance": { color: "#009943"},
+			"appearance": { "color": "#009943"},
 			"isFixed": false,
 			"location": {
 				"continent": ["West Asia"],
 				"country": ["TR"],
 				"city": ["IST"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"IST M2 2017": {
 			"id": "IST M2 2017",
@@ -8855,14 +8855,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["IST M2 2017"],
-			"appearance": { color: "#00B54E"},
+			"appearance": { "color": "#00B54E"},
 			"isFixed": false,
 			"location": {
 				"continent": ["West Asia"],
 				"country": ["TR"],
 				"city": ["IST"],
 			},
-				"manufacturer": ["Hyundai"],
+			"manufacturer": ["Hyundai"],
 		},
 		"IST M3": {
 			"id": "IST M3",
@@ -8897,14 +8897,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["IST M3"],
-			"appearance": { color: "#00A8E2"},
+			"appearance": { "color": "#00A8E2"},
 			"isFixed": false,
 			"location": {
 				"continent": ["West Asia"],
 				"country": ["TR"],
 				"city": ["IST"],
 			},
-				"manufacturer": ["Hyundai"],
+			"manufacturer": ["Hyundai"],
 		},
 		"IST M4": {
 			"id": "IST M4",
@@ -8939,14 +8939,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["IST M4"],
-			"appearance": { color: "#E91977"},
+			"appearance": { "color": "#E91977"},
 			"isFixed": false,
 			"location": {
 				"continent": ["West Asia"],
 				"country": ["TR"],
 				"city": ["IST"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"IST M5": {
 			"id": "IST M5",
@@ -8981,14 +8981,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["IST M5"],
-			"appearance": { color: "#672C65"},
+			"appearance": { "color": "#672C65"},
 			"isFixed": false,
 			"location": {
 				"continent": ["West Asia"],
 				"country": ["TR"],
 				"city": ["IST"],
 			},
-				"manufacturer": ["CAF"],
+			"manufacturer": ["CAF"],
 		},
 		"IST M6": {
 			"id": "IST M6",
@@ -9023,14 +9023,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["IST M6"],
-			"appearance": { color: "#C9AA78"},
+			"appearance": { "color": "#C9AA78"},
 			"isFixed": false,
 			"location": {
 				"continent": ["West Asia"],
 				"country": ["TR"],
 				"city": ["IST"],
 			},
-				"manufacturer": ["Mitsubishi","CAF"],
+			"manufacturer": ["Mitsubishi","CAF"],
 		},
 		"IST M7/M8": {
 			"id": "IST M7/M8",
@@ -9065,14 +9065,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["IST M7/M8"],
-			"appearance": { color: "#F29FC0"},
+			"appearance": { "color": "#F29FC0"},
 			"isFixed": false,
 			"location": {
 				"continent": ["West Asia"],
 				"country": ["TR"],
 				"city": ["IST"],
 			},
-				"manufacturer": ["Hyundai"],
+			"manufacturer": ["Hyundai"],
 		},
 		"IST M9": {
 			"id": "IST M9",
@@ -9107,14 +9107,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["IST M9"],
-			"appearance": { color: "#FFD400"},
+			"appearance": { "color": "#FFD400"},
 			"isFixed": false,
 			"location": {
 				"continent": ["West Asia"],
 				"country": ["TR"],
 				"city": ["IST"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"IST M11": {
 			"id": "IST M11",
@@ -9149,14 +9149,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["IST M11"],
-			"appearance": { color: "#AC5390"},
+			"appearance": { "color": "#AC5390"},
 			"isFixed": false,
 			"location": {
 				"continent": ["West Asia"],
 				"country": ["TR"],
 				"city": ["IST"],
 			},
-				"manufacturer": ["CRRC"],
+			"manufacturer": ["CRRC"],
 		},
 		"TCDD E32000": {
 			"id": "TCDD E32000",
@@ -9191,14 +9191,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["TCDD E32000"],
-			"appearance": { color: "#392F85"},
+			"appearance": { "color": "#392F85"},
 			"isFixed": false,
 			"location": {
 				"continent": ["West Asia"],
 				"country": ["TR"],
 				"city": ["IST"],
 			},
-				"manufacturer": ["Hyundai"],
+			"manufacturer": ["Hyundai"],
 		},
 		"Urbos 100 (T-A)": {
 			"id": "Urbos 100 (T-A)",
@@ -9233,14 +9233,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["Urbos 100 (T-A)"],
-			"appearance": { color: "#BA34B1"},
+			"appearance": { "color": "#BA34B1"},
 			"isFixed": false,
 			"location": {
 				"continent": ["West Asia"],
 				"country": ["IL"],
 				"city": ["T-A"],
 			},
-				"manufacturer": ["CAF"],
+			"manufacturer": ["CAF"],
 		},
 		"Citadis 304": {
 			"id": "Citadis 304",
@@ -9275,14 +9275,14 @@
 				"ELEVATED": 1.8
 			},
 			"compatibleTrackTypes": ["Citadis 304"],
-			"appearance": { color: "#004987"},
+			"appearance": { "color": "#004987"},
 			"isFixed": false,
 			"location": {
 				"continent": ["West Asia"],
 				"country": ["TR"],
 				"city": ["IST"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"AM5-M2": {
 			"id": "AM5-M2",
@@ -9317,14 +9317,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["AM5-M2"],
-			"appearance": { color: "#E41F18"},
+			"appearance": { "color": "#E41F18"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Eastern Europe"],
 				"country": ["HU"],
 				"city": ["BUD"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"AM4-M4": {
 			"id": "AM4-M4",
@@ -9359,14 +9359,14 @@
 				"ELEVATED": 1.0
 			},
 			"compatibleTrackTypes": ["AM4-M4"],
-			"appearance": { color: "#48A842"},
+			"appearance": { "color": "#48A842"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Eastern Europe"],
 				"country": ["HU"],
 				"city": ["BUD"],
 			},
-				"manufacturer": ["Alstom"],
+			"manufacturer": ["Alstom"],
 		},
 		"BHEV MX": {
 			"id": "BHEV MX",
@@ -9401,14 +9401,14 @@
 				"ELEVATED": 1.2
 			},
 			"compatibleTrackTypes": ["BHEV MX"],
-			"appearance": { color: "#1E1E1E"},
+			"appearance": { "color": "#1E1E1E"},
 			"isFixed": false,
 			"location": {
 				"continent": ["Eastern Europe"],
 				"country": ["HU"],
 				"city": ["BUD"],
 			},
-				"manufacturer": ["LEW Hennigsdorf"],
+			"manufacturer": ["LEW Hennigsdorf"],
 		}
 	};
 
