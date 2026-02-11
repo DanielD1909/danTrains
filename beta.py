@@ -99,7 +99,7 @@ class config_maker:
         j.write("\t\t\t\"appearance\": { \"color\": \""+str(train.color)+"\"},\n")
         j.write("\t\t\t\"isFixed\": false,\n")
         j.write("\t\t\t\"location\": {\n")
-        j.write("\t\t\t\t\"continent\": [")
+        j.write("\t\t\t\t\"city\": [")
         i = 0
         for c in train.loc[0]:
             i += 1
@@ -119,7 +119,7 @@ class config_maker:
             else:
                 j.write("\"")
         j.write("],\n")
-        j.write("\t\t\t\t\"city\": [")
+        j.write("\t\t\t\t\"continent\": [")
         i = 0
         for c in train.loc[2]:
             i += 1
