@@ -29,7 +29,7 @@ class trainClass:
         self.carsPerCarSet = int(l)
         self.carLength = float(m)
         self.trainWidth = float(n)
-        self.minStationLength = self.carLength * self.maxCars
+        self.minStationLength = self.carLength * self.maxCars + 2
         self.maxStationLength = int(o)
         if self.maxStationLength < self.minStationLength:
             self.maxStationLength = self.minStationLength+10
