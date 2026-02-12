@@ -29,13 +29,11 @@ class trainClass:
         self.carsPerCarSet = int(l)
         self.carLength = float(m)
         self.trainWidth = float(n)
-        self.minStationLength = self.carLength * self.maxCars + 2
+        self.minStationLength = round(self.carLength * self.maxCars)+3
         self.maxStationLength = int(o)
-        if self.maxStationLength < self.minStationLength:
-            self.maxStationLength = self.minStationLength+10
-            print("Your max station length for train "+self.id+" is impossible, (Min: " + self.minStationLength + "), corrected to: "+str(self.maxStationLength))
-        elif self.maxStationLength == self.minStationLength:
-            self.maxStationLength = self.minStationLength+5
+        if self.maxStationLength <= self.minStationLength:
+            self.maxStationLength = max(round(self.minStationLength*1.05),self.minStationLength+5)
+            print("Your max station length for train "+self.id+" is impossible, (Min: " + str(self.minStationLength) + "), corrected to: "+str(self.maxStationLength))
         self.carCost = int(p)
         self.trainOperationalCostPerHour = int(w)
         self.carOperationalCostPerHour = int(x)
@@ -57,7 +55,7 @@ class config_maker:
         j.write("\t\t\t\"id\": \""+str(train.id)+"\",\n")
         j.write("\t\t\t\"name\": \""+str(train.id)+"\",\n")
         j.write("\t\t\t\"description\": \""+str(train.desc)+"\",\n")
-        print(str(train.id)+": "+str(train.track.canCrossRoads).lower())
+        #print(str(train.id)+": "+str(train.track.canCrossRoads).lower())
         j.write("\t\t\t\"allowAtGradeRoadCrossing\": "+str(train.track.canCrossRoads).lower()+",\n")
         j.write("\t\t\t\"stats\": {\n")
         j.write("\t\t\t\t\"maxAcceleration\": "+str(train.maxAcceleration)+",\n")
@@ -181,8 +179,8 @@ with open('trains.csv', encoding='utf-8', newline='') as csvfile:
     i = 0
     for row in tracker:
         i += 1
-        print(i)
-        print(row[0])
+        #print(i)
+        #print(row[0])
         if row[0] == "TRUE":
             hold = trainClass(row[1],row[2],row[3],row[4],row[5],row[6],row[7],row[8],row[9],row[10],row[11],row[12],row[13],row[14],row[15],row[16],row[17],row[18],row[19],row[20],row[21],row[22],row[23],row[24],row[25],row[26],row[27],row[28],row[29],row[30],row[31],row[32])
             trainList.update({str(row[1]):hold})
