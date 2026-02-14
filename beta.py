@@ -84,6 +84,7 @@ class config_maker:
         j.write("\t\t\t\t\"AT_GRADE\": "+str(train.mult[3])+",\n")
         j.write("\t\t\t\t\"ELEVATED\": "+str(train.mult[4])+"\n")
         j.write("\t\t\t},\n")
+        # j.write("\t\t\t\"compatibleTrackTypes\": [\""+str(train.id)+"\"]")
         j.write("\t\t\t\"compatibleTrackTypes\": [\""+str(train.id)+"\", ")
         i = 0
         for c in train.track_types:
@@ -138,7 +139,7 @@ class config_maker:
             else:
                 j.write("\"")
         j.write("],\n")
-        j.write("\t\t\t\"tag\": [\""+str(train.type)+"\"],\n")
+        j.write("\t\t\t\"tag\": [\""+str(train.type)+"\"]\n")
         
 
     def run(self,tl):
@@ -182,7 +183,7 @@ with open('trains.csv', encoding='utf-8', newline='') as csvfile:
         #print(i)
         #print(row[0])
         if row[0] == "TRUE":
-            hold = trainClass(row[1],row[2],row[3],row[4],row[5],row[6],row[7],row[8],row[9],row[10],row[11],row[12],row[13],row[14],row[15],row[16],row[17],row[18],row[19],row[20],row[21],row[22],row[23],row[24],row[25],row[26],row[27],row[28],row[29],row[30],row[31],row[32])
+            hold = trainClass(row[1],row[2],row[3],row[4],row[5],row[6],row[7],row[8],row[9],row[10],row[11],row[12],row[13],row[14],row[15],row[16],row[17],row[18],row[19],row[20],row[21],row[22],row[23],row[24],row[25],row[26],row[27],row[28],row[29],row[34],row[35],row[32])
             trainList.update({str(row[1]):hold})
 
 config_maker.run(config_maker,trainList)
