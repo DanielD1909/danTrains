@@ -12,7 +12,7 @@
 				"maxDeceleration": 1.3,
 				"maxSpeed": 24.7,
 				"maxSpeedLocalStation": 13.0,
-				"capacityPerCar": 240,
+				"capacityPerCar": 230,
 				"carLength": 18.35,
 				"minCars": 5,
 				"maxCars": 10,
@@ -313,7 +313,7 @@
 				"maxDeceleration": 1.34,
 				"maxSpeed": 24.6,
 				"maxSpeedLocalStation": 13.0,
-				"capacityPerCar": 220,
+				"capacityPerCar": 180,
 				"carLength": 15.56,
 				"minCars": 5,
 				"maxCars": 10,
@@ -597,7 +597,7 @@
 			"appearance": { "color": "#1E2171"},
 			"isFixed": false,
 			"location": {
-				"city": ["New York City"],
+				"city": ["Philadelphia"],
 				"country": ["United States of America"],
 				"continent": ["North America"],
 			},
@@ -754,8 +754,8 @@
 				"maxStationLength": 300,
 				"baseTrackCost": 37500,
 				"baseStationCost": 56250000,
-				"trainOperationalCostPerHour": 600,
-				"carOperationalCostPerHour": 60,
+				"trainOperationalCostPerHour": 800,
+				"carOperationalCostPerHour": 80,
 				"scissorsCrossoverCost": 11250000,
 			},
 			"elevationMultipliers": {
@@ -774,7 +774,7 @@
 				"continent": ["Generic","North America","North America","North America","North America","North America"],
 			},
 			"manufacturer": ["Siemens"],
-			"tag": ["Standard Commuter"]
+			"tag": ["Diesel Commuter"]
 		},
 		"CTA 5000 Series": {
 			"id": "CTA 5000 Series",
@@ -1431,7 +1431,7 @@
 				"maxDeceleration": 1.43,
 				"maxSpeed": 19.4,
 				"maxSpeedLocalStation": 13.0,
-				"capacityPerCar": 249,
+				"capacityPerCar": 190,
 				"carLength": 16.77,
 				"minCars": 9,
 				"maxCars": 9,
@@ -4010,20 +4010,20 @@
 				"maxAcceleration": 1.4,
 				"maxDeceleration": 0.8,
 				"maxSpeed": 22.2,
-				"maxSpeedLocalStation": 6.7,
-				"capacityPerCar": 284,
+				"maxSpeedLocalStation": 13.0,
+				"capacityPerCar": 142,
 				"carLength": 28.8,
 				"minCars": 2,
 				"maxCars": 6,
-				"carsPerCarSet": 6,
+				"carsPerCarSet": 2,
 				"carCost": 1250000,
 				"trainWidth": 2.65,
 				"minStationLength": 176,
 				"maxStationLength": 180,
 				"baseTrackCost": 62000,
 				"baseStationCost": 93000000,
-				"trainOperationalCostPerHour": 200,
-				"carOperationalCostPerHour": 20,
+				"trainOperationalCostPerHour": 400,
+				"carOperationalCostPerHour": 40,
 				"scissorsCrossoverCost": 18750000,
 			},
 			"elevationMultipliers": {
@@ -4042,7 +4042,7 @@
 				"continent": ["Europe"],
 			},
 			"manufacturer": ["Bombardier"],
-			"tag": ["Standard LRT"]
+			"tag": ["Automated Metro"]
 		},
 		"Flexity Swift LF": {
 			"id": "Flexity Swift LF",
@@ -6376,7 +6376,7 @@
 				"maxDeceleration": 1.15,
 				"maxSpeed": 38.9,
 				"maxSpeedLocalStation": 13.0,
-				"capacityPerCar": 260,
+				"capacityPerCar": 240,
 				"carLength": 18.67,
 				"minCars": 6,
 				"maxCars": 12,
@@ -6419,7 +6419,7 @@
 				"maxDeceleration": 1.15,
 				"maxSpeed": 38.9,
 				"maxSpeedLocalStation": 13.0,
-				"capacityPerCar": 266,
+				"capacityPerCar": 240,
 				"carLength": 18.57,
 				"minCars": 7,
 				"maxCars": 7,
@@ -7666,7 +7666,7 @@
 				"maxDeceleration": 1.2,
 				"maxSpeed": 19.4,
 				"maxSpeedLocalStation": 6.7,
-				"capacityPerCar": 44,
+				"capacityPerCar": 50,
 				"carLength": 6.44,
 				"minCars": 5,
 				"maxCars": 10,
@@ -7709,14 +7709,14 @@
 				"maxDeceleration": 1.2,
 				"maxSpeed": 19.4,
 				"maxSpeedLocalStation": 6.7,
-				"capacityPerCar": 44,
+				"capacityPerCar": 50,
 				"carLength": 6.44,
 				"minCars": 5,
-				"maxCars": 5,
+				"maxCars": 10,
 				"carsPerCarSet": 5,
 				"carCost": 1000000,
 				"trainWidth": 2.65,
-				"minStationLength": 35,
+				"minStationLength": 67,
 				"maxStationLength": 70,
 				"baseTrackCost": 50000,
 				"baseStationCost": 75000000,
@@ -7737,7 +7737,7 @@
 			"location": {
 				"city": ["Generic","Barcelona","Tel-Aviv","Sydney"],
 				"country": ["Generic","Spain","Israel","Australia"],
-				"continent": ["Generic","Southern Europe","West Asia","Central Europe"],
+				"continent": ["Generic","Southern Europe","West Asia","Oceania"],
 			},
 			"manufacturer": ["Alstom"],
 			"tag": ["Standard LRT"]
@@ -8053,7 +8053,7 @@
 				"maxDeceleration": 1.1,
 				"maxSpeed": 22.2,
 				"maxSpeedLocalStation": 13.0,
-				"capacityPerCar": 260,
+				"capacityPerCar": 250,
 				"carLength": 19.21,
 				"minCars": 1,
 				"maxCars": 8,
@@ -8827,7 +8827,7 @@
 				"maxDeceleration": 1.34,
 				"maxSpeed": 22.2,
 				"maxSpeedLocalStation": 13.0,
-				"capacityPerCar": 241,
+				"capacityPerCar": 238,
 				"carLength": 21.55,
 				"minCars": 4,
 				"maxCars": 8,
@@ -8870,7 +8870,7 @@
 				"maxDeceleration": 1.1,
 				"maxSpeed": 22.2,
 				"maxSpeedLocalStation": 13.0,
-				"capacityPerCar": 258,
+				"capacityPerCar": 241,
 				"carLength": 22.43,
 				"minCars": 4,
 				"maxCars": 8,
@@ -8913,7 +8913,7 @@
 				"maxDeceleration": 1.1,
 				"maxSpeed": 22.2,
 				"maxSpeedLocalStation": 13.0,
-				"capacityPerCar": 270,
+				"capacityPerCar": 250,
 				"carLength": 21.5,
 				"minCars": 6,
 				"maxCars": 6,
@@ -8999,7 +8999,7 @@
 				"maxDeceleration": 1.1,
 				"maxSpeed": 22.2,
 				"maxSpeedLocalStation": 13.0,
-				"capacityPerCar": 301,
+				"capacityPerCar": 234,
 				"carLength": 22.5,
 				"minCars": 4,
 				"maxCars": 8,
@@ -9042,7 +9042,7 @@
 				"maxDeceleration": 1.34,
 				"maxSpeed": 33.3,
 				"maxSpeedLocalStation": 13.0,
-				"capacityPerCar": 286,
+				"capacityPerCar": 260,
 				"carLength": 22.04,
 				"minCars": 4,
 				"maxCars": 4,
@@ -9085,7 +9085,7 @@
 				"maxDeceleration": 1.34,
 				"maxSpeed": 22.2,
 				"maxSpeedLocalStation": 13.0,
-				"capacityPerCar": 270,
+				"capacityPerCar": 260,
 				"carLength": 21.5,
 				"minCars": 4,
 				"maxCars": 4,
@@ -9128,7 +9128,7 @@
 				"maxDeceleration": 1.0,
 				"maxSpeed": 25.0,
 				"maxSpeedLocalStation": 15.0,
-				"capacityPerCar": 300,
+				"capacityPerCar": 270,
 				"carLength": 22.5,
 				"minCars": 5,
 				"maxCars": 10,
@@ -11046,7 +11046,7 @@
 			"appearance": { "color": "#00A99D"},
 			"isFixed": false,
 			"location": {
-				"city": ["Karlsruhe "],
+				"city": ["Karlsruhe"],
 				"country": ["Germany"],
 				"continent": ["Central Europe"],
 			},
@@ -11089,7 +11089,7 @@
 			"appearance": { "color": "#9E184D"},
 			"isFixed": false,
 			"location": {
-				"city": ["Karlsruhe "],
+				"city": ["Karlsruhe"],
 				"country": ["Germany"],
 				"continent": ["Central Europe"],
 			},
@@ -11132,7 +11132,7 @@
 			"appearance": { "color": "#BED730"},
 			"isFixed": false,
 			"location": {
-				"city": ["Karlsruhe "],
+				"city": ["Karlsruhe"],
 				"country": ["Germany"],
 				"continent": ["Central Europe"],
 			},
@@ -11175,7 +11175,7 @@
 			"appearance": { "color": "#0090AD"},
 			"isFixed": false,
 			"location": {
-				"city": ["Generic","Karlsruhe "],
+				"city": ["Generic","Karlsruhe"],
 				"country": ["Generic","Germany"],
 				"continent": ["Generic","Central Europe"],
 			},
@@ -11218,7 +11218,7 @@
 			"appearance": { "color": "#A065AB"},
 			"isFixed": false,
 			"location": {
-				"city": ["Karlsruhe "],
+				"city": ["Karlsruhe"],
 				"country": ["Germany"],
 				"continent": ["Central Europe"],
 			},
@@ -11261,7 +11261,7 @@
 			"appearance": { "color": "#0071BC"},
 			"isFixed": false,
 			"location": {
-				"city": ["Karlsruhe "],
+				"city": ["Karlsruhe"],
 				"country": ["Germany"],
 				"continent": ["Central Europe"],
 			},
@@ -11304,7 +11304,7 @@
 			"appearance": { "color": "#00A76D"},
 			"isFixed": false,
 			"location": {
-				"city": ["Karlsruhe "],
+				"city": ["Karlsruhe"],
 				"country": ["Germany"],
 				"continent": ["Central Europe"],
 			},
@@ -11349,7 +11349,7 @@
 			"location": {
 				"city": ["Sydney"],
 				"country": ["Australia"],
-				"continent": ["Central Europe"],
+				"continent": ["Oceania"],
 			},
 			"manufacturer": ["Alstom"],
 			"tag": ["Automated Metro"]
@@ -11392,7 +11392,7 @@
 			"location": {
 				"city": ["Sydney"],
 				"country": ["Australia"],
-				"continent": ["Central Europe"],
+				"continent": ["Oceania"],
 			},
 			"manufacturer": ["Siemens"],
 			"tag": ["Automated Metro"]
@@ -11435,7 +11435,7 @@
 			"location": {
 				"city": ["Sydney"],
 				"country": ["Australia"],
-				"continent": ["Central Europe"],
+				"continent": ["Oceania"],
 			},
 			"manufacturer": ["A Goninan & Co"],
 			"tag": ["Standard Commuter"]
@@ -11478,7 +11478,7 @@
 			"location": {
 				"city": ["Sydney"],
 				"country": ["Australia"],
-				"continent": ["Central Europe"],
+				"continent": ["Oceania"],
 			},
 			"manufacturer": ["A Goninan & Co"],
 			"tag": ["Standard Commuter"]
@@ -11521,7 +11521,7 @@
 			"location": {
 				"city": ["Sydney"],
 				"country": ["Australia"],
-				"continent": ["Central Europe"],
+				"continent": ["Oceania"],
 			},
 			"manufacturer": ["EDi Rail"],
 			"tag": ["Standard Commuter"]
@@ -11564,7 +11564,7 @@
 			"location": {
 				"city": ["Sydney"],
 				"country": ["Australia"],
-				"continent": ["Central Europe"],
+				"continent": ["Oceania"],
 			},
 			"manufacturer": ["UGL Rail"],
 			"tag": ["Standard Commuter"]
@@ -11607,7 +11607,7 @@
 			"location": {
 				"city": ["Sydney"],
 				"country": ["Australia"],
-				"continent": ["Central Europe"],
+				"continent": ["Oceania"],
 			},
 			"manufacturer": ["Downer Rail"," CRRC"],
 			"tag": ["Standard Commuter"]
@@ -11650,7 +11650,7 @@
 			"location": {
 				"city": ["Sydney"],
 				"country": ["Australia"],
-				"continent": ["Central Europe"],
+				"continent": ["Oceania"],
 			},
 			"manufacturer": ["Hyundai","UGL Rail","Mitsubishi"],
 			"tag": ["Standard Commuter"]
@@ -11693,7 +11693,7 @@
 			"location": {
 				"city": ["Sydney"],
 				"country": ["Australia"],
-				"continent": ["Central Europe"],
+				"continent": ["Oceania"],
 			},
 			"manufacturer": ["CAF"],
 			"tag": ["Dual-Mode Commuter"]
@@ -11736,7 +11736,7 @@
 			"location": {
 				"city": ["Sydney"],
 				"country": ["Australia"],
-				"continent": ["Central Europe"],
+				"continent": ["Oceania"],
 			},
 			"manufacturer": ["ABB"],
 			"tag": ["Diesel Commuter"]
@@ -11779,7 +11779,7 @@
 			"location": {
 				"city": ["Sydney"],
 				"country": ["Australia"],
-				"continent": ["Central Europe"],
+				"continent": ["Oceania"],
 			},
 			"manufacturer": ["UGL Rail"],
 			"tag": ["Diesel Commuter"]
@@ -11817,12 +11817,12 @@
 				"ELEVATED": 0.80
 			},
 			"compatibleTrackTypes": ["Urbos 100 (SYD)", "750V LRT (CAT|MS)"," Battery LRT (MS)"," 750V LRT (APS|MS)"],
-			"appearance": { "color": ""},
+			"appearance": { "color": "#239847"},
 			"isFixed": false,
 			"location": {
 				"city": ["Sydney"],
 				"country": ["Australia"],
-				"continent": ["Central Europe"],
+				"continent": ["Oceania"],
 			},
 			"manufacturer": ["CAF"],
 			"tag": ["Standard LRT"]
