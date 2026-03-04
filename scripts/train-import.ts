@@ -62,22 +62,22 @@ const parsed2 = Papa.parse(csv2, {
 var elist:Electrification[] = []; var tglist:TrackGauge[] = []; var lglist:LoadingGauge[] = []; var pslist:PowerSupply[] = []; var ttlist:TrainType[] = []; var alist:AutomationLevel[] = [];
 
 parsed2.data.forEach((ro:any) => {
-  try {
+  if (ro.Electrification != "") {
     elist.push({
       Name: ro.Electrification,
       Actual: ro.Actual_B,
       id: ro.id_C
     })
-  } catch {}
-  try {
+  }
+  if (ro.Track_Gauge != "") {
     tglist.push({
       Name: ro.Track_Gauge,
       Actual: Number(ro.Actual_F),
       id: ro.id_E,
       CostMultiplier: Number(ro.Cost_Multiplier_G)
     })
-  } catch {}
-  try {
+  } 
+  if (ro.Loading_Gauge != "") {
     lglist.push({
       Name: ro.Loading_Gauge,
       id: ro.id_I,
@@ -88,8 +88,8 @@ parsed2.data.forEach((ro:any) => {
       parallelTrackSpacing: Number(ro.parallelTrackSpacing),
       trackClearance: Number(ro.trackClearance)
     })
-  } catch {}
-  try {
+  } 
+  if (ro.Electrification_Type != "") {
     pslist.push({
       Name: ro.Electrification_Type,
       id: ro.id_Q,
@@ -97,8 +97,8 @@ parsed2.data.forEach((ro:any) => {
       Tunnel_Cost_Multiplier: Number(ro.Tunnel_Cost_Multiplier),
       Scissors_Cost_Multiplier: Number(ro.Scissors_Cost_Multiplier)
     })
-  } catch {}
-  try {
+  } 
+  if (ro.Cost_Name != "") {
     ttlist.push({
       Name: ro.Cost_Name,
       maxSpeedLocalStation: Number(ro.maxSpeedLocalStation_V),
@@ -109,8 +109,8 @@ parsed2.data.forEach((ro:any) => {
       maxLateralAcceleration: Number(ro.maxLateralAcceleration_AA),
       maxSlopePercentage: Number(ro.maxSlopePercentage_AB)
     })
-  } catch {}
-  try {
+  } 
+  if (ro.Automation_Level != "") {
     alist.push({
       Name: ro.Automation_Level,
       maxSpeedLocalStation: Number(ro.maxSpeedLocalStation_AD),
@@ -123,7 +123,7 @@ parsed2.data.forEach((ro:any) => {
       baseStationCost: Number(ro.baseStationCost),
       scissorsCrossoverCost: Number(ro.scissorsCrossoverCost)
     })
-  } catch {}
+  } 
 })
 
 fs.writeFileSync(

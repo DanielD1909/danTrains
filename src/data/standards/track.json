@@ -70,41 +70,5 @@
 		"Actual": 2,
 		"id": "aps",
 		"CostMultiplier": 1.1
-	},
-	{
-		"Name": "",
-		"Actual": 0,
-		"id": "",
-		"CostMultiplier": 0
-	},
-	{
-		"Name": "",
-		"Actual": 0,
-		"id": "",
-		"CostMultiplier": 0
-	},
-	{
-		"Name": "",
-		"Actual": 0,
-		"id": "",
-		"CostMultiplier": 0
-	},
-	{
-		"Name": "",
-		"Actual": 0,
-		"id": "",
-		"CostMultiplier": 0
-	},
-	{
-		"Name": "",
-		"Actual": 0,
-		"id": "",
-		"CostMultiplier": 0
-	},
-	{
-		"Name": "",
-		"Actual": 0,
-		"id": "",
-		"CostMultiplier": 0
 	}
 ]

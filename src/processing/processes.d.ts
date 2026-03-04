@@ -74,42 +74,52 @@ export interface Train {
     minStationList:number[];
 }
 
-export interface standards {
-    Electrification: string;
-    Actual_B: string;
-    id_C: string;
-    Track_Gauge: string;
-    id_E: string;
-    Actual_F: number;
-    Cost_Multiplier_G: number;
-    Loading_Gauge: string;
-    id_I: string;
+export interface Electrification {
+    Name: string;
+    Actual: string;
+    id: string;
+}
+export interface TrackGauge {
+    Name: string;
+    id: string;
+    Actual: number;
+    CostMultiplier: number;
+}
+export interface LoadingGauge {
+    Name: string;
+    id: string;
     Average: number;
     Min_No_Filler: number;
     Max_No_Filler: number;
-    Cost_Multiplier_M: number;
+    Cost_Multiplier: number;
     parallelTrackSpacing: number;
     trackClearance: number;
-    Electrification_Type: string;
-    id_Q: string;
-    Cost_Multiplier_R: number;
+}
+export interface PowerSupply {
+    Name: string;
+    id: string;
+    Cost_Multiplier: number;
     Tunnel_Cost_Multiplier: number;
     Scissors_Cost_Multiplier: number;
-    Cost_Name: string;
-    maxSpeedLocalStation_V: number;
-    train_CostPerHour_W: number;
-    car_CostPerHour_X: number;
-    canCrossRoads_Y: boolean;
-    stopTimeSeconds_Z: number;
-    maxLateralAcceleration_AA: number;
-    maxSlopePercentage_AB: number;
-    Automation_Level: string;
-    maxSpeedLocalStation_AD: number;
-    train_CostPerHour_AE: number;
-    car_CostPerHour_AF: number;
-    canCrossRoads_AG: string;
-    stopTimeSeconds_AH: number;
-    maxLateralAcceleration_AI: number;
+}
+export interface TrainType {
+    Name: string;
+    maxSpeedLocalStation: number;
+    train_CostPerHour: number;
+    car_CostPerHour: number;
+    canCrossRoads: boolean;
+    stopTimeSeconds: number;
+    maxLateralAcceleration: number;
+    maxSlopePercentage: number;
+}
+export interface AutomationLevel {
+    Name: string;
+    maxSpeedLocalStation: number;
+    train_CostPerHour: number;
+    car_CostPerHour: number;
+    canCrossRoads: boolean;
+    stopTimeSeconds: number;
+    maxLateralAcceleration: number;
     baseTrackCost: number;
     baseStationCost: number;
     scissorsCrossoverCost: number;

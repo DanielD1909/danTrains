@@ -24,10 +24,6 @@ const pss: c.PowerSupply[] = PowerSupplys as c.PowerSupply[];
 const tts: c.TrainType[] = TrainTypes as c.TrainType[];
 const als: c.AutomationLevel[] = AutomationLevels as c.AutomationLevel[];
 
-interface DropdownItem {
-  
-}
-
 const api = window.SubwayBuilderAPI;
 const r = api.utils.React;
 const h = r.createElement;
@@ -51,23 +47,63 @@ export function TrainPanel() {
   const [power, setPower] = useState("");
   const [type, setType] = useState("");
   const [train, setTrain] = useState("");
-  var eitems:any[] = []; var titems:any[] = []; var witems:any[] = []; var gitems:any[] = []; var pitems:any[] = []; var aitems:any[] = [];
+  var eitems:any[] = es; var titems:any[] = tgs; var witems:any[] = lgs; var gitems:any[] = pss; var pitems:any[] = tts; var aitems:any[] = als;
+  var tlist:c.Train[] = Trains;
+  var all = {
+    Electrification: elect,
+    Voltage: power, 
+    TrackGauge: gauge,
+    LoadingGauge: width,
+    trainType: type,
+    Automation: auto
+  }
+  // aitems = p.getAutomationLevelList();
   
-  aitems = p.getAutomationLevelList();
-
-  function handleAutoSelect(value:string) {
-    setAuto(value);
+  function trainFilterCond(key:keyof c.Train,value:string,t:c.Train) {
+    if (value==="") {
+      return true
+    } else if (typeof t[key] === "string" || typeof t[key] === "object") {
+      return true
+    } else {
+      return false
+    }
   }
 
+  function trainFilter() {
+    const hold:[string,string][] = Object.entries(all);
+    hold.forEach(s => {
+      tlist = tlist.filter(t => {
+        trainFilterCond(s[0] as keyof c.Train,s[1],t);
+      })
+    })
+  }
 
+  function handleSelect(value:string,f:Function) {
+    f(value);
+    trainFilter();
+  }
+
+  function trainSelect(value:string) {
+    setTrain(value);
+  }
+  
+  function resetAll() {
+    setElect("");
+    setAuto("");
+    setGauge("");
+    setWidth("");
+    setPower("");
+    setType("");
+  }
   return (
-    <div className="flex flex-col gap-3 p-3">
+    <div className="">
       <p className="text-sm text-muted-foreground">
         Dan Trains Picker 
       </p>
       <select
         name="AutomationPicker"
-        onChange={v => setAuto(v.target.value)}
+        className="text-sm text-muted-foreground"
+        onChange={v => handleSelect(v.target.value,setAuto)}
       >
         {aitems.map((a) => (
           <option key={a.Name} value={a.Name}>
@@ -75,12 +111,38 @@ export function TrainPanel() {
           </option>
         ))}
       </select>
+      <select
+        name="ElectrificationPicker"
+        className="text-sm text-muted-foreground"
+        onChange={v => handleSelect(v.target.value,setAuto)}
+      >
+        {eitems.map((e) => (
+          <option key={e.Name} value={e.Name}>
+            {e.Name}
+          </option>
+        ))}
+      </select>
+      <p className="text-sm text-muted-foreground">
+        <select
+          name="TrainPicker"
+          className="text-sm text-muted-foreground"
+          onChange={v => trainSelect(v.target.value)}
+        >
+          {tlist.map((e) => (
+            <option key={e.name} value={e.name}>
+              {e.name}
+            </option>
+          ))}
+        </select>
+      </p>
+      <p className="text-sm text-muted-foreground">
       <Button
         variant="secondary"
-        onClick={() => api.ui.showNotification('Hello!', 'info')}
+        onClick={() => resetAll()}
       >
-        Show Notification
+        Reset All
       </Button>
+      </p>
     </div>
   );
 }

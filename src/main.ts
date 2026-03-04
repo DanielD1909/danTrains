@@ -3,7 +3,7 @@
  * Entry point for the mod.
  */
 
-import { ExamplePanel } from './ui/ExamplePanel';
+import { TrainPanel } from './ui/TrainPanel';
 
 const MOD_ID = 'danield1909.danTrains';
 const MOD_VERSION = '1.0.0';
@@ -29,18 +29,10 @@ if (!api) {
         id: 'my-mod-panel',
         title: 'My Mod',
         icon: 'Puzzle',
-        render: ExamplePanel,
+        render: TrainPanel,
       });
 
-      // Example: Add a button to the escape menu
-      api.ui.addButton('escape-menu', {
-        id: 'my-mod-button',
-        label: 'My Mod Button',
-        onClick: () => {
-          api.ui.showNotification('Hello from My Mod!', 'info');
-        },
-      });
-
+      
       console.log(`${TAG} Initialized successfully.`);
     } catch (err) {
       console.error(`${TAG} Failed to initialize:`, err);

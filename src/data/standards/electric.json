@@ -63,30 +63,5 @@
 		"Name": "APM 600V AC",
 		"Actual": "AC .6-50",
 		"id": "apm"
-	},
-	{
-		"Name": "",
-		"Actual": "",
-		"id": ""
-	},
-	{
-		"Name": "",
-		"Actual": "",
-		"id": ""
-	},
-	{
-		"Name": "",
-		"Actual": "",
-		"id": ""
-	},
-	{
-		"Name": "",
-		"Actual": "",
-		"id": ""
-	},
-	{
-		"Name": "",
-		"Actual": "",
-		"id": ""
 	}
 ]
