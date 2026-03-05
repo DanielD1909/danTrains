@@ -5,7 +5,7 @@
  * Note: Floating panels provide their own container, so don't wrap in Card.
  */
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import * as p from '../processing/process.jsx';
 import type * as c from "../processing/processes.d.ts";
 
@@ -40,6 +40,8 @@ function filterItems(la:string[],lb:string[],items:any[]) {
 }
 
 export function TrainPanel() {
+  console.log(Object.getOwnPropertyNames(api.ui));
+  console.log(api.ui.getResolvedTheme());
   const [elect, setElect] = useState("");
   const [auto, setAuto] = useState("");
   const [gauge, setGauge] = useState("");
@@ -47,11 +49,12 @@ export function TrainPanel() {
   const [power, setPower] = useState("");
   const [type, setType] = useState("");
   const [train, setTrain] = useState("");
-  var eitems:any[] = es; var titems:any[] = tgs; var witems:any[] = lgs; var gitems:any[] = pss; var pitems:any[] = tts; var aitems:any[] = als;
-  var tlist:c.Train[] = Trains;
+  var eitems:any[] = es; var titems:any[] = tgs; var witems:any[] = lgs; var pitems:any[] = pss; var gitems:any[] = tts; var aitems:any[] = als;
+  //eitems.push(""); titems.push(""); witems.push(""); gitems.push(""); pitems.push(""); aitems.push("");
+  var [tlist,setTList]:[c.Train[],any] = useState(Trains);
   var all = {
-    Electrification: elect,
-    Voltage: power, 
+    Electrification: power,
+    Voltage: elect, 
     TrackGauge: gauge,
     LoadingGauge: width,
     trainType: type,
@@ -60,31 +63,78 @@ export function TrainPanel() {
   // aitems = p.getAutomationLevelList();
   
   function trainFilterCond(key:keyof c.Train,value:string,t:c.Train) {
-    if (value==="") {
+    if (value=="") {
       return true
-    } else if (typeof t[key] === "string" || typeof t[key] === "object") {
-      return true
+    } else if (typeof t[key] === "string") {
+      return t[key] == value
+    } else if (typeof t[key] === "object") {
+      const hold:any[] = t[key];
+      return hold.includes(value)
     } else {
       return false
     }
   }
 
-  function trainFilter() {
+  useEffect(() => {
+    console.log("Before: "+String(tlist.length))+String(all["Electrification"]);
+    setTList(Trains);
+    console.log("Reset: "+String(tlist.length)+String(all["Electrification"]));
     const hold:[string,string][] = Object.entries(all);
-    hold.forEach(s => {
-      tlist = tlist.filter(t => {
-        trainFilterCond(s[0] as keyof c.Train,s[1],t);
+    const out = Trains.filter(t => {
+      return hold.every(([key,value]) => {
+        return trainFilterCond(key as keyof c.Train,value,t)
       })
     })
-  }
+    setTList(out);
+    console.log("After: "+String(tlist.length)+String(all["Electrification"]));
+  },[elect, auto, gauge, width, power, type])
 
   function handleSelect(value:string,f:Function) {
     f(value);
-    trainFilter();
   }
 
   function trainSelect(value:string) {
     setTrain(value);
+  }
+
+  function specPicker(n:string,items:any[],value:string,f:Function,className?:string) {
+    return (
+      <select
+        name={n}
+        className={className || "text-sm white bg-black"}
+        onChange={v => handleSelect(v.target.value,f)}
+        value={value}
+        style={{
+          backgroundColor: "#000000"
+        }}
+      >
+        <option key={"No Selection"} value={""}>
+          {"No Selection"}
+        </option>
+        {items.map((e) => (
+          <option key={e.Name} value={e.Name}>
+            {e.Name}
+          </option>
+        ))}
+      </select>
+    )
+  }
+
+  function trainPicker() {
+    return (
+      <select
+        name="Train Picker"
+        className="text-sm text-muted-foreground"
+        onChange={v => trainSelect(v.target.value)}
+        value={train}
+      >
+        {tlist.map((e) => (
+          <option key={e.name} value={e.name}>
+            {e.name}
+          </option>
+        ))}
+      </select>
+    )
   }
   
   function resetAll() {
@@ -94,54 +144,40 @@ export function TrainPanel() {
     setWidth("");
     setPower("");
     setType("");
+    setTrain("");
+    setTList(Trains);
   }
-  return (
-    <div className="">
-      <p className="text-sm text-muted-foreground">
-        Dan Trains Picker 
-      </p>
-      <select
-        name="AutomationPicker"
-        className="text-sm text-muted-foreground"
-        onChange={v => handleSelect(v.target.value,setAuto)}
-      >
-        {aitems.map((a) => (
-          <option key={a.Name} value={a.Name}>
-            {a.Name}
-          </option>
-        ))}
-      </select>
-      <select
-        name="ElectrificationPicker"
-        className="text-sm text-muted-foreground"
-        onChange={v => handleSelect(v.target.value,setAuto)}
-      >
-        {eitems.map((e) => (
-          <option key={e.Name} value={e.Name}>
-            {e.Name}
-          </option>
-        ))}
-      </select>
-      <p className="text-sm text-muted-foreground">
-        <select
-          name="TrainPicker"
-          className="text-sm text-muted-foreground"
-          onChange={v => trainSelect(v.target.value)}
-        >
-          {tlist.map((e) => (
-            <option key={e.name} value={e.name}>
-              {e.name}
-            </option>
-          ))}
-        </select>
-      </p>
-      <p className="text-sm text-muted-foreground">
+
+  function resetButton() {
+    return(
       <Button
         variant="secondary"
         onClick={() => resetAll()}
       >
         Reset All
       </Button>
+    )
+  }
+  return (
+    <div className="">
+      <p className="text-sm text-muted-foreground">
+        Dan Trains Picker 
+      </p>
+      <div className="justify-content space-between">
+        {specPicker("AutomationPicker",aitems,auto,setAuto)}
+        {specPicker("ElectricPicker",eitems,elect,setElect)}
+        {specPicker("GaugePicker",gitems,gauge,setGauge)}
+      </div>
+      <div className="justify-content space-between">
+        {specPicker("WidthPicker",witems,width,setWidth)}
+        {specPicker("PowerStandardPicker",pitems,power,setPower)}
+        {specPicker("TypePicker",titems,type,setType)}
+      </div>
+      <p className="text-sm text-muted-foreground">
+        {trainPicker()}
+      </p>
+      <p className="text-sm text-muted-foreground">
+        {resetButton()}
       </p>
     </div>
   );
