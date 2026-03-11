@@ -22,6 +22,7 @@ export interface trainStorageData {
     City: string[],
     Nation: string[],
     Region: string[],
+    calcin: statsCalcInput,
     id?: string,
     saved?: boolean
 }
@@ -106,7 +107,7 @@ export function statsCalc(i:statsCalcInput) {
     return o;
 }
 
-export function compileTrain(train:c.Train,sco:statsCalcOutput,max:number,idin:string) {
+export function compileTrain(train:c.Train,sco:statsCalcOutput,max:number,idin:string,calcin:statsCalcInput) {
     const stat:t.TrainTypeStats = {
         maxAcceleration: train.maxAcceleration,
         maxDeceleration: train.maxDeceleration,
@@ -130,7 +131,9 @@ export function compileTrain(train:c.Train,sco:statsCalcOutput,max:number,idin:s
         maxLateralAcceleration: sco.maxLateralAcceleration,
         minTurnRadius: train.minTurnRadius,
         minStationTurnRadius: train.minStationTurnRadius,
-        maxSlopePercentage: train.maxSlopePercentage
+        maxSlopePercentage: train.maxSlopePercentage,
+        parallelTrackSpacing: sco.parallelTrackSpacing,
+        stopTimeSeconds: sco.stopTimeSeconds
     }
     const tracktypecompat:string = "\""+idin+"\"";
     var desc = " Current Track Setup: "+sco.name;
@@ -161,13 +164,19 @@ export function compileTrain(train:c.Train,sco:statsCalcOutput,max:number,idin:s
         Manufacturer: train.Manufacturer,
         City: train.Cities2,
         Nation: train.Nation2,
-        Region: train.Cont
+        Region: train.Cont,
+        calcin: calcin
     }
-    const out = {
+    const out:compileTrainOut = {
         storageData: store,
-        trainConfig: config
+        trainConfig: config,
     }
     return out;
+}
+
+export interface compileTrainOut {
+    storageData: trainStorageData,
+    trainConfig: t.TrainTypeConfig
 }
 
 export function registerTrain(inp:t.TrainTypeConfig) {

@@ -49,6 +49,8 @@ export interface TrainTypeStats {
   minTurnRadius: number;
   minStationTurnRadius: number;
   maxSlopePercentage: number;
+  parallelTrackSpacing: number;
+  stopTimeSeconds: number;
 }
 
 // =============================================================================

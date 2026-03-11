@@ -100,7 +100,9 @@ export function TrainPanel() {
   const [minBool, setMinBool] = useState(false); const [maxBool, setMaxBool] = useState(false);
   const [min, setMin] = useState(""); const [max, setMax] = useState("");
   const [train, setTrain] = useState(Trains[0].name);
+  const [prevDisable,setPrevDisable] = useState(true);
   const [regDisable,setRegDisable] = useState(true);
+  const [prevText,setPrevText] = useState("Make all selections first.")
   const [regText,setRegText] = useState("Make all selections first.")
   var [eitems,setEItems] = useState(es);
   var [titems,setTItems] = useState(tts);
@@ -227,42 +229,47 @@ export function TrainPanel() {
   }
   
   function trainFilterCond(key:keyof c.Train,value:string,t:c.Train,relative:boolean) {
-  if (value=="" || relative || String(key) == "maxStationList") {
-    return true
-  }
-  
-  if ((String(key) == "minStationList") && (typeof t[key] === "object")) {
-    var holdlist = t[key];
-    var hold = false;
-    holdlist.forEach(len => {
-      if((typeof len) != "number") {
-      } else {
-        if(len <= Number(value)) {hold = true}
-      }
-    })
-    return hold;
-  }
-  if (typeof t[key] === "string") {
-    return t[key] == value;
-  }
+    if (value=="" || relative || String(key) == "maxStationList") {
+      return true
+    }
+    
+    if ((String(key) == "minStationList") && (typeof t[key] === "object")) {
+      var holdlist = t[key];
+      var hold = false;
+      holdlist.forEach(len => {
+        if((typeof len) != "number") {
+        } else {
+          if(len <= Number(value)) {hold = true}
+        }
+      })
+      return hold;
+    }
+    if (typeof t[key] === "string") {
+      return t[key] == value;
+    }
 
-  if (typeof t[key] === "object") {
-    const hold:any[] = t[key];
-    return hold.includes(value);
+    if (typeof t[key] === "object") {
+      const hold:any[] = t[key];
+      return hold.includes(value);
+    }
+    return false;
   }
-  return false;
-}
 
   function ableCheck() {
-    var hold = false; var text = "Register";
+    var hold = false; var text = "Preview";
     Object.entries(all).forEach(entry => {
       if (typeof entry[1] == "string" && entry[1] == "") {
         hold = true;
         text = "Make all selections first.";
       }
     })
-    setRegDisable(hold);
-    setRegText(text);
+    setPrevDisable(hold);
+    setPrevText(text);
+    if (hold) {
+      setRegText("Make all selections first.");
+    } else if(toRegister !== undefined) {
+      setRegText("Click preview first.");
+    }
   }
 
   useEffect(() => {
@@ -291,6 +298,8 @@ export function TrainPanel() {
     })
     setTList(out);
     filterAll();
+    setRegDisable(true);
+    setRegText("Update Preview.");
     ableCheck();
     //console.log("After: "+String(tlist.length)+String(all["Electrification"]));
   },[elect, auto, gauge, width, power, type, min, max, train,electBool, autoBool, gaugeBool, widthBool, powerBool, typeBool,minBool,maxBool])
@@ -314,7 +323,7 @@ export function TrainPanel() {
     return (
       <select
         name="Train Picker"
-        className="text-sm text-muted-foreground bg-black w-full"
+        className="text-medium bg-black w-full"
         onChange={v => trainSelect(v.target.value)}
         value={train}
       >
@@ -338,6 +347,7 @@ export function TrainPanel() {
     setTList(Trains);
     setMin("");
     setMax("");
+    setPreview(<div></div>);
   }
 
   function resetButton() {
@@ -351,28 +361,51 @@ export function TrainPanel() {
     )
   }
 
-  function registrationProccess() {
-    const ordernames = {
-      order:["elect" , "track" , "load" , "power" , "type" , "auto"],
-      names:[elect , gauge , width , power , type , auto]
-    }
-    const values:(c.TrackGauge|c.LoadingGauge|c.Electrification|c.PowerSupply|c.TrainType|c.AutomationLevel)[] = p.getAll(ordernames.names,ordernames.order as ("elect" | "auto" | "power" | "type" | "track" | "load")[]);
+  const [preview,setPreview] = useState(<div></div>)
+  const [toRegister,setToRegister] = useState<o.compileTrainOut | undefined>();
+
+  function registrationPreview() {
+    const values:Partial<Record<keyof typeof all,c.TrackGauge|c.LoadingGauge|c.Electrification|c.PowerSupply|c.TrainType|c.AutomationLevel>> = p.getAll(all);
     const tr = p.getTrain(train) as c.Train;
     const calcin:o.statsCalcInput = {
-      y: values[4] as c.TrainType,
-      a: values[5] as c.AutomationLevel,
-      v: values[0] as c.Electrification,
-      e: values[3] as c.PowerSupply,
-      t: values[1] as c.TrackGauge,
-      l: values[2] as c.LoadingGauge,
+      y: values.trainType as c.TrainType,
+      a: values.Automation as c.AutomationLevel,
+      v: values.Voltage as c.Electrification,
+      e: values.Electrification as c.PowerSupply,
+      t: values.TrackGauge as c.TrackGauge,
+      l: values.LoadingGauge as c.LoadingGauge,
       train: tr,
       min: Number(min),
       max: Number(max)
     }
     const calcout:o.statsCalcOutput = reg.statsCalc(calcin);
-    const hold:any = reg.compileTrain(tr,calcout,Number(max),String(Date.now()));
-    reg.registerTrain(hold.trainConfig);
-    tosave[hold.storageData.id] = hold.storageData;
+    Object.keys(calcout).forEach(key => {
+      console.log(key + calcout[key as keyof typeof calcout])
+    })
+    const hold:o.compileTrainOut = reg.compileTrain(tr,calcout,Number(max),String(Date.now()),calcin);
+    setPreview(p.statsPreview(hold.storageData));
+    setToRegister(hold);
+    setRegDisable(false);
+    setRegText("Register");
+  }
+
+  function registrationProccess() {
+    if (toRegister !== undefined) {
+      reg.registerTrain(toRegister.trainConfig);
+      tosave[String(toRegister.storageData.id)] = toRegister.storageData;
+    }
+  }
+
+  function previewButton() {
+    return(
+      <Button
+        variant="secondary"
+        onClick={() => registrationPreview()}
+        disabled = {prevDisable}
+      >
+        {prevText}
+      </Button>
+    )
   }
 
   function registerButton() {
@@ -387,13 +420,36 @@ export function TrainPanel() {
     )
   }
 
+  function toggleBools() {
+    setElectBool(prev => !prev);
+    setAutoBool(prev => !prev);
+    setGaugeBool(prev => !prev);
+    setWidthBool(prev => !prev);
+    setPowerBool(prev => !prev);
+    setTypeBool(prev => !prev);
+    setMinBool(prev => !prev);
+    setMaxBool(prev => !prev);
+  }
+
+  function fixButton() {
+    return(
+      <Button
+        variant="secondary"
+        onClick={() => toggleBools()}
+      >
+        {"Switch all Switches"}
+      </Button>
+    )
+  }
+
   function pickerWithMode(
     picker: any,
     state: boolean,
-    setState: Function
+    setState: Function,
+    classN: string = "flex items-center flex-1 leading-loose"
   ) {
     return (
-      <div className="flex items-center gap-1 flex-1">
+      <div className={classN}>
         {picker}
         {h(Switch,{
           defaultValue:false,
@@ -403,12 +459,11 @@ export function TrainPanel() {
       </div>
     )
   }
+
+  const pickerstyle:string = "flex items-center gap-4";
   
   return (
-    <div className="">
-      <p className="text-sm text-muted-foreground">
-        Dan Trains Picker 
-      </p>
+    <div className="flex flex-col gap-2">
       <div className="flex justify-between gap-2 w-full">
         {pickerWithMode(specPicker("Automation Standard",aitems,auto,setAuto),autoBool,setAutoBool)}
         {pickerWithMode(specPicker("Electrification Standard",eitems,elect,setElect),electBool,setElectBool)}
@@ -423,14 +478,25 @@ export function TrainPanel() {
         {pickerWithMode(specPicker("Minimum Station Length",minopts,min,setMin),minBool,setMinBool)}
         {pickerWithMode(specPicker("Maximum Station Length",maxopts,max,setMax),maxBool,setMaxBool)}
       </div>
-      <p className="text-sm text-muted-foreground">
+      <p className="">
         {trainPicker()}
       </p>
-      <p className="text-sm text-muted-foreground">
+      <div className="flex justify-between gap-2">
+        <p className="text-sm text-muted-foreground">
         {resetButton()}
       </p>
       <p className="text-sm text-muted-foreground">
+        {fixButton()}
+      </p>
+      <p className="text-sm text-muted-foreground">
+        {previewButton()}
+      </p>
+      <p className="text-sm text-muted-foreground">
         {registerButton()}
+      </p>
+      </div>
+      <p>
+        {preview}
       </p>
     </div>
   );

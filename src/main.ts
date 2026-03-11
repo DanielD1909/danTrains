@@ -26,9 +26,9 @@ if (!api) {
     try {
       // Example: Add a floating panel with a React component
       api.ui.addFloatingPanel({
-        id: 'my-mod-panel',
-        title: 'My Mod',
-        icon: 'Puzzle',
+        id: 'registerPanel',
+        title: 'Dan Trains Registration Menu',
+        icon: 'TrainTrack',
         render: TrainPanel,
       });
 
