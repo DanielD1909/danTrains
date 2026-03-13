@@ -2,6 +2,7 @@ import type * as c from "../processing/processes.d.ts";
 import * as p from "../processing/process";
 import type * as t from "../types/trains";
 import type { ElevationType } from '../types/core';
+import {addToSaveData} from '../ui/TrainPanel'
 const api = window.SubwayBuilderAPI;
 
 export interface statsCalcInput {
@@ -185,4 +186,16 @@ export function registerTrain(inp:t.TrainTypeConfig) {
     console.log("Train Registered! ID: "+inp.id);
     const check:boolean = (api.trains.getTrainType(inp.id) != undefined);
     return check;
+}
+
+export function registerTrainList(inp:Record<string,trainStorageData>) {
+    console.log(inp);
+    console.log(Object.keys(inp));
+    (Object.keys(inp)).forEach(key => {
+        const con = inp[key].config;
+        registerTrain(con);
+        addToSaveData(key,inp[key])
+        console.log("Added Train: "+key);
+    })
+    console.log("Added all trains from save.")
 }

@@ -52,9 +52,9 @@ parsed.data.forEach((r:any) => {
 
   if (r["minCars"] != r["maxCars"]) {
     for (let step = Number(r["minCars"]); step <= Number(r["maxCars"]); step += Number(r["carsPerCarSet"])) {
-        lengthList.push(Math.round(step * Number(r["carLength"])));
+        lengthList.push(Math.ceil(step * Number(r["carLength"])));
         consistList.push(step);
-        minStationList.push(Math.round((step * Number(r["carLength"]) + 3) / increment) * increment);
+        minStationList.push(Math.ceil((step * Number(r["carLength"]) + 3) / increment) * increment);
     }
     r["lengthList"] = lengthList;
     r["consistList"] = consistList;
@@ -63,8 +63,8 @@ parsed.data.forEach((r:any) => {
   } else {
     r["lengthList"] = [Math.round(Number(r["minCars"]) * Number(r["carLength"]))];
     r["consistList"] = [Number(r["minCars"])];
-    r["minStationList"] = [Math.round((Number(r["minCars"]) * Number(r["carLength"]) + 3) / increment) * increment];
-    r["maxStationList"] = [Math.round((Number(r["minCars"]) * Number(r["carLength"]) + 3) / increment) * increment];
+    r["minStationList"] = [Math.ceil((Number(r["minCars"]) * Number(r["carLength"]) + 3) / increment) * increment];
+    r["maxStationList"] = [Math.ceil((Number(r["minCars"]) * Number(r["carLength"]) + 3) / increment) * increment];
   }
   const train:Train = r as Train;
   TrainList.push(train);

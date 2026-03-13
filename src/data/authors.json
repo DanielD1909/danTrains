@@ -3,5 +3,10 @@
 		"Name": "DanielD1909 (Author)",
 		"id": "Author:DanielD1909",
 		"Type": "Author"
+	},
+	{
+		"Name": "Eric Adams (Challenge)",
+		"id": "Challenge:Eric Adams",
+		"Type": "Challenge"
 	}
 ]

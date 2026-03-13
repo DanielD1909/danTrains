@@ -10,6 +10,7 @@ import * as p from '../processing/process.jsx';
 import type * as c from "../processing/processes.d.ts";
 import type * as o from "../processing/register.tsx";
 import * as reg from "../processing/register";
+import * as tp from "./TrainPanel"
 
 import trains from "../data/trains.json"
 import Electrifications from "../data/standards/electric.json"
@@ -21,6 +22,7 @@ import AutomationLevels from "../data/standards/automation.json"
 import Regions from "../data/natcont/regions.json"
 import Nations from "../data/natcont/nations.json"
 import Cities from "../data/natcont/cities.json"
+import Authors from "../data/authors.json"
 
 const Trains: c.Train[] = trains as c.Train[];
 const es: c.Electrification[] = Electrifications as c.Electrification[];
@@ -32,6 +34,7 @@ const als: c.AutomationLevel[] = AutomationLevels as c.AutomationLevel[];
 const regs: c.Region[] = Regions as c.Region[];
 const nats: c.Nation[] = Nations as c.Nation[];
 const cits: c.City[] = Cities as c.City[];
+const auts: c.Tag[] = Authors as c.Tag[];
 
 const api = window.SubwayBuilderAPI;
 const r = api.utils.React;
@@ -39,16 +42,12 @@ const h = r.createElement;
 const {Switch, Button} = api.utils.components;
 
 
-function handleSelect(value:string,f:Function) {
-    f(value);
-}
-
 function specPicker(n:string,items:any[],value:string|number,f:Function,enabled:boolean,className?:string) {
     return (
         <select
         name={n}
         className={className || "text-sm white bg-black w-full"}
-        onChange={v => handleSelect(v.target.value,f)}
+        onChange={v => f(v.target.value)}
         value={value}
         disabled={!enabled}
         style={{
@@ -65,6 +64,35 @@ function specPicker(n:string,items:any[],value:string|number,f:Function,enabled:
         ))}
         </select>
     )
+}
+
+function tagPicker(n:string,items:c.Tag[],value:string|number,f:Function,enabled:boolean,className?:string) {
+    return (
+        <select
+        name={n}
+        className={className || "text-sm white bg-black w-full"}
+        onChange={v => f(v.target.value)}
+        value={value}
+        disabled={!enabled}
+        style={{
+            backgroundColor: "#000000"
+        }}
+        >
+        <option key={"Select "+n} value={""}>
+            {"No Selection"}
+        </option>
+        {items.map((e) => (
+            <option key={String(e.id)} value={String(e.id)}>
+            {String(e.Name)}
+            </option>
+        ))}
+        </select>
+    )
+}
+
+function getTagNameById(id: string): string | undefined {
+    const entry = auts.find(a => a.id === id);
+    return entry?.Name;
 }
 
 function compare(a:number,b:number,op_code:string) {
@@ -357,7 +385,11 @@ export function TrainDictPanel() {
             if (!all[key][2]) {
                 const trainKey:(keyof c.Train) = key as keyof c.Train;
                 const trainValue = tr[trainKey];
-                if (typeof trainValue == "object") {
+                if (key=="Tags" && typeof trainValue == "object") {
+                  const hold:string[] = trainValue as string[];
+                  const name:string = tp.getAuthorIdByName(hold[0])||auts[0].id;
+                  all[key][1](name);
+                } else if (typeof trainValue == "object") {
                     const hold:any[] = trainValue;
                     if (hold.includes("Generic")) {
                         const filled = hold.filter(h => h != "Generic");
@@ -418,7 +450,6 @@ export function TrainDictPanel() {
         if (typeof t[key] === "string" || typeof t[key] === "boolean") {
             return t[key] == String(value);
         }
-
         if (typeof t[key] === "object") {
             const hold:any[] = t[key];
             return hold.includes(value);
@@ -657,55 +688,58 @@ export function TrainDictPanel() {
     return (
         <div className="flex flex-col gap-2">
             <div className="flex justify-between gap-2 w-full">
-            {pickerWithMode(specPicker("Region",regs,region,setRegion,regionBool),regionBool,setRegionBool)}
-            {pickerWithMode(specPicker("Nation",nationList,nation,setNation,nationBool),nationBool,setNationBool)}
-            {pickerWithMode(specPicker("City",cityList,city,setCity,cityBool),cityBool,setCityBool)}
-        </div>
-        <div className="flex justify-between gap-2 w-full">
-            {pickerWithMode(specPicker("Automation Standard",als,auto,setAuto,autoBool),autoBool,setAutoBool)}
-            {pickerWithMode(specPicker("Electrification Standard",es,elect,setElect,electBool),electBool,setElectBool)}
-            {pickerWithMode(specPicker("Track Gauge",tgs,gauge,setGauge,electBool),gaugeBool,setGaugeBool)}
-        </div>
-        <div className="flex justify-between gap-2 w-full">
-            {pickerWithMode(specPicker("Loading Gauge",lgs,width,setWidth,widthBool),widthBool,setWidthBool)}
-            {pickerWithMode(specPicker("Power Supply",pss,power,setPower,powerBool),powerBool,setPowerBool)}
-            {pickerWithMode(specPicker("Train Type",tts,type,setType,typeBool),typeBool,setTypeBool)}
-        </div>
-        <div className="flex justify-between gap-2 w-full">
-            {pickerWithMode(specPicker("Minimum Station Length",lens,min,setMin,minBool),minBool,setMinBool)}
-            {pickerWithMode(specPicker("Maximum Station Length",lens,max,setMax,maxBool),maxBool,setMaxBool)}
-        </div>
-        <div className="flex flex-wrap justify-between gap-2 w-full">
-            {
-                (Object.keys(allNum) as (keyof typeof allNum)[]).map((key) => 
-                    inputWithModeAndOperator(
-                        key,
-                        allNum[key][2],
-                        allNum[key][3]
+                {pickerWithMode(tagPicker("Tag",auts,author,setAuthor,authorBool),authorBool,setAuthorBool)}
+            </div>
+            <div className="flex justify-between gap-2 w-full">
+                {pickerWithMode(specPicker("Region",regs,region,setRegion,regionBool),regionBool,setRegionBool)}
+                {pickerWithMode(specPicker("Nation",nationList,nation,setNation,nationBool),nationBool,setNationBool)}
+                {pickerWithMode(specPicker("City",cityList,city,setCity,cityBool),cityBool,setCityBool)}
+            </div>
+            <div className="flex justify-between gap-2 w-full">
+                {pickerWithMode(specPicker("Automation Standard",als,auto,setAuto,autoBool),autoBool,setAutoBool)}
+                {pickerWithMode(specPicker("Electrification Standard",es,elect,setElect,electBool),electBool,setElectBool)}
+                {pickerWithMode(specPicker("Track Gauge",tgs,gauge,setGauge,electBool),gaugeBool,setGaugeBool)}
+            </div>
+            <div className="flex justify-between gap-2 w-full">
+                {pickerWithMode(specPicker("Loading Gauge",lgs,width,setWidth,widthBool),widthBool,setWidthBool)}
+                {pickerWithMode(specPicker("Power Supply",pss,power,setPower,powerBool),powerBool,setPowerBool)}
+                {pickerWithMode(specPicker("Train Type",tts,type,setType,typeBool),typeBool,setTypeBool)}
+            </div>
+            <div className="flex justify-between gap-2 w-full">
+                {pickerWithMode(specPicker("Minimum Station Length",lens,min,setMin,minBool),minBool,setMinBool)}
+                {pickerWithMode(specPicker("Maximum Station Length",lens,max,setMax,maxBool),maxBool,setMaxBool)}
+            </div>
+            <div className="flex flex-wrap justify-between gap-2 w-full">
+                {
+                    (Object.keys(allNum) as (keyof typeof allNum)[]).map((key) => 
+                        inputWithModeAndOperator(
+                            key,
+                            allNum[key][2],
+                            allNum[key][3]
+                        )
                     )
-                )
-            }
-        </div>
-        <p className="">
-            {trainPicker()}
-        </p>
-        <div className="flex justify-between gap-2">
-            <p className="text-sm text-muted-foreground">
-                {resetButton()}
+                }
+            </div>
+            <p className="">
+                {trainPicker()}
             </p>
-            <p className="text-sm text-muted-foreground">
-                {fixButton()}
+            <div className="flex justify-between gap-2">
+                <p className="text-sm text-muted-foreground">
+                    {resetButton()}
+                </p>
+                <p className="text-sm text-muted-foreground">
+                    {fixButton()}
+                </p>
+                <p className="text-sm text-muted-foreground">
+                    {TrainCacheButton(train,tr,tempall,"Save and send to Registration Menu")}
+                </p>
+                <p className="text-sm text-muted-foreground">
+                    {ClearTrainCacheButton("Purge Cache")}
+                </p>
+            </div>
+            <p>
+                {preview}
             </p>
-            <p className="text-sm text-muted-foreground">
-                {TrainCacheButton(train,tr,tempall,"Save and send to Registration Menu")}
-            </p>
-            <p className="text-sm text-muted-foreground">
-                {ClearTrainCacheButton("Purge Cache")}
-            </p>
-        </div>
-        <p>
-            {preview}
-        </p>
         </div>
     );
 }

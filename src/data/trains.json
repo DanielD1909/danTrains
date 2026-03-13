@@ -237,10 +237,10 @@
 			3
 		],
 		"minStationList": [
-			20
+			40
 		],
 		"maxStationList": [
-			20
+			40
 		]
 	},
 	{
@@ -331,7 +331,8 @@
 			"Mexico"
 		],
 		"Tags": [
-			"Author:DanielD1909"
+			"Author:DanielD1909",
+			"Challenge:Eric Adams"
 		],
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -1107,10 +1108,10 @@
 			3
 		],
 		"minStationList": [
-			20
+			40
 		],
 		"maxStationList": [
-			20
+			40
 		]
 	},
 	{
@@ -1213,10 +1214,10 @@
 			3
 		],
 		"minStationList": [
-			20
+			40
 		],
 		"maxStationList": [
-			20
+			40
 		]
 	},
 	{
@@ -1419,7 +1420,8 @@
 			"Greece"
 		],
 		"Tags": [
-			"Author:DanielD1909"
+			"Author:DanielD1909",
+			"Challenge:Eric Adams"
 		],
 		"mainTrackID": "std_mdc-1_cat_un",
 		"trainType2": "LRT",
@@ -1524,7 +1526,8 @@
 			"Croatia"
 		],
 		"Tags": [
-			"Author:DanielD1909"
+			"Author:DanielD1909",
+			"Challenge:Eric Adams"
 		],
 		"mainTrackID": "m_cdc-1_cat_ber",
 		"trainType2": "LRT",
@@ -1740,7 +1743,7 @@
 		"mainTrackID": "std_mdc-1_cat_bm",
 		"trainType2": "LRT",
 		"lengthList": [
-			27,
+			28,
 			55
 		],
 		"consistList": [
@@ -1855,10 +1858,10 @@
 			5
 		],
 		"minStationList": [
-			40
+			60
 		],
 		"maxStationList": [
-			40
+			60
 		]
 	},
 	{
@@ -1977,10 +1980,10 @@
 			2
 		],
 		"minStationList": [
-			40
+			60
 		],
 		"maxStationList": [
-			40
+			60
 		]
 	},
 	{
@@ -2088,10 +2091,10 @@
 			7
 		],
 		"minStationList": [
-			40
+			60
 		],
 		"maxStationList": [
-			40
+			60
 		]
 	},
 	{
@@ -2315,11 +2318,11 @@
 			4
 		],
 		"minStationList": [
-			40,
+			60,
 			60
 		],
 		"maxStationList": [
-			40,
+			60,
 			60
 		]
 	},
@@ -2437,10 +2440,10 @@
 			7
 		],
 		"minStationList": [
-			40
+			60
 		],
 		"maxStationList": [
-			40
+			60
 		]
 	},
 	{
@@ -2561,10 +2564,10 @@
 			5
 		],
 		"minStationList": [
-			40
+			60
 		],
 		"maxStationList": [
-			40
+			60
 		]
 	},
 	{
@@ -2681,10 +2684,10 @@
 			7
 		],
 		"minStationList": [
-			40
+			60
 		],
 		"maxStationList": [
-			40
+			60
 		]
 	},
 	{
@@ -2781,8 +2784,8 @@
 		"trainType2": "Automated People Mover",
 		"lengthList": [
 			26,
-			38,
-			51
+			39,
+			52
 		],
 		"consistList": [
 			2,
@@ -2790,13 +2793,13 @@
 			4
 		],
 		"minStationList": [
-			20,
 			40,
+			60,
 			60
 		],
 		"maxStationList": [
-			20,
 			40,
+			60,
 			60
 		]
 	},
@@ -2902,7 +2905,8 @@
 			"Ireland"
 		],
 		"Tags": [
-			"Author:DanielD1909"
+			"Author:DanielD1909",
+			"Challenge:Eric Adams"
 		],
 		"mainTrackID": "std_mdc-1_cat_un",
 		"trainType2": "LRT",
@@ -2913,10 +2917,10 @@
 			7
 		],
 		"minStationList": [
-			40
+			60
 		],
 		"maxStationList": [
-			40
+			60
 		]
 	},
 	{
@@ -3021,7 +3025,8 @@
 			"Ireland"
 		],
 		"Tags": [
-			"Author:DanielD1909"
+			"Author:DanielD1909",
+			"Challenge:Eric Adams"
 		],
 		"mainTrackID": "std_mdc-1_cat_un",
 		"trainType2": "LRT",
@@ -3260,10 +3265,10 @@
 			7
 		],
 		"minStationList": [
-			40
+			60
 		],
 		"maxStationList": [
-			40
+			60
 		]
 	},
 	{
@@ -3369,11 +3374,11 @@
 		],
 		"minStationList": [
 			40,
-			40
+			60
 		],
 		"maxStationList": [
 			40,
-			40
+			60
 		]
 	},
 	{
@@ -3479,10 +3484,10 @@
 			7
 		],
 		"minStationList": [
-			40
+			60
 		],
 		"maxStationList": [
-			40
+			60
 		]
 	},
 	{
@@ -3581,8 +3586,8 @@
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
-			32,
-			64
+			33,
+			65
 		],
 		"consistList": [
 			3,
@@ -3590,11 +3595,11 @@
 		],
 		"minStationList": [
 			40,
-			60
+			80
 		],
 		"maxStationList": [
 			40,
-			60
+			80
 		]
 	},
 	{
@@ -3688,19 +3693,19 @@
 		"mainTrackID": "std_hv-4_cat_rem",
 		"trainType2": "Automated Metro",
 		"lengthList": [
-			38,
-			76
+			39,
+			77
 		],
 		"consistList": [
 			2,
 			4
 		],
 		"minStationList": [
-			40,
+			60,
 			80
 		],
 		"maxStationList": [
-			40,
+			60,
 			80
 		]
 	},
@@ -3906,12 +3911,12 @@
 			3
 		],
 		"minStationList": [
-			40,
-			60
+			60,
+			80
 		],
 		"maxStationList": [
-			40,
-			60
+			60,
+			80
 		]
 	},
 	{
@@ -4007,7 +4012,7 @@
 		"mainTrackID": "std_cdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
-			45,
+			46,
 			68
 		],
 		"consistList": [
@@ -4015,11 +4020,11 @@
 			9
 		],
 		"minStationList": [
-			40,
+			60,
 			80
 		],
 		"maxStationList": [
-			40,
+			60,
 			80
 		]
 	},
@@ -4124,12 +4129,12 @@
 			9
 		],
 		"minStationList": [
-			40,
-			60
+			60,
+			80
 		],
 		"maxStationList": [
-			40,
-			60
+			60,
+			80
 		]
 	},
 	{
@@ -4226,7 +4231,7 @@
 		"trainType2": "LRT",
 		"lengthList": [
 			35,
-			69
+			70
 		],
 		"consistList": [
 			7,
@@ -4345,13 +4350,13 @@
 			6
 		],
 		"minStationList": [
-			20,
 			40,
+			60,
 			80
 		],
 		"maxStationList": [
-			20,
 			40,
+			60,
 			80
 		]
 	},
@@ -4452,8 +4457,8 @@
 		"mainTrackID": "std_mdc-4_tru_ms",
 		"trainType2": "Automated Metro",
 		"lengthList": [
-			48,
-			64
+			49,
+			65
 		],
 		"consistList": [
 			3,
@@ -4461,11 +4466,11 @@
 		],
 		"minStationList": [
 			60,
-			60
+			80
 		],
 		"maxStationList": [
 			60,
-			60
+			80
 		]
 	},
 	{
@@ -4570,11 +4575,11 @@
 			5
 		],
 		"minStationList": [
-			60,
+			80,
 			80
 		],
 		"maxStationList": [
-			60,
+			80,
 			80
 		]
 	},
@@ -4896,8 +4901,8 @@
 		"mainTrackID": "std_mdc-1_cat_un",
 		"trainType2": "LRT",
 		"lengthList": [
-			32,
-			64
+			33,
+			65
 		],
 		"consistList": [
 			5,
@@ -4905,11 +4910,11 @@
 		],
 		"minStationList": [
 			40,
-			60
+			80
 		],
 		"maxStationList": [
 			40,
-			60
+			80
 		]
 	},
 	{
@@ -5020,8 +5025,8 @@
 		"mainTrackID": "std_mdc-0_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
-			32,
-			64
+			33,
+			65
 		],
 		"consistList": [
 			5,
@@ -5029,11 +5034,11 @@
 		],
 		"minStationList": [
 			40,
-			60
+			80
 		],
 		"maxStationList": [
 			40,
-			60
+			80
 		]
 	},
 	{
@@ -5154,8 +5159,8 @@
 		"mainTrackID": "std_mdc-0_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
-			32,
-			64
+			33,
+			65
 		],
 		"consistList": [
 			5,
@@ -5163,11 +5168,11 @@
 		],
 		"minStationList": [
 			40,
-			60
+			80
 		],
 		"maxStationList": [
 			40,
-			60
+			80
 		]
 	},
 	{
@@ -5282,11 +5287,11 @@
 		],
 		"minStationList": [
 			40,
-			60
+			80
 		],
 		"maxStationList": [
 			40,
-			60
+			80
 		]
 	},
 	{
@@ -5392,8 +5397,8 @@
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
-			29,
-			58
+			30,
+			59
 		],
 		"consistList": [
 			5,
@@ -5401,11 +5406,11 @@
 		],
 		"minStationList": [
 			40,
-			60
+			80
 		],
 		"maxStationList": [
 			40,
-			60
+			80
 		]
 	},
 	{
@@ -5500,7 +5505,8 @@
 			"Israel"
 		],
 		"Tags": [
-			"Author:DanielD1909"
+			"Author:DanielD1909",
+			"Challenge:Eric Adams"
 		],
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -5624,13 +5630,14 @@
 			"Turkey"
 		],
 		"Tags": [
-			"Author:DanielD1909"
+			"Author:DanielD1909",
+			"Challenge:Eric Adams"
 		],
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
 			29,
-			57
+			58
 		],
 		"consistList": [
 			3,
@@ -5638,11 +5645,11 @@
 		],
 		"minStationList": [
 			40,
-			60
+			80
 		],
 		"maxStationList": [
 			40,
-			60
+			80
 		]
 	},
 	{
@@ -5747,8 +5754,8 @@
 		"mainTrackID": "std_mdc-1_cat_un",
 		"trainType2": "LRT",
 		"lengthList": [
-			34,
-			68
+			35,
+			69
 		],
 		"consistList": [
 			5,
@@ -5974,8 +5981,8 @@
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel LRT",
 		"lengthList": [
-			31,
-			62,
+			32,
+			63,
 			94
 		],
 		"consistList": [
@@ -5985,12 +5992,12 @@
 		],
 		"minStationList": [
 			40,
-			60,
+			80,
 			100
 		],
 		"maxStationList": [
 			40,
-			60,
+			80,
 			100
 		]
 	},
@@ -6092,10 +6099,10 @@
 			4
 		],
 		"minStationList": [
-			80
+			100
 		],
 		"maxStationList": [
-			80
+			100
 		]
 	},
 	{
@@ -6191,9 +6198,9 @@
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
-			40,
-			60,
-			80
+			41,
+			61,
+			81
 		],
 		"consistList": [
 			6,
@@ -6201,14 +6208,14 @@
 			12
 		],
 		"minStationList": [
-			40,
 			60,
-			80
+			80,
+			100
 		],
 		"maxStationList": [
-			40,
 			60,
-			80
+			80,
+			100
 		]
 	},
 	{
@@ -6312,12 +6319,12 @@
 			14
 		],
 		"minStationList": [
-			40,
-			80
+			60,
+			100
 		],
 		"maxStationList": [
-			40,
-			80
+			60,
+			100
 		]
 	},
 	{
@@ -6426,7 +6433,7 @@
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
-			48,
+			49,
 			97
 		],
 		"consistList": [
@@ -6688,19 +6695,19 @@
 		"trainType2": "Diesel Commuter",
 		"lengthList": [
 			42,
-			83
+			84
 		],
 		"consistList": [
 			2,
 			4
 		],
 		"minStationList": [
-			40,
-			80
+			60,
+			100
 		],
 		"maxStationList": [
-			40,
-			80
+			60,
+			100
 		]
 	},
 	{
@@ -6800,10 +6807,10 @@
 			5
 		],
 		"minStationList": [
-			80
+			100
 		],
 		"maxStationList": [
-			80
+			100
 		]
 	},
 	{
@@ -6900,8 +6907,8 @@
 		"mainTrackID": "std_mdc-1_tra_aar",
 		"trainType2": "LRT",
 		"lengthList": [
-			54,
-			81
+			55,
+			82
 		],
 		"consistList": [
 			4,
@@ -6909,11 +6916,11 @@
 		],
 		"minStationList": [
 			60,
-			80
+			100
 		],
 		"maxStationList": [
 			60,
-			80
+			100
 		]
 	},
 	{
@@ -7011,8 +7018,8 @@
 		"mainTrackID": "std_mdc-2_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
-			54,
-			81
+			55,
+			82
 		],
 		"consistList": [
 			4,
@@ -7020,11 +7027,11 @@
 		],
 		"minStationList": [
 			60,
-			80
+			100
 		],
 		"maxStationList": [
 			60,
-			80
+			100
 		]
 	},
 	{
@@ -7129,10 +7136,10 @@
 			4
 		],
 		"minStationList": [
-			80
+			100
 		],
 		"maxStationList": [
-			80
+			100
 		]
 	},
 	{
@@ -7242,10 +7249,10 @@
 			4
 		],
 		"minStationList": [
-			80
+			100
 		],
 		"maxStationList": [
-			80
+			100
 		]
 	},
 	{
@@ -7344,7 +7351,7 @@
 		"mainTrackID": "std_cdc-1_trucat_mw",
 		"trainType2": "Metro",
 		"lengthList": [
-			58,
+			59,
 			88
 		],
 		"consistList": [
@@ -7352,11 +7359,11 @@
 			6
 		],
 		"minStationList": [
-			60,
+			80,
 			100
 		],
 		"maxStationList": [
-			60,
+			80,
 			100
 		]
 	},
@@ -7495,18 +7502,18 @@
 			6
 		],
 		"minStationList": [
-			20,
 			40,
 			60,
 			60,
-			80
+			80,
+			100
 		],
 		"maxStationList": [
-			20,
 			40,
 			60,
 			60,
-			80
+			80,
+			100
 		]
 	},
 	{
@@ -7610,19 +7617,19 @@
 		"trainType2": "Automated Metro",
 		"lengthList": [
 			59,
-			78
+			79
 		],
 		"consistList": [
 			3,
 			4
 		],
 		"minStationList": [
-			60,
-			80
+			80,
+			100
 		],
 		"maxStationList": [
-			60,
-			80
+			80,
+			100
 		]
 	},
 	{
@@ -7725,10 +7732,10 @@
 			5
 		],
 		"minStationList": [
-			80
+			100
 		],
 		"maxStationList": [
-			80
+			100
 		]
 	},
 	{
@@ -7829,10 +7836,10 @@
 			5
 		],
 		"minStationList": [
-			80
+			100
 		],
 		"maxStationList": [
-			80
+			100
 		]
 	},
 	{
@@ -8253,11 +8260,11 @@
 			6
 		],
 		"minStationList": [
-			40,
+			60,
 			100
 		],
 		"maxStationList": [
-			40,
+			60,
 			100
 		]
 	},
@@ -8362,10 +8369,10 @@
 			5
 		],
 		"minStationList": [
-			80
+			100
 		],
 		"maxStationList": [
-			80
+			100
 		]
 	},
 	{
@@ -8575,10 +8582,10 @@
 			5
 		],
 		"minStationList": [
-			80
+			100
 		],
 		"maxStationList": [
-			80
+			100
 		]
 	},
 	{
@@ -8897,10 +8904,10 @@
 			5
 		],
 		"minStationList": [
-			80
+			100
 		],
 		"maxStationList": [
-			80
+			100
 		]
 	},
 	{
@@ -9014,12 +9021,12 @@
 		],
 		"minStationList": [
 			40,
-			60,
+			80,
 			100
 		],
 		"maxStationList": [
 			40,
-			60,
+			80,
 			100
 		]
 	},
@@ -9120,7 +9127,7 @@
 		"lengthList": [
 			26,
 			52,
-			77
+			78
 		],
 		"consistList": [
 			3,
@@ -9128,14 +9135,14 @@
 			9
 		],
 		"minStationList": [
-			20,
+			40,
 			60,
-			80
+			100
 		],
 		"maxStationList": [
-			20,
+			40,
 			60,
-			80
+			100
 		]
 	},
 	{
@@ -9231,7 +9238,7 @@
 		"lengthList": [
 			28,
 			56,
-			83
+			84
 		],
 		"consistList": [
 			2,
@@ -9241,12 +9248,12 @@
 		"minStationList": [
 			40,
 			60,
-			80
+			100
 		],
 		"maxStationList": [
 			40,
 			60,
-			80
+			100
 		]
 	},
 	{
@@ -9335,7 +9342,8 @@
 			"Turkey"
 		],
 		"Tags": [
-			"Author:DanielD1909"
+			"Author:DanielD1909",
+			"Challenge:Eric Adams"
 		],
 		"mainTrackID": "std_cdc-1_cat_ms",
 		"trainType2": "Metro",
@@ -9439,7 +9447,8 @@
 			"Turkey"
 		],
 		"Tags": [
-			"Author:DanielD1909"
+			"Author:DanielD1909",
+			"Challenge:Eric Adams"
 		],
 		"mainTrackID": "std_hv-4_cat_ms",
 		"trainType2": "Automated Metro",
@@ -9544,7 +9553,8 @@
 			"Turkey"
 		],
 		"Tags": [
-			"Author:DanielD1909"
+			"Author:DanielD1909",
+			"Challenge:Eric Adams"
 		],
 		"mainTrackID": "std_hv-4_cat_lss",
 		"trainType2": "Automated Metro",
@@ -9555,10 +9565,10 @@
 			4
 		],
 		"minStationList": [
-			80
+			100
 		],
 		"maxStationList": [
-			80
+			100
 		]
 	},
 	{
@@ -9763,10 +9773,10 @@
 			4
 		],
 		"minStationList": [
-			80
+			100
 		],
 		"maxStationList": [
-			80
+			100
 		]
 	},
 	{
@@ -9894,11 +9904,11 @@
 		],
 		"minStationList": [
 			60,
-			80
+			100
 		],
 		"maxStationList": [
 			60,
-			80
+			100
 		]
 	},
 	{
@@ -10104,8 +10114,8 @@
 		"trainType2": "LRT",
 		"lengthList": [
 			30,
-			59,
-			89
+			60,
+			90
 		],
 		"consistList": [
 			3,
@@ -10114,12 +10124,12 @@
 		],
 		"minStationList": [
 			40,
-			60,
+			80,
 			100
 		],
 		"maxStationList": [
 			40,
-			60,
+			80,
 			100
 		]
 	},
@@ -10256,8 +10266,8 @@
 		"trainType2": "LRT",
 		"lengthList": [
 			29,
-			57,
-			86,
+			58,
+			87,
 			115
 		],
 		"consistList": [
@@ -10268,14 +10278,14 @@
 		],
 		"minStationList": [
 			40,
-			60,
 			80,
+			100,
 			120
 		],
 		"maxStationList": [
 			40,
-			60,
 			80,
+			100,
 			120
 		]
 	},
@@ -10383,8 +10393,8 @@
 		"lengthList": [
 			25,
 			50,
-			74,
-			99
+			75,
+			100
 		],
 		"consistList": [
 			3,
@@ -10393,16 +10403,16 @@
 			12
 		],
 		"minStationList": [
-			20,
+			40,
 			60,
 			80,
-			100
+			120
 		],
 		"maxStationList": [
-			20,
+			40,
 			60,
 			80,
-			100
+			120
 		]
 	},
 	{
@@ -10497,9 +10507,9 @@
 		"mainTrackID": "std_cdc-1_tru_dc",
 		"trainType2": "Metro",
 		"lengthList": [
-			41,
+			42,
 			62,
-			82,
+			83,
 			103
 		],
 		"consistList": [
@@ -10509,16 +10519,16 @@
 			5
 		],
 		"minStationList": [
-			40,
 			60,
 			80,
-			100
+			100,
+			120
 		],
 		"maxStationList": [
-			40,
 			60,
 			80,
-			100
+			100,
+			120
 		]
 	},
 	{
@@ -10824,7 +10834,7 @@
 		"mainTrackID": "std_cdc-1_fr_ms",
 		"trainType2": "Metro",
 		"lengthList": [
-			53,
+			54,
 			107
 		],
 		"consistList": [
@@ -10833,11 +10843,11 @@
 		],
 		"minStationList": [
 			60,
-			100
+			120
 		],
 		"maxStationList": [
 			60,
-			100
+			120
 		]
 	},
 	{
@@ -10947,10 +10957,10 @@
 			5
 		],
 		"minStationList": [
-			100
+			120
 		],
 		"maxStationList": [
-			100
+			120
 		]
 	},
 	{
@@ -11063,12 +11073,12 @@
 			5
 		],
 		"minStationList": [
-			80,
-			100
+			100,
+			120
 		],
 		"maxStationList": [
-			80,
-			100
+			100,
+			120
 		]
 	},
 	{
@@ -11173,10 +11183,10 @@
 			5
 		],
 		"minStationList": [
-			100
+			120
 		],
 		"maxStationList": [
-			100
+			120
 		]
 	},
 	{
@@ -11290,14 +11300,14 @@
 			5
 		],
 		"minStationList": [
-			60,
 			80,
-			100
+			100,
+			120
 		],
 		"maxStationList": [
-			60,
 			80,
-			100
+			100,
+			120
 		]
 	},
 	{
@@ -11401,7 +11411,7 @@
 		"mainTrackID": "std_iac-1_cat_mw",
 		"trainType2": "Dual-Mode Commuter",
 		"lengthList": [
-			87,
+			88,
 			117
 		],
 		"consistList": [
@@ -11528,10 +11538,10 @@
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
-			29,
-			58,
-			87,
-			116
+			30,
+			59,
+			88,
+			117
 		],
 		"consistList": [
 			3,
@@ -11541,13 +11551,13 @@
 		],
 		"minStationList": [
 			40,
-			60,
+			80,
 			100,
 			120
 		],
 		"maxStationList": [
 			40,
-			60,
+			80,
 			100,
 			120
 		]
@@ -11646,7 +11656,7 @@
 		"trainType2": "Metro",
 		"lengthList": [
 			52,
-			103
+			104
 		],
 		"consistList": [
 			4,
@@ -11654,11 +11664,11 @@
 		],
 		"minStationList": [
 			60,
-			100
+			120
 		],
 		"maxStationList": [
 			60,
-			100
+			120
 		]
 	},
 	{
@@ -11758,7 +11768,7 @@
 		"trainType2": "Metro",
 		"lengthList": [
 			52,
-			103
+			104
 		],
 		"consistList": [
 			4,
@@ -11766,11 +11776,11 @@
 		],
 		"minStationList": [
 			60,
-			100
+			120
 		],
 		"maxStationList": [
 			60,
-			100
+			120
 		]
 	},
 	{
@@ -11866,8 +11876,8 @@
 		"trainType2": "Metro",
 		"lengthList": [
 			52,
-			77,
-			103
+			78,
+			104
 		],
 		"consistList": [
 			4,
@@ -11876,13 +11886,13 @@
 		],
 		"minStationList": [
 			60,
-			80,
-			100
+			100,
+			120
 		],
 		"maxStationList": [
 			60,
-			80,
-			100
+			100,
+			120
 		]
 	},
 	{
@@ -11983,10 +11993,10 @@
 			6
 		],
 		"minStationList": [
-			100
+			120
 		],
 		"maxStationList": [
-			100
+			120
 		]
 	},
 	{
@@ -12088,8 +12098,8 @@
 		"mainTrackID": "std_hv-4_cat_rer",
 		"trainType2": "Automated Metro",
 		"lengthList": [
-			91,
-			109
+			92,
+			110
 		],
 		"consistList": [
 			5,
@@ -12318,11 +12328,11 @@
 		],
 		"minStationList": [
 			60,
-			100
+			120
 		],
 		"maxStationList": [
 			60,
-			100
+			120
 		]
 	},
 	{
@@ -12638,10 +12648,10 @@
 			6
 		],
 		"minStationList": [
-			100
+			120
 		],
 		"maxStationList": [
-			100
+			120
 		]
 	},
 	{
@@ -12750,14 +12760,14 @@
 		],
 		"minStationList": [
 			40,
-			60,
 			80,
+			100,
 			120
 		],
 		"maxStationList": [
 			40,
-			60,
 			80,
+			100,
 			120
 		]
 	},
@@ -12854,13 +12864,14 @@
 			"Greece"
 		],
 		"Tags": [
-			"Author:DanielD1909"
+			"Author:DanielD1909",
+			"Challenge:Eric Adams"
 		],
 		"mainTrackID": "std_hv-1_cat_rer",
 		"trainType2": "Metro",
 		"lengthList": [
-			53,
-			106
+			54,
+			107
 		],
 		"consistList": [
 			3,
@@ -12868,11 +12879,11 @@
 		],
 		"minStationList": [
 			60,
-			100
+			120
 		],
 		"maxStationList": [
 			60,
-			100
+			120
 		]
 	},
 	{
@@ -12963,13 +12974,14 @@
 			"Greece"
 		],
 		"Tags": [
-			"Author:DanielD1909"
+			"Author:DanielD1909",
+			"Challenge:Eric Adams"
 		],
 		"mainTrackID": "std_mdc-1_tra_rer",
 		"trainType2": "Metro",
 		"lengthList": [
-			53,
-			106
+			54,
+			107
 		],
 		"consistList": [
 			3,
@@ -12977,11 +12989,11 @@
 		],
 		"minStationList": [
 			60,
-			100
+			120
 		],
 		"maxStationList": [
 			60,
-			100
+			120
 		]
 	},
 	{
@@ -13085,10 +13097,10 @@
 			5
 		],
 		"minStationList": [
-			100
+			120
 		],
 		"maxStationList": [
-			100
+			120
 		]
 	},
 	{
@@ -13186,7 +13198,7 @@
 		"mainTrackID": "std_sv-1_cat_rem",
 		"trainType2": "Commuter",
 		"lengthList": [
-			53,
+			54,
 			107
 		],
 		"consistList": [
@@ -13195,11 +13207,11 @@
 		],
 		"minStationList": [
 			60,
-			100
+			120
 		],
 		"maxStationList": [
 			60,
-			100
+			120
 		]
 	},
 	{
@@ -13288,7 +13300,8 @@
 			"Peru"
 		],
 		"Tags": [
-			"Author:DanielD1909"
+			"Author:DanielD1909",
+			"Challenge:Eric Adams"
 		],
 		"mainTrackID": "std_hv-4_cat_bm",
 		"trainType2": "Automated Metro",
@@ -13299,10 +13312,10 @@
 			6
 		],
 		"minStationList": [
-			100
+			120
 		],
 		"maxStationList": [
-			100
+			120
 		]
 	},
 	{
@@ -13403,7 +13416,7 @@
 		"trainType2": "LRT",
 		"lengthList": [
 			37,
-			73,
+			74,
 			110
 		],
 		"consistList": [
@@ -13520,7 +13533,7 @@
 		"trainType2": "LRT",
 		"lengthList": [
 			38,
-			75,
+			76,
 			113
 		],
 		"consistList": [
@@ -13529,12 +13542,12 @@
 			9
 		],
 		"minStationList": [
-			40,
+			60,
 			80,
 			120
 		],
 		"maxStationList": [
-			40,
+			60,
 			80,
 			120
 		]
@@ -13661,11 +13674,11 @@
 		],
 		"minStationList": [
 			60,
-			100
+			120
 		],
 		"maxStationList": [
 			60,
-			100
+			120
 		]
 	},
 	{
@@ -13788,11 +13801,11 @@
 		],
 		"minStationList": [
 			60,
-			100
+			120
 		],
 		"maxStationList": [
 			60,
-			100
+			120
 		]
 	},
 	{
@@ -13894,7 +13907,7 @@
 		"trainType2": "Metro",
 		"lengthList": [
 			53,
-			105
+			106
 		],
 		"consistList": [
 			3,
@@ -13902,11 +13915,11 @@
 		],
 		"minStationList": [
 			60,
-			100
+			120
 		],
 		"maxStationList": [
 			60,
-			100
+			120
 		]
 	},
 	{
@@ -14013,10 +14026,10 @@
 			6
 		],
 		"minStationList": [
-			100
+			120
 		],
 		"maxStationList": [
-			100
+			120
 		]
 	},
 	{
@@ -14113,7 +14126,7 @@
 		"lengthList": [
 			59,
 			88,
-			117
+			118
 		],
 		"consistList": [
 			4,
@@ -14121,14 +14134,14 @@
 			8
 		],
 		"minStationList": [
-			60,
+			80,
 			100,
-			120
+			140
 		],
 		"maxStationList": [
-			60,
+			80,
 			100,
-			120
+			140
 		]
 	},
 	{
@@ -14226,7 +14239,7 @@
 		"lengthList": [
 			59,
 			88,
-			117
+			118
 		],
 		"consistList": [
 			4,
@@ -14234,14 +14247,14 @@
 			8
 		],
 		"minStationList": [
-			60,
+			80,
 			100,
-			120
+			140
 		],
 		"maxStationList": [
-			60,
+			80,
 			100,
-			120
+			140
 		]
 	},
 	{
@@ -14346,11 +14359,11 @@
 			8
 		],
 		"minStationList": [
-			60,
+			80,
 			140
 		],
 		"maxStationList": [
-			60,
+			80,
 			140
 		]
 	},
@@ -14453,10 +14466,10 @@
 			7
 		],
 		"minStationList": [
-			120
+			140
 		],
 		"maxStationList": [
-			120
+			140
 		]
 	},
 	{
@@ -14553,18 +14566,18 @@
 		"trainType2": "Metro",
 		"lengthList": [
 			67,
-			133
+			134
 		],
 		"consistList": [
 			4,
 			8
 		],
 		"minStationList": [
-			60,
+			80,
 			140
 		],
 		"maxStationList": [
-			60,
+			80,
 			140
 		]
 	},
@@ -14662,7 +14675,7 @@
 		"mainTrackID": "std_cdc-2_fr_lss",
 		"trainType2": "Metro",
 		"lengthList": [
-			117,
+			118,
 			134
 		],
 		"consistList": [
@@ -14670,11 +14683,11 @@
 			8
 		],
 		"minStationList": [
-			120,
+			140,
 			140
 		],
 		"maxStationList": [
-			120,
+			140,
 			140
 		]
 	},
@@ -14777,10 +14790,10 @@
 			6
 		],
 		"minStationList": [
-			120
+			140
 		],
 		"maxStationList": [
-			120
+			140
 		]
 	},
 	{
@@ -14883,8 +14896,8 @@
 		"lengthList": [
 			31,
 			62,
-			92,
-			123
+			93,
+			124
 		],
 		"consistList": [
 			5,
@@ -14894,15 +14907,15 @@
 		],
 		"minStationList": [
 			40,
-			60,
+			80,
 			100,
-			120
+			140
 		],
 		"maxStationList": [
 			40,
-			60,
+			80,
 			100,
-			120
+			140
 		]
 	},
 	{
@@ -15015,11 +15028,11 @@
 			8
 		],
 		"minStationList": [
-			60,
+			80,
 			140
 		],
 		"maxStationList": [
-			60,
+			80,
 			140
 		]
 	},
@@ -15119,9 +15132,9 @@
 		"mainTrackID": "std_mdc-1_tra_aar",
 		"trainType2": "Metro",
 		"lengthList": [
-			45,
+			46,
 			91,
-			136
+			137
 		],
 		"consistList": [
 			2,
@@ -15129,12 +15142,12 @@
 			6
 		],
 		"minStationList": [
-			40,
+			60,
 			100,
 			140
 		],
 		"maxStationList": [
-			40,
+			60,
 			100,
 			140
 		]
@@ -15258,16 +15271,16 @@
 			6
 		],
 		"minStationList": [
-			60,
 			80,
 			100,
-			120
+			120,
+			140
 		],
 		"maxStationList": [
-			60,
 			80,
 			100,
-			120
+			120,
+			140
 		]
 	},
 	{
@@ -15370,9 +15383,9 @@
 		"mainTrackID": "std_iac-1_cat_lirr",
 		"trainType2": "Commuter",
 		"lengthList": [
-			51,
+			52,
 			77,
-			102,
+			103,
 			128
 		],
 		"consistList": [
@@ -15384,13 +15397,13 @@
 		"minStationList": [
 			60,
 			80,
-			100,
+			120,
 			140
 		],
 		"maxStationList": [
 			60,
 			80,
-			100,
+			120,
 			140
 		]
 	},
@@ -15487,7 +15500,7 @@
 		"mainTrackID": "std_cdc-1_tru_aar",
 		"trainType2": "Metro",
 		"lengthList": [
-			85,
+			86,
 			128
 		],
 		"consistList": [
@@ -15495,11 +15508,11 @@
 			6
 		],
 		"minStationList": [
-			80,
+			100,
 			140
 		],
 		"maxStationList": [
-			80,
+			100,
 			140
 		]
 	},
@@ -15597,7 +15610,7 @@
 		"mainTrackID": "std_cdc-1_tru_aar",
 		"trainType2": "Metro",
 		"lengthList": [
-			79,
+			80,
 			119
 		],
 		"consistList": [
@@ -15605,12 +15618,12 @@
 			6
 		],
 		"minStationList": [
-			80,
-			120
+			100,
+			140
 		],
 		"maxStationList": [
-			80,
-			120
+			100,
+			140
 		]
 	},
 	{
@@ -15739,14 +15752,14 @@
 			6
 		],
 		"minStationList": [
-			40,
-			80,
-			120
+			60,
+			100,
+			140
 		],
 		"maxStationList": [
-			40,
-			80,
-			120
+			60,
+			100,
+			140
 		]
 	},
 	{
@@ -15845,10 +15858,10 @@
 		"mainTrackID": "std_mdc-1_tru_ms",
 		"trainType2": "Metro",
 		"lengthList": [
-			32,
-			64,
-			96,
-			128
+			33,
+			65,
+			97,
+			129
 		],
 		"consistList": [
 			2,
@@ -15858,13 +15871,13 @@
 		],
 		"minStationList": [
 			40,
-			60,
+			80,
 			100,
 			140
 		],
 		"maxStationList": [
 			40,
-			60,
+			80,
 			100,
 			140
 		]
@@ -15960,10 +15973,10 @@
 		"mainTrackID": "std_mdc-1_tru_ms",
 		"trainType2": "Metro",
 		"lengthList": [
-			32,
-			64,
-			96,
-			128
+			33,
+			65,
+			97,
+			129
 		],
 		"consistList": [
 			2,
@@ -15973,13 +15986,13 @@
 		],
 		"minStationList": [
 			40,
-			60,
+			80,
 			100,
 			140
 		],
 		"maxStationList": [
 			40,
-			60,
+			80,
 			100,
 			140
 		]
@@ -16075,12 +16088,13 @@
 			"Peru"
 		],
 		"Tags": [
-			"Author:DanielD1909"
+			"Author:DanielD1909",
+			"Challenge:Eric Adams"
 		],
 		"mainTrackID": "std_hv-4_cat_bm",
 		"trainType2": "Automated Metro",
 		"lengthList": [
-			89,
+			90,
 			107,
 			125
 		],
@@ -16091,13 +16105,13 @@
 		],
 		"minStationList": [
 			100,
-			100,
-			120
+			120,
+			140
 		],
 		"maxStationList": [
 			100,
-			100,
-			120
+			120,
+			140
 		]
 	},
 	{
@@ -16200,11 +16214,11 @@
 		],
 		"minStationList": [
 			100,
-			120
+			140
 		],
 		"maxStationList": [
 			100,
-			120
+			140
 		]
 	},
 	{
@@ -16433,14 +16447,14 @@
 			12
 		],
 		"minStationList": [
-			40,
-			80,
-			120
+			60,
+			100,
+			140
 		],
 		"maxStationList": [
-			40,
-			80,
-			120
+			60,
+			100,
+			140
 		]
 	},
 	{
@@ -16546,12 +16560,12 @@
 			6
 		],
 		"minStationList": [
-			60,
-			120
+			80,
+			140
 		],
 		"maxStationList": [
-			60,
-			120
+			80,
+			140
 		]
 	},
 	{
@@ -16649,19 +16663,19 @@
 		"trainType2": "Automated Metro",
 		"lengthList": [
 			60,
-			119
+			120
 		],
 		"consistList": [
 			3,
 			6
 		],
 		"minStationList": [
-			60,
-			120
+			80,
+			140
 		],
 		"maxStationList": [
-			60,
-			120
+			80,
+			140
 		]
 	},
 	{
@@ -16782,8 +16796,8 @@
 		"lengthList": [
 			25,
 			50,
-			74,
-			99,
+			75,
+			100,
 			124
 		],
 		"consistList": [
@@ -16794,18 +16808,18 @@
 			10
 		],
 		"minStationList": [
-			20,
+			40,
 			60,
 			80,
-			100,
-			120
+			120,
+			140
 		],
 		"maxStationList": [
-			20,
+			40,
 			60,
 			80,
-			100,
-			120
+			120,
+			140
 		]
 	},
 	{
@@ -16907,12 +16921,12 @@
 			10
 		],
 		"minStationList": [
-			60,
-			120
+			80,
+			140
 		],
 		"maxStationList": [
-			60,
-			120
+			80,
+			140
 		]
 	},
 	{
@@ -17003,7 +17017,8 @@
 			"Turkey"
 		],
 		"Tags": [
-			"Author:DanielD1909"
+			"Author:DanielD1909",
+			"Challenge:Eric Adams"
 		],
 		"mainTrackID": "std_mdc-4_cat_aar",
 		"trainType2": "Automated Metro",
@@ -17115,7 +17130,7 @@
 		"mainTrackID": "std_mdc-1_tru_mw",
 		"trainType2": "Metro",
 		"lengthList": [
-			60,
+			61,
 			121
 		],
 		"consistList": [
@@ -17123,12 +17138,12 @@
 			8
 		],
 		"minStationList": [
-			60,
-			120
+			80,
+			140
 		],
 		"maxStationList": [
-			60,
-			120
+			80,
+			140
 		]
 	},
 	{
@@ -17227,8 +17242,8 @@
 		"trainType2": "Metro",
 		"lengthList": [
 			40,
-			79,
-			119
+			80,
+			120
 		],
 		"consistList": [
 			3,
@@ -17236,14 +17251,14 @@
 			9
 		],
 		"minStationList": [
-			40,
-			80,
-			120
+			60,
+			100,
+			140
 		],
 		"maxStationList": [
-			40,
-			80,
-			120
+			60,
+			100,
+			140
 		]
 	},
 	{
@@ -17350,14 +17365,14 @@
 			12
 		],
 		"minStationList": [
-			40,
-			80,
-			120
+			60,
+			100,
+			140
 		],
 		"maxStationList": [
-			40,
-			80,
-			120
+			60,
+			100,
+			140
 		]
 	},
 	{
@@ -17462,14 +17477,14 @@
 			12
 		],
 		"minStationList": [
-			40,
-			80,
-			120
+			60,
+			100,
+			140
 		],
 		"maxStationList": [
-			40,
-			80,
-			120
+			60,
+			100,
+			140
 		]
 	},
 	{
@@ -17600,7 +17615,7 @@
 		"lengthList": [
 			42,
 			84,
-			125
+			126
 		],
 		"consistList": [
 			2,
@@ -17608,14 +17623,14 @@
 			6
 		],
 		"minStationList": [
-			40,
-			80,
-			120
+			60,
+			100,
+			140
 		],
 		"maxStationList": [
-			40,
-			80,
-			120
+			60,
+			100,
+			140
 		]
 	},
 	{
@@ -17720,12 +17735,12 @@
 			6
 		],
 		"minStationList": [
-			40,
+			60,
 			100,
 			140
 		],
 		"maxStationList": [
-			40,
+			60,
 			100,
 			140
 		]
@@ -17823,9 +17838,9 @@
 		"mainTrackID": "sov_mdc-2_tru_lirr",
 		"trainType2": "Metro",
 		"lengthList": [
-			44,
-			88,
-			132
+			45,
+			89,
+			133
 		],
 		"consistList": [
 			2,
@@ -17833,12 +17848,12 @@
 			6
 		],
 		"minStationList": [
-			40,
+			60,
 			100,
 			140
 		],
 		"maxStationList": [
-			40,
+			60,
 			100,
 			140
 		]
@@ -17937,8 +17952,8 @@
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
-			39,
-			78,
+			40,
+			79,
 			118
 		],
 		"consistList": [
@@ -17947,14 +17962,14 @@
 			15
 		],
 		"minStationList": [
-			40,
-			80,
-			120
+			60,
+			100,
+			140
 		],
 		"maxStationList": [
-			40,
-			80,
-			120
+			60,
+			100,
+			140
 		]
 	},
 	{
@@ -18055,10 +18070,10 @@
 			6
 		],
 		"minStationList": [
-			120
+			140
 		],
 		"maxStationList": [
-			120
+			140
 		]
 	},
 	{
@@ -19101,7 +19116,7 @@
 		"mainTrackID": "std_cdc-2_tra_ms",
 		"trainType2": "Metro",
 		"lengthList": [
-			78,
+			79,
 			157
 		],
 		"consistList": [
@@ -19109,11 +19124,11 @@
 			10
 		],
 		"minStationList": [
-			80,
+			100,
 			160
 		],
 		"maxStationList": [
-			80,
+			100,
 			160
 		]
 	},
@@ -19212,7 +19227,7 @@
 		"trainType2": "Metro",
 		"lengthList": [
 			74,
-			147
+			148
 		],
 		"consistList": [
 			4,
@@ -19328,11 +19343,11 @@
 			10
 		],
 		"minStationList": [
-			80,
+			100,
 			160
 		],
 		"maxStationList": [
-			80,
+			100,
 			160
 		]
 	},
@@ -19425,7 +19440,8 @@
 			"Mexico"
 		],
 		"Tags": [
-			"Author:DanielD1909"
+			"Author:DanielD1909",
+			"Challenge:Eric Adams"
 		],
 		"mainTrackID": "std_mdc-2_cat_mw",
 		"trainType2": "Metro",
@@ -19436,10 +19452,10 @@
 			7
 		],
 		"minStationList": [
-			140
+			160
 		],
 		"maxStationList": [
-			140
+			160
 		]
 	},
 	{
@@ -19530,7 +19546,8 @@
 			"Mexico"
 		],
 		"Tags": [
-			"Author:DanielD1909"
+			"Author:DanielD1909",
+			"Challenge:Eric Adams"
 		],
 		"mainTrackID": "rub_mdc-2_fr_nar",
 		"trainType2": "Rubber Metro",
@@ -19650,11 +19667,11 @@
 		],
 		"minStationList": [
 			100,
-			140
+			160
 		],
 		"maxStationList": [
 			100,
-			140
+			160
 		]
 	},
 	{
@@ -19758,11 +19775,11 @@
 		],
 		"minStationList": [
 			100,
-			140
+			160
 		],
 		"maxStationList": [
 			100,
-			140
+			160
 		]
 	},
 	{
@@ -19967,8 +19984,8 @@
 		"trainType2": "Metro",
 		"lengthList": [
 			46,
-			91,
-			137
+			92,
+			138
 		],
 		"consistList": [
 			2,
@@ -19976,14 +19993,14 @@
 			6
 		],
 		"minStationList": [
-			40,
+			60,
 			100,
-			140
+			160
 		],
 		"maxStationList": [
-			40,
+			60,
 			100,
-			140
+			160
 		]
 	},
 	{
@@ -20081,7 +20098,7 @@
 		"lengthList": [
 			51,
 			102,
-			152
+			153
 		],
 		"consistList": [
 			3,
@@ -20090,12 +20107,12 @@
 		],
 		"minStationList": [
 			60,
-			100,
+			120,
 			160
 		],
 		"maxStationList": [
 			60,
-			100,
+			120,
 			160
 		]
 	},
@@ -20227,15 +20244,15 @@
 			60,
 			80,
 			100,
-			120,
-			140
+			140,
+			160
 		],
 		"maxStationList": [
 			60,
 			80,
 			100,
-			120,
-			140
+			140,
+			160
 		]
 	},
 	{
@@ -20350,10 +20367,10 @@
 		"mainTrackID": "std_non-0_non_mw",
 		"trainType2": "Diesel Commuter",
 		"lengthList": [
-			47,
+			48,
 			71,
-			94,
-			118,
+			95,
+			119,
 			142
 		],
 		"consistList": [
@@ -20367,15 +20384,15 @@
 			60,
 			80,
 			100,
-			120,
-			140
+			140,
+			160
 		],
 		"maxStationList": [
 			60,
 			80,
 			100,
-			120,
-			140
+			140,
+			160
 		]
 	},
 	{
@@ -20474,8 +20491,8 @@
 		"lengthList": [
 			37,
 			74,
-			110,
-			147
+			111,
+			148
 		],
 		"consistList": [
 			2,
@@ -20591,8 +20608,8 @@
 		"lengthList": [
 			37,
 			74,
-			110,
-			147
+			111,
+			148
 		],
 		"consistList": [
 			2,
@@ -20715,18 +20732,19 @@
 			"Hungary"
 		],
 		"Tags": [
-			"Author:DanielD1909"
+			"Author:DanielD1909",
+			"Challenge:Eric Adams"
 		],
 		"mainTrackID": "sov_ukr-1_cat_ms",
 		"trainType2": "Metro",
 		"lengthList": [
-			19,
-			38,
+			20,
+			39,
 			58,
 			77,
-			96,
-			115,
-			134,
+			97,
+			116,
+			135,
 			154
 		],
 		"consistList": [
@@ -20740,9 +20758,9 @@
 			8
 		],
 		"minStationList": [
-			20,
 			40,
 			60,
+			80,
 			80,
 			100,
 			120,
@@ -20750,9 +20768,9 @@
 			160
 		],
 		"maxStationList": [
-			20,
 			40,
 			60,
+			80,
 			80,
 			100,
 			120,
@@ -20854,7 +20872,7 @@
 		"lengthList": [
 			46,
 			92,
-			137
+			138
 		],
 		"consistList": [
 			2,
@@ -20862,14 +20880,14 @@
 			6
 		],
 		"minStationList": [
-			40,
+			60,
 			100,
-			140
+			160
 		],
 		"maxStationList": [
-			40,
+			60,
 			100,
-			140
+			160
 		]
 	},
 	{
@@ -20966,7 +20984,7 @@
 		"trainType2": "LRT",
 		"lengthList": [
 			38,
-			75,
+			76,
 			113,
 			151
 		],
@@ -20977,13 +20995,13 @@
 			12
 		],
 		"minStationList": [
-			40,
+			60,
 			80,
 			120,
 			160
 		],
 		"maxStationList": [
-			40,
+			60,
 			80,
 			120,
 			160
@@ -21092,10 +21110,10 @@
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
-			37,
-			74,
-			111,
-			148
+			38,
+			75,
+			112,
+			149
 		],
 		"consistList": [
 			3,
@@ -21104,13 +21122,13 @@
 			12
 		],
 		"minStationList": [
-			40,
+			60,
 			80,
 			120,
 			160
 		],
 		"maxStationList": [
-			40,
+			60,
 			80,
 			120,
 			160
@@ -21217,8 +21235,8 @@
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
-			37,
-			74,
+			38,
+			75,
 			112,
 			149
 		],
@@ -21229,13 +21247,13 @@
 			12
 		],
 		"minStationList": [
-			40,
+			60,
 			80,
 			120,
 			160
 		],
 		"maxStationList": [
-			40,
+			60,
 			80,
 			120,
 			160
@@ -21344,8 +21362,8 @@
 		"mainTrackID": "std_ceac-1_cat_ms",
 		"trainType2": "LRT",
 		"lengthList": [
-			37,
-			74,
+			38,
+			75,
 			112,
 			149
 		],
@@ -21356,13 +21374,13 @@
 			12
 		],
 		"minStationList": [
-			40,
+			60,
 			80,
 			120,
 			160
 		],
 		"maxStationList": [
-			40,
+			60,
 			80,
 			120,
 			160
@@ -21466,8 +21484,8 @@
 		"mainTrackID": "std_hv-1_cat_aar",
 		"trainType2": "Dual-Mode Commuter",
 		"lengthList": [
-			73,
-			146
+			74,
+			147
 		],
 		"consistList": [
 			3,
@@ -21475,11 +21493,11 @@
 		],
 		"minStationList": [
 			80,
-			140
+			160
 		],
 		"maxStationList": [
 			80,
-			140
+			160
 		]
 	},
 	{
@@ -21581,8 +21599,8 @@
 		"trainType2": "Metro",
 		"lengthList": [
 			46,
-			91,
-			137
+			92,
+			138
 		],
 		"consistList": [
 			2,
@@ -21590,14 +21608,14 @@
 			6
 		],
 		"minStationList": [
-			40,
+			60,
 			100,
-			140
+			160
 		],
 		"maxStationList": [
-			40,
+			60,
 			100,
-			140
+			160
 		]
 	},
 	{
@@ -21696,7 +21714,7 @@
 		"lengthList": [
 			46,
 			92,
-			137
+			138
 		],
 		"consistList": [
 			2,
@@ -21704,14 +21722,14 @@
 			6
 		],
 		"minStationList": [
-			40,
+			60,
 			100,
-			140
+			160
 		],
 		"maxStationList": [
-			40,
+			60,
 			100,
-			140
+			160
 		]
 	},
 	{
@@ -21818,12 +21836,12 @@
 			8
 		],
 		"minStationList": [
-			80,
-			160
+			100,
+			180
 		],
 		"maxStationList": [
-			80,
-			160
+			100,
+			180
 		]
 	},
 	{
@@ -21928,19 +21946,19 @@
 		"trainType2": "Commuter",
 		"lengthList": [
 			82,
-			163
+			164
 		],
 		"consistList": [
 			4,
 			8
 		],
 		"minStationList": [
-			80,
-			160
+			100,
+			180
 		],
 		"maxStationList": [
-			80,
-			160
+			100,
+			180
 		]
 	},
 	{
@@ -22040,19 +22058,19 @@
 		"trainType2": "Commuter",
 		"lengthList": [
 			82,
-			163
+			164
 		],
 		"consistList": [
 			4,
 			8
 		],
 		"minStationList": [
-			80,
-			160
+			100,
+			180
 		],
 		"maxStationList": [
-			80,
-			160
+			100,
+			180
 		]
 	},
 	{
@@ -22158,12 +22176,12 @@
 			8
 		],
 		"minStationList": [
-			80,
-			160
+			100,
+			180
 		],
 		"maxStationList": [
-			80,
-			160
+			100,
+			180
 		]
 	},
 	{
@@ -22263,19 +22281,19 @@
 		"trainType2": "Commuter",
 		"lengthList": [
 			80,
-			159
+			160
 		],
 		"consistList": [
 			4,
 			8
 		],
 		"minStationList": [
-			80,
-			160
+			100,
+			180
 		],
 		"maxStationList": [
-			80,
-			160
+			100,
+			180
 		]
 	},
 	{
@@ -22381,12 +22399,12 @@
 			8
 		],
 		"minStationList": [
-			80,
-			160
+			100,
+			180
 		],
 		"maxStationList": [
-			80,
-			160
+			100,
+			180
 		]
 	},
 	{
@@ -22492,12 +22510,12 @@
 			8
 		],
 		"minStationList": [
-			80,
-			160
+			100,
+			180
 		],
 		"maxStationList": [
-			80,
-			160
+			100,
+			180
 		]
 	},
 	{
@@ -22603,12 +22621,12 @@
 			8
 		],
 		"minStationList": [
-			80,
-			160
+			100,
+			180
 		],
 		"maxStationList": [
-			80,
-			160
+			100,
+			180
 		]
 	},
 	{
@@ -22706,7 +22724,7 @@
 		"mainTrackID": "std_cdc-1_tra_mw",
 		"trainType2": "Commuter",
 		"lengthList": [
-			80,
+			81,
 			161
 		],
 		"consistList": [
@@ -22714,12 +22732,12 @@
 			8
 		],
 		"minStationList": [
-			80,
-			160
+			100,
+			180
 		],
 		"maxStationList": [
-			80,
-			160
+			100,
+			180
 		]
 	},
 	{
@@ -22817,9 +22835,9 @@
 		"mainTrackID": "std_cdc-1_tra_mw",
 		"trainType2": "Commuter",
 		"lengthList": [
-			83,
+			84,
 			125,
-			166
+			167
 		],
 		"consistList": [
 			4,
@@ -22827,14 +22845,14 @@
 			8
 		],
 		"minStationList": [
-			80,
-			120,
-			160
+			100,
+			140,
+			180
 		],
 		"maxStationList": [
-			80,
-			120,
-			160
+			100,
+			140,
+			180
 		]
 	},
 	{
@@ -22929,7 +22947,7 @@
 		"trainType2": "Metro",
 		"lengthList": [
 			58,
-			115,
+			116,
 			173
 		],
 		"consistList": [
@@ -22938,12 +22956,12 @@
 			6
 		],
 		"minStationList": [
-			60,
+			80,
 			120,
 			180
 		],
 		"maxStationList": [
-			60,
+			80,
 			120,
 			180
 		]
@@ -23055,15 +23073,15 @@
 			16
 		],
 		"minStationList": [
-			40,
-			80,
-			120,
+			60,
+			100,
+			140,
 			180
 		],
 		"maxStationList": [
-			40,
-			80,
-			120,
+			60,
+			100,
+			140,
 			180
 		]
 	},
@@ -23164,19 +23182,19 @@
 		"trainType2": "Metro",
 		"lengthList": [
 			80,
-			159
+			160
 		],
 		"consistList": [
 			4,
 			8
 		],
 		"minStationList": [
-			80,
-			160
+			100,
+			180
 		],
 		"maxStationList": [
-			80,
-			160
+			100,
+			180
 		]
 	},
 	{
@@ -23275,19 +23293,19 @@
 		"trainType2": "Metro",
 		"lengthList": [
 			81,
-			161
+			162
 		],
 		"consistList": [
 			4,
 			8
 		],
 		"minStationList": [
-			80,
-			160
+			100,
+			180
 		],
 		"maxStationList": [
-			80,
-			160
+			100,
+			180
 		]
 	},
 	{
@@ -23392,12 +23410,12 @@
 			8
 		],
 		"minStationList": [
-			80,
-			160
+			100,
+			180
 		],
 		"maxStationList": [
-			80,
-			160
+			100,
+			180
 		]
 	},
 	{
@@ -23489,12 +23507,13 @@
 			"Ireland"
 		],
 		"Tags": [
-			"Author:DanielD1909"
+			"Author:DanielD1909",
+			"Challenge:Eric Adams"
 		],
 		"mainTrackID": "ire_non-1_non_lss",
 		"trainType2": "Diesel Commuter",
 		"lengthList": [
-			81,
+			82,
 			163
 		],
 		"consistList": [
@@ -23502,12 +23521,12 @@
 			8
 		],
 		"minStationList": [
-			80,
-			160
+			100,
+			180
 		],
 		"maxStationList": [
-			80,
-			160
+			100,
+			180
 		]
 	},
 	{
@@ -23600,24 +23619,25 @@
 			"Turkey"
 		],
 		"Tags": [
-			"Author:DanielD1909"
+			"Author:DanielD1909",
+			"Challenge:Eric Adams"
 		],
 		"mainTrackID": "std_cdc-2_tru_aar",
 		"trainType2": "Metro",
 		"lengthList": [
-			86,
-			172
+			87,
+			173
 		],
 		"consistList": [
 			4,
 			8
 		],
 		"minStationList": [
-			80,
+			100,
 			180
 		],
 		"maxStationList": [
-			80,
+			100,
 			180
 		]
 	},
@@ -23711,12 +23731,13 @@
 			"Turkey"
 		],
 		"Tags": [
-			"Author:DanielD1909"
+			"Author:DanielD1909",
+			"Challenge:Eric Adams"
 		],
 		"mainTrackID": "std_cdc-2_tru_aar",
 		"trainType2": "Metro",
 		"lengthList": [
-			86,
+			87,
 			173
 		],
 		"consistList": [
@@ -23724,11 +23745,11 @@
 			8
 		],
 		"minStationList": [
-			80,
+			100,
 			180
 		],
 		"maxStationList": [
-			80,
+			100,
 			180
 		]
 	},
@@ -23824,24 +23845,25 @@
 			"Turkey"
 		],
 		"Tags": [
-			"Author:DanielD1909"
+			"Author:DanielD1909",
+			"Challenge:Eric Adams"
 		],
 		"mainTrackID": "std_hv-2_cat_rer",
 		"trainType2": "Metro",
 		"lengthList": [
-			86,
-			172
+			87,
+			173
 		],
 		"consistList": [
 			4,
 			8
 		],
 		"minStationList": [
-			80,
+			100,
 			180
 		],
 		"maxStationList": [
-			80,
+			100,
 			180
 		]
 	},
@@ -23935,24 +23957,25 @@
 			"Turkey"
 		],
 		"Tags": [
-			"Author:DanielD1909"
+			"Author:DanielD1909",
+			"Challenge:Eric Adams"
 		],
 		"mainTrackID": "std_cdc-2_tru_aar",
 		"trainType2": "Metro",
 		"lengthList": [
-			86,
-			172
+			87,
+			173
 		],
 		"consistList": [
 			4,
 			8
 		],
 		"minStationList": [
-			80,
+			100,
 			180
 		],
 		"maxStationList": [
-			80,
+			100,
 			180
 		]
 	},
@@ -24197,12 +24220,12 @@
 		"minStationList": [
 			60,
 			120,
-			160
+			180
 		],
 		"maxStationList": [
 			60,
 			120,
-			160
+			180
 		]
 	},
 	{
@@ -24307,14 +24330,14 @@
 			8
 		],
 		"minStationList": [
-			120,
 			140,
-			160
+			160,
+			180
 		],
 		"maxStationList": [
-			120,
 			140,
-			160
+			160,
+			180
 		]
 	},
 	{
@@ -24412,19 +24435,19 @@
 		"trainType2": "Commuter",
 		"lengthList": [
 			82,
-			163
+			164
 		],
 		"consistList": [
 			4,
 			8
 		],
 		"minStationList": [
-			80,
-			160
+			100,
+			180
 		],
 		"maxStationList": [
-			80,
-			160
+			100,
+			180
 		]
 	},
 	{
@@ -24520,20 +24543,20 @@
 		"mainTrackID": "std_hv-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
-			81,
-			162
+			82,
+			163
 		],
 		"consistList": [
 			4,
 			8
 		],
 		"minStationList": [
-			80,
-			160
+			100,
+			180
 		],
 		"maxStationList": [
-			80,
-			160
+			100,
+			180
 		]
 	},
 	{
@@ -24631,19 +24654,19 @@
 		"trainType2": "Commuter",
 		"lengthList": [
 			82,
-			163
+			164
 		],
 		"consistList": [
 			4,
 			8
 		],
 		"minStationList": [
-			80,
-			160
+			100,
+			180
 		],
 		"maxStationList": [
-			80,
-			160
+			100,
+			180
 		]
 	},
 	{
@@ -24741,19 +24764,19 @@
 		"trainType2": "Commuter",
 		"lengthList": [
 			82,
-			163
+			164
 		],
 		"consistList": [
 			4,
 			8
 		],
 		"minStationList": [
-			80,
-			160
+			100,
+			180
 		],
 		"maxStationList": [
-			80,
-			160
+			100,
+			180
 		]
 	},
 	{
@@ -24852,19 +24875,19 @@
 		"trainType2": "Commuter",
 		"lengthList": [
 			82,
-			163
+			164
 		],
 		"consistList": [
 			4,
 			8
 		],
 		"minStationList": [
-			80,
-			160
+			100,
+			180
 		],
 		"maxStationList": [
-			80,
-			160
+			100,
+			180
 		]
 	},
 	{
@@ -24963,8 +24986,8 @@
 		"mainTrackID": "std_hv-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
-			81,
-			122,
+			82,
+			123,
 			163
 		],
 		"consistList": [
@@ -24973,14 +24996,14 @@
 			8
 		],
 		"minStationList": [
-			80,
-			120,
-			160
+			100,
+			140,
+			180
 		],
 		"maxStationList": [
-			80,
-			120,
-			160
+			100,
+			140,
+			180
 		]
 	},
 	{
@@ -25079,7 +25102,7 @@
 		"mainTrackID": "ire_uhv-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
-			84,
+			85,
 			169
 		],
 		"consistList": [
@@ -25087,11 +25110,11 @@
 			8
 		],
 		"minStationList": [
-			80,
+			100,
 			180
 		],
 		"maxStationList": [
-			80,
+			100,
 			180
 		]
 	},
@@ -25197,11 +25220,11 @@
 			8
 		],
 		"minStationList": [
-			80,
+			100,
 			180
 		],
 		"maxStationList": [
-			80,
+			100,
 			180
 		]
 	},
@@ -25732,11 +25755,11 @@
 		],
 		"minStationList": [
 			100,
-			180
+			200
 		],
 		"maxStationList": [
 			100,
-			180
+			200
 		]
 	},
 	{
@@ -25833,8 +25856,8 @@
 		"mainTrackID": "std_mdc-1_tra_dc",
 		"trainType2": "Metro",
 		"lengthList": [
-			91,
-			137,
+			92,
+			138,
 			183
 		],
 		"consistList": [
@@ -25844,13 +25867,13 @@
 		],
 		"minStationList": [
 			100,
-			140,
-			180
+			160,
+			200
 		],
 		"maxStationList": [
 			100,
-			140,
-			180
+			160,
+			200
 		]
 	},
 	{
@@ -25950,8 +25973,8 @@
 		"mainTrackID": "std_mdc-4_tra_dc",
 		"trainType2": "Automated Metro",
 		"lengthList": [
-			91,
-			137,
+			92,
+			138,
 			183
 		],
 		"consistList": [
@@ -25961,13 +25984,13 @@
 		],
 		"minStationList": [
 			100,
-			140,
-			180
+			160,
+			200
 		],
 		"maxStationList": [
 			100,
-			140,
-			180
+			160,
+			200
 		]
 	},
 	{
@@ -26064,8 +26087,8 @@
 		"mainTrackID": "std_mdc-2_tra_lirr",
 		"trainType2": "Metro",
 		"lengthList": [
-			94,
-			188
+			95,
+			189
 		],
 		"consistList": [
 			4,
@@ -26175,8 +26198,8 @@
 		"trainType2": "Metro",
 		"lengthList": [
 			46,
-			91,
-			137,
+			92,
+			138,
 			183
 		],
 		"consistList": [
@@ -26186,16 +26209,16 @@
 			8
 		],
 		"minStationList": [
-			40,
+			60,
 			100,
-			140,
-			180
+			160,
+			200
 		],
 		"maxStationList": [
-			40,
+			60,
 			100,
-			140,
-			180
+			160,
+			200
 		]
 	},
 	{
@@ -26294,9 +26317,9 @@
 		"mainTrackID": "std_hv-1_cat_rer",
 		"trainType2": "S-Bahn",
 		"lengthList": [
-			98,
-			147,
-			196
+			99,
+			148,
+			197
 		],
 		"consistList": [
 			4,
@@ -26304,12 +26327,12 @@
 			8
 		],
 		"minStationList": [
-			100,
+			120,
 			160,
 			200
 		],
 		"maxStationList": [
-			100,
+			120,
 			160,
 			200
 		]
@@ -26411,7 +26434,7 @@
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "S-Bahn",
 		"lengthList": [
-			94,
+			95,
 			189
 		],
 		"consistList": [
@@ -26518,12 +26541,13 @@
 			"Greece"
 		],
 		"Tags": [
-			"Author:DanielD1909"
+			"Author:DanielD1909",
+			"Challenge:Eric Adams"
 		],
 		"mainTrackID": "std_iac-1_cat_mw",
 		"trainType2": "Commuter",
 		"lengthList": [
-			89,
+			90,
 			179
 		],
 		"consistList": [
@@ -26532,11 +26556,11 @@
 		],
 		"minStationList": [
 			100,
-			180
+			200
 		],
 		"maxStationList": [
 			100,
-			180
+			200
 		]
 	},
 	{
@@ -26627,13 +26651,14 @@
 			"Turkey"
 		],
 		"Tags": [
-			"Author:DanielD1909"
+			"Author:DanielD1909",
+			"Challenge:Eric Adams"
 		],
 		"mainTrackID": "std_hv-2_cat_aar",
 		"trainType2": "Metro",
 		"lengthList": [
 			90,
-			179
+			180
 		],
 		"consistList": [
 			4,
@@ -26641,11 +26666,11 @@
 		],
 		"minStationList": [
 			100,
-			180
+			200
 		],
 		"maxStationList": [
 			100,
-			180
+			200
 		]
 	},
 	{
@@ -26735,7 +26760,8 @@
 			"Turkey"
 		],
 		"Tags": [
-			"Author:DanielD1909"
+			"Author:DanielD1909",
+			"Challenge:Eric Adams"
 		],
 		"mainTrackID": "std_hv-4_cat_uic",
 		"trainType2": "Automated Metro",
@@ -26749,11 +26775,11 @@
 		],
 		"minStationList": [
 			100,
-			180
+			200
 		],
 		"maxStationList": [
 			100,
-			180
+			200
 		]
 	},
 	{
@@ -26858,7 +26884,7 @@
 		"trainType2": "S-Bahn",
 		"lengthList": [
 			66,
-			131,
+			132,
 			197
 		],
 		"consistList": [
@@ -26867,12 +26893,12 @@
 			9
 		],
 		"minStationList": [
-			60,
+			80,
 			140,
 			200
 		],
 		"maxStationList": [
-			60,
+			80,
 			140,
 			200
 		]
@@ -26995,8 +27021,8 @@
 		"trainType2": "Commuter",
 		"lengthList": [
 			46,
-			91,
-			137,
+			92,
+			138,
 			183
 		],
 		"consistList": [
@@ -27006,16 +27032,16 @@
 			8
 		],
 		"minStationList": [
-			40,
+			60,
 			100,
-			140,
-			180
+			160,
+			200
 		],
 		"maxStationList": [
-			40,
+			60,
 			100,
-			140,
-			180
+			160,
+			200
 		]
 	},
 	{
@@ -27112,10 +27138,10 @@
 		"trainType2": "Metro",
 		"lengthList": [
 			34,
-			67,
+			68,
 			101,
-			134,
-			168,
+			135,
+			169,
 			202
 		],
 		"consistList": [
@@ -27129,18 +27155,18 @@
 		"minStationList": [
 			40,
 			80,
-			100,
+			120,
 			140,
 			180,
-			200
+			220
 		],
 		"maxStationList": [
 			40,
 			80,
-			100,
+			120,
 			140,
 			180,
-			200
+			220
 		]
 	},
 	{
@@ -27238,8 +27264,8 @@
 		"lengthList": [
 			52,
 			104,
-			155,
-			207
+			156,
+			208
 		],
 		"consistList": [
 			2,
@@ -27249,13 +27275,13 @@
 		],
 		"minStationList": [
 			60,
-			100,
+			120,
 			160,
 			220
 		],
 		"maxStationList": [
 			60,
-			100,
+			120,
 			160,
 			220
 		]
@@ -27376,9 +27402,9 @@
 			78,
 			104,
 			130,
-			155,
-			181,
-			207
+			156,
+			182,
+			208
 		],
 		"consistList": [
 			2,
@@ -27391,20 +27417,20 @@
 		],
 		"minStationList": [
 			60,
-			80,
 			100,
+			120,
 			140,
 			160,
-			180,
+			200,
 			220
 		],
 		"maxStationList": [
 			60,
-			80,
 			100,
+			120,
 			140,
 			160,
-			180,
+			200,
 			220
 		]
 	},
@@ -27510,9 +27536,9 @@
 			78,
 			104,
 			130,
-			155,
-			181,
-			207
+			156,
+			182,
+			208
 		],
 		"consistList": [
 			2,
@@ -27525,20 +27551,20 @@
 		],
 		"minStationList": [
 			60,
-			80,
 			100,
+			120,
 			140,
 			160,
-			180,
+			200,
 			220
 		],
 		"maxStationList": [
 			60,
-			80,
 			100,
+			120,
 			140,
 			160,
-			180,
+			200,
 			220
 		]
 	},
@@ -27630,7 +27656,8 @@
 			"Mexico"
 		],
 		"Tags": [
-			"Author:DanielD1909"
+			"Author:DanielD1909",
+			"Challenge:Eric Adams"
 		],
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
@@ -27652,19 +27679,19 @@
 		],
 		"minStationList": [
 			80,
-			100,
+			120,
 			140,
 			160,
-			180,
-			200
+			200,
+			220
 		],
 		"maxStationList": [
 			80,
-			100,
+			120,
 			140,
 			160,
-			180,
-			200
+			200,
+			220
 		]
 	},
 	{
@@ -27773,8 +27800,8 @@
 		"lengthList": [
 			52,
 			104,
-			155,
-			207
+			156,
+			208
 		],
 		"consistList": [
 			2,
@@ -27784,13 +27811,13 @@
 		],
 		"minStationList": [
 			60,
-			100,
+			120,
 			160,
 			220
 		],
 		"maxStationList": [
 			60,
-			100,
+			120,
 			160,
 			220
 		]
@@ -27910,9 +27937,9 @@
 			78,
 			104,
 			130,
-			155,
-			181,
-			207
+			156,
+			182,
+			208
 		],
 		"consistList": [
 			2,
@@ -27925,20 +27952,20 @@
 		],
 		"minStationList": [
 			60,
-			80,
 			100,
+			120,
 			140,
 			160,
-			180,
+			200,
 			220
 		],
 		"maxStationList": [
 			60,
-			80,
 			100,
+			120,
 			140,
 			160,
-			180,
+			200,
 			220
 		]
 	},
@@ -28056,9 +28083,9 @@
 			78,
 			104,
 			130,
-			155,
-			181,
-			207
+			156,
+			182,
+			208
 		],
 		"consistList": [
 			2,
@@ -28071,20 +28098,20 @@
 		],
 		"minStationList": [
 			60,
-			80,
 			100,
+			120,
 			140,
 			160,
-			180,
+			200,
 			220
 		],
 		"maxStationList": [
 			60,
-			80,
 			100,
+			120,
 			140,
 			160,
-			180,
+			200,
 			220
 		]
 	},
@@ -28191,10 +28218,10 @@
 			9
 		],
 		"minStationList": [
-			200
+			220
 		],
 		"maxStationList": [
-			200
+			220
 		]
 	},
 	{
@@ -28302,11 +28329,11 @@
 			10
 		],
 		"minStationList": [
-			100,
+			120,
 			220
 		],
 		"maxStationList": [
-			100,
+			120,
 			220
 		]
 	},
@@ -28413,12 +28440,12 @@
 			10
 		],
 		"minStationList": [
-			100,
-			200
+			120,
+			220
 		],
 		"maxStationList": [
-			100,
-			200
+			120,
+			220
 		]
 	},
 	{
@@ -28515,10 +28542,10 @@
 		"trainType2": "Metro",
 		"lengthList": [
 			43,
-			85,
-			128,
+			86,
+			129,
 			171,
-			213
+			214
 		],
 		"consistList": [
 			2,
@@ -28528,15 +28555,15 @@
 			10
 		],
 		"minStationList": [
-			40,
-			80,
+			60,
+			100,
 			140,
 			180,
 			220
 		],
 		"maxStationList": [
-			40,
-			80,
+			60,
+			100,
 			140,
 			180,
 			220
@@ -28659,9 +28686,9 @@
 			78,
 			104,
 			130,
-			155,
-			181,
-			207
+			156,
+			182,
+			208
 		],
 		"consistList": [
 			2,
@@ -28674,20 +28701,20 @@
 		],
 		"minStationList": [
 			60,
-			80,
 			100,
+			120,
 			140,
 			160,
-			180,
+			200,
 			220
 		],
 		"maxStationList": [
 			60,
-			80,
 			100,
+			120,
 			140,
 			160,
-			180,
+			200,
 			220
 		]
 	},
@@ -28808,19 +28835,19 @@
 		],
 		"minStationList": [
 			80,
-			100,
 			120,
+			140,
 			160,
 			180,
-			200
+			220
 		],
 		"maxStationList": [
 			80,
-			100,
 			120,
+			140,
 			160,
 			180,
-			200
+			220
 		]
 	},
 	{
@@ -28932,11 +28959,11 @@
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
 		"lengthList": [
-			104,
-			130,
-			156,
-			182,
-			208
+			105,
+			131,
+			157,
+			183,
+			209
 		],
 		"consistList": [
 			4,
@@ -28946,17 +28973,17 @@
 			8
 		],
 		"minStationList": [
-			100,
+			120,
 			140,
 			160,
-			180,
+			200,
 			220
 		],
 		"maxStationList": [
-			100,
+			120,
 			140,
 			160,
-			180,
+			200,
 			220
 		]
 	},
@@ -29093,15 +29120,15 @@
 		"mainTrackID": "std_mdc-4_tru_aar",
 		"trainType2": "Automated Metro",
 		"lengthList": [
-			36,
+			37,
 			55,
 			73,
-			91,
-			109,
+			92,
+			110,
 			128,
 			146,
-			164,
-			182,
+			165,
+			183,
 			201
 		],
 		"consistList": [
@@ -29123,10 +29150,10 @@
 			100,
 			120,
 			140,
-			140,
 			160,
 			180,
-			200
+			200,
+			220
 		],
 		"maxStationList": [
 			40,
@@ -29135,10 +29162,10 @@
 			100,
 			120,
 			140,
-			140,
 			160,
 			180,
-			200
+			200,
+			220
 		]
 	},
 	{
@@ -29249,11 +29276,11 @@
 			8
 		],
 		"minStationList": [
-			100,
+			120,
 			220
 		],
 		"maxStationList": [
-			100,
+			120,
 			220
 		]
 	},
@@ -29357,19 +29384,19 @@
 		"mainTrackID": "std_iac-1_cat_rer",
 		"trainType2": "S-Bahn",
 		"lengthList": [
-			104,
-			208
+			105,
+			209
 		],
 		"consistList": [
 			7,
 			14
 		],
 		"minStationList": [
-			100,
+			120,
 			220
 		],
 		"maxStationList": [
-			100,
+			120,
 			220
 		]
 	},
@@ -29480,12 +29507,12 @@
 			8
 		],
 		"minStationList": [
-			100,
-			200
+			120,
+			220
 		],
 		"maxStationList": [
-			100,
-			200
+			120,
+			220
 		]
 	},
 	{
@@ -29595,12 +29622,12 @@
 			8
 		],
 		"minStationList": [
-			100,
-			200
+			120,
+			220
 		],
 		"maxStationList": [
-			100,
-			200
+			120,
+			220
 		]
 	},
 	{
@@ -29704,18 +29731,18 @@
 		"trainType2": "S-Bahn",
 		"lengthList": [
 			104,
-			207
+			208
 		],
 		"consistList": [
 			4,
 			8
 		],
 		"minStationList": [
-			100,
+			120,
 			220
 		],
 		"maxStationList": [
-			100,
+			120,
 			220
 		]
 	},
@@ -29817,11 +29844,11 @@
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
-			99,
+			100,
 			124,
 			149,
-			173,
-			198
+			174,
+			199
 		],
 		"consistList": [
 			4,
@@ -29831,18 +29858,18 @@
 			8
 		],
 		"minStationList": [
-			100,
 			120,
+			140,
 			160,
 			180,
-			200
+			220
 		],
 		"maxStationList": [
-			100,
 			120,
+			140,
 			160,
 			180,
-			200
+			220
 		]
 	},
 	{
@@ -29953,14 +29980,14 @@
 			9
 		],
 		"minStationList": [
-			60,
+			80,
 			140,
-			200
+			220
 		],
 		"maxStationList": [
-			60,
+			80,
 			140,
-			200
+			220
 		]
 	},
 	{
@@ -30084,10 +30111,10 @@
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
 		"lengthList": [
-			52,
+			53,
 			105,
 			157,
-			209
+			210
 		],
 		"consistList": [
 			2,
@@ -30097,13 +30124,13 @@
 		],
 		"minStationList": [
 			60,
-			100,
+			120,
 			160,
 			220
 		],
 		"maxStationList": [
 			60,
-			100,
+			120,
 			160,
 			220
 		]
@@ -30224,10 +30251,10 @@
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Hydrogen Commuter",
 		"lengthList": [
-			52,
+			53,
 			105,
 			157,
-			209
+			210
 		],
 		"consistList": [
 			2,
@@ -30237,13 +30264,13 @@
 		],
 		"minStationList": [
 			60,
-			100,
+			120,
 			160,
 			220
 		],
 		"maxStationList": [
 			60,
-			100,
+			120,
 			160,
 			220
 		]
@@ -30460,7 +30487,7 @@
 		"trainType2": "Commuter",
 		"lengthList": [
 			73,
-			145,
+			146,
 			218
 		],
 		"consistList": [
@@ -30470,13 +30497,13 @@
 		],
 		"minStationList": [
 			80,
-			140,
-			220
+			160,
+			240
 		],
 		"maxStationList": [
 			80,
-			140,
-			220
+			160,
+			240
 		]
 	},
 	{
@@ -30697,11 +30724,11 @@
 		],
 		"minStationList": [
 			120,
-			220
+			240
 		],
 		"maxStationList": [
 			120,
-			220
+			240
 		]
 	},
 	{
@@ -30811,11 +30838,11 @@
 		],
 		"minStationList": [
 			120,
-			220
+			240
 		],
 		"maxStationList": [
 			120,
-			220
+			240
 		]
 	},
 	{
@@ -30915,7 +30942,7 @@
 		"trainType2": "S-Bahn",
 		"lengthList": [
 			113,
-			225
+			226
 		],
 		"consistList": [
 			4,
@@ -30923,11 +30950,11 @@
 		],
 		"minStationList": [
 			120,
-			220
+			240
 		],
 		"maxStationList": [
 			120,
-			220
+			240
 		]
 	},
 	{
@@ -31026,8 +31053,8 @@
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "S-Bahn",
 		"lengthList": [
-			112,
-			224
+			113,
+			225
 		],
 		"consistList": [
 			6,
@@ -31035,11 +31062,11 @@
 		],
 		"minStationList": [
 			120,
-			220
+			240
 		],
 		"maxStationList": [
 			120,
-			220
+			240
 		]
 	},
 	{
@@ -31150,11 +31177,11 @@
 		],
 		"minStationList": [
 			120,
-			220
+			240
 		],
 		"maxStationList": [
 			120,
-			220
+			240
 		]
 	},
 	{
@@ -31254,7 +31281,7 @@
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "S-Bahn",
 		"lengthList": [
-			112,
+			113,
 			225
 		],
 		"consistList": [
@@ -31263,11 +31290,11 @@
 		],
 		"minStationList": [
 			120,
-			220
+			240
 		],
 		"maxStationList": [
 			120,
-			220
+			240
 		]
 	},
 	{
@@ -31373,7 +31400,7 @@
 		"lengthList": [
 			73,
 			146,
-			218
+			219
 		],
 		"consistList": [
 			4,
@@ -31382,13 +31409,13 @@
 		],
 		"minStationList": [
 			80,
-			140,
-			220
+			160,
+			240
 		],
 		"maxStationList": [
 			80,
-			140,
-			220
+			160,
+			240
 		]
 	},
 	{
@@ -31491,7 +31518,7 @@
 		"trainType2": "Commuter",
 		"lengthList": [
 			79,
-			157,
+			158,
 			236
 		],
 		"consistList": [
@@ -31500,13 +31527,13 @@
 			9
 		],
 		"minStationList": [
-			80,
-			160,
+			100,
+			180,
 			240
 		],
 		"maxStationList": [
-			80,
-			160,
+			100,
+			180,
 			240
 		]
 	},
@@ -31599,17 +31626,18 @@
 			"Ireland"
 		],
 		"Tags": [
-			"Author:DanielD1909"
+			"Author:DanielD1909",
+			"Challenge:Eric Adams"
 		],
 		"mainTrackID": "ire_non-1_non_lss",
 		"trainType2": "Diesel Commuter",
 		"lengthList": [
-			70,
+			71,
 			94,
 			117,
-			140,
+			141,
 			164,
-			187,
+			188,
 			211,
 			234
 		],
@@ -31627,8 +31655,8 @@
 			80,
 			100,
 			120,
-			140,
 			160,
+			180,
 			200,
 			220,
 			240
@@ -31637,8 +31665,8 @@
 			80,
 			100,
 			120,
-			140,
 			160,
+			180,
 			200,
 			220,
 			240
@@ -31733,7 +31761,8 @@
 			"Turkey"
 		],
 		"Tags": [
-			"Author:DanielD1909"
+			"Author:DanielD1909",
+			"Challenge:Eric Adams"
 		],
 		"mainTrackID": "std_iac-2_cat_uic",
 		"trainType2": "Commuter",
@@ -31747,11 +31776,11 @@
 		],
 		"minStationList": [
 			120,
-			220
+			240
 		],
 		"maxStationList": [
 			120,
-			220
+			240
 		]
 	},
 	{
@@ -31872,9 +31901,9 @@
 		"trainType2": "Commuter",
 		"lengthList": [
 			59,
-			117,
+			118,
 			176,
-			234
+			235
 		],
 		"consistList": [
 			3,
@@ -31883,14 +31912,14 @@
 			12
 		],
 		"minStationList": [
-			60,
-			120,
+			80,
+			140,
 			180,
 			240
 		],
 		"maxStationList": [
-			60,
-			120,
+			80,
+			140,
 			180,
 			240
 		]
@@ -32123,7 +32152,7 @@
 		"trainType2": "Commuter",
 		"lengthList": [
 			76,
-			151,
+			152,
 			227
 		],
 		"consistList": [
@@ -32134,12 +32163,12 @@
 		"minStationList": [
 			80,
 			160,
-			220
+			240
 		],
 		"maxStationList": [
 			80,
 			160,
-			220
+			240
 		]
 	},
 	{
@@ -32236,7 +32265,7 @@
 		"trainType2": "Commuter",
 		"lengthList": [
 			76,
-			151,
+			152,
 			227
 		],
 		"consistList": [
@@ -32247,12 +32276,12 @@
 		"minStationList": [
 			80,
 			160,
-			220
+			240
 		],
 		"maxStationList": [
 			80,
 			160,
-			220
+			240
 		]
 	},
 	{
@@ -32360,12 +32389,12 @@
 			10
 		],
 		"minStationList": [
-			120,
-			240
+			140,
+			260
 		],
 		"maxStationList": [
-			120,
-			240
+			140,
+			260
 		]
 	},
 	{
@@ -32479,12 +32508,12 @@
 			12
 		],
 		"minStationList": [
-			160,
-			240
+			180,
+			260
 		],
 		"maxStationList": [
-			160,
-			240
+			180,
+			260
 		]
 	},
 	{
@@ -32595,11 +32624,11 @@
 			78,
 			104,
 			130,
-			155,
-			181,
-			207,
-			233,
-			259
+			156,
+			182,
+			208,
+			234,
+			260
 		],
 		"consistList": [
 			3,
@@ -32612,24 +32641,24 @@
 			10
 		],
 		"minStationList": [
-			80,
 			100,
+			120,
 			140,
 			160,
-			180,
+			200,
 			220,
 			240,
-			260
+			280
 		],
 		"maxStationList": [
-			80,
 			100,
+			120,
 			140,
 			160,
-			180,
+			200,
 			220,
 			240,
-			260
+			280
 		]
 	},
 	{
@@ -32771,11 +32800,11 @@
 			78,
 			104,
 			130,
-			155,
-			181,
-			207,
-			233,
-			259
+			156,
+			182,
+			208,
+			234,
+			260
 		],
 		"consistList": [
 			3,
@@ -32788,24 +32817,24 @@
 			10
 		],
 		"minStationList": [
-			80,
 			100,
+			120,
 			140,
 			160,
-			180,
+			200,
 			220,
 			240,
-			260
+			280
 		],
 		"maxStationList": [
-			80,
 			100,
+			120,
 			140,
 			160,
-			180,
+			200,
 			220,
 			240,
-			260
+			280
 		]
 	},
 	{
@@ -32919,11 +32948,11 @@
 		"lengthList": [
 			104,
 			130,
-			155,
-			181,
-			207,
-			233,
-			259
+			156,
+			182,
+			208,
+			234,
+			260
 		],
 		"consistList": [
 			4,
@@ -32935,22 +32964,22 @@
 			10
 		],
 		"minStationList": [
-			100,
+			120,
 			140,
 			160,
-			180,
+			200,
 			220,
 			240,
-			260
+			280
 		],
 		"maxStationList": [
-			100,
+			120,
 			140,
 			160,
-			180,
+			200,
 			220,
 			240,
-			260
+			280
 		]
 	},
 	{
@@ -33055,11 +33084,11 @@
 		"lengthList": [
 			104,
 			130,
-			155,
-			181,
-			207,
-			233,
-			259
+			156,
+			182,
+			208,
+			234,
+			260
 		],
 		"consistList": [
 			4,
@@ -33071,22 +33100,22 @@
 			10
 		],
 		"minStationList": [
-			100,
+			120,
 			140,
 			160,
-			180,
+			200,
 			220,
 			240,
-			260
+			280
 		],
 		"maxStationList": [
-			100,
+			120,
 			140,
 			160,
-			180,
+			200,
 			220,
 			240,
-			260
+			280
 		]
 	},
 	{
@@ -33191,7 +33220,7 @@
 		"trainType2": "Diesel Commuter",
 		"lengthList": [
 			87,
-			173,
+			174,
 			260
 		],
 		"consistList": [
@@ -33200,14 +33229,14 @@
 			12
 		],
 		"minStationList": [
-			80,
+			100,
 			180,
-			260
+			280
 		],
 		"maxStationList": [
-			80,
+			100,
 			180,
-			260
+			280
 		]
 	},
 	{
@@ -33318,19 +33347,19 @@
 			12
 		],
 		"minStationList": [
-			40,
+			60,
 			100,
 			140,
-			180,
-			220,
+			200,
+			240,
 			280
 		],
 		"maxStationList": [
-			40,
+			60,
 			100,
 			140,
-			180,
-			220,
+			200,
+			240,
 			280
 		]
 	},
@@ -33452,9 +33481,9 @@
 		"trainType2": "Commuter",
 		"lengthList": [
 			68,
-			135,
+			136,
 			203,
-			270
+			271
 		],
 		"consistList": [
 			3,
@@ -33465,13 +33494,13 @@
 		"minStationList": [
 			80,
 			140,
-			200,
+			220,
 			280
 		],
 		"maxStationList": [
 			80,
 			140,
-			200,
+			220,
 			280
 		]
 	},
@@ -33592,9 +33621,9 @@
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
-			90,
+			91,
 			181,
-			271
+			272
 		],
 		"consistList": [
 			5,
@@ -33603,12 +33632,12 @@
 		],
 		"minStationList": [
 			100,
-			180,
+			200,
 			280
 		],
 		"maxStationList": [
 			100,
-			180,
+			200,
 			280
 		]
 	},
@@ -33712,7 +33741,7 @@
 		"mainTrackID": "sov_uhv-1_cat_cph",
 		"trainType2": "Commuter",
 		"lengthList": [
-			134,
+			135,
 			269
 		],
 		"consistList": [
@@ -33825,9 +33854,9 @@
 		"mainTrackID": "ib_uhv-1_cat_uic",
 		"trainType2": "Commuter",
 		"lengthList": [
-			98,
-			196,
-			294
+			99,
+			197,
+			295
 		],
 		"consistList": [
 			5,
@@ -33835,12 +33864,12 @@
 			15
 		],
 		"minStationList": [
-			100,
+			120,
 			200,
 			300
 		],
 		"maxStationList": [
-			100,
+			120,
 			200,
 			300
 		]
@@ -33944,7 +33973,7 @@
 		"trainType2": "Commuter",
 		"lengthList": [
 			96,
-			191,
+			192,
 			287
 		],
 		"consistList": [
@@ -33955,12 +33984,12 @@
 		"minStationList": [
 			100,
 			200,
-			280
+			300
 		],
 		"maxStationList": [
 			100,
 			200,
-			280
+			300
 		]
 	},
 	{
@@ -34062,9 +34091,9 @@
 		"trainType2": "Diesel Commuter",
 		"lengthList": [
 			104,
-			155,
-			207,
-			259,
+			156,
+			208,
+			260,
 			311
 		],
 		"consistList": [
@@ -34075,17 +34104,17 @@
 			12
 		],
 		"minStationList": [
-			100,
+			120,
 			160,
 			220,
-			260,
+			280,
 			320
 		],
 		"maxStationList": [
-			100,
+			120,
 			160,
 			220,
-			260,
+			280,
 			320
 		]
 	},
@@ -34192,12 +34221,12 @@
 			78,
 			104,
 			130,
-			155,
-			181,
-			207,
-			233,
-			259,
-			285,
+			156,
+			182,
+			208,
+			234,
+			260,
+			286,
 			311
 		],
 		"consistList": [
@@ -34213,27 +34242,27 @@
 			12
 		],
 		"minStationList": [
-			80,
 			100,
+			120,
 			140,
 			160,
-			180,
+			200,
 			220,
 			240,
-			260,
 			280,
+			300,
 			320
 		],
 		"maxStationList": [
-			80,
 			100,
+			120,
 			140,
 			160,
-			180,
+			200,
 			220,
 			240,
-			260,
 			280,
+			300,
 			320
 		]
 	},
@@ -34374,12 +34403,12 @@
 			78,
 			104,
 			130,
-			155,
-			181,
-			207,
-			233,
-			259,
-			285,
+			156,
+			182,
+			208,
+			234,
+			260,
+			286,
 			311
 		],
 		"consistList": [
@@ -34397,28 +34426,28 @@
 		],
 		"minStationList": [
 			60,
-			80,
 			100,
+			120,
 			140,
 			160,
-			180,
+			200,
 			220,
 			240,
-			260,
 			280,
+			300,
 			320
 		],
 		"maxStationList": [
 			60,
-			80,
 			100,
+			120,
 			140,
 			160,
-			180,
+			200,
 			220,
 			240,
-			260,
 			280,
+			300,
 			320
 		]
 	},
@@ -34550,12 +34579,12 @@
 			78,
 			104,
 			130,
-			155,
-			181,
-			207,
-			233,
-			259,
-			285,
+			156,
+			182,
+			208,
+			234,
+			260,
+			286,
 			311
 		],
 		"consistList": [
@@ -34573,28 +34602,28 @@
 		],
 		"minStationList": [
 			60,
-			80,
 			100,
+			120,
 			140,
 			160,
-			180,
+			200,
 			220,
 			240,
-			260,
 			280,
+			300,
 			320
 		],
 		"maxStationList": [
 			60,
-			80,
 			100,
+			120,
 			140,
 			160,
-			180,
+			200,
 			220,
 			240,
-			260,
 			280,
+			300,
 			320
 		]
 	},
@@ -34713,13 +34742,13 @@
 			80,
 			160,
 			240,
-			300
+			320
 		],
 		"maxStationList": [
 			80,
 			160,
 			240,
-			300
+			320
 		]
 	},
 	{
@@ -34816,9 +34845,9 @@
 		"mainTrackID": "ib_uhv-1_cat_uic",
 		"trainType2": "Commuter",
 		"lengthList": [
-			100,
-			200,
-			300
+			101,
+			201,
+			301
 		],
 		"consistList": [
 			6,
@@ -34826,14 +34855,14 @@
 			18
 		],
 		"minStationList": [
-			100,
-			200,
-			300
+			120,
+			220,
+			320
 		],
 		"maxStationList": [
-			100,
-			200,
-			300
+			120,
+			220,
+			320
 		]
 	},
 	{
@@ -34935,16 +34964,16 @@
 		"lengthList": [
 			44,
 			66,
-			87,
-			109,
-			131,
+			88,
+			110,
+			132,
 			153,
 			175,
 			197,
 			219,
-			240,
-			262,
-			284,
+			241,
+			263,
+			285,
 			306
 		],
 		"consistList": [
@@ -34963,34 +34992,34 @@
 			14
 		],
 		"minStationList": [
-			40,
 			60,
+			80,
 			100,
 			120,
 			140,
 			160,
 			180,
 			200,
-			220,
 			240,
 			260,
 			280,
-			300
+			300,
+			320
 		],
 		"maxStationList": [
-			40,
 			60,
+			80,
 			100,
 			120,
 			140,
 			160,
 			180,
 			200,
-			220,
 			240,
 			260,
 			280,
-			300
+			300,
+			320
 		]
 	},
 	{
@@ -35110,10 +35139,10 @@
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
-			74,
+			75,
 			149,
 			223,
-			297
+			298
 		],
 		"consistList": [
 			4,
@@ -35124,14 +35153,14 @@
 		"minStationList": [
 			80,
 			160,
-			220,
-			300
+			240,
+			320
 		],
 		"maxStationList": [
 			80,
 			160,
-			220,
-			300
+			240,
+			320
 		]
 	},
 	{
@@ -35249,8 +35278,8 @@
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
-			150,
-			300
+			151,
+			301
 		],
 		"consistList": [
 			8,
@@ -35258,11 +35287,11 @@
 		],
 		"minStationList": [
 			160,
-			300
+			320
 		],
 		"maxStationList": [
 			160,
-			300
+			320
 		]
 	},
 	{
@@ -35391,10 +35420,10 @@
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Dual-Mode Commuter",
 		"lengthList": [
-			74,
+			75,
 			149,
 			223,
-			297
+			298
 		],
 		"consistList": [
 			4,
@@ -35405,14 +35434,14 @@
 		"minStationList": [
 			80,
 			160,
-			220,
-			300
+			240,
+			320
 		],
 		"maxStationList": [
 			80,
 			160,
-			220,
-			300
+			240,
+			320
 		]
 	},
 	{
@@ -35520,9 +35549,9 @@
 		"mainTrackID": "std_iac-1_cat_mw",
 		"trainType2": "Commuter",
 		"lengthList": [
-			109,
+			110,
 			219,
-			328
+			329
 		],
 		"consistList": [
 			5,
@@ -35531,12 +35560,12 @@
 		],
 		"minStationList": [
 			120,
-			220,
+			240,
 			340
 		],
 		"maxStationList": [
 			120,
-			220,
+			240,
 			340
 		]
 	},
@@ -35657,8 +35686,8 @@
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
-			106,
-			212,
+			107,
+			213,
 			319
 		],
 		"consistList": [
@@ -35667,14 +35696,14 @@
 			15
 		],
 		"minStationList": [
-			100,
+			120,
 			220,
-			320
+			340
 		],
 		"maxStationList": [
-			100,
+			120,
 			220,
-			320
+			340
 		]
 	},
 	{
@@ -35804,14 +35833,14 @@
 			18
 		],
 		"minStationList": [
-			100,
+			120,
 			220,
-			320
+			340
 		],
 		"maxStationList": [
-			100,
+			120,
 			220,
-			320
+			340
 		]
 	},
 	{
@@ -35907,9 +35936,9 @@
 		"trainType2": "Commuter",
 		"lengthList": [
 			104,
-			155,
-			207,
-			259,
+			156,
+			208,
+			260,
 			311,
 			363
 		],
@@ -35922,20 +35951,20 @@
 			14
 		],
 		"minStationList": [
-			100,
+			120,
 			160,
 			220,
-			260,
+			280,
 			320,
-			360
+			380
 		],
 		"maxStationList": [
-			100,
+			120,
 			160,
 			220,
-			260,
+			280,
 			320,
-			360
+			380
 		]
 	},
 	{
@@ -36040,9 +36069,9 @@
 		"lengthList": [
 			52,
 			104,
-			155,
-			207,
-			259,
+			156,
+			208,
+			260,
 			311,
 			363
 		],
@@ -36057,21 +36086,21 @@
 		],
 		"minStationList": [
 			60,
-			100,
+			120,
 			160,
 			220,
-			260,
+			280,
 			320,
-			360
+			380
 		],
 		"maxStationList": [
 			60,
-			100,
+			120,
 			160,
 			220,
-			260,
+			280,
 			320,
-			360
+			380
 		]
 	},
 	{
@@ -36189,8 +36218,8 @@
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
 		"lengthList": [
-			150,
-			300,
+			151,
+			301,
 			451,
 			601
 		],
@@ -36202,15 +36231,15 @@
 		],
 		"minStationList": [
 			160,
-			300,
+			320,
 			460,
-			600
+			620
 		],
 		"maxStationList": [
 			160,
-			300,
+			320,
 			460,
-			600
+			620
 		]
 	}
 ]

@@ -5,6 +5,7 @@
 
 import { TrainRegisterPanel,setToSaveData,getToSaveData } from './ui/TrainPanel';
 import { TrainDictPanel } from './ui/trainDictionary';
+import {settingsMenu} from './ui/Settings-Menu';
 import * as p from "./processing/process";
 import * as register from "./processing/register";
 import type * as regType from "./processing/register";
@@ -22,38 +23,45 @@ if (!api) {
 
   // Guard against double initialization (onMapReady can fire multiple times)
   let initialized = false;
-  let saveLoaded = false;
   let saveData:Record<string, register.trainStorageData>;
 
+  api.ui.registerComponent('settings-menu', {
+    id: 'my-custom-panel',
+    component: () => settingsMenu()
+  }); 
+
   api.hooks.onGameLoaded((saveName) => {
-    console.log("save loaded");
-    console.log("30");
+    // console.log("save loaded");
+    // console.log("30");
     const hold = p.getSaveData(saveName);
-    console.log("32");
+    // console.log("32");
     if (hold != undefined) {
       saveData = hold;
     }
-    console.log("36");
+    const saveDataData: Record<string, t.TrainTypeConfig> =
+      Object.keys(saveData).reduce((acc, key) => {
+        acc[key] = saveData[key].config;
+        return acc;
+      }, {} as Record<string, t.TrainTypeConfig>);
+    // console.log("36");
     const alltypes = api.trains.getTrainTypes();
-    console.log("38");
-    console.log(Object.keys(alltypes));
-    console.log("40");
-    if (!saveData || saveData == undefined) return;
-    console.log("43 "+saveData);
-    console.log("44 "+Object.keys(saveData))
-    const datatwo = saveData.value;
-    if (Object.keys(datatwo).length > 0) {
-      Object.keys(datatwo).forEach(key => {
-        const hold = saveData[key as keyof typeof saveData].config;
-        api.trains.registerTrainType(hold);
-      });
-    }
-    const legacy = p.getLegacyList(alltypes);
-    console.log("52");
+    // console.log("38");
+    // console.log(Object.keys(alltypes));
+    // console.log("40");
+    // if (!saveData || saveData == undefined) return;
+    // console.log("43 "+saveData);
+    // console.log("44 "+Object.keys(saveData))
+    // const datatwo = saveData.value;
+    // if (Object.keys(datatwo).length > 0) {
+    //   Object.keys(datatwo).forEach(key => {
+    //     const hold = saveData[key as keyof typeof saveData].config;
+    //     api.trains.registerTrainType(hold);
+    //   });
+    // }
+    const legacy = p.getLegacyList(alltypes,saveDataData);
     if (legacy.length>0) {
       legacy.forEach(leg => {
         const modid:string = "dtlegacy."+leg.id;
-        console.log("56");
         console.log(Object.keys(leg));
         const tempconfig:regType.trainStorageData = {
           config: leg,
@@ -64,14 +72,11 @@ if (!api) {
           id: leg.id,
           legacy: true
         }
-        console.log("67");
         const tempObject = {[modid]:tempconfig}
-        console.log("69");
         Object.assign(toSave,tempObject)
-        console.log("71");
       })
     }
-    saveLoaded = true;
+    setToSaveData(toSave);
   })
 
   let toSave:Record<string, regType.trainStorageData> = {};
@@ -94,7 +99,6 @@ if (!api) {
     initialized = true;
     
     try {
-
       // Example: Add a floating panel with a React component
       api.ui.addFloatingPanel({
         id: 'registerPanel',

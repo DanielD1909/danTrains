@@ -24,6 +24,7 @@ const key = "danTrains."
 export async function exportSaveData(saveid?:string) {
     const tosave:Record<string, regType.trainStorageData> = getToSaveData();
     const existing:Record<string, regType.trainStorageData>|undefined = getAllSaved();
+    console.log(Object.keys(tosave).length);
     if (existing == undefined) {
         localStorage.setItem(key+"dt_allsaved",JSON.stringify(tosave));
     } else {
@@ -34,25 +35,52 @@ export async function exportSaveData(saveid?:string) {
         localStorage.setItem(key+"dt_allsaved", JSON.stringify(merged));
     }
     if (!saveid) {} else {
-        const raw = localStorage.getItem(key+".saves."+saveid);
-        if (!raw) return undefined
-        const existingSaveSpecific:Record<string, regType.trainStorageData> = JSON.parse(raw);
-        if (existing == undefined) {
-            localStorage.set(key+".saves."+saveid,JSON.stringify(tosave));
+        setAllSaveNames(saveid)
+        const raw = localStorage.getItem(key+"saves."+saveid);
+        if (!raw) {
+            localStorage.setItem(key+"saves."+saveid,JSON.stringify(tosave));
         } else {
-            const merged: Record<string, regType.trainStorageData> = {
-                ...existingSaveSpecific,
-                ...tosave,
-            };
-            localStorage.setItem(key+".saves."+saveid,JSON.stringify(merged));
+                const existingSaveSpecific:Record<string, regType.trainStorageData> = JSON.parse(raw);
+                if (existingSaveSpecific == undefined) {
+                localStorage.setItem(key+"saves."+saveid,JSON.stringify(tosave));
+            } else {
+                const merged: Record<string, regType.trainStorageData> = {
+                    ...existingSaveSpecific,
+                    ...tosave,
+                };
+                localStorage.setItem(key+"saves."+saveid,JSON.stringify(merged));
+            }
         }
     }
 }
 
+export function getAllSaveNames() {
+    const raw = localStorage.getItem(key+"allsaves");
+    if (!raw) {return []}
+    const allSaveNamesList:string[] = JSON.parse(raw);
+    return allSaveNamesList;
+}
+
+export function setAllSaveNames(saveName:string) {
+    const currentList = getAllSaveNames();
+    if (!currentList) {throw "could not get save names"}
+    else {
+        const currentSet:Set<string> = new Set(currentList);
+        currentSet.add(saveName);
+        const newList = Array.from(currentSet);
+        localStorage.setItem(key+"allsaves",JSON.stringify(newList))
+    }
+}
+
 export function getSaveData(saveid:string) {
-    const raw = localStorage.getItem(key+".saves."+saveid);
-    if (!raw) return undefined
+    const raw = localStorage.getItem(key+"saves."+saveid);
+    if (!raw) {
+        console.log("save data not found");
+        throw "save data not found"
+    }
+    console.log(raw);
     const saveSpecificData:Record<string, regType.trainStorageData> = JSON.parse(raw);
+    console.log(saveSpecificData);
     return saveSpecificData
 }
 
@@ -63,18 +91,21 @@ export function getAllSaved() {
     return existing
 }
 
-export function legacyFilter(inp:string) {
+export function legacyFilter(inp:string,hold:string[]) {
     if (inp.includes("dt.")) {
+        return false;
+    } else if (hold.includes(inp)) {
         return false;
     } else {
         return (train_names.includes(inp))
     }
 }
 
-export function getLegacyList(gotten:Record<string, TrainTypeConfig>) {
+export function getLegacyList(gotten:Record<string, TrainTypeConfig>,saveData:Record<string, TrainTypeConfig>) {
+    var savedTrains = Object.keys(saveData).map(key => saveData[key].id)
     var hold:TrainTypeConfig[] = [];
     Object.keys(gotten).forEach(key => {
-        if (legacyFilter(key)) {hold.push(gotten[key])}
+        if (legacyFilter(key,savedTrains)) {hold.push(gotten[key])}
     })
     return hold;
 }
