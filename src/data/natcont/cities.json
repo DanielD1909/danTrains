@@ -1,0 +1,562 @@
+[
+	{
+		"Name": "Union of Soviet Socialist Republics",
+		"Code": "USSR",
+		"Nation": "Union of Soviet Socialist Republics",
+		"NationCode": "SU",
+		"Region": "USSR"
+	},
+	{
+		"Name": "New York City",
+		"Code": "NYC",
+		"Nation": "United States of America",
+		"NationCode": "US",
+		"Region": "North America"
+	},
+	{
+		"Name": "Philadelphia",
+		"Code": "PHI",
+		"Nation": "United States of America",
+		"NationCode": "US",
+		"Region": "North America"
+	},
+	{
+		"Name": "Washington D.C.",
+		"Code": "DC",
+		"Nation": "United States of America",
+		"NationCode": "US",
+		"Region": "North America"
+	},
+	{
+		"Name": "Chicago",
+		"Code": "CHI",
+		"Nation": "United States of America",
+		"NationCode": "US",
+		"Region": "North America"
+	},
+	{
+		"Name": "London",
+		"Code": "LDN",
+		"Nation": "United Kingdom",
+		"NationCode": "UK",
+		"Region": "Europe"
+	},
+	{
+		"Name": "Mexico City",
+		"Code": "MXC",
+		"Nation": "Mexico",
+		"NationCode": "MX",
+		"Region": "Central America"
+	},
+	{
+		"Name": "Toronto",
+		"Code": "TOR",
+		"Nation": "Canada",
+		"NationCode": "CA",
+		"Region": "North America"
+	},
+	{
+		"Name": "Montreal",
+		"Code": "MTL",
+		"Nation": "Canada",
+		"NationCode": "CA",
+		"Region": "North America"
+	},
+	{
+		"Name": "Boston",
+		"Code": "BOS",
+		"Nation": "United States of America",
+		"NationCode": "US",
+		"Region": "North America"
+	},
+	{
+		"Name": "San Diego",
+		"Code": "SD",
+		"Nation": "United States of America",
+		"NationCode": "US",
+		"Region": "North America"
+	},
+	{
+		"Name": "Atlanta",
+		"Code": "ATL",
+		"Nation": "United States of America",
+		"NationCode": "US",
+		"Region": "North America"
+	},
+	{
+		"Name": "San Francisco",
+		"Code": "SF",
+		"Nation": "United States of America",
+		"NationCode": "US",
+		"Region": "North America"
+	},
+	{
+		"Name": "Liverpool",
+		"Code": "LIV",
+		"Nation": "United Kingdom",
+		"NationCode": "UK",
+		"Region": "Europe"
+	},
+	{
+		"Name": "Vancouver",
+		"Code": "VAN",
+		"Nation": "Canada",
+		"NationCode": "CA",
+		"Region": "North America"
+	},
+	{
+		"Name": "Los Angeles",
+		"Code": "LA",
+		"Nation": "United States of America",
+		"NationCode": "US",
+		"Region": "North America"
+	},
+	{
+		"Name": "Ottawa",
+		"Code": "OTT",
+		"Nation": "Canada",
+		"NationCode": "CA",
+		"Region": "North America"
+	},
+	{
+		"Name": "Paris",
+		"Code": "PAR",
+		"Nation": "France",
+		"NationCode": "FR",
+		"Region": "Western Europe"
+	},
+	{
+		"Name": "Barcelona",
+		"Code": "BCN",
+		"Nation": "Spain",
+		"NationCode": "ES",
+		"Region": "Southern Europe"
+	},
+	{
+		"Name": "Berlin",
+		"Code": "BER",
+		"Nation": "Germany",
+		"NationCode": "DE",
+		"Region": "Central Europe"
+	},
+	{
+		"Name": "Copenhagen",
+		"Code": "CPH",
+		"Nation": "Denmark",
+		"NationCode": "DK",
+		"Region": "Northern Europe"
+	},
+	{
+		"Name": "Amsterdam",
+		"Code": "AMS",
+		"Nation": "Netherlands",
+		"NationCode": "NL",
+		"Region": "Western Europe"
+	},
+	{
+		"Name": "Rome",
+		"Code": "ROM",
+		"Nation": "Italy",
+		"NationCode": "IT",
+		"Region": "Southern Europe"
+	},
+	{
+		"Name": "Kyiv",
+		"Code": "IEV",
+		"Nation": "Ukraine",
+		"NationCode": "UA",
+		"Region": "Eastern Europe"
+	},
+	{
+		"Name": "Miami",
+		"Code": "MIA",
+		"Nation": "United States of America",
+		"NationCode": "US",
+		"Region": "North America"
+	},
+	{
+		"Name": "Baltimore",
+		"Code": "BWI",
+		"Nation": "United States of America",
+		"NationCode": "US",
+		"Region": "North America"
+	},
+	{
+		"Name": "Cleveland",
+		"Code": "CLE",
+		"Nation": "United States of America",
+		"NationCode": "US",
+		"Region": "North America"
+	},
+	{
+		"Name": "Seattle",
+		"Code": "SEA",
+		"Nation": "United States of America",
+		"NationCode": "US",
+		"Region": "North America"
+	},
+	{
+		"Name": "Portland (OR)",
+		"Code": "POR",
+		"Nation": "United States of America",
+		"NationCode": "US",
+		"Region": "North America"
+	},
+	{
+		"Name": "Salt Lake City",
+		"Code": "SLC",
+		"Nation": "United States of America",
+		"NationCode": "US",
+		"Region": "North America"
+	},
+	{
+		"Name": "Houston",
+		"Code": "HOU",
+		"Nation": "United States of America",
+		"NationCode": "US",
+		"Region": "North America"
+	},
+	{
+		"Name": "Denver",
+		"Code": "DEN",
+		"Nation": "United States of America",
+		"NationCode": "US",
+		"Region": "North America"
+	},
+	{
+		"Name": "Austin",
+		"Code": "AUS",
+		"Nation": "United States of America",
+		"NationCode": "US",
+		"Region": "North America"
+	},
+	{
+		"Name": "Birmingham (UK)",
+		"Code": "BHM",
+		"Nation": "United Kingdom",
+		"NationCode": "UK",
+		"Region": "Europe"
+	},
+	{
+		"Name": "Charlotte",
+		"Code": "CLT",
+		"Nation": "United States of America",
+		"NationCode": "US",
+		"Region": "North America"
+	},
+	{
+		"Name": "Cincinnati",
+		"Code": "CIN",
+		"Nation": "United States of America",
+		"NationCode": "US",
+		"Region": "North America"
+	},
+	{
+		"Name": "Detroit",
+		"Code": "DET",
+		"Nation": "United States of America",
+		"NationCode": "US",
+		"Region": "North America"
+	},
+	{
+		"Name": "Honolulu",
+		"Code": "HNL",
+		"Nation": "United States of America",
+		"NationCode": "US",
+		"Region": "North America"
+	},
+	{
+		"Name": "Manchester",
+		"Code": "MAN",
+		"Nation": "United Kingdom",
+		"NationCode": "UK",
+		"Region": "Europe"
+	},
+	{
+		"Name": "Twin Cities (MN)",
+		"Code": "MSP",
+		"Nation": "United States of America",
+		"NationCode": "US",
+		"Region": "North America"
+	},
+	{
+		"Name": "Newcastle",
+		"Code": "NCL",
+		"Nation": "United Kingdom",
+		"NationCode": "UK",
+		"Region": "Europe"
+	},
+	{
+		"Name": "Phoenix",
+		"Code": "PHX",
+		"Nation": "United States of America",
+		"NationCode": "US",
+		"Region": "North America"
+	},
+	{
+		"Name": "Calgary",
+		"Code": "CGY",
+		"Nation": "Canada",
+		"NationCode": "CA",
+		"Region": "North America"
+	},
+	{
+		"Name": "Athens",
+		"Code": "ATH",
+		"Nation": "Greece",
+		"NationCode": "GR",
+		"Region": "Southern Europe"
+	},
+	{
+		"Name": "Dublin",
+		"Code": "DUB",
+		"Nation": "Ireland",
+		"NationCode": "IE",
+		"Region": "Western Europe"
+	},
+	{
+		"Name": "Istanbul",
+		"Code": "IST",
+		"Nation": "Turkey",
+		"NationCode": "TR",
+		"Region": "West Asia"
+	},
+	{
+		"Name": "Tel-Aviv",
+		"Code": "T-A",
+		"Nation": "Israel",
+		"NationCode": "IL",
+		"Region": "West Asia"
+	},
+	{
+		"Name": "Budapest",
+		"Code": "BUD",
+		"Nation": "Hungary",
+		"NationCode": "HU",
+		"Region": "Eastern Europe"
+	},
+	{
+		"Name": "Edinburgh",
+		"Code": "EDI",
+		"Nation": "United Kingdom",
+		"NationCode": "UK",
+		"Region": "Europe"
+	},
+	{
+		"Name": "Glasgow",
+		"Code": "GLA",
+		"Nation": "United Kingdom",
+		"NationCode": "UK",
+		"Region": "Europe"
+	},
+	{
+		"Name": "Hamburg",
+		"Code": "HAM",
+		"Nation": "Germany",
+		"NationCode": "DE",
+		"Region": "Central Europe"
+	},
+	{
+		"Name": "Helsinki",
+		"Code": "HEL",
+		"Nation": "Finland",
+		"NationCode": "FI",
+		"Region": "Northern Europe"
+	},
+	{
+		"Name": "Karlsruhe",
+		"Code": "FKB",
+		"Nation": "Germany",
+		"NationCode": "DE",
+		"Region": "Central Europe"
+	},
+	{
+		"Name": "Krakow",
+		"Code": "KRK",
+		"Nation": "Poland",
+		"NationCode": "PL",
+		"Region": "Eastern Europe"
+	},
+	{
+		"Name": "Lisbon",
+		"Code": "LIS",
+		"Nation": "Portugal",
+		"NationCode": "PT",
+		"Region": "Southern Europe"
+	},
+	{
+		"Name": "Melbourne",
+		"Code": "MEL",
+		"Nation": "Australia",
+		"NationCode": "AU",
+		"Region": "Oceania"
+	},
+	{
+		"Name": "Milan",
+		"Code": "MIL",
+		"Nation": "Italy",
+		"NationCode": "IT",
+		"Region": "Southern Europe"
+	},
+	{
+		"Name": "Moskva",
+		"Code": "MOW",
+		"Nation": "Russia",
+		"NationCode": "RU",
+		"Region": "Eastern Europe"
+	},
+	{
+		"Name": "Munich",
+		"Code": "MUN",
+		"Nation": "Germany",
+		"NationCode": "DE",
+		"Region": "Central Europe"
+	},
+	{
+		"Name": "Prague",
+		"Code": "PRA",
+		"Nation": "Czech Republic",
+		"NationCode": "CZ",
+		"Region": "Central Europe"
+	},
+	{
+		"Name": "Rhine-Main",
+		"Code": "R-M",
+		"Nation": "Germany",
+		"NationCode": "DE",
+		"Region": "Central Europe"
+	},
+	{
+		"Name": "Rio de Janeiro",
+		"Code": "RIO",
+		"Nation": "Brazil",
+		"NationCode": "BR",
+		"Region": "South America"
+	},
+	{
+		"Name": "Rotterdam",
+		"Code": "RTM",
+		"Nation": "Netherlands",
+		"NationCode": "NL",
+		"Region": "Western Europe"
+	},
+	{
+		"Name": "Rhine-Ruhr",
+		"Code": "RHR",
+		"Nation": "Germany",
+		"NationCode": "DE",
+		"Region": "Central Europe"
+	},
+	{
+		"Name": "Sao Paulo",
+		"Code": "SAO",
+		"Nation": "Brazil",
+		"NationCode": "BR",
+		"Region": "South America"
+	},
+	{
+		"Name": "Singapore",
+		"Code": "SGP",
+		"Nation": "Singapore",
+		"NationCode": "SG",
+		"Region": "Southeast Asia"
+	},
+	{
+		"Name": "Stockholm",
+		"Code": "STO",
+		"Nation": "Sweden",
+		"NationCode": "SE",
+		"Region": "Northern Europe"
+	},
+	{
+		"Name": "Sydney",
+		"Code": "SYD",
+		"Nation": "Australia",
+		"NationCode": "AU",
+		"Region": "Oceania"
+	},
+	{
+		"Name": "The Hague",
+		"Code": "HAG",
+		"Nation": "Netherlands",
+		"NationCode": "NL",
+		"Region": "Western Europe"
+	},
+	{
+		"Name": "Vienna",
+		"Code": "VIE",
+		"Nation": "Austria",
+		"NationCode": "AT",
+		"Region": "Central Europe"
+	},
+	{
+		"Name": "Warsaw",
+		"Code": "WAR",
+		"Nation": "Poland",
+		"NationCode": "PL",
+		"Region": "Eastern Europe"
+	},
+	{
+		"Name": "Muammar Gaddafi",
+		"Code": "GADAF",
+		"Nation": "Libya",
+		"NationCode": "LY",
+		"Region": "North Africa"
+	},
+	{
+		"Name": "Waterloo (CA)",
+		"Code": "YKF",
+		"Nation": "Canada",
+		"NationCode": "CA",
+		"Region": "North America"
+	},
+	{
+		"Name": "Edmonton",
+		"Code": "EDM",
+		"Nation": "Canada",
+		"NationCode": "CA",
+		"Region": "North America"
+	},
+	{
+		"Name": "Quebec City",
+		"Code": "QBC",
+		"Nation": "Canada",
+		"NationCode": "CA",
+		"Region": "North America"
+	},
+	{
+		"Name": "Lima",
+		"Code": "LIM",
+		"Nation": "Peru",
+		"NationCode": "PE",
+		"Region": "South America"
+	},
+	{
+		"Name": "Zagreb",
+		"Code": "ZAG",
+		"Nation": "Croatia",
+		"NationCode": "HR",
+		"Region": "Southern Europe"
+	},
+	{
+		"Name": "Dallas",
+		"Code": "DFW",
+		"Nation": "United States of America",
+		"NationCode": "US",
+		"Region": "North America"
+	},
+	{
+		"Name": "Madrid",
+		"Code": "MAD",
+		"Nation": "Spain",
+		"NationCode": "ES",
+		"Region": "Southern Europe"
+	},
+	{
+		"Name": "Generic",
+		"Code": "Generic",
+		"Region": "Generic",
+		"Nation": "Generic",
+		"NationCode": "Generic"
+	}
+]

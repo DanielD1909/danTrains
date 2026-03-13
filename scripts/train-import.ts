@@ -1,6 +1,6 @@
 import fs from "fs"
 import Papa from "papaparse"
-import type { Train, Electrification, TrackGauge, LoadingGauge, PowerSupply, TrainType, AutomationLevel } from "../src/processing/processes.d.ts"
+import type { Train, Electrification, TrackGauge, LoadingGauge, PowerSupply, TrainType, AutomationLevel, Region, Nation, City, Tag } from "../src/processing/processes.d.ts"
 
 console.log("Starting Trains");
 const csv = fs.readFileSync("src/data/trains.csv", "utf8");
@@ -12,11 +12,12 @@ const parsed = Papa.parse(csv, {
 })
 
 const s:string[] = ["desc","color","name","trainType","trainType2","mainTrackID","MainTrack"];
-const sl:string[] = ["Automation","Electrification","Voltage","TrackGauge","LoadingGauge","CompatibleTracks","ExtraTracks","Manufacturer","Cities","Nation","Cont","Cities2","Nation2","Author"]
+const sl:string[] = ["Automation","Electrification","Voltage","TrackGauge","LoadingGauge","CompatibleTracks","ExtraTracks","Manufacturer","Cities","Nation","Cont","Cities2","Nation2","Tags"]
 const nl:string[] = ["Multipliers"];
 const b:string[] = ["canCrossRoads","Old","Generic","Ready"];
 const emptyList:string[] = ["lengthList","consistList","minStationList","maxStationList"]
 const increment = 20;
+var tagList:Set<string> = new Set();
 
 var TrainList:Train[] = [];
 parsed.data.forEach((r:any) => {
@@ -39,6 +40,15 @@ parsed.data.forEach((r:any) => {
         r[key] = Number(r[key]);
     }
   })
+  const tagRaw:string = String(r["Tags"]);
+  
+  if (tagRaw.includes(",")) {
+    tagRaw.split(",").forEach (tag => {
+      tagList.add(tag)
+    })
+  } else {
+      tagList.add(tagRaw);
+  }
 
   if (r["minCars"] != r["maxCars"]) {
     for (let step = Number(r["minCars"]); step <= Number(r["maxCars"]); step += Number(r["carsPerCarSet"])) {
@@ -65,6 +75,21 @@ fs.writeFileSync(
 )
 
 console.log("Trains Complete");
+
+var tList:Tag[] = [];
+tagList.forEach(name => {
+  const spl = name.split(":");
+  tList.push({
+    Name: spl[1] + " ("+spl[0]+")",
+    id: name,
+    Type: spl[0]
+  })
+})
+fs.writeFileSync(
+  "src/data/authors.json",
+  JSON.stringify(Array.from(tList), null, "\t")
+)
+console.log("Authors Complete");
 console.log("Starting Standards");
 
 const csv2 = fs.readFileSync("src/data/standards.csv", "utf8");
@@ -75,6 +100,7 @@ const parsed2 = Papa.parse(csv2, {
 })
 
 var elist:Electrification[] = []; var tglist:TrackGauge[] = []; var lglist:LoadingGauge[] = []; var pslist:PowerSupply[] = []; var ttlist:TrainType[] = []; var alist:AutomationLevel[] = [];
+var reglist:Region[] = []; var natlist:Nation[] = []; var citylist:City[] = [];
 
 parsed2.data.forEach((ro:any) => {
   if (ro.Electrification != "") {
@@ -176,3 +202,91 @@ fs.writeFileSync(
   JSON.stringify(ttlist, null, "\t")
 )
 console.log("Train Type Standards Complete");
+
+console.log("Starting Regions/Nations/Cities");
+
+const csv3 = fs.readFileSync("src/data/natcont.csv", "utf8");
+
+const parsed3 = Papa.parse(csv3, {
+  header: true,
+  skipEmptyLines: true
+})
+
+parsed3.data.forEach((ro:any) => {
+  if (ro.F != "") {
+    citylist.push({
+      Name: ro.F,
+      Code: ro.D,
+      Nation: ro.G,
+      NationCode: ro.E,
+      Region: ro.H
+    })
+  }
+})
+
+const regionsMap: Record<string, Region> = {};
+const nationsMap: Record<string, Nation> = {};
+
+citylist.forEach(city => {
+    // Handle nations
+    if (!nationsMap[city.NationCode]) {
+        nationsMap[city.NationCode] = {
+            Name: city.Nation,
+            Code: city.NationCode,
+            Region: city.Region,
+            CityCodes: []
+        };
+    }
+    nationsMap[city.NationCode].CityCodes.push(city.Code);
+
+    // Handle regions
+    if (!regionsMap[city.Region]) {
+        regionsMap[city.Region] = {
+            Name: city.Region,
+            CountryCodes: []
+        };
+    }
+    if (!regionsMap[city.Region].CountryCodes.includes(city.NationCode)) {
+        regionsMap[city.Region].CountryCodes.push(city.NationCode);
+    }
+});
+
+// Convert maps to arrays
+reglist = Object.values(regionsMap);
+natlist = Object.values(nationsMap);
+
+citylist.push({
+  Name: "Generic",
+  Code: "Generic",
+  Region: "Generic",
+  Nation: "Generic",
+  NationCode: "Generic"
+})
+natlist.push({
+  Name: "Generic",
+  Code: "Generic",
+  Region: "Generic",
+  CityCodes: ["Generic"]
+})
+reglist.push({
+  Name: "Generic",
+  CountryCodes: ["Generic"]
+})
+
+fs.writeFileSync(
+  "src/data/natcont/cities.json",
+  JSON.stringify(citylist, null, "\t")
+)
+console.log("Cities Complete");
+
+fs.writeFileSync(
+  "src/data/natcont/nations.json",
+  JSON.stringify(natlist, null, "\t")
+)
+console.log("Nations Complete");
+
+fs.writeFileSync(
+  "src/data/natcont/regions.json",
+  JSON.stringify(reglist, null, "\t")
+)
+console.log("Regions Complete");

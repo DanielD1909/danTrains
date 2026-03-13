@@ -22,9 +22,10 @@ export interface trainStorageData {
     City: string[],
     Nation: string[],
     Region: string[],
-    calcin: statsCalcInput,
+    calcin?: statsCalcInput,
     id?: string,
-    saved?: boolean
+    saved?: boolean,
+    legacy?: boolean
 }
 
 const base = {

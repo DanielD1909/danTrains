@@ -1,0 +1,108 @@
+[
+	{
+		"Name": "USSR",
+		"CountryCodes": [
+			"SU"
+		]
+	},
+	{
+		"Name": "North America",
+		"CountryCodes": [
+			"US",
+			"CA"
+		]
+	},
+	{
+		"Name": "Europe",
+		"CountryCodes": [
+			"UK"
+		]
+	},
+	{
+		"Name": "Central America",
+		"CountryCodes": [
+			"MX"
+		]
+	},
+	{
+		"Name": "Western Europe",
+		"CountryCodes": [
+			"FR",
+			"NL",
+			"IE"
+		]
+	},
+	{
+		"Name": "Southern Europe",
+		"CountryCodes": [
+			"ES",
+			"IT",
+			"GR",
+			"PT",
+			"HR"
+		]
+	},
+	{
+		"Name": "Central Europe",
+		"CountryCodes": [
+			"DE",
+			"CZ",
+			"AT"
+		]
+	},
+	{
+		"Name": "Northern Europe",
+		"CountryCodes": [
+			"DK",
+			"FI",
+			"SE"
+		]
+	},
+	{
+		"Name": "Eastern Europe",
+		"CountryCodes": [
+			"UA",
+			"HU",
+			"PL",
+			"RU"
+		]
+	},
+	{
+		"Name": "West Asia",
+		"CountryCodes": [
+			"TR",
+			"IL"
+		]
+	},
+	{
+		"Name": "Oceania",
+		"CountryCodes": [
+			"AU"
+		]
+	},
+	{
+		"Name": "South America",
+		"CountryCodes": [
+			"BR",
+			"PE"
+		]
+	},
+	{
+		"Name": "Southeast Asia",
+		"CountryCodes": [
+			"SG"
+		]
+	},
+	{
+		"Name": "North Africa",
+		"CountryCodes": [
+			"LY"
+		]
+	},
+	{
+		"Name": "Generic",
+		"CountryCodes": [
+			"Generic"
+		]
+	}
+]

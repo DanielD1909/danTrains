@@ -115,8 +115,8 @@
 			"United States of America",
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -225,8 +225,8 @@
 			"United States of America",
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-0_cat_tff",
 		"trainType2": "LRT",
@@ -330,8 +330,8 @@
 		"Nation2": [
 			"Mexico"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -434,8 +434,8 @@
 		"Nation2": [
 			"Canada"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "tor_cdc-1_cat_nar",
 		"trainType2": "LRT",
@@ -545,8 +545,8 @@
 		"Nation2": [
 			"Germany"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_un",
 		"trainType2": "LRT",
@@ -653,8 +653,8 @@
 		"Nation2": [
 			"Denmark"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -766,8 +766,8 @@
 			"United Kingdom",
 			"Denmark"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -874,8 +874,8 @@
 		"Nation2": [
 			"Denmark"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -984,8 +984,8 @@
 		"Nation2": [
 			"Spain"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-4_cat_bm",
 		"trainType2": "Automated Metro",
@@ -1095,8 +1095,8 @@
 		"Nation2": [
 			"Ukraine"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "sov_mdc-1_cat_nar",
 		"trainType2": "LRT",
@@ -1201,8 +1201,8 @@
 		"Nation2": [
 			"Ukraine"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "sov_mdc-1_cat_nar",
 		"trainType2": "LRT",
@@ -1310,8 +1310,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -1418,8 +1418,8 @@
 		"Nation2": [
 			"Greece"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_un",
 		"trainType2": "LRT",
@@ -1523,8 +1523,8 @@
 		"Nation2": [
 			"Croatia"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "m_cdc-1_cat_ber",
 		"trainType2": "LRT",
@@ -1629,8 +1629,8 @@
 		"Nation2": [
 			"Finland"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "m_mdc-1_cat_un",
 		"trainType2": "LRT",
@@ -1734,8 +1734,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_bm",
 		"trainType2": "LRT",
@@ -1843,8 +1843,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_bm",
 		"trainType2": "LRT",
@@ -1965,8 +1965,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_non-0_non_mw",
 		"trainType2": "Diesel Commuter",
@@ -2076,8 +2076,8 @@
 		"Nation2": [
 			"Germany"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_un",
 		"trainType2": "LRT",
@@ -2187,8 +2187,8 @@
 		"Nation2": [
 			"Germany"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_un",
 		"trainType2": "LRT",
@@ -2301,8 +2301,8 @@
 			"Denmark",
 			"Italy"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-4_tru_ms",
 		"trainType2": "Automated Metro",
@@ -2425,8 +2425,8 @@
 			"Generic",
 			"France"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -2549,8 +2549,8 @@
 			"France",
 			"Greece"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_un",
 		"trainType2": "LRT",
@@ -2669,8 +2669,8 @@
 			"Generic",
 			"France"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -2774,8 +2774,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "aps_hv-4_trs_mw",
 		"trainType2": "Automated People Mover",
@@ -2901,8 +2901,8 @@
 			"Generic",
 			"Ireland"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_un",
 		"trainType2": "LRT",
@@ -3020,8 +3020,8 @@
 			"Generic",
 			"Ireland"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_un",
 		"trainType2": "LRT",
@@ -3134,8 +3134,8 @@
 		"Nation2": [
 			"Hungary"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_un",
 		"trainType2": "LRT",
@@ -3248,8 +3248,8 @@
 			"Canada",
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -3354,8 +3354,8 @@
 		"Nation2": [
 			"Finland"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "m_mdc-1_cat_un",
 		"trainType2": "LRT",
@@ -3467,8 +3467,8 @@
 		"Nation2": [
 			"Australia"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -3575,8 +3575,8 @@
 		"Nation2": [
 			"Generic"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -3682,8 +3682,8 @@
 		"Nation2": [
 			"Canada"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-4_cat_rem",
 		"trainType2": "Automated Metro",
@@ -3789,8 +3789,8 @@
 		"Nation2": [
 			"Canada"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-4_trs_ms",
 		"trainType2": "Automated Metro",
@@ -3892,8 +3892,8 @@
 		"Nation2": [
 			"Canada"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-4_tra_aar",
 		"trainType2": "Automated Metro",
@@ -4001,8 +4001,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -4110,8 +4110,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -4219,8 +4219,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -4329,8 +4329,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -4446,8 +4446,8 @@
 		"Nation2": [
 			"Generic"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-4_tru_ms",
 		"trainType2": "Automated Metro",
@@ -4556,8 +4556,8 @@
 		"Nation2": [
 			"France"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-2_tra_un",
 		"trainType2": "Metro",
@@ -4666,8 +4666,8 @@
 		"Nation2": [
 			"France"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-2_tra_un",
 		"trainType2": "Metro",
@@ -4771,8 +4771,8 @@
 		"Nation2": [
 			"France"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "rub_mdc-2_fr_tff",
 		"trainType2": "Rubber Metro",
@@ -4890,8 +4890,8 @@
 			"Generic",
 			"France"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_un",
 		"trainType2": "LRT",
@@ -5014,8 +5014,8 @@
 			"Generic",
 			"Spain"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-0_cat_ms",
 		"trainType2": "LRT",
@@ -5148,8 +5148,8 @@
 			"Israel",
 			"Australia"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-0_cat_ms",
 		"trainType2": "LRT",
@@ -5267,8 +5267,8 @@
 		"Nation2": [
 			"Netherlands"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -5386,8 +5386,8 @@
 		"Nation2": [
 			"Netherlands"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -5499,8 +5499,8 @@
 		"Nation2": [
 			"Israel"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -5623,8 +5623,8 @@
 			"Generic",
 			"Turkey"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -5741,8 +5741,8 @@
 		"Nation2": [
 			"Hungary"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_un",
 		"trainType2": "LRT",
@@ -5848,8 +5848,8 @@
 		"Nation2": [
 			"Australia"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-4_cat_lirr",
 		"trainType2": "Automated Metro",
@@ -5968,8 +5968,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel LRT",
@@ -6080,8 +6080,8 @@
 		"Nation2": [
 			""
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-4_cat_aar",
 		"trainType2": "Automated Metro",
@@ -6185,8 +6185,8 @@
 		"Nation2": [
 			"Generic"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -6298,8 +6298,8 @@
 		"Nation2": [
 			"Canada"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -6420,8 +6420,8 @@
 			"Canada",
 			"Canada"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -6532,8 +6532,8 @@
 		"Nation2": [
 			"Generic"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -6681,8 +6681,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
@@ -6788,8 +6788,8 @@
 		"Nation2": [
 			"Canada"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-4_trs_ms",
 		"trainType2": "Automated Metro",
@@ -6894,8 +6894,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_tra_aar",
 		"trainType2": "LRT",
@@ -7005,8 +7005,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-2_cat_ms",
 		"trainType2": "LRT",
@@ -7117,8 +7117,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_mw",
 		"trainType2": "Commuter",
@@ -7230,8 +7230,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_mw",
 		"trainType2": "Commuter",
@@ -7338,8 +7338,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-1_trucat_mw",
 		"trainType2": "Metro",
@@ -7475,8 +7475,8 @@
 			"Canada",
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
@@ -7603,8 +7603,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-4_tru_aar",
 		"trainType2": "Automated Metro",
@@ -7713,8 +7713,8 @@
 		"Nation2": [
 			"France"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-2_tra_un",
 		"trainType2": "Metro",
@@ -7817,8 +7817,8 @@
 		"Nation2": [
 			"France"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-4_tra_un",
 		"trainType2": "Automated Metro",
@@ -7920,8 +7920,8 @@
 		"Nation2": [
 			"France"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "rub_mdc-4_fr_tff",
 		"trainType2": "Automated Rubber Metro",
@@ -8025,8 +8025,8 @@
 		"Nation2": [
 			"France"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "rub_mdc-2_fr_tff",
 		"trainType2": "Rubber Metro",
@@ -8132,8 +8132,8 @@
 		"Nation2": [
 			"France"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "rub_mdc-4_fr_tff",
 		"trainType2": "Automated Rubber Metro",
@@ -8239,8 +8239,8 @@
 		"Nation2": [
 			"France"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-4_tru_nar",
 		"trainType2": "Automated Metro",
@@ -8350,8 +8350,8 @@
 		"Nation2": [
 			"Spain"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_sv-2_cat_bm",
 		"trainType2": "Metro",
@@ -8457,8 +8457,8 @@
 		"Nation2": [
 			"Spain"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_sv-2_cat_bm",
 		"trainType2": "Metro",
@@ -8563,8 +8563,8 @@
 		"Nation2": [
 			"Spain"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "ib_hv-2_cat_dc",
 		"trainType2": "Metro",
@@ -8668,8 +8668,8 @@
 		"Nation2": [
 			"Spain"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_sv-2_cat_bm",
 		"trainType2": "Metro",
@@ -8774,8 +8774,8 @@
 		"Nation2": [
 			"Spain"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "ib_hv-2_cat_dc",
 		"trainType2": "Metro",
@@ -8885,8 +8885,8 @@
 		"Nation2": [
 			"Spain"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-4_cat_bm",
 		"trainType2": "Automated Metro",
@@ -8997,8 +8997,8 @@
 		"Nation2": [
 			"Netherlands"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -9112,8 +9112,8 @@
 		"Nation2": [
 			"Canada"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -9223,8 +9223,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-1_cat_ms",
 		"trainType2": "Metro",
@@ -9334,8 +9334,8 @@
 		"Nation2": [
 			"Turkey"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-1_cat_ms",
 		"trainType2": "Metro",
@@ -9438,8 +9438,8 @@
 		"Nation2": [
 			"Turkey"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-4_cat_ms",
 		"trainType2": "Automated Metro",
@@ -9543,8 +9543,8 @@
 		"Nation2": [
 			"Turkey"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-4_cat_lss",
 		"trainType2": "Automated Metro",
@@ -9646,8 +9646,8 @@
 		"Nation2": [
 			"Hungary"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-1_cat_un",
 		"trainType2": "Metro",
@@ -9751,8 +9751,8 @@
 		"Nation2": [
 			"Hungary"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-4_tru_mw",
 		"trainType2": "Automated Metro",
@@ -9879,8 +9879,8 @@
 		"Nation2": [
 			"Generic"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
@@ -9991,8 +9991,8 @@
 		"Nation2": [
 			"Finland"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "sov_mdc-4_tru_lirr",
 		"trainType2": "Automated Metro",
@@ -10097,8 +10097,8 @@
 		"Nation2": [
 			"Germany"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -10249,8 +10249,8 @@
 			"United States of America",
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -10375,8 +10375,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -10491,8 +10491,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-1_tru_dc",
 		"trainType2": "Metro",
@@ -10612,8 +10612,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-4_fr_ms",
 		"trainType2": "Automated Metro",
@@ -10715,8 +10715,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-1_fr_ms",
 		"trainType2": "Metro",
@@ -10818,8 +10818,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-1_fr_ms",
 		"trainType2": "Metro",
@@ -10935,8 +10935,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-1_tra_mw",
 		"trainType2": "Commuter",
@@ -11049,8 +11049,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_mw",
 		"trainType2": "Commuter",
@@ -11161,8 +11161,8 @@
 		"Nation2": [
 			"Generic"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_mw",
 		"trainType2": "Commuter",
@@ -11274,8 +11274,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-1_tra_mw",
 		"trainType2": "Commuter",
@@ -11395,8 +11395,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_mw",
 		"trainType2": "Dual-Mode Commuter",
@@ -11522,8 +11522,8 @@
 			"United Kingdom",
 			"Turkey"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -11639,8 +11639,8 @@
 		"Nation2": [
 			"Germany"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_tra_un",
 		"trainType2": "Metro",
@@ -11751,8 +11751,8 @@
 		"Nation2": [
 			"Germany"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_tra_un",
 		"trainType2": "Metro",
@@ -11859,8 +11859,8 @@
 		"Nation2": [
 			"Germany"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_tra_un",
 		"trainType2": "Metro",
@@ -11971,8 +11971,8 @@
 		"Nation2": [
 			"Germany"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_tru_ms",
 		"trainType2": "Metro",
@@ -12082,8 +12082,8 @@
 		"Nation2": [
 			"Italy"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-4_cat_rer",
 		"trainType2": "Automated Metro",
@@ -12191,8 +12191,8 @@
 		"Nation2": [
 			"France"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-4_cat_mw",
 		"trainType2": "Automated Metro",
@@ -12303,8 +12303,8 @@
 		"Nation2": [
 			"Spain"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "m_hv-1_cat_bm",
 		"trainType2": "Metro",
@@ -12413,8 +12413,8 @@
 		"Nation2": [
 			"Netherlands"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-4_tru_aar",
 		"trainType2": "Automated Metro",
@@ -12520,8 +12520,8 @@
 		"Nation2": [
 			"Italy"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-2_cat_rer",
 		"trainType2": "Metro",
@@ -12626,8 +12626,8 @@
 		"Nation2": [
 			"Italy"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-2_cat_rer",
 		"trainType2": "Metro",
@@ -12731,8 +12731,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-1_cat_ms",
 		"trainType2": "LRT",
@@ -12853,8 +12853,8 @@
 		"Nation2": [
 			"Greece"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-1_cat_rer",
 		"trainType2": "Metro",
@@ -12962,8 +12962,8 @@
 		"Nation2": [
 			"Greece"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_tra_rer",
 		"trainType2": "Metro",
@@ -13073,8 +13073,8 @@
 		"Nation2": [
 			"Hungary"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_ukr-2_tru_mw",
 		"trainType2": "Metro",
@@ -13180,8 +13180,8 @@
 		"Nation2": [
 			"Hungary"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_sv-1_cat_rem",
 		"trainType2": "Commuter",
@@ -13287,8 +13287,8 @@
 		"Nation2": [
 			"Peru"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-4_cat_bm",
 		"trainType2": "Automated Metro",
@@ -13396,8 +13396,8 @@
 		"Nation2": [
 			"Germany"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -13513,8 +13513,8 @@
 		"Nation2": [
 			"Germany"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_ceac-1_cat_ms",
 		"trainType2": "LRT",
@@ -13646,8 +13646,8 @@
 		"Nation2": [
 			"Australia"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
@@ -13773,8 +13773,8 @@
 		"Nation2": [
 			"Australia"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
@@ -13887,8 +13887,8 @@
 		"Nation2": [
 			"Italy"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-2_cat_rer",
 		"trainType2": "Metro",
@@ -14001,8 +14001,8 @@
 		"Nation2": [
 			"Italy"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-2_fr_rer",
 		"trainType2": "Metro",
@@ -14105,8 +14105,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-1_tra_rer",
 		"trainType2": "Metro",
@@ -14218,8 +14218,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-1_tra_rer",
 		"trainType2": "Metro",
@@ -14332,8 +14332,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-2_fr_ms",
 		"trainType2": "Metro",
@@ -14441,8 +14441,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-2_fr_ms",
 		"trainType2": "Metro",
@@ -14546,8 +14546,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-2_fr_ms",
 		"trainType2": "Metro",
@@ -14656,8 +14656,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-2_fr_lss",
 		"trainType2": "Metro",
@@ -14765,8 +14765,8 @@
 		"Nation2": [
 			"Canada"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "tor_cdc-1_tru_uic",
 		"trainType2": "Metro",
@@ -14875,8 +14875,8 @@
 			"Canada",
 			"Canada"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -15001,8 +15001,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-1_tra_mw",
 		"trainType2": "Commuter",
@@ -15113,8 +15113,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_tra_aar",
 		"trainType2": "Metro",
@@ -15240,8 +15240,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_non-1_non_mw",
 		"trainType2": "Diesel Commuter",
@@ -15364,8 +15364,8 @@
 			"United States of America",
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_lirr",
 		"trainType2": "Commuter",
@@ -15481,8 +15481,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-1_tru_aar",
 		"trainType2": "Metro",
@@ -15591,8 +15591,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-1_tru_aar",
 		"trainType2": "Metro",
@@ -15723,8 +15723,8 @@
 			"United States of America",
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel LRT",
@@ -15839,8 +15839,8 @@
 		"Nation2": [
 			"Germany"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_tru_ms",
 		"trainType2": "Metro",
@@ -15954,8 +15954,8 @@
 		"Nation2": [
 			"Germany"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_tru_ms",
 		"trainType2": "Metro",
@@ -16074,8 +16074,8 @@
 		"Nation2": [
 			"Peru"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-4_cat_bm",
 		"trainType2": "Automated Metro",
@@ -16185,8 +16185,8 @@
 		"Nation2": [
 			"France"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "rub_mdc-4_fr_tff",
 		"trainType2": "Automated Rubber Metro",
@@ -16297,8 +16297,8 @@
 		"Nation2": [
 			"France"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "S-Bahn",
@@ -16417,8 +16417,8 @@
 			"Generic",
 			"France"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -16532,8 +16532,8 @@
 		"Nation2": [
 			"Spain"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-2_cat_bm",
 		"trainType2": "Metro",
@@ -16642,8 +16642,8 @@
 		"Nation2": [
 			"Netherlands"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-4_tru_aar",
 		"trainType2": "Automated Metro",
@@ -16774,8 +16774,8 @@
 			"Canada",
 			"Canada"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -16893,8 +16893,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-1_cat_ms",
 		"trainType2": "Metro",
@@ -17002,8 +17002,8 @@
 		"Nation2": [
 			"Turkey"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-4_cat_aar",
 		"trainType2": "Automated Metro",
@@ -17109,8 +17109,8 @@
 		"Nation2": [
 			"Germany"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_tru_mw",
 		"trainType2": "Metro",
@@ -17220,8 +17220,8 @@
 		"Nation2": [
 			"Germany"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_tru_mw",
 		"trainType2": "Metro",
@@ -17334,8 +17334,8 @@
 		"Nation2": [
 			"Germany"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-2_tru_mw",
 		"trainType2": "Metro",
@@ -17446,8 +17446,8 @@
 		"Nation2": [
 			"Germany"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-4_tru_mw",
 		"trainType2": "Automated Metro",
@@ -17592,8 +17592,8 @@
 			"Germany",
 			"Denmark"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
@@ -17704,8 +17704,8 @@
 		"Nation2": [
 			"Finland"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "sov_mdc-1_tru_lirr",
 		"trainType2": "Metro",
@@ -17817,8 +17817,8 @@
 		"Nation2": [
 			"Finland"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "sov_mdc-2_tru_lirr",
 		"trainType2": "Metro",
@@ -17931,8 +17931,8 @@
 		"Nation2": [
 			"Germany"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -18043,8 +18043,8 @@
 		"Nation2": [
 			"Brazil"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "ire_mdc-4_tru_uic",
 		"trainType2": "Automated Metro",
@@ -18147,8 +18147,8 @@
 		"Nation2": [
 			"Brazil"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "ire_mdc-4_tru_uic",
 		"trainType2": "Automated Metro",
@@ -18251,8 +18251,8 @@
 		"Nation2": [
 			"Brazil"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "ire_mdc-4_tru_uic",
 		"trainType2": "Automated Metro",
@@ -18357,8 +18357,8 @@
 		"Nation2": [
 			"Brazil"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "ire_mdc-4_tru_uic",
 		"trainType2": "Automated Metro",
@@ -18462,8 +18462,8 @@
 		"Nation2": [
 			"Brazil"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "ire_mdc-4_tru_uic",
 		"trainType2": "Automated Metro",
@@ -18567,8 +18567,8 @@
 		"Nation2": [
 			"Brazil"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "ire_mdc-4_tru_uic",
 		"trainType2": "Automated Metro",
@@ -18673,8 +18673,8 @@
 		"Nation2": [
 			"Brazil"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "ire_mdc-4_tru_uic",
 		"trainType2": "Automated Metro",
@@ -18778,8 +18778,8 @@
 		"Nation2": [
 			"Brazil"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-4_cat_mw",
 		"trainType2": "Automated Metro",
@@ -18885,8 +18885,8 @@
 		"Nation2": [
 			"Brazil"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-4_cat_mw",
 		"trainType2": "Automated Metro",
@@ -18990,8 +18990,8 @@
 		"Nation2": [
 			"Brazil"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-4_cat_mw",
 		"trainType2": "Automated Metro",
@@ -19095,8 +19095,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-2_tra_ms",
 		"trainType2": "Metro",
@@ -19205,8 +19205,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-2_tra_aar",
 		"trainType2": "Metro",
@@ -19314,8 +19314,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-1_tra_ms",
 		"trainType2": "Metro",
@@ -19424,8 +19424,8 @@
 		"Nation2": [
 			"Mexico"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-2_cat_mw",
 		"trainType2": "Metro",
@@ -19529,8 +19529,8 @@
 		"Nation2": [
 			"Mexico"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "rub_mdc-2_fr_nar",
 		"trainType2": "Rubber Metro",
@@ -19635,8 +19635,8 @@
 		"Nation2": [
 			"Canada"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "tor_cdc-2_tru_uic",
 		"trainType2": "Metro",
@@ -19743,8 +19743,8 @@
 		"Nation2": [
 			"Canada"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "tor_cdc-1_tru_uic",
 		"trainType2": "Metro",
@@ -19852,8 +19852,8 @@
 		"Nation2": [
 			"Canada"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "rub_mdc-2_fr_nar",
 		"trainType2": "Rubber Metro",
@@ -19960,8 +19960,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_tra_dc",
 		"trainType2": "Metro",
@@ -20073,8 +20073,8 @@
 		"Nation2": [
 			"Canada"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "rub_mdc-2_fr_nar",
 		"trainType2": "Rubber Metro",
@@ -20204,8 +20204,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
@@ -20344,8 +20344,8 @@
 			"United Kingdom",
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_non-0_non_mw",
 		"trainType2": "Diesel Commuter",
@@ -20466,8 +20466,8 @@
 		"Nation2": [
 			"Germany"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_tru_uic",
 		"trainType2": "S-Bahn",
@@ -20583,8 +20583,8 @@
 		"Nation2": [
 			"Germany"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_tru_uic",
 		"trainType2": "S-Bahn",
@@ -20714,8 +20714,8 @@
 			"Ukraine",
 			"Hungary"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "sov_ukr-1_cat_ms",
 		"trainType2": "Metro",
@@ -20846,8 +20846,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_tra_dc",
 		"trainType2": "Metro",
@@ -20959,8 +20959,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_bm",
 		"trainType2": "LRT",
@@ -21086,8 +21086,8 @@
 		"Nation2": [
 			"Germany"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -21211,8 +21211,8 @@
 			"Generic",
 			"Germany"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_cat_ms",
 		"trainType2": "LRT",
@@ -21338,8 +21338,8 @@
 		"Nation2": [
 			"Germany"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_ceac-1_cat_ms",
 		"trainType2": "LRT",
@@ -21460,8 +21460,8 @@
 		"Nation2": [
 			"Australia"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-1_cat_aar",
 		"trainType2": "Dual-Mode Commuter",
@@ -21574,8 +21574,8 @@
 			"United States of America",
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_tra_dc",
 		"trainType2": "Metro",
@@ -21688,8 +21688,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-2_tra_dc",
 		"trainType2": "Metro",
@@ -21804,8 +21804,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_mw",
 		"trainType2": "Commuter",
@@ -21921,8 +21921,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-1_tra_mw",
 		"trainType2": "Commuter",
@@ -22033,8 +22033,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_mw",
 		"trainType2": "Commuter",
@@ -22144,8 +22144,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-1_tra_mw",
 		"trainType2": "Commuter",
@@ -22256,8 +22256,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-1_tra_mw",
 		"trainType2": "Commuter",
@@ -22367,8 +22367,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-1_tra_mw",
 		"trainType2": "Commuter",
@@ -22478,8 +22478,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-1_tra_mw",
 		"trainType2": "Commuter",
@@ -22589,8 +22589,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-1_tra_mw",
 		"trainType2": "Commuter",
@@ -22700,8 +22700,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-1_tra_mw",
 		"trainType2": "Commuter",
@@ -22811,8 +22811,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-1_tra_mw",
 		"trainType2": "Commuter",
@@ -22922,8 +22922,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-3_tru_ms",
 		"trainType2": "Metro",
@@ -23037,8 +23037,8 @@
 		"Nation2": [
 			"Denmark"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-2_cat_cph",
 		"trainType2": "S-Bahn",
@@ -23157,8 +23157,8 @@
 		"Nation2": [
 			"Spain"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-2_cat_bm",
 		"trainType2": "Metro",
@@ -23268,8 +23268,8 @@
 		"Nation2": [
 			"Spain"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-2_cat_bm",
 		"trainType2": "Metro",
@@ -23378,8 +23378,8 @@
 		"Nation2": [
 			"Spain"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-2_cat_bm",
 		"trainType2": "Metro",
@@ -23488,8 +23488,8 @@
 		"Nation2": [
 			"Ireland"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "ire_non-1_non_lss",
 		"trainType2": "Diesel Commuter",
@@ -23599,8 +23599,8 @@
 		"Nation2": [
 			"Turkey"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-2_tru_aar",
 		"trainType2": "Metro",
@@ -23710,8 +23710,8 @@
 		"Nation2": [
 			"Turkey"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-2_tru_aar",
 		"trainType2": "Metro",
@@ -23823,8 +23823,8 @@
 		"Nation2": [
 			"Turkey"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-2_cat_rer",
 		"trainType2": "Metro",
@@ -23934,8 +23934,8 @@
 		"Nation2": [
 			"Turkey"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-2_tru_aar",
 		"trainType2": "Metro",
@@ -24043,8 +24043,8 @@
 		"Nation2": [
 			"Denmark"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-4_cat_cph",
 		"trainType2": "Automated S-Bahn",
@@ -24179,8 +24179,8 @@
 		"Nation2": [
 			"Generic"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
@@ -24291,8 +24291,8 @@
 		"Nation2": [
 			"Australia"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-4_cat_aar",
 		"trainType2": "Automated Metro",
@@ -24405,8 +24405,8 @@
 		"Nation2": [
 			"Australia"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-1_cat_aar",
 		"trainType2": "Commuter",
@@ -24514,8 +24514,8 @@
 		"Nation2": [
 			"Australia"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-1_cat_aar",
 		"trainType2": "Commuter",
@@ -24624,8 +24624,8 @@
 		"Nation2": [
 			"Australia"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-1_cat_aar",
 		"trainType2": "Commuter",
@@ -24734,8 +24734,8 @@
 		"Nation2": [
 			"Australia"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-1_cat_aar",
 		"trainType2": "Commuter",
@@ -24845,8 +24845,8 @@
 		"Nation2": [
 			"Australia"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-1_cat_aar",
 		"trainType2": "Commuter",
@@ -24957,8 +24957,8 @@
 		"Nation2": [
 			"Australia"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-1_cat_aar",
 		"trainType2": "Commuter",
@@ -25073,8 +25073,8 @@
 		"Nation2": [
 			"Brazil"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "ire_uhv-1_cat_aar",
 		"trainType2": "Commuter",
@@ -25183,8 +25183,8 @@
 		"Nation2": [
 			"Brazil"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "ire_uhv-1_cat_aar",
 		"trainType2": "Commuter",
@@ -25293,8 +25293,8 @@
 		"Nation2": [
 			"Brazil"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "ire_uhv-1_cat_aar",
 		"trainType2": "Commuter",
@@ -25399,8 +25399,8 @@
 		"Nation2": [
 			"Brazil"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "ire_uhv-1_cat_aar",
 		"trainType2": "Commuter",
@@ -25505,8 +25505,8 @@
 		"Nation2": [
 			"Brazil"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "ire_uhv-1_cat_aar",
 		"trainType2": "Commuter",
@@ -25611,8 +25611,8 @@
 		"Nation2": [
 			"Brazil"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "ire_uhv-1_cat_aar",
 		"trainType2": "Commuter",
@@ -25717,8 +25717,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-2_tra_aar",
 		"trainType2": "Metro",
@@ -25827,8 +25827,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_tra_dc",
 		"trainType2": "Metro",
@@ -25944,8 +25944,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-4_tra_dc",
 		"trainType2": "Automated Metro",
@@ -26058,8 +26058,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-2_tra_lirr",
 		"trainType2": "Metro",
@@ -26168,8 +26168,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_tra_lirr",
 		"trainType2": "Metro",
@@ -26288,8 +26288,8 @@
 		"Nation2": [
 			"France"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-1_cat_rer",
 		"trainType2": "S-Bahn",
@@ -26405,8 +26405,8 @@
 		"Nation2": [
 			"France"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "S-Bahn",
@@ -26517,8 +26517,8 @@
 		"Nation2": [
 			"Greece"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_mw",
 		"trainType2": "Commuter",
@@ -26626,8 +26626,8 @@
 		"Nation2": [
 			"Turkey"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-2_cat_aar",
 		"trainType2": "Metro",
@@ -26734,8 +26734,8 @@
 		"Nation2": [
 			"Turkey"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-4_cat_uic",
 		"trainType2": "Automated Metro",
@@ -26851,8 +26851,8 @@
 		"Nation2": [
 			"Germany"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_sv-1_trs_aar",
 		"trainType2": "S-Bahn",
@@ -26988,8 +26988,8 @@
 		"Nation2": [
 			"Generic"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
@@ -27105,8 +27105,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "pat_mdc-1_tru_mw",
 		"trainType2": "Metro",
@@ -27230,8 +27230,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-1_cat_aar",
 		"trainType2": "Commuter",
@@ -27366,8 +27366,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
@@ -27500,8 +27500,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_hv-1_cat_aar",
 		"trainType2": "Commuter",
@@ -27629,8 +27629,8 @@
 		"Nation2": [
 			"Mexico"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
@@ -27765,8 +27765,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
@@ -27900,8 +27900,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
@@ -28046,8 +28046,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
@@ -28179,8 +28179,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_mw",
 		"trainType2": "Commuter",
@@ -28288,8 +28288,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_mw",
 		"trainType2": "Commuter",
@@ -28399,8 +28399,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-1_tra_mw",
 		"trainType2": "Commuter",
@@ -28508,8 +28508,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "sf_bart-2_tra_lirr",
 		"trainType2": "Metro",
@@ -28649,8 +28649,8 @@
 			"Generic",
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
@@ -28785,8 +28785,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
@@ -28926,8 +28926,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
@@ -29087,8 +29087,8 @@
 		"Nation2": [
 			"Generic"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-4_tru_aar",
 		"trainType2": "Automated Metro",
@@ -29235,8 +29235,8 @@
 		"Nation2": [
 			"France"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_rer",
 		"trainType2": "S-Bahn",
@@ -29351,8 +29351,8 @@
 		"Nation2": [
 			"France"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_rer",
 		"trainType2": "S-Bahn",
@@ -29466,8 +29466,8 @@
 		"Nation2": [
 			"France"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_rer",
 		"trainType2": "S-Bahn",
@@ -29581,8 +29581,8 @@
 		"Nation2": [
 			"France"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_rer",
 		"trainType2": "S-Bahn",
@@ -29697,8 +29697,8 @@
 		"Nation2": [
 			"France"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_rer",
 		"trainType2": "S-Bahn",
@@ -29811,8 +29811,8 @@
 		"Nation2": [
 			"France"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
@@ -29937,8 +29937,8 @@
 		"Nation2": [
 			"Germany"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_sv-1_trs_aar",
 		"trainType2": "S-Bahn",
@@ -30078,8 +30078,8 @@
 			"Germany",
 			"Germany"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
@@ -30218,8 +30218,8 @@
 		"Nation2": [
 			"Generic"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Hydrogen Commuter",
@@ -30339,8 +30339,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_mw",
 		"trainType2": "Commuter",
@@ -30453,8 +30453,8 @@
 			"United Kingdom",
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_mw",
 		"trainType2": "Commuter",
@@ -30568,8 +30568,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_cdc-1_tra_mw",
 		"trainType2": "Commuter",
@@ -30682,8 +30682,8 @@
 		"Nation2": [
 			"France"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_rer",
 		"trainType2": "S-Bahn",
@@ -30796,8 +30796,8 @@
 		"Nation2": [
 			"France"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_rer",
 		"trainType2": "S-Bahn",
@@ -30908,8 +30908,8 @@
 		"Nation2": [
 			"France"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "S-Bahn",
@@ -31020,8 +31020,8 @@
 		"Nation2": [
 			"France"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "S-Bahn",
@@ -31135,8 +31135,8 @@
 		"Nation2": [
 			"France"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "S-Bahn",
@@ -31248,8 +31248,8 @@
 		"Nation2": [
 			"France"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "S-Bahn",
@@ -31365,8 +31365,8 @@
 		"Nation2": [
 			"France"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Dual-Mode Commuter",
@@ -31484,8 +31484,8 @@
 		"Nation2": [
 			"Spain"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "ib_uhv-1_cat_uic",
 		"trainType2": "Commuter",
@@ -31598,8 +31598,8 @@
 		"Nation2": [
 			"Ireland"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "ire_non-1_non_lss",
 		"trainType2": "Diesel Commuter",
@@ -31732,8 +31732,8 @@
 		"Nation2": [
 			"Turkey"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-2_cat_uic",
 		"trainType2": "Commuter",
@@ -31865,8 +31865,8 @@
 		"Nation2": [
 			"Generic"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
@@ -32011,8 +32011,8 @@
 		"Nation2": [
 			"Generic"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
@@ -32116,8 +32116,8 @@
 		"Nation2": [
 			"Finland"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "sov_iac-1_cat_lirr",
 		"trainType2": "Commuter",
@@ -32229,8 +32229,8 @@
 		"Nation2": [
 			"Finland"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "sov_iac-1_cat_lirr",
 		"trainType2": "Commuter",
@@ -32346,8 +32346,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_mw",
 		"trainType2": "Commuter",
@@ -32465,8 +32465,8 @@
 		"Nation2": [
 			"United Kingdom"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-2_cat_mw",
 		"trainType2": "Commuter",
@@ -32586,8 +32586,8 @@
 			"United States of America",
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
@@ -32762,8 +32762,8 @@
 			"United States of America",
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
@@ -32911,8 +32911,8 @@
 			"United States of America",
 			"Canada"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Dual-Mode Commuter",
@@ -33047,8 +33047,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
@@ -33184,8 +33184,8 @@
 			"Denmark",
 			"Libya"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_mw",
 		"trainType2": "Diesel Commuter",
@@ -33296,8 +33296,8 @@
 		"Nation2": [
 			"Finland"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "sov_mdc-1_tru_lirr",
 		"trainType2": "Metro",
@@ -33445,8 +33445,8 @@
 		"Nation2": [
 			"Generic"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
@@ -33586,8 +33586,8 @@
 		"Nation2": [
 			"Generic"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
@@ -33706,8 +33706,8 @@
 		"Nation2": [
 			"Generic"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "sov_uhv-1_cat_cph",
 		"trainType2": "Commuter",
@@ -33819,8 +33819,8 @@
 		"Nation2": [
 			"Spain"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "ib_uhv-1_cat_uic",
 		"trainType2": "Commuter",
@@ -33937,8 +33937,8 @@
 		"Nation2": [
 			"Spain"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "ib_uhv-1_cat_uic",
 		"trainType2": "Commuter",
@@ -34055,8 +34055,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_non-1_non_lirr",
 		"trainType2": "Diesel Commuter",
@@ -34183,8 +34183,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
@@ -34364,8 +34364,8 @@
 			"United States of America",
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
@@ -34540,8 +34540,8 @@
 			"United States of America",
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_non-1_non_aar",
 		"trainType2": "Diesel Commuter",
@@ -34692,8 +34692,8 @@
 		"Nation2": [
 			"Spain"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "ib_uhv-1_cat_uic",
 		"trainType2": "Commuter",
@@ -34810,8 +34810,8 @@
 		"Nation2": [
 			"Spain"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "ib_uhv-1_cat_uic",
 		"trainType2": "Commuter",
@@ -34927,8 +34927,8 @@
 		"Nation2": [
 			"Spain"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "ib_uhv-1_cat_uic",
 		"trainType2": "Commuter",
@@ -35104,8 +35104,8 @@
 		"Nation2": [
 			"Generic"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
@@ -35243,8 +35243,8 @@
 		"Nation2": [
 			"Generic"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
@@ -35385,8 +35385,8 @@
 			"Generic",
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Dual-Mode Commuter",
@@ -35514,8 +35514,8 @@
 		"Nation2": [
 			"Denmark"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_mw",
 		"trainType2": "Commuter",
@@ -35651,8 +35651,8 @@
 		"Nation2": [
 			"Generic"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
@@ -35788,8 +35788,8 @@
 		"Nation2": [
 			"Generic"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",
@@ -35900,8 +35900,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_tra_lirr",
 		"trainType2": "Commuter",
@@ -36032,8 +36032,8 @@
 		"Nation2": [
 			"United States of America"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_mdc-1_tru_lirr",
 		"trainType2": "Commuter",
@@ -36183,8 +36183,8 @@
 		"Nation2": [
 			"Generic"
 		],
-		"Author": [
-			"DanielD1909"
+		"Tags": [
+			"Author:DanielD1909"
 		],
 		"mainTrackID": "std_iac-1_cat_aar",
 		"trainType2": "Commuter",

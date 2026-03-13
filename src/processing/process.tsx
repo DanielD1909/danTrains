@@ -6,14 +6,79 @@ import pss from "../data/standards/power.json"
 import tts from "../data/standards/trains.json"
 import als from "../data/standards/automation.json"
 import type { Train, Electrification, TrackGauge, LoadingGauge, PowerSupply, TrainType, AutomationLevel } from "../processing/processes.d.ts"
-import * as reg from "../processing/register"
+import type { TrainTypeConfig } from "../types"
+import * as reg from "./register"
+import type * as regType from "./register"
+import {getToSaveData} from "../ui/TrainPanel"
 const Trains: Train[] = trains as Train[];
+const train_names:string[] = trains.map(t => t.name);
 const Electrifications: Electrification[] = es as Electrification[];
 const TrackGauges: TrackGauge[] = tgs as TrackGauge[];
 const LoadingGauges: LoadingGauge[] = lgs as LoadingGauge[];
 const PowerSupplys: PowerSupply[] = pss as PowerSupply[];
 const TrainTypes: TrainType[] = tts as TrainType[];
 const AutomationLevels: AutomationLevel[] = als as AutomationLevel[];
+const api = window.SubwayBuilderAPI;
+const key = "danTrains."
+
+export async function exportSaveData(saveid?:string) {
+    const tosave:Record<string, regType.trainStorageData> = getToSaveData();
+    const existing:Record<string, regType.trainStorageData>|undefined = getAllSaved();
+    if (existing == undefined) {
+        localStorage.setItem(key+"dt_allsaved",JSON.stringify(tosave));
+    } else {
+        const merged: Record<string, regType.trainStorageData> = {
+            ...existing,
+            ...tosave,
+        };
+        localStorage.setItem(key+"dt_allsaved", JSON.stringify(merged));
+    }
+    if (!saveid) {} else {
+        const raw = localStorage.getItem(key+".saves."+saveid);
+        if (!raw) return undefined
+        const existingSaveSpecific:Record<string, regType.trainStorageData> = JSON.parse(raw);
+        if (existing == undefined) {
+            localStorage.set(key+".saves."+saveid,JSON.stringify(tosave));
+        } else {
+            const merged: Record<string, regType.trainStorageData> = {
+                ...existingSaveSpecific,
+                ...tosave,
+            };
+            localStorage.setItem(key+".saves."+saveid,JSON.stringify(merged));
+        }
+    }
+}
+
+export function getSaveData(saveid:string) {
+    const raw = localStorage.getItem(key+".saves."+saveid);
+    if (!raw) return undefined
+    const saveSpecificData:Record<string, regType.trainStorageData> = JSON.parse(raw);
+    return saveSpecificData
+}
+
+export function getAllSaved() {
+    const raw = localStorage.getItem(key+"dt_allsaved");
+    if (!raw) return undefined
+    const existing:Record<string, regType.trainStorageData> = JSON.parse(raw);
+    return existing
+}
+
+export function legacyFilter(inp:string) {
+    if (inp.includes("dt.")) {
+        return false;
+    } else {
+        return (train_names.includes(inp))
+    }
+}
+
+export function getLegacyList(gotten:Record<string, TrainTypeConfig>) {
+    var hold:TrainTypeConfig[] = [];
+    Object.keys(gotten).forEach(key => {
+        if (legacyFilter(key)) {hold.push(gotten[key])}
+    })
+    return hold;
+}
+
 
 export function getTrainList() {
     Trains.forEach(t => {
@@ -106,9 +171,15 @@ export function compatibleConsists(len:number,t:Train) {
     return output
 }
 
-export function statsPreview(data?:reg.trainStorageData) {
-    if (!data) {
+export function statsPreview(train:Train,data?:reg.trainStorageData,dict:boolean=false) {
+    if (!data || !data.calcin) {
         return (<div></div>)
+    }
+    let maxstr:string;
+    if (dict) {
+        maxstr = train.consistList.join(" | ")
+    } else {
+        maxstr = data.config.stats.maxCars+"/"+train.maxCars
     }
     const temp1 = data.calcin.a.car_CostPerHour; const temp2 = data.calcin.a.train_CostPerHour;
     var hold = {
@@ -157,7 +228,7 @@ export function statsPreview(data?:reg.trainStorageData) {
                         <td>{data.config.stats.capacityPerCar}</td>
                         <td>{data.config.stats.carLength}</td>
                         <td>{data.config.stats.minCars}</td>
-                        <td>{data.config.stats.maxCars}</td>
+                        <td>{maxstr}</td>
                         <td>{data.config.stats.carsPerCarSet}</td>
                     </tr>
                     <tr>
@@ -211,10 +282,10 @@ export function statsPreview(data?:reg.trainStorageData) {
                 <table className="w-full table-fixed text-center border-collapse text-xs">
                     <tr>
                         <th>Cost Stat (USD)</th>
-                        <th>Automation Level (GoA#)</th>
-                        <th>Power Supply System (string)</th>
-                        <th>Loading Gauge (m)</th>
-                        <th>Track Gauge (m)</th>
+                        <th>Automation Level</th>
+                        <th>Power Supply System</th>
+                        <th>Loading Gauge</th>
+                        <th>Track Gauge</th>
                     </tr>
                     <tr>
                         <th>Track Capital Cost</th>
@@ -248,8 +319,8 @@ export function statsPreview(data?:reg.trainStorageData) {
                 <table className="w-full table-fixed text-center border-collapse text-xs">
                     <tr>
                         <th>Stat </th>
-                        <th>Train Type (string)</th>
-                        <th>Automation Level (GoA#)</th>
+                        <th>Base (from Train Type)</th>
+                        <th>From Automation Level</th>
                     </tr>
                     <tr>
                         <th>Max Station Speed (m/s)</th>

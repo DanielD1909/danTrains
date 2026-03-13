@@ -73,7 +73,7 @@ export interface Train {
     consistList:number[];
     minStationList:number[];
     maxStationList:number[];
-    Author:string[];
+    Tags:string[];
 }
 
 export interface Electrification {
@@ -125,4 +125,30 @@ export interface AutomationLevel {
     baseTrackCost: number;
     baseStationCost: number;
     scissorsCrossoverCost: number;
+}
+
+export interface Region {
+    Name: string;
+    CountryCodes: string[];
+}
+
+export interface Nation {
+    Name: string;
+    Code: string;
+    Region: string;
+    CityCodes: string[];
+}
+
+export interface City {
+    Name: string;
+    Code: string;
+    Region: string;
+    Nation: string;
+    NationCode: string;
+}
+
+export interface Tag {
+    Name: string;
+    Type: string;
+    id: string;
 }

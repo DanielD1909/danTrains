@@ -1,0 +1,299 @@
+[
+	{
+		"Name": "Union of Soviet Socialist Republics",
+		"Code": "SU",
+		"Region": "USSR",
+		"CityCodes": [
+			"USSR"
+		]
+	},
+	{
+		"Name": "United States of America",
+		"Code": "US",
+		"Region": "North America",
+		"CityCodes": [
+			"NYC",
+			"PHI",
+			"DC",
+			"CHI",
+			"BOS",
+			"SD",
+			"ATL",
+			"SF",
+			"LA",
+			"MIA",
+			"BWI",
+			"CLE",
+			"SEA",
+			"POR",
+			"SLC",
+			"HOU",
+			"DEN",
+			"AUS",
+			"CLT",
+			"CIN",
+			"DET",
+			"HNL",
+			"MSP",
+			"PHX",
+			"DFW"
+		]
+	},
+	{
+		"Name": "United Kingdom",
+		"Code": "UK",
+		"Region": "Europe",
+		"CityCodes": [
+			"LDN",
+			"LIV",
+			"BHM",
+			"MAN",
+			"NCL",
+			"EDI",
+			"GLA"
+		]
+	},
+	{
+		"Name": "Mexico",
+		"Code": "MX",
+		"Region": "Central America",
+		"CityCodes": [
+			"MXC"
+		]
+	},
+	{
+		"Name": "Canada",
+		"Code": "CA",
+		"Region": "North America",
+		"CityCodes": [
+			"TOR",
+			"MTL",
+			"VAN",
+			"OTT",
+			"CGY",
+			"YKF",
+			"EDM",
+			"QBC"
+		]
+	},
+	{
+		"Name": "France",
+		"Code": "FR",
+		"Region": "Western Europe",
+		"CityCodes": [
+			"PAR"
+		]
+	},
+	{
+		"Name": "Spain",
+		"Code": "ES",
+		"Region": "Southern Europe",
+		"CityCodes": [
+			"BCN",
+			"MAD"
+		]
+	},
+	{
+		"Name": "Germany",
+		"Code": "DE",
+		"Region": "Central Europe",
+		"CityCodes": [
+			"BER",
+			"HAM",
+			"FKB",
+			"MUN",
+			"R-M",
+			"RHR"
+		]
+	},
+	{
+		"Name": "Denmark",
+		"Code": "DK",
+		"Region": "Northern Europe",
+		"CityCodes": [
+			"CPH"
+		]
+	},
+	{
+		"Name": "Netherlands",
+		"Code": "NL",
+		"Region": "Western Europe",
+		"CityCodes": [
+			"AMS",
+			"RTM",
+			"HAG"
+		]
+	},
+	{
+		"Name": "Italy",
+		"Code": "IT",
+		"Region": "Southern Europe",
+		"CityCodes": [
+			"ROM",
+			"MIL"
+		]
+	},
+	{
+		"Name": "Ukraine",
+		"Code": "UA",
+		"Region": "Eastern Europe",
+		"CityCodes": [
+			"IEV"
+		]
+	},
+	{
+		"Name": "Greece",
+		"Code": "GR",
+		"Region": "Southern Europe",
+		"CityCodes": [
+			"ATH"
+		]
+	},
+	{
+		"Name": "Ireland",
+		"Code": "IE",
+		"Region": "Western Europe",
+		"CityCodes": [
+			"DUB"
+		]
+	},
+	{
+		"Name": "Turkey",
+		"Code": "TR",
+		"Region": "West Asia",
+		"CityCodes": [
+			"IST"
+		]
+	},
+	{
+		"Name": "Israel",
+		"Code": "IL",
+		"Region": "West Asia",
+		"CityCodes": [
+			"T-A"
+		]
+	},
+	{
+		"Name": "Hungary",
+		"Code": "HU",
+		"Region": "Eastern Europe",
+		"CityCodes": [
+			"BUD"
+		]
+	},
+	{
+		"Name": "Finland",
+		"Code": "FI",
+		"Region": "Northern Europe",
+		"CityCodes": [
+			"HEL"
+		]
+	},
+	{
+		"Name": "Poland",
+		"Code": "PL",
+		"Region": "Eastern Europe",
+		"CityCodes": [
+			"KRK",
+			"WAR"
+		]
+	},
+	{
+		"Name": "Portugal",
+		"Code": "PT",
+		"Region": "Southern Europe",
+		"CityCodes": [
+			"LIS"
+		]
+	},
+	{
+		"Name": "Australia",
+		"Code": "AU",
+		"Region": "Oceania",
+		"CityCodes": [
+			"MEL",
+			"SYD"
+		]
+	},
+	{
+		"Name": "Russia",
+		"Code": "RU",
+		"Region": "Eastern Europe",
+		"CityCodes": [
+			"MOW"
+		]
+	},
+	{
+		"Name": "Czech Republic",
+		"Code": "CZ",
+		"Region": "Central Europe",
+		"CityCodes": [
+			"PRA"
+		]
+	},
+	{
+		"Name": "Brazil",
+		"Code": "BR",
+		"Region": "South America",
+		"CityCodes": [
+			"RIO",
+			"SAO"
+		]
+	},
+	{
+		"Name": "Singapore",
+		"Code": "SG",
+		"Region": "Southeast Asia",
+		"CityCodes": [
+			"SGP"
+		]
+	},
+	{
+		"Name": "Sweden",
+		"Code": "SE",
+		"Region": "Northern Europe",
+		"CityCodes": [
+			"STO"
+		]
+	},
+	{
+		"Name": "Austria",
+		"Code": "AT",
+		"Region": "Central Europe",
+		"CityCodes": [
+			"VIE"
+		]
+	},
+	{
+		"Name": "Libya",
+		"Code": "LY",
+		"Region": "North Africa",
+		"CityCodes": [
+			"GADAF"
+		]
+	},
+	{
+		"Name": "Peru",
+		"Code": "PE",
+		"Region": "South America",
+		"CityCodes": [
+			"LIM"
+		]
+	},
+	{
+		"Name": "Croatia",
+		"Code": "HR",
+		"Region": "Southern Europe",
+		"CityCodes": [
+			"ZAG"
+		]
+	},
+	{
+		"Name": "Generic",
+		"Code": "Generic",
+		"Region": "Generic",
+		"CityCodes": [
+			"Generic"
+		]
+	}
+]
