@@ -75,14 +75,13 @@ export function addToSaveData(key:string,data:o.trainStorageData) {
   }
 }
 
-export function specPicker(n:string,items:any[],value:string|number,f:Function,enabled:boolean,className?:string) {
+export function specPicker(n:string,items:any[],value:string|number,f:Function,className?:string) {
     return (
         <select
         name={n}
         className={className || "text-sm white bg-black w-full"}
         onChange={v => f(v.target.value)}
         value={value}
-        disabled={!enabled}
         style={{
             backgroundColor: "#000000"
         }}
@@ -597,26 +596,26 @@ export function TrainRegisterPanel() {
     return (
         <div className="flex flex-col gap-2">
           <div className="flex justify-between gap-2 w-full">
-            {pickerWithMode(tagPicker("Tag",authorItems,author,setAuthor,authorBool),authorBool,setAuthorBool)}
+            {pickerWithMode(tagPicker("Tag",authorItems,author,setAuthor,true),authorBool,setAuthorBool)}
           </div>
           <div className="flex justify-between gap-2 w-full">
-            {pickerWithMode(specPicker("Region",regItems,region,setRegion,regionBool),regionBool,setRegionBool)}
-            {pickerWithMode(specPicker("Nation",natItems,nation,setNation,nationBool),nationBool,setNationBool)}
-            {pickerWithMode(specPicker("City",cityItems,city,setCity,cityBool),cityBool,setCityBool)}
+            {pickerWithMode(specPicker("Region",regItems,region,setRegion),regionBool,setRegionBool)}
+            {pickerWithMode(specPicker("Nation",natItems,nation,setNation),nationBool,setNationBool)}
+            {pickerWithMode(specPicker("City",cityItems,city,setCity),cityBool,setCityBool)}
           </div>
           <div className="flex justify-between gap-2 w-full">
-              {pickerWithMode(specPicker("Automation Standard",aitems,auto,setAuto,autoBool),autoBool,setAutoBool)}
-              {pickerWithMode(specPicker("Electrification Standard",eitems,elect,setElect,electBool),electBool,setElectBool)}
-              {pickerWithMode(specPicker("Track Gauge",gitems,gauge,setGauge,gaugeBool),gaugeBool,setGaugeBool)}
+              {pickerWithMode(specPicker("Automation Standard",aitems,auto,setAuto),autoBool,setAutoBool)}
+              {pickerWithMode(specPicker("Electrification Standard",eitems,elect,setElect),electBool,setElectBool)}
+              {pickerWithMode(specPicker("Track Gauge",gitems,gauge,setGauge),gaugeBool,setGaugeBool)}
           </div>
           <div className="flex justify-between gap-2 w-full">
-              {pickerWithMode(specPicker("Loading Gauge",witems,width,setWidth,widthBool),widthBool,setWidthBool)}
-              {pickerWithMode(specPicker("Power Supply",pitems,power,setPower,powerBool),powerBool,setPowerBool)}
-              {pickerWithMode(specPicker("Train Type",typeItems,type,setType,typeBool),typeBool,setTypeBool)}
+              {pickerWithMode(specPicker("Loading Gauge",witems,width,setWidth),widthBool,setWidthBool)}
+              {pickerWithMode(specPicker("Power Supply",pitems,power,setPower),powerBool,setPowerBool)}
+              {pickerWithMode(specPicker("Train Type",typeItems,type,setType),typeBool,setTypeBool)}
           </div>
           <div className="flex justify-between gap-2 w-full">
-              {pickerWithMode(specPicker("Minimum Station Length",minopts,min,setMin,minBool),minBool,setMinBool)}
-              {pickerWithMode(specPicker("Maximum Station Length",maxopts,max,setMax,maxBool),maxBool,setMaxBool)}
+              {pickerWithMode(specPicker("Minimum Station Length",minopts,min,setMin),minBool,setMinBool)}
+              {pickerWithMode(specPicker("Maximum Station Length",maxopts,max,setMax),maxBool,setMaxBool)}
           </div>
           <p className="">
               {trainPicker()}
