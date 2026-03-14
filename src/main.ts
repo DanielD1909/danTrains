@@ -5,7 +5,7 @@
 
 import { TrainRegisterPanel,setToSaveData,getToSaveData } from './ui/TrainPanel';
 import { TrainDictPanel } from './ui/trainDictionary';
-import {settingsMenu} from './ui/Settings-Menu';
+import {settingsMenu,settingsMenu2} from './ui/Settings-Menu';
 import * as p from "./processing/process";
 import * as register from "./processing/register";
 import type * as regType from "./processing/register";
@@ -30,6 +30,11 @@ if (!api) {
     component: () => settingsMenu()
   }); 
 
+  api.ui.registerComponent('main-menu', {
+    id: 'danTrains-panel-2',
+    component: () => settingsMenu2()
+  }); 
+
   api.hooks.onGameLoaded((saveName) => {
     const hold = p.getSaveData(saveName);
     if (hold != undefined) {
@@ -42,6 +47,7 @@ if (!api) {
       }, {} as Record<string, t.TrainTypeConfig>);
     const alltypes = api.trains.getTrainTypes();
     const legacy = p.getLegacyList(alltypes,saveDataData);
+    const existing = p.getDanTrainsList(alltypes,saveDataData);
     if (legacy.length>0) {
       legacy.forEach(leg => {
         const modid:string = "dtlegacy."+leg.id;
@@ -56,6 +62,22 @@ if (!api) {
           legacy: true
         }
         const tempObject = {[modid]:tempconfig}
+        Object.assign(toSave,tempObject)
+      })
+    }
+    if (existing.length>0) {
+      existing.forEach(train => {
+        console.log(Object.keys(train));
+        const tempconfig:regType.trainStorageData = {
+          config: train,
+          Manufacturer: ["Legacy"],
+          City: ["Legacy"],
+          Nation: ["Legacy"],
+          Region: ["Legacy"],
+          id: train.id,
+          legacy: true
+        }
+        const tempObject = {[train.id]:tempconfig}
         Object.assign(toSave,tempObject)
       })
     }

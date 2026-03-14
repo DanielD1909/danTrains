@@ -24,7 +24,7 @@ export function settingsMenu() {
     return (
         //h(Card, { className: 'w-full h-full flex flex-col' }, [
             h('div', { key: 'content', className:'flex flex-col gap-2 items-stretch min-w-full max-w-full' }, [
-                h('div', { key: 'Name', className: 'text-lg font-bold w-full' }, 'DanTrains Loader'),
+                h('div', { key: 'Name', className: 'text-lg font-bold w-full' }, 'DanTrains Loader (By Save)'),
                 h('div', {
                     key: 'dropdown',
                     className: 'flex flex-row items-center gap-2 mt-2 w-full'
@@ -72,6 +72,53 @@ export function settingsMenu() {
                         onClick: () => p.deleteSaveData(save)
                     }, 'Delete Train.')
                 ])
+            ])
+        //])
+    )
+}
+
+export function settingsMenu2() {
+    const allSaved:Record<string, regType.trainStorageData> = p.getAllSaved() || {};
+    const options:[string, string][] = [];
+    Object.keys(allSaved).forEach((key:keyof typeof allSaved) => {
+        const id = allSaved[key].config.id;
+        const name = allSaved[key].config.name + "(" + id + ")"
+        options.push([id,name])
+    })
+    const [save,setSave] = r.useState(options[0]);
+    return (
+        //h(Card, { className: 'w-full h-full flex flex-col' }, [
+            h('div', { key: 'content', className:'flex flex-col gap-2 items-stretch min-w-full max-w-full' }, [
+                h('div', { key: 'Name', className: 'text-lg font-bold w-full' }, 'DanTrains Loader (By ID)'),
+                h('div', {
+                    key: 'dropdown',
+                    className: 'flex flex-row items-center gap-2 mt-2 w-full'
+                }, [
+                    h('label', { key: 'label', className: 'flex-shrink-0 w-24' }, 'Select save:'),
+                    h(
+                        'select',
+                        {
+                            key: 'select',
+                            variant: 'secondary',
+                            className: 'border rounded px-2 py-1 flex-1 w-full',
+                            value: save,
+                            style: {
+                                backgroundColor: '#303030'
+                            },
+                            onChange: (e: any) => {
+                                setSave(e.target.value)
+                            }
+                        },
+                        options.map(opt =>
+                            h('option', { key: opt[1], value: opt[0] }, opt[1])
+                        )
+                    )
+
+                ]),
+                h(Button, {
+                    key: 'btn',
+                    onClick: () => reg.registerTrain((p.getTrainFromID(save[0],allSaved)).config)
+                }, 'Register Train')
             ])
         //])
     )

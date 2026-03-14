@@ -114,6 +114,12 @@ export function legacyFilter(inp:string,hold:string[]) {
     }
 }
 
+export function danTrainsFilter(inp:string,hold:string[]) {
+    if (inp.includes("dt.") && !(hold.includes(inp))) {
+        return true;
+    } else { return false;}
+}
+
 export function getLegacyList(gotten:Record<string, TrainTypeConfig>,saveData:Record<string, TrainTypeConfig>) {
     var savedTrains = Object.keys(saveData).map(key => saveData[key].id)
     var hold:TrainTypeConfig[] = [];
@@ -121,6 +127,29 @@ export function getLegacyList(gotten:Record<string, TrainTypeConfig>,saveData:Re
         if (legacyFilter(key,savedTrains)) {hold.push(gotten[key])}
     })
     return hold;
+}
+
+export function getDanTrainsList(gotten:Record<string, TrainTypeConfig>,saveData:Record<string, TrainTypeConfig>) {
+    var savedTrains = Object.keys(saveData).map(key => saveData[key].id)
+    var hold:TrainTypeConfig[] = [];
+    Object.keys(gotten).forEach(key => {
+        if (danTrainsFilter(key,savedTrains)) {hold.push(gotten[key])}
+    })
+    return hold;
+}
+
+export function getTrainFromID(id:string,allSaved:Record<string, regType.trainStorageData>) {
+    var hold:regType.trainStorageData | undefined;
+    Object.keys(allSaved).forEach((key:keyof typeof allSaved) => {
+        if (allSaved[key].config.id == id) {
+            hold = allSaved[key];
+        }
+    })
+    if (hold !== undefined) {
+        return hold
+    } else {
+        throw ("Nothing found fuck shit")
+    }
 }
 
 

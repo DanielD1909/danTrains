@@ -231,8 +231,8 @@ export function registerTrain(inp:t.TrainTypeConfig) {
 }
 
 export function registerTrainList(inp:Record<string,trainStorageData>) {
-    console.log(inp);
-    console.log(Object.keys(inp));
+    console.log(inp + "inp");
+    console.log(Object.keys(inp) + "keys");
     (Object.keys(inp)).forEach(key => {
         const con = inp[key].config;
         registerTrain(con);
