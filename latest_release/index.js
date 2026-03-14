@@ -621,7 +621,14 @@
 				...existing,
 				...tosave$1
 			};
-			localStorage.setItem(key + "dt_allsaved", JSON.stringify(merged));
+			const seen = /* @__PURE__ */ new Set();
+			var deduped = {};
+			for (const [key$1, value] of Object.entries(merged)) if (!seen.has(value.config.id)) {
+				seen.add(value.config.id);
+				deduped[key$1] = value;
+			}
+			const allSaved = deduped;
+			localStorage.setItem(key + "dt_allsaved", JSON.stringify(allSaved));
 		}
 		if (!saveid) {} else {
 			setAllSaveNames(saveid);

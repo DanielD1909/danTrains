@@ -33,7 +33,16 @@ export async function exportSaveData(saveid?:string) {
             ...existing,
             ...tosave,
         };
-        localStorage.setItem(key+"dt_allsaved", JSON.stringify(merged));
+        const seen = new Set<string>();
+        var deduped: Record<string, regType.trainStorageData> = {};
+        for (const [key, value] of Object.entries(merged)) {
+            if (!seen.has(value.config.id)) {
+                seen.add(value.config.id);
+                deduped[key] = value;
+            }
+        }
+        const allSaved = deduped;
+        localStorage.setItem(key+"dt_allsaved", JSON.stringify(allSaved));
     }
     if (!saveid) {} else {
         setAllSaveNames(saveid)

@@ -62,7 +62,7 @@ export function settingsMenu() {
                             backgroundColor:"#FF0000"
                         },
                         onClick: () => setFailsafe(true)
-                    }, 'Delete Train?'),
+                    }, 'Delete Save Data?'),
                     h(Button, {
                         key: 'btn',
                         enabled:failsafe,
@@ -70,7 +70,7 @@ export function settingsMenu() {
                             backgroundColor:getColor()
                         },
                         onClick: () => p.deleteSaveData(save)
-                    }, 'Delete Train.')
+                    }, 'Delete Save Data.')
                 ])
             ])
         //])
