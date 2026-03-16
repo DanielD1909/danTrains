@@ -11,6 +11,8 @@ import type * as c from "../processing/processes.d.ts";
 import type * as o from "../processing/register.tsx";
 import * as reg from "../processing/register";
 import * as tp from "./TrainPanel"
+import {getColors, dynamicButtonColors} from "./themeHandle";
+import type {colorSet} from "../ui/themeHandle";
 
 import trains from "../data/trains.json"
 import Electrifications from "../data/standards/electric.json"
@@ -43,6 +45,13 @@ const {Switch, Button} = api.utils.components;
 
 
 function specPicker(n:string,items:any[],value:string|number,f:Function,enabled:boolean,className?:string) {
+    const colors:colorSet = getColors();
+    let bg:string;
+    if (enabled) {
+        bg = colors.background;
+    } else {
+        bg = colors.activeButton;
+    }
     return (
         <select
         name={n}
@@ -51,7 +60,7 @@ function specPicker(n:string,items:any[],value:string|number,f:Function,enabled:
         value={value}
         disabled={!enabled}
         style={{
-            backgroundColor: "#000000"
+            backgroundColor: bg
         }}
         >
         <option key={"Select "+n} value={""}>
@@ -67,6 +76,13 @@ function specPicker(n:string,items:any[],value:string|number,f:Function,enabled:
 }
 
 function tagPicker(n:string,items:c.Tag[],value:string|number,f:Function,enabled:boolean,className?:string) {
+    const colors:colorSet = getColors();
+    let bg:string;
+    if (enabled) {
+        bg = colors.background;
+    } else {
+        bg = colors.activeButton;
+    }
     return (
         <select
         name={n}
@@ -75,7 +91,7 @@ function tagPicker(n:string,items:c.Tag[],value:string|number,f:Function,enabled
         value={value}
         disabled={!enabled}
         style={{
-            backgroundColor: "#000000"
+            backgroundColor: bg
         }}
         >
         <option key={"Select "+n} value={""}>
@@ -169,41 +185,56 @@ export function setTrainCache(name:string,train:c.Train,all:Omit<trainCacheTempl
 }
 
 export function TrainCacheButton(name:string,train:c.Train,all:Omit<trainCacheTemplate, "Train" | "Name">,label:string,disabled:boolean=false) {
+    const colors:colorSet = getColors();
+    let bg:string;
+    if (!disabled) {
+        bg = colors.background;
+    } else {
+        bg = colors.disabledButton;
+    }
     return(
-    <Button
-        variant="secondary"
-        disabled={disabled}
-        onClick={() => setTrainCache(name,train,all)}
-    >
-        {label}
-    </Button>
+        <Button
+            variant="secondary"
+            disabled={disabled}
+            onClick={() => setTrainCache(name,train,all)}
+            style={{
+                backgroundColor: bg
+            }}
+        >
+            {label}
+        </Button>
     )
 }
 
 export function ClearTrainCacheButton(label:string) {
+    const colors:colorSet = getColors();
     return(
-    <Button
-        variant="secondary"
-        onClick={() => trainCache= {
-                Name: trains[0].name,
-                Train: trains[0],
-                Electrification: "",
-                Voltage: "",
-                TrackGauge: "",
-                LoadingGauge: "",
-                trainType: "",
-                Automation: "",
-                minStationList: "",
-                maxStationList: ""
+        <Button
+            variant="secondary"
+            onClick={() => trainCache = {
+                    Name: trains[0].name,
+                    Train: trains[0],
+                    Electrification: "",
+                    Voltage: "",
+                    TrackGauge: "",
+                    LoadingGauge: "",
+                    trainType: "",
+                    Automation: "",
+                    minStationList: "",
+                    maxStationList: ""
+                }
             }
-        }
-    >
-        {label}
-    </Button>
+            style={{
+                backgroundColor: colors.activeButton
+            }}
+        >
+            {label}
+        </Button>
     )
 }
 
 export function TrainDictPanel() {
+    const colors:colorSet = getColors();
     const [elect, setElect] = useState(""); const [auto, setAuto] = useState(""); const [gauge, setGauge] = useState("");
     const [width, setWidth] = useState(""); const [power, setPower] = useState(""); const [type, setType] = useState("");
     const [min, setMin] = useState(""); const [max, setMax] = useState("");
@@ -317,6 +348,7 @@ export function TrainDictPanel() {
     var [tlist,setTList]:[c.Train[],Function] = useState(Trains);
 
     function selectOperator(value:string,f:Function, className?:string) {
+        const colors:colorSet = getColors();
         return (
             <select
             name={"OperatorSelection"}
@@ -324,7 +356,8 @@ export function TrainDictPanel() {
             onChange={v => f(v.target.value)}
             value={value}
             style={{
-                backgroundColor: "#000000"
+                backgroundColor:colors.background,
+                color: colors.textColor
             }}
             >
             <option key={"None"} value={""}>
@@ -527,6 +560,10 @@ export function TrainDictPanel() {
             className="text-medium bg-black w-full"
             onChange={v => trainSelect(v.target.value)}
             value={train}
+            style={{
+                backgroundColor: colors.background,
+                color:colors.textColor
+            }}
         >
             {tlist.map((e) => (
             <option key={e.name} value={e.name}>
@@ -552,12 +589,13 @@ export function TrainDictPanel() {
 
     function resetButton() {
         return(
-        <Button
-            variant="secondary"
-            onClick={() => resetAll()}
-        >
-            Reset All
-        </Button>
+            <Button
+                variant="secondary"
+                onClick={() => resetAll()}
+                style={{backgroundColor:colors.activeButton}}
+            >
+                Reset All
+            </Button>
         )
     }
 
@@ -616,6 +654,7 @@ export function TrainDictPanel() {
         <Button
             variant="secondary"
             onClick={() => toggleBools()}
+            style={{backgroundColor:colors.activeButton}}
         >
             {"Switch all Switches"}
         </Button>
@@ -648,12 +687,6 @@ export function TrainDictPanel() {
         setState: Function,
         classN: string = "flex flex-col items-center flex-1 gap-1 text-xs text-center"
     ) {
-        let bg;
-        if (allNum[key][2]) {
-            bg = "#272727";
-        } else {
-            bg = "#161616";
-        }
         return (
         <div>
             <div className={"text-xs flex-wrap"}>
@@ -662,23 +695,21 @@ export function TrainDictPanel() {
             <div className={classN}>
                 {selectOperator(allNum[key][4],allNum[key][5],classN)}
                 <input
-                style={{
-                    backgroundColor: bg
-                }}
-                type="number"
-                id={String(allNum[key][0])}
-                readOnly={!allNum[key][2]}
-                name={String(allNum[key][0])}
-                min="1"
-                max="500"
-                step="0.01"
-                value={allNum[key][0]}
-                onChange={e => allNum[key][1](e.target.value)}
+                    type="number"
+                    id={String(allNum[key][0])}
+                    disabled={!allNum[key][2]}
+                    name={String(allNum[key][0])}
+                    min="1"
+                    max="500"
+                    step="0.01"
+                    value={allNum[key][0]}
+                    onChange={e => allNum[key][1](e.target.value)}
+                    style={{backgroundColor: dynamicButtonColors(allNum[key][2])}}
                 />
                 {h(Switch,{
-                defaultValue:false,
-                checked:state,
-                onChange:() => setState((prevState:boolean) => !prevState)
+                    defaultValue:false,
+                    checked:state,
+                    onChange:() => setState((prevState:boolean) => !prevState)
                 })}
             </div>
         </div>

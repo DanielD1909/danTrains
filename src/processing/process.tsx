@@ -11,6 +11,8 @@ import * as reg from "./register"
 import type * as regType from "./register"
 import {getToSaveData} from "../ui/TrainPanel"
 import React, { useState } from "react";
+import {getColors} from "../ui/themeHandle";
+import type {colorSet} from "../ui/themeHandle";
 const Trains: Train[] = trains as Train[];
 const train_names:string[] = trains.map(t => t.name);
 const Electrifications: Electrification[] = es as Electrification[];
@@ -36,9 +38,14 @@ export async function exportSaveData(saveid?:string) {
         const seen = new Set<string>();
         var deduped: Record<string, regType.trainStorageData> = {};
         for (const [key, value] of Object.entries(merged)) {
+            const normalizedKey = !isNaN(Number(key))
+                ? `dt.${key}`
+                : key;
+            var val = value;
+            val.config.id = normalizedKey;
             if (!seen.has(value.config.id)) {
                 seen.add(value.config.id);
-                deduped[key] = value;
+                deduped[normalizedKey] = value;
             }
         }
         const allSaved = deduped;
@@ -148,17 +155,16 @@ export function getDanTrainsList(gotten:Record<string, TrainTypeConfig>,saveData
 }
 
 export function getTrainFromID(id:string,allSaved:Record<string, regType.trainStorageData>) {
-    var hold:regType.trainStorageData | undefined;
-    Object.keys(allSaved).forEach((key:keyof typeof allSaved) => {
-        if (allSaved[key].config.id == id) {
-            hold = allSaved[key];
+    console.log("base id: "+id);
+    for (const [key, value] of Object.entries(allSaved)) {
+        console.log(value)
+        console.log(key)
+        console.log("id to match with: "+value.config.id)
+        if (value.config.id == id) {
+            return value;
         }
-    })
-    if (hold !== undefined) {
-        return hold
-    } else {
-        throw ("Nothing found fuck shit")
     }
+    throw ("Nothing found fuck shit")
 }
 
 
@@ -306,6 +312,7 @@ function latExplain(data:reg.trainStorageData,type:string) {
 
 export function MinimizeButton({ label = "Toggle", className = "flex flex-col gap-2 border p-1", children }: { label?: string; className?:string;children: React.ReactNode }) {
     const [minimized, setMinimized] = useState(false);
+    const colors:colorSet = getColors();
 
     return (
         <div className={className}>
@@ -313,7 +320,8 @@ export function MinimizeButton({ label = "Toggle", className = "flex flex-col ga
                 onClick={() => setMinimized(!minimized)}
                 className="px-1 py-1 hover:bg-gray-300 rounded text-sm font-bold"
                 style= {{
-                    backgroundColor:"#000000"
+                    backgroundColor:colors.background,
+                    color:colors.textColor
                 }}
             >
                 {minimized ? `+ ${label}` : `- ${label}`}

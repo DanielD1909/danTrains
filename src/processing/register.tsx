@@ -3,8 +3,9 @@ import * as p from "../processing/process";
 import type * as t from "../types/trains";
 import type { ElevationType } from '../types/core';
 import {addToSaveData} from '../ui/TrainPanel'
-const api = window.SubwayBuilderAPI;
 import type * as elec from "../types/electron"
+const api = window.SubwayBuilderAPI;
+
 const elecAPI = window.electron as elec.ElectronAPI
 let game_version: string | undefined;
 
@@ -203,7 +204,7 @@ export function compileTrain(train:c.Train,sco:statsCalcOutput,max:number,idin:s
         allowAtGradeRoadCrossing: sco.canCrossRoads,
     }
     const store:trainStorageData = {
-        id: idin,
+        id: "dt."+idin,
         config: config,
         Manufacturer: train.Manufacturer,
         City: train.Cities2,
@@ -226,6 +227,7 @@ export interface compileTrainOut {
 export function registerTrain(inp:t.TrainTypeConfig) {
     api.trains.registerTrainType(inp);
     console.log("Train Registered! ID: "+inp.id);
+    api.ui.showNotification("Train Registered! ID: "+inp.id,'info');
     const check:boolean = (api.trains.getTrainType(inp.id) != undefined);
     return check;
 }

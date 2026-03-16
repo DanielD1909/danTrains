@@ -1,6 +1,8 @@
 import * as p from "../processing/process";
 import * as reg from "../processing/register";
 import type * as regType from "../processing/register";
+import {getColors} from "./themeHandle";
+import type {colorSet} from "./themeHandle";
 
 const api = window.SubwayBuilderAPI;
 const { components } = api.utils;
@@ -11,6 +13,7 @@ const { Card, CardHeader, CardTitle, CardContent, Button, Switch, Label } = comp
 
 
 export function settingsMenu() {
+    const colors:colorSet = getColors();
     const options:string[] = p.getAllSaveNames() || ["No Saves Found"];
     const [save,setSave] = r.useState(options[0]);
     const [failsafe,setFailsafe] = r.useState(false);
@@ -38,7 +41,7 @@ export function settingsMenu() {
                             className: 'border rounded px-2 py-1 flex-1 w-full',
                             value: save,
                             style: {
-                                backgroundColor: '#303030'
+                                backgroundColor: colors.background
                             },
                             onChange: (e: any) => {
                                 setSave(e.target.value),
@@ -53,7 +56,11 @@ export function settingsMenu() {
                 ]),
                 h(Button, {
                     key: 'btn',
-                    onClick: () => reg.registerTrainList(p.getSaveData(save))
+                    onClick: () => reg.registerTrainList(p.getSaveData(save)),
+                    style: {
+                        backgroundColor: colors.activeButton,
+                        color: colors.textColor
+                    },
                 }, 'Register Train'),
                 h('div',{className: 'flex flex-row items-stretch w-full'},[
                     h(Button, {
@@ -78,14 +85,17 @@ export function settingsMenu() {
 }
 
 export function settingsMenu2() {
+    const colors:colorSet = getColors();
     const allSaved:Record<string, regType.trainStorageData> = p.getAllSaved() || {};
     const options:[string, string][] = [];
     Object.keys(allSaved).forEach((key:keyof typeof allSaved) => {
         const id = allSaved[key].config.id;
+        console.log("ID: "+id);
         const name = allSaved[key].config.name + "(" + id + ")"
+        console.log("Name: "+name);
         options.push([id,name])
     })
-    const [save,setSave] = r.useState(options[0]);
+    const [save,setSave] = r.useState(options[0][0]);
     return (
         //h(Card, { className: 'w-full h-full flex flex-col' }, [
             h('div', { key: 'content', className:'flex flex-col gap-2 items-stretch min-w-full max-w-full' }, [
@@ -103,7 +113,7 @@ export function settingsMenu2() {
                             className: 'border rounded px-2 py-1 flex-1 w-full',
                             value: save,
                             style: {
-                                backgroundColor: '#303030'
+                                backgroundColor: colors.background
                             },
                             onChange: (e: any) => {
                                 setSave(e.target.value)
@@ -117,7 +127,14 @@ export function settingsMenu2() {
                 ]),
                 h(Button, {
                     key: 'btn',
-                    onClick: () => reg.registerTrain((p.getTrainFromID(save[0],allSaved)).config)
+                    onClick: () => {
+                        reg.registerTrain((p.getTrainFromID(save,allSaved)).config)
+
+                    },
+                    style: {
+                        backgroundColor: colors.activeButton,
+                        color: colors.textColor
+                    },
                 }, 'Register Train')
             ])
         //])

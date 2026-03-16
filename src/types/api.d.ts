@@ -227,7 +227,7 @@ export interface ModdingAPI {
     /** Get the current theme setting. */
     getTheme(): string;
     /** Get the resolved theme (actual 'light' or 'dark', resolving 'system'). */
-    getResolvedTheme(): string;
+    getResolvedTheme(): ('light'|'dark');
     /** Set the accent color. */
     setAccentColor(color: string): void;
     /** Set the primary color. */

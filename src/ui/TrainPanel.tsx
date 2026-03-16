@@ -10,8 +10,10 @@ import * as p from '../processing/process.jsx';
 import type * as c from "../processing/processes.d.ts";
 import type * as o from "../processing/register.tsx";
 import * as reg from "../processing/register";
-import type * as dictType from "./trainDictionary"
-import * as dict from "./trainDictionary"
+import type * as dictType from "./trainDictionary";
+import * as dict from "./trainDictionary";
+import {getColors} from "./themeHandle";
+import type {colorSet} from "./themeHandle";
 
 import trains from "../data/trains.json"
 import Electrifications from "../data/standards/electric.json"
@@ -76,6 +78,7 @@ export function addToSaveData(key:string,data:o.trainStorageData) {
 }
 
 export function specPicker(n:string,items:any[],value:string|number,f:Function,className?:string) {
+    const colors:colorSet = getColors();
     return (
         <select
         name={n}
@@ -83,7 +86,7 @@ export function specPicker(n:string,items:any[],value:string|number,f:Function,c
         onChange={v => f(v.target.value)}
         value={value}
         style={{
-            backgroundColor: "#000000"
+            backgroundColor: colors.background
         }}
         >
         <option key={"Select "+n} value={""}>
@@ -99,6 +102,7 @@ export function specPicker(n:string,items:any[],value:string|number,f:Function,c
 }
 
 export function tagPicker(n:string,items:c.Tag[],value:string|number,f:Function,enabled:boolean,className?:string) {
+    const colors:colorSet = getColors();
     return (
         <select
         name={n}
@@ -107,7 +111,7 @@ export function tagPicker(n:string,items:c.Tag[],value:string|number,f:Function,
         value={value}
         disabled={!enabled}
         style={{
-            backgroundColor: "#000000"
+            backgroundColor: colors.background
         }}
         >
         <option key={"Select "+n} value={""}>
@@ -132,7 +136,7 @@ function getTagNameById(id: string): string | undefined {
 var boolHold:boolean = false;
 
 export function TrainRegisterPanel() {
-    console.log(api.version)
+    const colors:colorSet = getColors();
     const cacheImport:dictType.trainCacheTemplate = dict.getTrainCache();
     const [elect, setElect] = useState(cacheImport.Voltage); const [auto, setAuto] = useState(cacheImport.Automation); const [gauge, setGauge] = useState(cacheImport.TrackGauge);
     const [width, setWidth] = useState(cacheImport.LoadingGauge); const [power, setPower] = useState(cacheImport.Electrification); const [type, setType] = useState(cacheImport.trainType);
@@ -357,7 +361,10 @@ export function TrainRegisterPanel() {
         return (
         <select
             name="Train Picker"
-            className="text-medium bg-black w-full"
+            className="text-medium w-full"
+            style={{
+              background: colors.background
+            }}
             onChange={v => trainSelect(v.target.value)}
             value={train}
         >
@@ -370,7 +377,7 @@ export function TrainRegisterPanel() {
         )
     }
 
-    function getLengthsGreaterThan(num:number,equalto:boolean=false) {
+  function getLengthsGreaterThan(num:number,equalto:boolean=false) {
     if (equalto) {
       return lens.filter(l => l.value >= num); 
     } else {
@@ -466,6 +473,7 @@ export function TrainRegisterPanel() {
       <Button
           variant="secondary"
           onClick={() => resetAll()}
+          style={{backgroundColor:colors.activeButton}}
       >
           Reset All
       </Button>
@@ -535,26 +543,46 @@ export function TrainRegisterPanel() {
     if (toRegister !== undefined) {
       reg.registerTrain(toRegister.trainConfig);
       tosave[String(toRegister.storageData.id)] = toRegister.storageData;
+      setRegText("Just registered this train");
+      setRegDisable(true);
     }
   }
 
   function fixButton() {
+    let bg:string;
+    if (prevDisable) {
+      bg = colors.disabledButton
+    } else {
+      bg = colors.activeButton
+    }
       return(
-      <Button
-          variant="secondary"
-          onClick={() => toggleBools()}
-      >
-          {"Switch all Switches"}
-      </Button>
+        <Button
+            variant="secondary"
+            onClick={() => toggleBools()}
+            style={{
+                background: colors.activeButton
+            }}
+        >
+            {"Switch all Switches"}
+        </Button>
       )
   }
 
   function previewButton() {
+    let bg:string;
+    if (prevDisable) {
+      bg = colors.disabledButton
+    } else {
+      bg = colors.activeButton
+    }
     return(
       <Button
         variant="secondary"
         onClick={() => registrationPreview()}
         disabled = {prevDisable}
+        style={{
+            background: bg
+        }}
       >
         {prevText}
       </Button>
@@ -562,11 +590,20 @@ export function TrainRegisterPanel() {
   }
 
   function registerButton() {
+    let bg:string;
+    if (prevDisable) {
+      bg = colors.disabledButton
+    } else {
+      bg = colors.activeButton
+    }
     return(
       <Button
         variant="secondary"
         onClick={() => registrationProccess()}
         disabled = {regDisable}
+        style={{
+            background: bg
+        }}
       >
         {regText}
       </Button>
@@ -585,7 +622,10 @@ export function TrainRegisterPanel() {
             {h(Switch,{
             defaultValue:false,
             checked:state,
-            onChange:() => setState((prevState:boolean) => !prevState)
+            onChange:() => setState((prevState:boolean) => !prevState),
+            style:{
+                background: colors.background
+            }
             })}
         </div>
         )
