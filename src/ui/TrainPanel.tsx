@@ -64,6 +64,10 @@ var tosave: Record<string, o.trainStorageData> = {};
 export function getToSaveData() {
 	console.log("toSave");
 	console.log(tosave);
+	Object.keys(tosave).forEach(key => {
+		console.log("id for data: "+tosave[key].id)
+		console.log("id in config: "+tosave[key].config.id)
+	})
 	return tosave;
 }
 

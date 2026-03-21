@@ -1,3 +1,6 @@
+1.1.2 Patch Notes: 
+- Fixed a glitch prevent legacy trains from being imported correctly
+
 1.1.1 Patch Notes: 
 - Actually fixed the glitch causing crashes on menu start for new users
 

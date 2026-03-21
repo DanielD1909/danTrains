@@ -644,7 +644,7 @@
 		else return hold.disabledButton;
 	}
 	var Trains$2 = trains_default;
-	var train_names = [...Trains$2.map((t) => t.name), ...Trains$2.map((t) => t.Alias)];
+	var train_names = [...Trains$2.map((t) => t.name), ...Trains$2.map((t) => t.Alias).filter((a) => a !== void 0)];
 	var Electrifications = electric_default;
 	var TrackGauges = track_default;
 	var LoadingGauges = loading_default;
@@ -657,7 +657,26 @@
 		const tosave$1 = getToSaveData();
 		const existing = getAllSaved();
 		console.log(Object.keys(tosave$1).length);
-		if (existing == void 0) localStorage.setItem(key + "dt_allsaved", JSON.stringify(tosave$1));
+		if (!saveid) {} else {
+			setAllSaveNames(saveid);
+			const raw = localStorage.getItem(key + "saves." + saveid);
+			if (!raw) localStorage.setItem(key + "saves." + saveid, JSON.stringify(tosave$1));
+			else {
+				const existingSaveSpecific = JSON.parse(raw);
+				if (existingSaveSpecific == void 0) localStorage.setItem(key + "saves." + saveid, JSON.stringify(tosave$1));
+				else {
+					const merged = {
+						...existingSaveSpecific,
+						...tosave$1
+					};
+					Object.keys(merged).forEach((key$1) => {
+						console.log("BBBBBBBB " + merged[key$1].config.id);
+					});
+					localStorage.setItem(key + "saves." + saveid, JSON.stringify(merged));
+				}
+			}
+		}
+		if (existing == void 0 || Object.keys(existing).length == 0) localStorage.setItem(key + "dt_allsaved", JSON.stringify(tosave$1));
 		else {
 			const merged = {
 				...existing,
@@ -676,22 +695,6 @@
 			}
 			const allSaved = deduped;
 			localStorage.setItem(key + "dt_allsaved", JSON.stringify(allSaved));
-		}
-		if (!saveid) {} else {
-			setAllSaveNames(saveid);
-			const raw = localStorage.getItem(key + "saves." + saveid);
-			if (!raw) localStorage.setItem(key + "saves." + saveid, JSON.stringify(tosave$1));
-			else {
-				const existingSaveSpecific = JSON.parse(raw);
-				if (existingSaveSpecific == void 0) localStorage.setItem(key + "saves." + saveid, JSON.stringify(tosave$1));
-				else {
-					const merged = {
-						...existingSaveSpecific,
-						...tosave$1
-					};
-					localStorage.setItem(key + "saves." + saveid, JSON.stringify(merged));
-				}
-			}
 		}
 	}
 	function getAllSaveNames() {
@@ -712,8 +715,12 @@
 	}
 	function setAllSaveNames(saveName) {
 		const currentList = getAllSaveNames();
-		if (!currentList) throw "could not get save names";
-		else {
+		if (!currentList) {
+			const currentSet = /* @__PURE__ */ new Set();
+			currentSet.add(saveName);
+			const newList = Array.from(currentSet);
+			localStorage.setItem(key + "allsaves", JSON.stringify(newList));
+		} else {
 			const currentSet = new Set(currentList);
 			currentSet.add(saveName);
 			const newList = Array.from(currentSet);
@@ -724,7 +731,7 @@
 		const raw = localStorage.getItem(key + "saves." + saveid);
 		if (!raw) {
 			console.log("save data not found");
-			throw "save data not found";
+			return {};
 		}
 		console.log(raw);
 		const saveSpecificData = JSON.parse(raw);
@@ -749,7 +756,7 @@
 		var savedTrains = Object.keys(saveData).map((key$1) => saveData[key$1].id);
 		var hold = [];
 		Object.keys(gotten).forEach((key$1) => {
-			if (legacyFilter(key$1, savedTrains)) hold.push(gotten[key$1]);
+			if (legacyFilter(gotten[key$1].id, savedTrains)) hold.push(gotten[key$1]);
 		});
 		return hold;
 	}
@@ -2564,6 +2571,10 @@
 	function getToSaveData() {
 		console.log("toSave");
 		console.log(tosave);
+		Object.keys(tosave).forEach((key$1) => {
+			console.log("id for data: " + tosave[key$1].id);
+			console.log("id in config: " + tosave[key$1].config.id);
+		});
 		return tosave;
 	}
 	function setToSaveData(data) {
@@ -3346,9 +3357,10 @@
 					City: ["Legacy"],
 					Nation: ["Legacy"],
 					Region: ["Legacy"],
-					id: modid,
+					id: leg.id,
 					legacy: true
 				};
+				console.log("AAAAAAAAAAAAAA " + tempconfig.id);
 				const tempObject = { [modid]: tempconfig };
 				Object.assign(toSave, tempObject);
 			});

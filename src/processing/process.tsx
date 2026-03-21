@@ -14,7 +14,10 @@ import React, { useState } from "react";
 import { getColors } from "../ui/themeHandle";
 import type { colorSet } from "../ui/themeHandle";
 const Trains: Train[] = trains as Train[];
-const train_names: string[] = [...Trains.map(t => t.name), ...Trains.map(t => t.Alias)];
+const train_names: string[] = [
+  ...Trains.map(t => t.name),
+  ...Trains.map(t => t.Alias).filter((a): a is string => a !== undefined)
+];
 const Electrifications: Electrification[] = es as Electrification[];
 const TrackGauges: TrackGauge[] = tgs as TrackGauge[];
 const LoadingGauges: LoadingGauge[] = lgs as LoadingGauge[];
@@ -28,7 +31,28 @@ export async function exportSaveData(saveid?: string) {
     const tosave: Record<string, regType.trainStorageData> = getToSaveData();
     const existing: Record<string, regType.trainStorageData> | undefined = getAllSaved();
     console.log(Object.keys(tosave).length);
-    if (existing == undefined) {
+    if (!saveid) { } else {
+        setAllSaveNames(saveid)
+        const raw = localStorage.getItem(key + "saves." + saveid);
+        if (!raw) {
+            localStorage.setItem(key + "saves." + saveid, JSON.stringify(tosave));
+        } else {
+            const existingSaveSpecific: Record<string, regType.trainStorageData> = JSON.parse(raw);
+            if (existingSaveSpecific == undefined) {
+                localStorage.setItem(key + "saves." + saveid, JSON.stringify(tosave));
+            } else {
+                const merged: Record<string, regType.trainStorageData> = {
+                    ...existingSaveSpecific,
+                    ...tosave,
+                };
+                Object.keys(merged).forEach(key => {
+                    console.log("BBBBBBBB "+merged[key].config.id)
+                })
+                localStorage.setItem(key + "saves." + saveid, JSON.stringify(merged));
+            }
+        }
+    }
+    if (existing == undefined || Object.keys(existing).length == 0) {
         localStorage.setItem(key + "dt_allsaved", JSON.stringify(tosave));
     } else {
         const merged: Record<string, regType.trainStorageData> = {
@@ -51,24 +75,7 @@ export async function exportSaveData(saveid?: string) {
         const allSaved = deduped;
         localStorage.setItem(key + "dt_allsaved", JSON.stringify(allSaved));
     }
-    if (!saveid) { } else {
-        setAllSaveNames(saveid)
-        const raw = localStorage.getItem(key + "saves." + saveid);
-        if (!raw) {
-            localStorage.setItem(key + "saves." + saveid, JSON.stringify(tosave));
-        } else {
-            const existingSaveSpecific: Record<string, regType.trainStorageData> = JSON.parse(raw);
-            if (existingSaveSpecific == undefined) {
-                localStorage.setItem(key + "saves." + saveid, JSON.stringify(tosave));
-            } else {
-                const merged: Record<string, regType.trainStorageData> = {
-                    ...existingSaveSpecific,
-                    ...tosave,
-                };
-                localStorage.setItem(key + "saves." + saveid, JSON.stringify(merged));
-            }
-        }
-    }
+
 }
 
 export function getAllSaveNames() {
@@ -92,8 +99,12 @@ export function deleteSaveData(name: string) {
 
 export function setAllSaveNames(saveName: string) {
     const currentList = getAllSaveNames();
-    if (!currentList) { throw "could not get save names" }
-    else {
+    if (!currentList) { 
+        const currentSet: Set<string> = new Set();
+        currentSet.add(saveName);
+        const newList = Array.from(currentSet);
+        localStorage.setItem(key + "allsaves", JSON.stringify(newList));
+    } else {
         const currentSet: Set<string> = new Set(currentList);
         currentSet.add(saveName);
         const newList = Array.from(currentSet);
@@ -105,7 +116,7 @@ export function getSaveData(saveid: string) {
     const raw = localStorage.getItem(key + "saves." + saveid);
     if (!raw) {
         console.log("save data not found");
-        throw "save data not found"
+        return {}
     }
     console.log(raw);
     const saveSpecificData: Record<string, regType.trainStorageData> = JSON.parse(raw);
@@ -140,7 +151,7 @@ export function getLegacyList(gotten: Record<string, TrainTypeConfig>, saveData:
     var savedTrains = Object.keys(saveData).map(key => saveData[key].id)
     var hold: TrainTypeConfig[] = [];
     Object.keys(gotten).forEach(key => {
-        if (legacyFilter(key, savedTrains)) { hold.push(gotten[key]) }
+        if (legacyFilter(gotten[key].id, savedTrains)) { hold.push(gotten[key]) }
     })
     return hold;
 }

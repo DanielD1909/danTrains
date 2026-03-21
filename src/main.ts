@@ -63,9 +63,10 @@ if (!api) {
                     City: ["Legacy"],
                     Nation: ["Legacy"],
                     Region: ["Legacy"],
-                    id: modid,
+                    id: leg.id,
                     legacy: true
                 }
+                console.log("AAAAAAAAAAAAAA "+tempconfig.id);
                 const tempObject = { [modid]: tempconfig }
                 Object.assign(toSave, tempObject)
             })
