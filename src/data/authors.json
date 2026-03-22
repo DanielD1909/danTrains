@@ -25,6 +25,26 @@
 		"Type": "Group"
 	},
 	{
+		"Name": " Berlin Wide (Group)",
+		"id": "Group: Berlin Wide",
+		"Type": "Group"
+	},
+	{
+		"Name": " Berlin Narrow (Group)",
+		"id": "Group: Berlin Narrow",
+		"Type": "Group"
+	},
+	{
+		"Name": " Sao Paulo Metro-SP (Group)",
+		"id": "Group: Sao Paulo Metro-SP",
+		"Type": "Group"
+	},
+	{
+		"Name": " Sao Paulo ViaMobilidade (Group)",
+		"id": "Group: Sao Paulo ViaMobilidade",
+		"Type": "Group"
+	},
+	{
 		"Name": " NYC A Division (Group)",
 		"id": "Group: NYC A Division",
 		"Type": "Group"
@@ -32,6 +52,31 @@
 	{
 		"Name": " NYC B Division (Group)",
 		"id": "Group: NYC B Division",
+		"Type": "Group"
+	},
+	{
+		"Name": " Barcelona Metro FGC (Group)",
+		"id": "Group: Barcelona Metro FGC",
+		"Type": "Group"
+	},
+	{
+		"Name": " Sao Paulo CPTM (Group)",
+		"id": "Group: Sao Paulo CPTM",
+		"Type": "Group"
+	},
+	{
+		"Name": " Barcelona Metro TMB (Group)",
+		"id": "Group: Barcelona Metro TMB",
+		"Type": "Group"
+	},
+	{
+		"Name": " Stadler FLIRTs (Group)",
+		"id": "Group: Stadler FLIRTs",
+		"Type": "Group"
+	},
+	{
+		"Name": " Sao Paulo ViaQuatro (Group)",
+		"id": "Group: Sao Paulo ViaQuatro",
 		"Type": "Group"
 	}
 ]

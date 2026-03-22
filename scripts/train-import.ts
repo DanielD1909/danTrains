@@ -126,7 +126,8 @@ parsed2.data.forEach((ro: any) => {
             Average: Number(ro.Average),
             Min_No_Filler: Number(ro.Min_No_Filler),
             Max_No_Filler: Number(ro.Max_No_Filler),
-            Cost_Multiplier: Number(ro.Cost_Multiplier_M),
+            SingleTrackWidth: Number(ro.SingleTrackWidth),
+            DoubleTrackWidth: Number(ro.DoubleTrackWidth),
             parallelTrackSpacing: Number(ro.parallelTrackSpacing),
             trackClearance: Number(ro.trackClearance)
         })
@@ -136,7 +137,7 @@ parsed2.data.forEach((ro: any) => {
             Name: ro.Electrification_Type,
             id: ro.id_R,
             Cost_Multiplier: Number(ro.Cost_Multiplier_R),
-            Tunnel_Cost_Multiplier: Number(ro.Tunnel_Cost_Multiplier),
+            AddedHeight: Number(ro.AddedHeight),
             Scissors_Cost_Multiplier: Number(ro.Scissors_Cost_Multiplier)
         })
     }
@@ -145,6 +146,7 @@ parsed2.data.forEach((ro: any) => {
             Name: ro.Cost_Name,
             maxSpeedLocalStation: Number(ro.maxSpeedLocalStation_V),
             train_CostPerHour: Number(ro.train_CostPerHour_W),
+            height: Number(ro.height),
             car_CostPerHour: Number(ro.car_CostPerHour_X),
             canCrossRoads: (ro.canCrossRoads_Y === "TRUE"),
             stopTimeSeconds: Number(ro.stopTimeSeconds_Z),

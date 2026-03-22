@@ -15,8 +15,8 @@ import { getColors } from "../ui/themeHandle";
 import type { colorSet } from "../ui/themeHandle";
 const Trains: Train[] = trains as Train[];
 const train_names: string[] = [
-  ...Trains.map(t => t.name),
-  ...Trains.map(t => t.Alias).filter((a): a is string => a !== undefined)
+    ...Trains.map(t => t.name),
+    ...Trains.map(t => t.Alias).filter((a): a is string => a !== undefined)
 ];
 const Electrifications: Electrification[] = es as Electrification[];
 const TrackGauges: TrackGauge[] = tgs as TrackGauge[];
@@ -27,7 +27,36 @@ const AutomationLevels: AutomationLevel[] = als as AutomationLevel[];
 const api = window.SubwayBuilderAPI;
 const key = "danTrains."
 
-export async function exportSaveData(saveid?: string) {
+const AAR = LoadingGauges.find(item => item.id == "aar")
+const TRA = PowerSupplys.find(item => item.id == "tra")
+const Metro = TrainTypes.find(item => item.Name == "Metro")
+var bw = 6.71; var bv = 0.1; var bh = 3.8; var bdtw = 10.43;
+if (AAR && TRA && Metro) {
+    bw = AAR.SingleTrackWidth
+    bv = TRA.AddedHeight
+    bh = Metro.height
+    bdtw = AAR.DoubleTrackWidth
+}
+const baseBoreRadius = (4*bv**2+8*bh*bv+4*bh**2*bw**2) / (8 * (bv+bh));
+const baseBoreArea = baseBoreRadius**2 * Math.PI;
+const baseCutArea = bdtw * (bh+bv)
+
+export function getMults(loading:LoadingGauge,power_supply:PowerSupply,height:number) {
+    var w = loading.SingleTrackWidth;
+    var dtw = loading.DoubleTrackWidth;
+    var v = power_supply.AddedHeight;
+    var h = height;
+    const BoreRadius = (4*v**2+8*h*v+4*h**2*w**2) / (8 * (v+h));
+    const BoreArea = BoreRadius**2 * Math.PI;
+    const CutArea = dtw * (h+v);
+    const BoreMult = BoreArea / baseBoreArea * 2/3 + 1/3;
+    const CutMult = CutArea / baseCutArea * 2/3 + 1/3;
+    const elevMult = dtw/bdtw * 1/3 + 2/3;
+    return [BoreMult,CutMult,elevMult]
+}
+
+
+export async function exportSaveData(change: boolean = false, saveid?: string) {
     const tosave: Record<string, regType.trainStorageData> = getToSaveData();
     const existing: Record<string, regType.trainStorageData> | undefined = getAllSaved();
     console.log(Object.keys(tosave).length);
@@ -46,7 +75,7 @@ export async function exportSaveData(saveid?: string) {
                     ...tosave,
                 };
                 Object.keys(merged).forEach(key => {
-                    console.log("BBBBBBBB "+merged[key].config.id)
+                    console.log("BBBBBBBB " + merged[key].config.id)
                 })
                 localStorage.setItem(key + "saves." + saveid, JSON.stringify(merged));
             }
@@ -55,10 +84,18 @@ export async function exportSaveData(saveid?: string) {
     if (existing == undefined || Object.keys(existing).length == 0) {
         localStorage.setItem(key + "dt_allsaved", JSON.stringify(tosave));
     } else {
-        const merged: Record<string, regType.trainStorageData> = {
-            ...existing,
-            ...tosave,
-        };
+        var merged: Record<string, regType.trainStorageData>;
+        if (change) {
+            merged = {
+                ...tosave,
+                ...existing
+            };
+        } else {
+            merged = {
+                ...existing,
+                ...tosave
+            };
+        }
         const seen = new Set<string>();
         var deduped: Record<string, regType.trainStorageData> = {};
         for (const [key, value] of Object.entries(merged)) {
@@ -99,7 +136,7 @@ export function deleteSaveData(name: string) {
 
 export function setAllSaveNames(saveName: string) {
     const currentList = getAllSaveNames();
-    if (!currentList) { 
+    if (!currentList) {
         const currentSet: Set<string> = new Set();
         currentSet.add(saveName);
         const newList = Array.from(currentSet);
@@ -156,13 +193,19 @@ export function getLegacyList(gotten: Record<string, TrainTypeConfig>, saveData:
     return hold;
 }
 
-export function getDanTrainsList(gotten: Record<string, TrainTypeConfig>, saveData: Record<string, regType.trainStorageData>) {
+export function getDanTrainsList(gotten: Record<string, TrainTypeConfig>, saveData: Record<string, regType.trainStorageData>,blist?:Record<string,boolean>) {
     var savedTrains = Object.keys(saveData).map(key => saveData[key].config.id)
-    var hold: regType.trainStorageData[] = [];
+    var o: regType.trainStorageData[] = [];
     Object.keys(gotten).forEach(key => {
-        if (danTrainsFilter(key, savedTrains)) { hold.push(saveData[key]) }
+        if (danTrainsFilter(key, savedTrains)) {
+            var hold = saveData[key]
+            if (blist && blist[key] === true) {
+                hold.config.stats.minTurnRadius = gotten[key].stats.minTurnRadius
+            }
+            o.push(hold)
+        }
     })
-    return hold;
+    return o;
 }
 
 export function getTrainFromID(id: string, allSaved: Record<string, regType.trainStorageData>) {
@@ -479,13 +522,6 @@ export function statsPreview(train: Train, data?: reg.trainStorageData, dict: bo
                         <td>{"x" + data.calcin.a.scissorsCrossoverCost}</td>
                         <td>N/A</td>
                         <td>{"x" + data.calcin.e.Scissors_Cost_Multiplier}</td>
-                        <td>N/A</td>
-                    </tr>
-                    <tr>
-                        <th>Tunnel Multiplier</th>
-                        <td>N/A</td>
-                        <td>{"x" + data.calcin.l.Cost_Multiplier}</td>
-                        <td>{"x" + data.calcin.e.Tunnel_Cost_Multiplier}</td>
                         <td>N/A</td>
                     </tr>
                 </table>

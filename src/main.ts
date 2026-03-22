@@ -16,6 +16,8 @@ const MOD_VERSION = '1.0.0';
 const TAG = '[danTrains]';
 
 const api = window.SubwayBuilderAPI;
+var change:boolean = false;
+
 if (!api) {
     console.error(`${TAG} SubwayBuilderAPI not found!`);
 } else {
@@ -50,9 +52,10 @@ if (!api) {
                 acc[key] = saveData[key].config;
                 return acc;
             }, {} as Record<string, t.TrainTypeConfig>);
-        const alltypes = api.trains.getTrainTypes();
+        var alltypes = api.trains.getTrainTypes(); var blist:Record<string,boolean>;
+        [alltypes,change,blist] = register.updateTrainsIfPossible(alltypes) as [Record<string, t.TrainTypeConfig>,boolean,Record<string,boolean>];
         const legacy = p.getLegacyList(alltypes, saveDataData);
-        const existing = p.getDanTrainsList(alltypes, saveData);
+        const existing = p.getDanTrainsList(alltypes, saveData, blist);
         if (legacy.length > 0) {
             legacy.forEach(leg => {
                 const modid: string = "dtlegacy." + leg.id;
@@ -83,6 +86,7 @@ if (!api) {
                     id: train.config.id,
                     legacy: false
                 }
+                console.log("mtr "+train.config.stats.minTurnRadius)
                 const tempObject = { [train.config.id]: tempconfig }
                 Object.assign(toSave, tempObject)
             })
@@ -99,7 +103,7 @@ if (!api) {
             Object.assign(toSave, hold);
             setToSaveData(toSave);
         }
-        p.exportSaveData(saveName);
+        p.exportSaveData(change,saveName);
     })
 
 

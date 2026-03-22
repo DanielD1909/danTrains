@@ -1,3 +1,18 @@
+1.2.0 Patch Notes:
+- Adjusted minCurveRadii to use a new formula.
+    - If the new value smaller, the track will automatically update existing tracks, otherwise it will not to avoid breaking the game
+- Increased parallel track separation and track clearance to more realistic values
+- Cost multipliers are now based off of shape based area instead of a linear relationship
+    - Aka bores are calculated as circles now
+    - Also taking into account placement of track in the tube
+- New tunnel costs are based off of said new track separation values
+- For the sake of avoiding the bricking of prior saves, the new track geometry and associcated numbers are not retroactively applied.
+    - I have not tested this but honestly I would be shocked if changing track parallel spacing for already laid track *didn't* brick a save
+- Track multiplier explanations have been removed temporarily until a new UI is ready for them
+    - The multipliers themselves are still there which is more important. Just know wider and/or catenary = tunnels more expensive. 
+- Fixed the MBTA Blue Line behaving as if the entire line is *both* catenary and third rail
+    - Now it uses catenary above ground and third-rail below
+
 1.1.2 Patch Notes: 
 - Fixed a glitch prevent legacy trains from being imported correctly
 

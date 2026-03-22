@@ -5,9 +5,10 @@
 		"Average": 2.2,
 		"Min_No_Filler": 2.12,
 		"Max_No_Filler": 2.23,
-		"Cost_Multiplier": 0.76,
-		"parallelTrackSpacing": 1.77,
-		"trackClearance": 0.78
+		"SingleTrackWidth": 4.84,
+		"DoubleTrackWidth": 7.55,
+		"parallelTrackSpacing": 2.68,
+		"trackClearance": 1.32
 	},
 	{
 		"Name": "Berlin 2.3m",
@@ -15,9 +16,10 @@
 		"Average": 2.3,
 		"Min_No_Filler": 2.22,
 		"Max_No_Filler": 2.33,
-		"Cost_Multiplier": 0.79,
-		"parallelTrackSpacing": 1.77,
-		"trackClearance": 0.83
+		"SingleTrackWidth": 5.06,
+		"DoubleTrackWidth": 7.89,
+		"parallelTrackSpacing": 2.8,
+		"trackClearance": 1.38
 	},
 	{
 		"Name": "Ultra-Narrow",
@@ -25,9 +27,10 @@
 		"Average": 2.4,
 		"Min_No_Filler": 2.32,
 		"Max_No_Filler": 2.43,
-		"Cost_Multiplier": 0.83,
-		"parallelTrackSpacing": 1.87,
-		"trackClearance": 0.88
+		"SingleTrackWidth": 5.28,
+		"DoubleTrackWidth": 8.23,
+		"parallelTrackSpacing": 2.92,
+		"trackClearance": 1.44
 	},
 	{
 		"Name": "2.45 m",
@@ -35,9 +38,10 @@
 		"Average": 2.45,
 		"Min_No_Filler": 2.37,
 		"Max_No_Filler": 2.48,
-		"Cost_Multiplier": 0.84,
-		"parallelTrackSpacing": 1.92,
-		"trackClearance": 0.91
+		"SingleTrackWidth": 5.39,
+		"DoubleTrackWidth": 8.4,
+		"parallelTrackSpacing": 2.98,
+		"trackClearance": 1.47
 	},
 	{
 		"Name": "Narrow",
@@ -45,9 +49,10 @@
 		"Average": 2.55,
 		"Min_No_Filler": 2.47,
 		"Max_No_Filler": 2.58,
-		"Cost_Multiplier": 0.88,
-		"parallelTrackSpacing": 2.02,
-		"trackClearance": 0.96
+		"SingleTrackWidth": 5.61,
+		"DoubleTrackWidth": 8.74,
+		"parallelTrackSpacing": 3.1,
+		"trackClearance": 1.53
 	},
 	{
 		"Name": "Metro Standard",
@@ -55,9 +60,10 @@
 		"Average": 2.65,
 		"Min_No_Filler": 2.57,
 		"Max_No_Filler": 2.68,
-		"Cost_Multiplier": 0.91,
-		"parallelTrackSpacing": 2.12,
-		"trackClearance": 1.01
+		"SingleTrackWidth": 5.83,
+		"DoubleTrackWidth": 9.08,
+		"parallelTrackSpacing": 3.22,
+		"trackClearance": 1.59
 	},
 	{
 		"Name": "Barcelona Metro",
@@ -65,9 +71,10 @@
 		"Average": 2.75,
 		"Min_No_Filler": 2.67,
 		"Max_No_Filler": 2.78,
-		"Cost_Multiplier": 0.95,
-		"parallelTrackSpacing": 2.22,
-		"trackClearance": 1.06
+		"SingleTrackWidth": 6.05,
+		"DoubleTrackWidth": 9.42,
+		"parallelTrackSpacing": 3.34,
+		"trackClearance": 1.65
 	},
 	{
 		"Name": "Metro Wide",
@@ -75,9 +82,10 @@
 		"Average": 2.8,
 		"Min_No_Filler": 2.72,
 		"Max_No_Filler": 2.83,
-		"Cost_Multiplier": 0.97,
-		"parallelTrackSpacing": 2.27,
-		"trackClearance": 1.08
+		"SingleTrackWidth": 6.17,
+		"DoubleTrackWidth": 9.59,
+		"parallelTrackSpacing": 3.4,
+		"trackClearance": 1.68
 	},
 	{
 		"Name": "RER Narrow",
@@ -85,9 +93,10 @@
 		"Average": 2.85,
 		"Min_No_Filler": 2.77,
 		"Max_No_Filler": 2.88,
-		"Cost_Multiplier": 0.98,
-		"parallelTrackSpacing": 2.32,
-		"trackClearance": 1.11
+		"SingleTrackWidth": 6.27,
+		"DoubleTrackWidth": 9.76,
+		"parallelTrackSpacing": 3.46,
+		"trackClearance": 1.71
 	},
 	{
 		"Name": "London S Stock",
@@ -95,9 +104,10 @@
 		"Average": 2.9,
 		"Min_No_Filler": 2.82,
 		"Max_No_Filler": 2.93,
-		"Cost_Multiplier": 1,
-		"parallelTrackSpacing": 2.37,
-		"trackClearance": 1.13
+		"SingleTrackWidth": 6.38,
+		"DoubleTrackWidth": 9.93,
+		"parallelTrackSpacing": 3.52,
+		"trackClearance": 1.74
 	},
 	{
 		"Name": "REM",
@@ -105,9 +115,10 @@
 		"Average": 2.95,
 		"Min_No_Filler": 2.87,
 		"Max_No_Filler": 2.98,
-		"Cost_Multiplier": 1.02,
-		"parallelTrackSpacing": 2.42,
-		"trackClearance": 1.16
+		"SingleTrackWidth": 6.49,
+		"DoubleTrackWidth": 10.1,
+		"parallelTrackSpacing": 3.58,
+		"trackClearance": 1.77
 	},
 	{
 		"Name": "U.S. Passenger Standard",
@@ -115,9 +126,10 @@
 		"Average": 3.05,
 		"Min_No_Filler": 2.97,
 		"Max_No_Filler": 3.08,
-		"Cost_Multiplier": 1.05,
-		"parallelTrackSpacing": 2.52,
-		"trackClearance": 1.21
+		"SingleTrackWidth": 6.71,
+		"DoubleTrackWidth": 10.43,
+		"parallelTrackSpacing": 3.7,
+		"trackClearance": 1.83
 	},
 	{
 		"Name": "DC Metro",
@@ -125,9 +137,10 @@
 		"Average": 3.1,
 		"Min_No_Filler": 3.02,
 		"Max_No_Filler": 3.13,
-		"Cost_Multiplier": 1.07,
-		"parallelTrackSpacing": 2.57,
-		"trackClearance": 1.23
+		"SingleTrackWidth": 6.82,
+		"DoubleTrackWidth": 10.61,
+		"parallelTrackSpacing": 3.76,
+		"trackClearance": 1.86
 	},
 	{
 		"Name": "UIC / ERA Standard",
@@ -135,9 +148,10 @@
 		"Average": 3.15,
 		"Min_No_Filler": 3.07,
 		"Max_No_Filler": 3.18,
-		"Cost_Multiplier": 1.09,
-		"parallelTrackSpacing": 2.62,
-		"trackClearance": 1.26
+		"SingleTrackWidth": 6.93,
+		"DoubleTrackWidth": 10.78,
+		"parallelTrackSpacing": 3.82,
+		"trackClearance": 1.89
 	},
 	{
 		"Name": "LIRR / Metro North",
@@ -145,9 +159,10 @@
 		"Average": 3.25,
 		"Min_No_Filler": 3.17,
 		"Max_No_Filler": 3.28,
-		"Cost_Multiplier": 1.12,
-		"parallelTrackSpacing": 2.72,
-		"trackClearance": 1.31
+		"SingleTrackWidth": 7.15,
+		"DoubleTrackWidth": 11.12,
+		"parallelTrackSpacing": 3.94,
+		"trackClearance": 1.95
 	},
 	{
 		"Name": "ERA SE-A",
@@ -155,9 +170,10 @@
 		"Average": 3.4,
 		"Min_No_Filler": 3.32,
 		"Max_No_Filler": 3.43,
-		"Cost_Multiplier": 1.17,
-		"parallelTrackSpacing": 2.87,
-		"trackClearance": 1.38
+		"SingleTrackWidth": 7.48,
+		"DoubleTrackWidth": 11.63,
+		"parallelTrackSpacing": 4.12,
+		"trackClearance": 2.04
 	},
 	{
 		"Name": "Copenhagen S-Tog",
@@ -165,9 +181,10 @@
 		"Average": 3.5,
 		"Min_No_Filler": 3.42,
 		"Max_No_Filler": 3.53,
-		"Cost_Multiplier": 1.21,
-		"parallelTrackSpacing": 2.97,
-		"trackClearance": 1.43
+		"SingleTrackWidth": 7.7,
+		"DoubleTrackWidth": 11.97,
+		"parallelTrackSpacing": 4.24,
+		"trackClearance": 2.1
 	},
 	{
 		"Name": "ERA SE-C",
@@ -175,8 +192,9 @@
 		"Average": 3.6,
 		"Min_No_Filler": 3.52,
 		"Max_No_Filler": 3.63,
-		"Cost_Multiplier": 1.24,
-		"parallelTrackSpacing": 3.07,
-		"trackClearance": 1.48
+		"SingleTrackWidth": 7.92,
+		"DoubleTrackWidth": 12.31,
+		"parallelTrackSpacing": 4.36,
+		"trackClearance": 2.16
 	}
 ]

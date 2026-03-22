@@ -1,19 +1,19 @@
-Electrification,Actual_B,id_C,Track_Gauge,id_E,Actual_F,Cost_Multiplier_G,Cant_Multiplier,Loading_Gauge,id_J,Average,Min_No_Filler,Max_No_Filler,Cost_Multiplier_M,parallelTrackSpacing,trackClearance,Electrification_Type,id_R,Cost_Multiplier_R,Tunnel_Cost_Multiplier,Scissors_Cost_Multiplier,Cost_Name,maxSpeedLocalStation_V,train_CostPerHour_W,car_CostPerHour_X,canCrossRoads_Y,stopTimeSeconds_Z,maxLateralAcceleration_AA,maxSlopePercentage_AB,maxCantDeficiency,maxCant,Automation_Level,maxSpeedLocalStation_AD,train_CostPerHour_AE,car_CostPerHour_AF,canCrossRoads_AG,stopTimeSeconds_AH,baseTrackCost,baseStationCost,scissorsCrossoverCost
-Classical DC,DC 600V,cdc,Metre,m,1.000,1.10,0.94,2.2m,tt,2.20,2.12,2.23,0.76,1.77,0.78,tr-above,tra,1.00,1.00,1.00,Metro,12,220,28,FALSE,35,1,5.5,100,150,GoA0,0,20,2,TRUE,1.4,0.75,0.6,0.65
-Modern DC,DC 750V,mdc,3.5_foot,35f,1.067,1.10,0.95,Berlin 2.3m,ber,2.30,2.22,2.33,0.79,1.77,0.83,catenary,cat,0.85,1.50,0.85,Rubber Metro,12,250,35,FALSE,35,1.5,12,0,138,GoA1,1,0,0,TRUE,1.2,1,0.85,1
-Ukranian Voltage,DC 825V,ukr,Glasgow,gla,1.219,1.10,0.97,Ultra-Narrow,un,2.40,2.32,2.43,0.83,1.87,0.88,tr-under,tru,0.99,1.00,1.00,Commuter,14,520,40,TRUE,75,0.8,2,130,160,GoA2,2,-25,-2.5,FALSE,1,1,1,1
-BART DC,DC 1.0kV,bart,Standard,std,1.435,1.00,1.00,2.45 m,tff,2.45,2.37,2.48,0.84,1.92,0.91,none,non,0.75,1.50,0.50,Diesel Commuter,14,560,75,TRUE,75,0.75,1,130,160,GoA3,4,-50,-5,FALSE,1,1.1,1,1.2
-Spanish Voltage,DC 1.2kV,sv,Rubber,rub,1.435,0.50,1.00,Narrow,nar,2.55,2.47,2.58,0.88,2.02,0.96,four-rail,fr,1.15,1.00,1.10,LRT,5.7,100,10,TRUE,30,1.2,8,70,100,GoA4,6,-100,-10,FALSE,0.9,1.15,1.1,1.25
-High Voltage DC,DC 1.5kV,hv,Toronto,tor,1.495,1.10,1.01,Metro Standard,ms,2.65,2.57,2.68,0.91,2.12,1.01,tr-side,trs,1.01,1.00,1.01,Diesel LRT,5.7,120,22,TRUE,40,0.8,6,70,100,,,,,,,,,
-Soviet UHV DC,DC 3kV,uhv,Soviet,sov,1.520,1.10,1.01,Barcelona Metro,bm,2.75,2.67,2.78,0.95,2.22,1.06,tr-under+catenary,trucat,1.25,1.50,1.05,Rubber LRT,5.7,110,15,TRUE,30,1.5,13,0,123,,,,,,,,,
-Central European AC,AC 15-16.6,ceac,PA Trolley,pat,1.588,1.10,1.02,Metro Wide,mw,2.80,2.72,2.83,0.97,2.27,1.08,aps,aps,1.25,1.00,0.80,People Mover,4,160,25,FALSE,30,1,6,0,92,,,,,,,,,
-International AC,AC 25-Grid,iac,1.6_Metre,ire,1.600,1.10,1.02,RER Narrow,rer,2.85,2.77,2.88,0.98,2.32,1.11,,,,,,Dual-Mode Commuter,14,540,57.5,TRUE,75,0.8,1.5,130,160,,,,,,,,,
-Pennsylvania AC,AC 12-25,pac,Iberian,ib,1.668,1.10,1.03,London S Stock,lss,2.90,2.82,2.93,1.00,2.37,1.13,,,,,,Hydrogen Commuter,14,750,40,TRUE,75,0.75,1.5,130,160,,,,,,,,,
-New Haven Line AC,AC 12.5-60,nhac,San_Francisco,sf,1.676,1.10,1.03,REM,rem,2.95,2.87,2.98,1.02,2.42,1.16,,,,,,S-Bahn,12,400,50,TRUE,45,1.2,4,130,160,,,,,,,,,
-None,Diesel,non,APMs,aps,2.642,0.50,1.17,U.S. Passenger Standard,aar,3.05,2.97,3.08,1.05,2.52,1.21,,,,,,Tilting Main Line,14,620,40,TRUE,75,0.8,2,275,160,,,,,,,,,
-APM 600V AC,AC .6-50,apm,APM Narrow,pmn,1.800,0.50,1.05,DC Metro,dc,3.10,3.02,3.13,1.07,2.57,1.23,,,,,,Weird Metro,12,220,28,TRUE,35,1,5.5,100,150,,,,,,,,,
-,,,,,,,,UIC / ERA Standard,uic,3.15,3.07,3.18,1.09,2.62,1.26,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,LIRR / Metro North,lirr,3.25,3.17,3.28,1.12,2.72,1.31,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,ERA SE-A,sea,3.40,3.32,3.43,1.17,2.87,1.38,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,Copenhagen S-Tog,cph,3.50,3.42,3.53,1.21,2.97,1.43,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,ERA SE-C,sec,3.60,3.52,3.63,1.24,3.07,1.48,,,,,,,,,,,,,,,,,,,,,,,,
+Electrification,Actual_B,id_C,Track_Gauge,id_E,Actual_F,Cost_Multiplier_G,Cant_Multiplier,Loading_Gauge,id_J,Average,Min_No_Filler,Max_No_Filler,SingleTrackWidth,DoubleTrackWidth,parallelTrackSpacing,trackClearance,Electrification_Type,id_R,Cost_Multiplier_R,AddedHeight,Scissors_Cost_Multiplier,Cost_Name,maxSpeedLocalStation_V,height,train_CostPerHour_W,car_CostPerHour_X,canCrossRoads_Y,stopTimeSeconds_Z,maxLateralAcceleration_AA,maxSlopePercentage_AB,maxCantDeficiency,maxCant,Automation_Level,maxSpeedLocalStation_AD,train_CostPerHour_AE,car_CostPerHour_AF,canCrossRoads_AG,stopTimeSeconds_AH,baseTrackCost,baseStationCost,scissorsCrossoverCost
+Classical DC,DC 600V,cdc,Metre,m,1.000,1.10,0.94,2.2m,tt,2.20,2.12,2.23,4.84,7.55,2.68,1.32,tr-above,tra,1.00,0.10,1.00,Metro,12,3.8,220,28,FALSE,35,1,5.5,100,150,GoA0,0,20,2,TRUE,1.4,0.75,0.6,0.65
+Modern DC,DC 750V,mdc,3.5_foot,35f,1.067,1.10,0.95,Berlin 2.3m,ber,2.30,2.22,2.33,5.06,7.89,2.80,1.38,catenary,cat,0.85,1.00,0.85,Rubber Metro,12,3.8,250,35,FALSE,35,1.5,12,0,138,GoA1,1,0,0,TRUE,1.2,1,0.85,1
+Ukranian Voltage,DC 825V,ukr,Glasgow,gla,1.219,1.10,0.97,Ultra-Narrow,un,2.40,2.32,2.43,5.28,8.23,2.92,1.44,tr-under,tru,0.99,0.10,1.00,Commuter,14,4.2,520,40,TRUE,75,0.8,2,130,160,GoA2,2,-25,-2.5,FALSE,1,1,1,1
+BART DC,DC 1.0kV,bart,Standard,std,1.435,1.00,1.00,2.45 m,tff,2.45,2.37,2.48,5.39,8.40,2.98,1.47,none,non,0.75,0.10,0.50,Diesel Commuter,14,4.2,560,75,TRUE,75,0.75,1,130,160,GoA3,4,-50,-5,FALSE,1,1.1,1,1.2
+Spanish Voltage,DC 1.2kV,sv,Rubber,rub,1.435,0.50,1.00,Narrow,nar,2.55,2.47,2.58,5.61,8.74,3.10,1.53,four-rail,fr,1.15,0.10,1.10,LRT,5.7,3.8,100,10,TRUE,30,1.2,8,70,100,GoA4,6,-100,-10,FALSE,0.9,1.15,1.1,1.25
+High Voltage DC,DC 1.5kV,hv,Toronto,tor,1.495,1.10,1.01,Metro Standard,ms,2.65,2.57,2.68,5.83,9.08,3.22,1.59,tr-side,trs,1.01,0.10,1.01,Diesel LRT,5.7,3.8,120,22,TRUE,40,0.8,6,70,100,,,,,,,,,
+Soviet UHV DC,DC 3kV,uhv,Soviet,sov,1.520,1.10,1.01,Barcelona Metro,bm,2.75,2.67,2.78,6.05,9.42,3.34,1.65,tr-under+catenary,trucat,0.85,0.10,1.05,Rubber LRT,5.7,3.8,110,15,TRUE,30,1.5,13,0,123,,,,,,,,,
+Central European AC,AC 15-16.6,ceac,PA Trolley,pat,1.588,1.10,1.02,Metro Wide,mw,2.80,2.72,2.83,6.17,9.59,3.40,1.68,aps,aps,1.25,0.10,0.80,People Mover,4,3.4,160,25,FALSE,30,1,6,0,92,,,,,,,,,
+International AC,AC 25-Grid,iac,1.6_Metre,ire,1.600,1.10,1.02,RER Narrow,rer,2.85,2.77,2.88,6.27,9.76,3.46,1.71,,,,,,Dual-Mode Commuter,14,4.2,540,57.5,TRUE,75,0.8,1.5,130,160,,,,,,,,,
+Pennsylvania AC,AC 12-25,pac,Iberian,ib,1.668,1.10,1.03,London S Stock,lss,2.90,2.82,2.93,6.38,9.93,3.52,1.74,,,,,,Hydrogen Commuter,14,4.2,750,40,TRUE,75,0.75,1.5,130,160,,,,,,,,,
+New Haven Line AC,AC 12.5-60,nhac,San_Francisco,sf,1.676,1.10,1.03,REM,rem,2.95,2.87,2.98,6.49,10.10,3.58,1.77,,,,,,S-Bahn,12,4.2,400,50,TRUE,45,1.2,4,130,160,,,,,,,,,
+None,Diesel,non,APMs,aps,2.642,0.50,1.17,U.S. Passenger Standard,aar,3.05,2.97,3.08,6.71,10.43,3.70,1.83,,,,,,Tilting Main Line,14,4.2,620,40,TRUE,75,0.8,2,275,160,,,,,,,,,
+APM 600V AC,AC .6-50,apm,APM Narrow,pmn,1.800,0.50,1.05,DC Metro,dc,3.10,3.02,3.13,6.82,10.61,3.76,1.86,,,,,,Weird Metro,12,3.8,220,28,TRUE,35,1,5.5,100,150,,,,,,,,,
+,,,,,,,,UIC / ERA Standard,uic,3.15,3.07,3.18,6.93,10.78,3.82,1.89,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,LIRR / Metro North,lirr,3.25,3.17,3.28,7.15,11.12,3.94,1.95,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,ERA SE-A,sea,3.40,3.32,3.43,7.48,11.63,4.12,2.04,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,Copenhagen S-Tog,cph,3.50,3.42,3.53,7.70,11.97,4.24,2.10,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,ERA SE-C,sec,3.60,3.52,3.63,7.92,12.31,4.36,2.16,,,,,,,,,,,,,,,,,,,,,,,,,

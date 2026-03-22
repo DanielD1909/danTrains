@@ -4,6 +4,8 @@ import type * as t from "../types/trains";
 import type { ElevationType } from '../types/core';
 import {addToSaveData} from '../ui/TrainPanel'
 import type * as elec from "../types/electron"
+import trains from "../data/trains.json"
+
 const api = window.SubwayBuilderAPI;
 
 const elecAPI = window.electron as elec.ElectronAPI
@@ -86,14 +88,16 @@ export function statsCalc(i:statsCalcInput) {
     const baseTrackCost:number = Math.round(base.baseTrackCost * i.e.Cost_Multiplier * i.t.CostMultiplier * i.a.baseTrackCost);
     const baseStationCost:number = Math.round(base.baseStationCost * i.a.baseStationCost);
     const scissorsCrossoverCost:number = Math.round(base.scissorsCrossoverCost * i.e.Scissors_Cost_Multiplier * i.a.scissorsCrossoverCost);
+    const height = i.y.height + i.e.AddedHeight;
+    const gottenMults:number[] = p.getMults(i.l,i.e,height);
     let mult:number;
     if (i.train.Old == true) {mult = 7/5} else {mult = 1}
     const elevationMults = {
-        DEEP_BORE: Number((base.DEEP_BORE * i.l.Cost_Multiplier*i.e.Tunnel_Cost_Multiplier).toFixed(2)),
-        STANDARD_TUNNEL: Number((base.STANDARD_TUNNEL * i.l.Cost_Multiplier*i.e.Tunnel_Cost_Multiplier).toFixed(2)),
-        CUT_AND_COVER: Number((base.CUT_AND_COVER * i.l.Cost_Multiplier*i.e.Tunnel_Cost_Multiplier).toFixed(2)),
+        DEEP_BORE: Number((base.DEEP_BORE * gottenMults[0]).toFixed(2)),
+        STANDARD_TUNNEL: Number((base.STANDARD_TUNNEL * gottenMults[0]).toFixed(2)),
+        CUT_AND_COVER: Number((base.CUT_AND_COVER * gottenMults[1]).toFixed(2)),
         AT_GRADE: base.AT_GRADE,
-        ELEVATED: Number((base.ELEVATED * (1-(1-i.l.Cost_Multiplier)/2)).toFixed(2)),
+        ELEVATED: Number((base.ELEVATED * gottenMults[2]).toFixed(2)),
     }
     const parallelTrackSpacing:number = i.l.parallelTrackSpacing;
     const trackClearance:number = i.l.trackClearance;
@@ -242,4 +246,27 @@ export function registerTrainList(inp:Record<string,trainStorageData>) {
         console.log("Added Train: "+key);
     })
     console.log("Added all trains from save.")
+}
+
+const Trains: c.Train[] = trains as c.Train[];
+export function updateTrainsIfPossible(inp:Record<string,t.TrainTypeConfig>) {
+    var hold:boolean = false;
+    const blist:Record<string,boolean> = {}
+    Object.keys(inp).forEach(key => {
+        const train = Trains.find(train => inp[key].name == train.name || inp[key].name == train.Alias)
+        if (train == undefined) {
+            console.log("No matching train found for "+key+" ("+inp[key].name+")")
+            blist[key] = false;
+        } else if (train.minTurnRadius < inp[key].stats.minTurnRadius) {
+            const old = inp[key].stats.minTurnRadius
+            hold = true;
+            blist[key] = true;
+            inp[key].stats.minTurnRadius = train.minTurnRadius
+            console.log("Updated Turn Radius for "+key+" ("+inp[key].name+") from "+old+" to "+train.minTurnRadius)
+        } else {
+            console.log("No Update Needed for "+key+" ("+inp[key].name+")")
+            blist[key] = false;
+        }
+    })
+    return [inp,hold,blist];
 }

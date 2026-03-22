@@ -95,7 +95,8 @@ export interface LoadingGauge {
     Average: number;
     Min_No_Filler: number;
     Max_No_Filler: number;
-    Cost_Multiplier: number;
+    SingleTrackWidth: number;
+    DoubleTrackWidth: number;
     parallelTrackSpacing: number;
     trackClearance: number;
 }
@@ -103,12 +104,13 @@ export interface PowerSupply {
     Name: string;
     id: string;
     Cost_Multiplier: number;
-    Tunnel_Cost_Multiplier: number;
+    AddedHeight: number;
     Scissors_Cost_Multiplier: number;
 }
 export interface TrainType {
     Name: string;
     maxSpeedLocalStation: number;
+    height: number;
     train_CostPerHour: number;
     car_CostPerHour: number;
     canCrossRoads: boolean;

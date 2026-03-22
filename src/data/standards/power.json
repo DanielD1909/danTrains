@@ -3,56 +3,56 @@
 		"Name": "tr-above",
 		"id": "tra",
 		"Cost_Multiplier": 1,
-		"Tunnel_Cost_Multiplier": 1,
+		"AddedHeight": 0.1,
 		"Scissors_Cost_Multiplier": 1
 	},
 	{
 		"Name": "catenary",
 		"id": "cat",
 		"Cost_Multiplier": 0.85,
-		"Tunnel_Cost_Multiplier": 1.5,
+		"AddedHeight": 1,
 		"Scissors_Cost_Multiplier": 0.85
 	},
 	{
 		"Name": "tr-under",
 		"id": "tru",
 		"Cost_Multiplier": 0.99,
-		"Tunnel_Cost_Multiplier": 1,
+		"AddedHeight": 0.1,
 		"Scissors_Cost_Multiplier": 1
 	},
 	{
 		"Name": "none",
 		"id": "non",
 		"Cost_Multiplier": 0.75,
-		"Tunnel_Cost_Multiplier": 1.5,
+		"AddedHeight": 0.1,
 		"Scissors_Cost_Multiplier": 0.5
 	},
 	{
 		"Name": "four-rail",
 		"id": "fr",
 		"Cost_Multiplier": 1.15,
-		"Tunnel_Cost_Multiplier": 1,
+		"AddedHeight": 0.1,
 		"Scissors_Cost_Multiplier": 1.1
 	},
 	{
 		"Name": "tr-side",
 		"id": "trs",
 		"Cost_Multiplier": 1.01,
-		"Tunnel_Cost_Multiplier": 1,
+		"AddedHeight": 0.1,
 		"Scissors_Cost_Multiplier": 1.01
 	},
 	{
 		"Name": "tr-under+catenary",
 		"id": "trucat",
-		"Cost_Multiplier": 1.25,
-		"Tunnel_Cost_Multiplier": 1.5,
+		"Cost_Multiplier": 0.85,
+		"AddedHeight": 0.1,
 		"Scissors_Cost_Multiplier": 1.05
 	},
 	{
 		"Name": "aps",
 		"id": "aps",
 		"Cost_Multiplier": 1.25,
-		"Tunnel_Cost_Multiplier": 1,
+		"AddedHeight": 0.1,
 		"Scissors_Cost_Multiplier": 0.8
 	}
 ]
