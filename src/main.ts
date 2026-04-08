@@ -119,6 +119,26 @@ if (!api) {
         p.exportSaveData(change, saveName);
     })
 
+    api.hooks.onBeforeSaveLoad(async (saveName:string) => {
+        console.log("Before Load")
+        const saved = p.getSaveData(saveName);
+        var hold:Record<string, t.TrainTypeConfig> = {}
+        Object.keys(saved).forEach(key => {
+            console.log(key + "key");
+            console.log(saved[key].id + "key id thingy")
+            hold[key] = saved[key].config
+        })
+        const fixed = register.updateTrainsIfPossible(hold)[0] as Record<string, t.TrainTypeConfig>;
+        const touse:Record<string, regType.trainStorageData> = {}
+        Object.keys(fixed).forEach(key => {
+            const temp:regType.trainStorageData = {
+                ...saved[key as keyof typeof saved],
+                config: fixed[key as keyof typeof fixed]
+            }
+            touse[key] = temp;
+        })
+        register.registerTrainList(touse);
+    })
 
     // Initialize mod when map is ready
     api.hooks.onMapReady((_map) => {

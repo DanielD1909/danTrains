@@ -1,3 +1,8 @@
+1.4.0 Patch Notes:
+- Minimum version is now 1.2.6 (Beta)
+- Listed as pre-release
+- New Hooks should allow for the deprication of the old loading system, but menus are kept for now.
+
 1.3.1 Patch Notes:
 - Added FAQ Panel
 - Fixed multiple save related glitches
