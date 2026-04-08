@@ -18,13 +18,8 @@ export function settingsMenu() {
     const options: string[] = p.getAllSaveNames() || ["No Saves Found"];
     const [save, setSave] = r.useState(options[0]);
     const [failsafe, setFailsafe] = r.useState(false);
-    function getColor() {
-        if (failsafe) {
-            return "#FF0000"
-        } else {
-            return "#AA0000"
-        }
-    }
+    const [canReg, setCanReg] = r.useState(true);
+    const [text,setText] = r.useState("Register");
     return (
         //h(Card, { className: 'w-full h-full flex flex-col' }, [
         h('div', { key: 'content', className: 'flex flex-col gap-2 items-stretch min-w-full max-w-full' }, [
@@ -46,7 +41,9 @@ export function settingsMenu() {
                         },
                         onChange: (e: any) => {
                             setSave(e.target.value),
-                            setFailsafe(false)
+                            setFailsafe(false),
+                            setText("Register"),
+                            setCanReg(true)
                         }
                     },
                     options.map(opt =>
@@ -57,7 +54,9 @@ export function settingsMenu() {
             ]),
             h(Button, {
                 key: 'btn',
+                disabled: !canReg,
                 onClick: () => {
+                    setText("Registered!");
                     const saved = p.getSaveData(save);
                     var hold:Record<string, t.TrainTypeConfig> = {}
                     Object.keys(saved).forEach(key => {
@@ -74,13 +73,14 @@ export function settingsMenu() {
                         }
                         touse[key] = temp;
                     })
-                    reg.registerTrainList(touse)
+                    reg.registerTrainList(touse);
+                    setCanReg(false);
                 },
                 style: {
                     backgroundColor: colors.activeButton,
                     color: colors.textColor
                 },
-            }, 'Register Train'),
+            }, text),
             h('div', { className: 'flex flex-row items-stretch w-full' }, [
                 h(Button, {
                     key: 'btn',
@@ -91,9 +91,9 @@ export function settingsMenu() {
                 }, 'Delete Save Data?'),
                 h(Button, {
                     key: 'btn',
-                    enabled: failsafe,
+                    disabled: !failsafe,
                     style: {
-                        backgroundColor: getColor()
+                        backgroundColor: "#FF0000"
                     },
                     onClick: () => p.deleteSaveData(save)
                 }, 'Delete Save Data.')
@@ -115,6 +115,8 @@ export function settingsMenu2() {
             console.log("Name: " + name);
             options.push([id, name])
         })
+        const [canReg, setCanReg] = r.useState(true);
+        const [text,setText] = r.useState("Register");
         const [save, setSave] = r.useState(options[0][0]);
         return (
             //h(Card, { className: 'w-full h-full flex flex-col' }, [
@@ -137,6 +139,8 @@ export function settingsMenu2() {
                             },
                             onChange: (e: any) => {
                                 setSave(e.target.value)
+                                setCanReg(true)
+                                setText("Register")
                             }
                         },
                         options.map(opt =>
@@ -147,15 +151,17 @@ export function settingsMenu2() {
                 ]),
                 h(Button, {
                     key: 'btn',
+                    disabled: !canReg,
                     onClick: () => {
+                        setText("Registered!");
                         reg.registerTrain((p.getTrainFromID(save, allSaved)).config)
-
+                        setCanReg(false)
                     },
                     style: {
                         backgroundColor: colors.activeButton,
                         color: colors.textColor
                     },
-                }, 'Register Train')
+                }, text)
             ])
             //])
         )

@@ -1,6 +1,13 @@
+1.3.1 Patch Notes:
+- Added FAQ Panel
+- Fixed multiple save related glitches
+- Added scrolling to panels
+- Fixed some glitches with settings menu
+- Fixed wrong train capacity for DLR07 thanks to notrickastley on discord.
+
 1.3.0 Patch Notes:
-- Added 1.2.2 beta compatibilitity
-    - Track maintainence costs subject to change
+- Added 1.2.2 beta compatibility
+    - Track maintenance costs subject to change
 - Fixed various glitches related to the save loader
 - Added 6 trams from Melbourne
 

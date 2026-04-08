@@ -56,7 +56,7 @@ export function getMults(loading:LoadingGauge,power_supply:PowerSupply,height:nu
 }
 
 
-export async function exportSaveData(change: boolean = false, saveid?: string) {
+export function exportSaveData(change: boolean = false, saveid?: string) {
     const tosave: Record<string, regType.trainStorageData> = getToSaveData();
     const existing: Record<string, regType.trainStorageData> | undefined = getAllSaved();
     console.log(Object.keys(tosave).length);
@@ -178,7 +178,7 @@ export function legacyFilter(inp: string, hold: string[]) {
     }
 }
 
-export function danTrainsFilter(inp: string, hold: string[]) {
+export function danTrainsFilter(inp: string, hold: string[],allSavedIds:string[]) {
     if ((inp.includes("dt.") || (inp.includes("dtlegacy."))) && !(hold.includes(inp))) {
         return true;
     } else { return false; }
@@ -193,17 +193,25 @@ export function getLegacyList(gotten: Record<string, TrainTypeConfig>, saveData:
     return hold;
 }
 
-export function getDanTrainsList(gotten: Record<string, TrainTypeConfig>, saveData: Record<string, regType.trainStorageData>,blist?:Record<string,boolean>) {
+export function getDanTrainsList(gotten: Record<string, TrainTypeConfig>, saveData: Record<string, regType.trainStorageData>,allSaved: Record<string, regType.trainStorageData>,blist?:Record<string,boolean>) {
     var savedTrains = Object.keys(saveData).map(key => saveData[key].config.id)
+    var allSavedIds = Object.keys(allSaved).map(key => allSaved[key].config.id)
     var o: regType.trainStorageData[] = [];
+    console.log(Object.keys(saveData).length)
     Object.keys(gotten).forEach(key => {
-        if (danTrainsFilter(key, savedTrains)) {
-            var hold = saveData[key]
+        console.log("key_"+key);
+        if (danTrainsFilter(key, savedTrains,allSavedIds)) {
+            var hold = allSaved[key];
+            console.log("hold_"+hold)
             if (blist && blist[key] === true) {
                 hold.config.stats.minTurnRadius = gotten[key].stats.minTurnRadius
             }
             o.push(hold)
         }
+    })
+    console.log(o.length)
+    o.forEach(f => {
+        console.log("list_item_"+f)
     })
     return o;
 }

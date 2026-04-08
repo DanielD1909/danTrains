@@ -10,6 +10,7 @@ import * as p from "./processing/process";
 import * as register from "./processing/register";
 import type * as regType from "./processing/register";
 import type * as t from "./types/trains";
+import { FAQPanel } from './ui/faq';
 
 const MOD_ID = 'danield1909.danTrains';
 const MOD_VERSION = '1.0.0';
@@ -41,11 +42,20 @@ if (!api) {
         console.log("No saves detected")
     }
 
+    let toSave: Record<string, regType.trainStorageData> = {};
 
     api.hooks.onGameLoaded((saveName) => {
+        let allsaved = p.getAllSaved();
+        if (allsaved == undefined) {
+            allsaved = {}
+        }
         const hold = p.getSaveData(saveName);
         if (hold != undefined) {
             saveData = hold;
+            toSave = saveData;
+            Object.keys(hold).forEach(key => {
+                console.log("hold[key]_"+hold[key])
+            })
         }
         const saveDataData: Record<string, t.TrainTypeConfig> =
             Object.keys(saveData).reduce((acc, key) => {
@@ -57,7 +67,7 @@ if (!api) {
         var alltypes = api.trains.getTrainTypes(); var blist: Record<string, boolean>;
         [alltypes, change, blist] = register.updateTrainsIfPossible(alltypes) as [Record<string, t.TrainTypeConfig>, boolean, Record<string, boolean>];
         const legacy = p.getLegacyList(alltypes, saveDataData);
-        const existing = p.getDanTrainsList(alltypes, saveData, blist);
+        const existing = p.getDanTrainsList(alltypes, saveData, allsaved, blist);
         if (legacy.length > 0) {
             legacy.forEach(leg => {
                 const modid: string = "dtlegacy." + leg.id;
@@ -96,8 +106,6 @@ if (!api) {
         setToSaveData(toSave);
     })
 
-    let toSave: Record<string, regType.trainStorageData> = {};
-
     api.hooks.onGameSaved(async (saveName) => {
         console.log("saved");
         const hold = getToSaveData();
@@ -132,6 +140,15 @@ if (!api) {
                 title: 'Dan Trains Train Dictionary',
                 icon: 'BookMarked',
                 render: TrainDictPanel,
+                defaultWidth: 1600,
+                defaultHeight: 950
+            });
+
+            api.ui.addFloatingPanel({
+                id: 'FAQPanel',
+                title: 'danTrains FAQ Panel',
+                icon: 'HelpCircle',
+                render: FAQPanel,
                 defaultWidth: 1600,
                 defaultHeight: 950
             });

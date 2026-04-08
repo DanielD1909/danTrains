@@ -721,71 +721,73 @@ export function TrainDictPanel() {
     const pickerstyle: string = "flex items-center gap-4";
 
     return (
-        <div className="flex flex-col gap-2">
-            <div className="flex justify-between gap-2 w-full">
-                {pickerWithMode(tagPicker("Tag [Broken]", auts, author, setAuthor, false), authorBool, setAuthorBool, true)}
-            </div>
-            <div className="flex justify-between gap-2 w-full">
-                {pickerWithMode(specPicker("Region", regs, region, setRegion, regionBool), regionBool, setRegionBool)}
-                {pickerWithMode(specPicker("Nation", nationList, nation, setNation, nationBool), nationBool, setNationBool)}
-                {pickerWithMode(specPicker("City", cityList, city, setCity, cityBool), cityBool, setCityBool)}
-            </div>
-            <div className="flex justify-between gap-2 w-full">
-                {pickerWithMode(specPicker("Automation Standard", als, auto, setAuto, autoBool), autoBool, setAutoBool)}
-                {pickerWithMode(specPicker("Electrification Standard", es, elect, setElect, electBool), electBool, setElectBool)}
-                {pickerWithMode(specPicker("Track Gauge", tgs, gauge, setGauge, electBool), gaugeBool, setGaugeBool)}
-            </div>
-            <div className="flex justify-between gap-2 w-full">
-                {pickerWithMode(specPicker("Loading Gauge", lgs, width, setWidth, widthBool), widthBool, setWidthBool)}
-                {pickerWithMode(specPicker("Power Supply", pss, power, setPower, powerBool), powerBool, setPowerBool)}
-                {pickerWithMode(specPicker("Train Type", tts, type, setType, typeBool), typeBool, setTypeBool)}
-            </div>
-            <div className="flex justify-between gap-2 w-full">
-                {pickerWithMode(specPicker("Minimum Station Length", lens, min, setMin, minBool), minBool, setMinBool)}
-                {pickerWithMode(specPicker("Maximum Station Length", lens, max, setMax, maxBool), maxBool, setMaxBool)}
-            </div>
-            <p.MinimizeButton label="Stat-Based Filtering">
-                <div className="flex flex-wrap justify-between gap-2 w-full">
-                    {
-                        (Object.keys(allNum) as (keyof typeof allNum)[]).map((key) =>
-                            inputWithModeAndOperator(
-                                key,
-                                allNum[key][2],
-                                allNum[key][3]
-                            )
-                        )
-                    }
+        <div style={{ overflowY: "auto", height: "100%"}}>
+            <div className="flex flex-col gap-2">
+                <div className="flex justify-between gap-2 w-full">
+                    {pickerWithMode(tagPicker("Tag [Broken]", auts, author, setAuthor, false), authorBool, setAuthorBool, true)}
                 </div>
-            </p.MinimizeButton>
-            <p className="">
-                {trainPicker()}
-            </p>
-            <div className="flex justify-between gap-2">
-                <p className="text-sm text-muted-foreground">
-                    {resetButton()}
-                </p>
-                <p className="text-sm text-muted-foreground">
-                    {fixButton()}
-                </p>
-                <p className="text-sm text-muted-foreground">
-                    {TrainCacheButton(train, tr, tempall, "[Broken] Save and send to Registration Menu", true)}
-                </p>
-                <p className="text-sm text-muted-foreground">
-                    {ClearTrainCacheButton("Purge Cache")}
-                </p>
-            </div>
-            <p>
-                <p.MinimizeButton label="Description">
-                    <div className='text-sm'>
-                        {desc}
+                <div className="flex justify-between gap-2 w-full">
+                    {pickerWithMode(specPicker("Region", regs, region, setRegion, regionBool), regionBool, setRegionBool)}
+                    {pickerWithMode(specPicker("Nation", nationList, nation, setNation, nationBool), nationBool, setNationBool)}
+                    {pickerWithMode(specPicker("City", cityList, city, setCity, cityBool), cityBool, setCityBool)}
+                </div>
+                <div className="flex justify-between gap-2 w-full">
+                    {pickerWithMode(specPicker("Automation Standard", als, auto, setAuto, autoBool), autoBool, setAutoBool)}
+                    {pickerWithMode(specPicker("Electrification Standard", es, elect, setElect, electBool), electBool, setElectBool)}
+                    {pickerWithMode(specPicker("Track Gauge", tgs, gauge, setGauge, electBool), gaugeBool, setGaugeBool)}
+                </div>
+                <div className="flex justify-between gap-2 w-full">
+                    {pickerWithMode(specPicker("Loading Gauge", lgs, width, setWidth, widthBool), widthBool, setWidthBool)}
+                    {pickerWithMode(specPicker("Power Supply", pss, power, setPower, powerBool), powerBool, setPowerBool)}
+                    {pickerWithMode(specPicker("Train Type", tts, type, setType, typeBool), typeBool, setTypeBool)}
+                </div>
+                <div className="flex justify-between gap-2 w-full">
+                    {pickerWithMode(specPicker("Minimum Station Length", lens, min, setMin, minBool), minBool, setMinBool)}
+                    {pickerWithMode(specPicker("Maximum Station Length", lens, max, setMax, maxBool), maxBool, setMaxBool)}
+                </div>
+                <p.MinimizeButton label="Stat-Based Filtering">
+                    <div className="flex flex-wrap justify-between gap-2 w-full">
+                        {
+                            (Object.keys(allNum) as (keyof typeof allNum)[]).map((key) =>
+                                inputWithModeAndOperator(
+                                    key,
+                                    allNum[key][2],
+                                    allNum[key][3]
+                                )
+                            )
+                        }
                     </div>
                 </p.MinimizeButton>
-            </p>
-            <p>
-                <p.MinimizeButton label="Train Stats">
-                    {preview}
-                </p.MinimizeButton>
-            </p>
+                <p className="">
+                    {trainPicker()}
+                </p>
+                <div className="flex justify-between gap-2">
+                    <p className="text-sm text-muted-foreground">
+                        {resetButton()}
+                    </p>
+                    <p className="text-sm text-muted-foreground">
+                        {fixButton()}
+                    </p>
+                    <p className="text-sm text-muted-foreground">
+                        {TrainCacheButton(train, tr, tempall, "[Broken] Save and send to Registration Menu", true)}
+                    </p>
+                    <p className="text-sm text-muted-foreground">
+                        {ClearTrainCacheButton("Purge Cache")}
+                    </p>
+                </div>
+                <p>
+                    <p.MinimizeButton label="Description">
+                        <div className='text-sm'>
+                            {desc}
+                        </div>
+                    </p.MinimizeButton>
+                </p>
+                <p>
+                    <p.MinimizeButton label="Train Stats">
+                        {preview}
+                    </p.MinimizeButton>
+                </p>
+            </div>
         </div>
     );
 }

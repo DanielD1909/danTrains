@@ -638,6 +638,7 @@ export function TrainRegisterPanel() {
 	const pickerstyle: string = "flex items-center gap-4";
 
 	return (
+		<div style={{ overflowY: "auto", height: "100%"}}>
 		<div className="flex flex-col gap-2">
 			<div className="flex justify-between gap-2 w-full">
 				{pickerWithMode(tagPicker("Tag", authorItems, author, setAuthor, true), authorBool, setAuthorBool)}
@@ -694,6 +695,7 @@ export function TrainRegisterPanel() {
 					{preview}
 				</p.MinimizeButton>
 			</p>
+		</div>
 		</div>
 	);
 }
