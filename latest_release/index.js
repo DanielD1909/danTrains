@@ -1221,16 +1221,8 @@
 		});
 	}
 	var api$4 = window.SubwayBuilderAPI;
-	var elecAPI = window.electron;
-	var game_version;
-	elecAPI.getVersion().then((v) => {
-		game_version = v;
-	});
 	function isNewVersion() {
-		const versionSplit = game_version?.split(".");
-		if (versionSplit != void 0) if (Number(versionSplit[0]) >= 1 && Number(versionSplit[1]) >= 2 && Number(versionSplit[2]) >= 1) return true;
-		else return false;
-		else return false;
+		return true;
 	}
 	var base = {
 		baseTrackCost: 5e4,
@@ -1243,7 +1235,6 @@
 		ELEVATED: .8
 	};
 	function statsCalc(i) {
-		console.log("Game Version" + game_version);
 		const baseTrackCost = Math.round(base.baseTrackCost * i.e.Cost_Multiplier * i.t.CostMultiplier * i.a.baseTrackCost);
 		const baseStationCost = Math.round(base.baseStationCost * i.a.baseStationCost);
 		const scissorsCrossoverCost = Math.round(base.scissorsCrossoverCost * i.e.Scissors_Cost_Multiplier * i.a.scissorsCrossoverCost);
@@ -2686,6 +2677,7 @@
 		return /* @__PURE__ */ jsx("div", {
 			style: {
 				overflowY: "auto",
+				overflowX: "auto",
 				height: "100%"
 			},
 			children: /* @__PURE__ */ jsxs("div", {
@@ -3329,6 +3321,7 @@
 		return /* @__PURE__ */ jsx("div", {
 			style: {
 				overflowY: "auto",
+				overflowX: "auto",
 				height: "100%"
 			},
 			children: /* @__PURE__ */ jsxs("div", {
@@ -3642,23 +3635,7 @@
 				}),
 				/* @__PURE__ */ jsxs("div", {
 					style: { marginTop: "10px" },
-					children: ["4. Train Consist Problems (ONLY FOR GAME VERSION 1.2.0)", /* @__PURE__ */ jsxs("div", {
-						style: {
-							marginLeft: "20px",
-							fontSize: "0.9rem"
-						},
-						children: [
-							"• Train Consists are based on minimum station length, not maximum.",
-							/* @__PURE__ */ jsx("br", {}),
-							"• Maximum consist is listed as \"[actual]/[max possible]\"",
-							/* @__PURE__ */ jsx("br", {}),
-							"• Using maximum station length breaks in the current stable version. This is currently in beta testing to be fixed (it is fixed) and will come with 1.3."
-						]
-					})]
-				}),
-				/* @__PURE__ */ jsxs("div", {
-					style: { marginTop: "10px" },
-					children: ["5. Will you allow full train stat editing.", /* @__PURE__ */ jsx("div", {
+					children: ["4. Will you allow full train stat editing.", /* @__PURE__ */ jsx("div", {
 						style: {
 							marginLeft: "20px",
 							fontSize: "0.9rem"
@@ -3668,7 +3645,7 @@
 				}),
 				/* @__PURE__ */ jsxs("div", {
 					style: { marginTop: "10px" },
-					children: ["6. What does the book button do?", /* @__PURE__ */ jsxs("div", {
+					children: ["5. What does the book button do?", /* @__PURE__ */ jsxs("div", {
 						style: {
 							marginLeft: "20px",
 							fontSize: "0.9rem"
@@ -3682,7 +3659,7 @@
 				}),
 				/* @__PURE__ */ jsxs("div", {
 					style: { marginTop: "10px" },
-					children: ["7. Train Data Questions", /* @__PURE__ */ jsxs("div", {
+					children: ["6. Train Data Questions", /* @__PURE__ */ jsxs("div", {
 						style: {
 							marginLeft: "20px",
 							fontSize: "0.9rem"
@@ -3704,7 +3681,7 @@
 				}),
 				/* @__PURE__ */ jsxs("div", {
 					style: { marginTop: "10px" },
-					children: ["8. What does the track setup mean in descriptions?", /* @__PURE__ */ jsx("div", {
+					children: ["7. What does the track setup mean in descriptions?", /* @__PURE__ */ jsx("div", {
 						style: {
 							marginLeft: "20px",
 							fontSize: "0.9rem"
@@ -3714,7 +3691,7 @@
 				}),
 				/* @__PURE__ */ jsxs("div", {
 					style: { marginTop: "10px" },
-					children: ["9. What do the individual stats do? (info is from left to right, top to bottom)", /* @__PURE__ */ jsxs("div", {
+					children: ["8. What do the individual stats do? (info is from left to right, top to bottom)", /* @__PURE__ */ jsxs("div", {
 						style: {
 							marginLeft: "20px",
 							fontSize: "0.9rem"

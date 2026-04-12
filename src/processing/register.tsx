@@ -10,24 +10,8 @@ import als from "../data/standards/automation.json"
 
 const api = window.SubwayBuilderAPI;
 
-const elecAPI = window.electron as elec.ElectronAPI
-let game_version: string | undefined;
-
-elecAPI.getVersion().then(v => {
-    game_version = v;
-});
-
 export function isNewVersion() {
-    const versionSplit = game_version?.split(".")
-    if (versionSplit != undefined) {
-        if (Number(versionSplit[0])>=1 && Number(versionSplit[1])>=2 && Number(versionSplit[2])>=1) {
-            return true;
-        } else {
-            return false;
-        }
-    } else {
-        return false;
-    }
+    return true;
 }
 
 export interface statsCalcInput {
@@ -88,7 +72,6 @@ export interface statsCalcOutput {
 }
 
 export function statsCalc(i:statsCalcInput) {
-    console.log("Game Version"+game_version);
     const baseTrackCost:number = Math.round(base.baseTrackCost * i.e.Cost_Multiplier * i.t.CostMultiplier * i.a.baseTrackCost);
     const baseStationCost:number = Math.round(base.baseStationCost * i.a.baseStationCost);
     const scissorsCrossoverCost:number = Math.round(base.scissorsCrossoverCost * i.e.Scissors_Cost_Multiplier * i.a.scissorsCrossoverCost);

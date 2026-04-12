@@ -721,7 +721,7 @@ export function TrainDictPanel() {
     const pickerstyle: string = "flex items-center gap-4";
 
     return (
-        <div style={{ overflowY: "auto", height: "100%"}}>
+        <div style={{ overflowY: "auto", overflowX: "auto", height: "100%" }}>
             <div className="flex flex-col gap-2">
                 <div className="flex justify-between gap-2 w-full">
                     {pickerWithMode(tagPicker("Tag [Broken]", auts, author, setAuthor, false), authorBool, setAuthorBool, true)}

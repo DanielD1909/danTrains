@@ -1,3 +1,7 @@
+1.3.2 Patch Notes:
+- Added horizontal scroll
+- Fixed bug for 1.3.0
+
 1.3.1 Patch Notes:
 - Added FAQ Panel
 - Fixed multiple save related glitches

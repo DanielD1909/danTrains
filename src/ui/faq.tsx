@@ -49,23 +49,13 @@ export function FAQPanel() {
                 </div>
             </div>
             <div style={{ marginTop: "10px" }}>
-                4. Train Consist Problems (ONLY FOR GAME VERSION 1.2.0)
-                <div style={{ marginLeft: "20px", fontSize: "0.9rem"}}>
-                    • Train Consists are based on minimum station length, not maximum.
-                    <br   />
-                    • Maximum consist is listed as "[actual]/[max possible]"
-                    <br   />
-                    • Using maximum station length breaks in the current stable version. This is currently in beta testing to be fixed (it is fixed) and will come with 1.3.
-                </div>
-            </div>
-            <div style={{ marginTop: "10px" }}>
-                5. Will you allow full train stat editing.
+                4. Will you allow full train stat editing.
                 <div style={{ marginLeft: "20px", fontSize: "0.9rem"}}>
                     • No. This is not a custom train editor. This is meant to replicate real life trains. If you think a stat is wrong, find me on discord and tell me.
                 </div>
             </div>
             <div style={{ marginTop: "10px" }}>
-                6. What does the book button do?
+                5. What does the book button do?
                 <div style={{ marginLeft: "20px", fontSize: "0.9rem"}}>
                     • This is the train dictionary, which enables filtering by more stats like max speed.
                     <br   />
@@ -73,7 +63,7 @@ export function FAQPanel() {
                 </div>
             </div>
             <div style={{ marginTop: "10px" }}>
-                7. Train Data Questions
+                6. Train Data Questions
                 <div style={{ marginLeft: "20px", fontSize: "0.9rem"}}>
                     • Pricing is based off of Mediterranean (Italian mainly) costs, due to the base game also doing so.
                     <br   />
@@ -89,15 +79,13 @@ export function FAQPanel() {
                 </div>
             </div>
             <div style={{ marginTop: "10px" }}>
-                8. What does the track setup mean in descriptions?
+                7. What does the track setup mean in descriptions?
                 <div style={{ marginLeft: "20px", fontSize: "0.9rem"}}>
                     • It is of the format "[Gauge] [Voltage] ([Automation] | [Power Supply Code] | [Loading Gauge Code])"
                 </div>
             </div>
-
-            {/* Question 9 */}
             <div style={{ marginTop: "10px" }}>
-                9. What do the individual stats do? (info is from left to right, top to bottom)
+                8. What do the individual stats do? (info is from left to right, top to bottom)
                 <div style={{ marginLeft: "20px", fontSize: "0.9rem"}}>
                     a. Grade of Automation is basically how automated you want your train to be. This impacts station speed, operating costs, and stop times, as well as at grade crossing ability.
                     <div style={{ marginLeft: "20px", fontSize: "0.8rem"}}>
